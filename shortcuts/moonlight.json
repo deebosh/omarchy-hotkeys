@@ -1,0 +1,71 @@
+{
+  "appId": "moonlight",
+  "displayName": "Moonlight",
+  "source": "https://moonlight-stream.org",
+  "note": "Ctrl+Alt+Shift+key combinations work inside a stream; the full list is on the Moonlight website",
+  "noteRu": "Внутри стрима работают комбинации Ctrl+Alt+Shift+клавиша; полный список — на сайте Moonlight",
+  "groups": [
+    {
+      "title": "During stream",
+      "titleRu": "Во время стрима",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+Q"
+          ],
+          "action": "Quit the streaming session",
+          "actionRu": "Отключиться от стрима"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+X"
+          ],
+          "action": "Toggle full-screen / windowed mode",
+          "actionRu": "Полный экран / окно"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+F"
+          ],
+          "action": "Fullscreen mode",
+          "actionRu": "Полноэкранный режим"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+M"
+          ],
+          "action": "Toggle mouse mode",
+          "actionRu": "Захват мыши вкл/выкл"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+S"
+          ],
+          "action": "Open performance stats overlay",
+          "actionRu": "Статистика производительности"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+D"
+          ],
+          "action": "Minimize the stream window",
+          "actionRu": "Свернуть / статистика отладки"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+V"
+          ],
+          "action": "Type clipboard text on the host",
+          "actionRu": "Клавиатура: отправить хосту"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+L"
+          ],
+          "action": "Lock mouse pointer to video area",
+          "actionRu": "Заблокировать курсор в окне"
+        }
+      ]
+    }
+  ]
+}

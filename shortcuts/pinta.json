@@ -1,0 +1,191 @@
+{
+  "appId": "pinta",
+  "displayName": "Pinta",
+  "source": "https://www.pinta-project.com",
+  "note": "Basic Pinta set",
+  "noteRu": "Базовый набор Pinta",
+  "groups": [
+    {
+      "title": "File and edit",
+      "titleRu": "Файл и правка",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New Image",
+          "actionRu": "Новое изображение"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open Image",
+          "actionRu": "Открыть"
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Save Image",
+          "actionRu": "Сохранить"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "action": "Save Image As",
+          "actionRu": "Сохранить как"
+        },
+        {
+          "keys": [
+            "Ctrl+Z"
+          ],
+          "action": "Undo",
+          "actionRu": "Отменить"
+        },
+        {
+          "keys": [
+            "Ctrl+Y"
+          ],
+          "action": "Redo",
+          "actionRu": "Повторить"
+        },
+        {
+          "keys": [
+            "Ctrl+X",
+            "Ctrl+C",
+            "Ctrl+V"
+          ],
+          "action": "Cut / copy / paste",
+          "actionRu": "Вырезать / копировать / вставить"
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Erase Selection",
+          "actionRu": "Удалить выделение"
+        },
+        {
+          "keys": [
+            "Ctrl+A"
+          ],
+          "action": "Select All",
+          "actionRu": "Выбрать всё"
+        },
+        {
+          "keys": [
+            "Ctrl+D"
+          ],
+          "action": "Deselect active selection",
+          "actionRu": "Снять выделение"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "titleRu": "Инструменты",
+      "items": [
+        {
+          "keys": [
+            "S"
+          ],
+          "action": "Rectangle Select",
+          "actionRu": "Прямоугольное выделение"
+        },
+        {
+          "keys": [
+            "M"
+          ],
+          "action": "Move Selected Pixels",
+          "actionRu": "Перемещение"
+        },
+        {
+          "keys": [
+            "P"
+          ],
+          "action": "Pencil",
+          "actionRu": "Карандаш"
+        },
+        {
+          "keys": [
+            "B"
+          ],
+          "action": "Paintbrush",
+          "actionRu": "Кисть"
+        },
+        {
+          "keys": [
+            "E"
+          ],
+          "action": "Eraser",
+          "actionRu": "Ластик"
+        },
+        {
+          "keys": [
+            "A"
+          ],
+          "action": "Fill",
+          "actionRu": "Заливка"
+        },
+        {
+          "keys": [
+            "T"
+          ],
+          "action": "Text",
+          "actionRu": "Текст"
+        },
+        {
+          "keys": [
+            "L"
+          ],
+          "action": "Clone Stamp",
+          "actionRu": "Клонирующий штамп"
+        },
+        {
+          "keys": [
+            "R"
+          ],
+          "action": "Recolor",
+          "actionRu": "Перекрасить"
+        },
+        {
+          "keys": [
+            "O"
+          ],
+          "action": "Line / Curve",
+          "actionRu": "Линия / кривая"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "titleRu": "Вид",
+      "items": [
+        {
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-"
+          ],
+          "action": "Zoom In / Out",
+          "actionRu": "Масштаб больше / меньше"
+        },
+        {
+          "keys": [
+            "Ctrl+0"
+          ],
+          "action": "Actual Size",
+          "actionRu": "Реальный размер"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Fullscreen",
+          "actionRu": "Полный экран"
+        }
+      ]
+    }
+  ]
+}

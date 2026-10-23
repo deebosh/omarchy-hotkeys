@@ -1,0 +1,68 @@
+{
+  "appId": "sublime-text",
+  "displayName": "Sublime Text",
+  "source": "https://www.sublimetext.com/docs (Default Key Bindings, Linux)",
+  "note": "Default Sublime Text bindings (Linux)", "noteRu": "Дефолтные биндинги Sublime Text (Linux)",
+  "groups": [
+    {
+      "title": "Navigation", "titleRu": "Переход",
+      "items": [
+        { "keys": ["Ctrl+P"], "action": "Go to file (quick open)", "actionRu": "Быстрый переход к файлу" },
+        { "keys": ["Ctrl+Shift+P"], "action": "Command palette", "actionRu": "Командная палитра" },
+        { "keys": ["Ctrl+R"], "action": "Go to symbol in file", "actionRu": "Перейти к символу в файле" },
+        { "keys": ["Ctrl+G"], "action": "Go to line", "actionRu": "Перейти к строке" },
+        { "keys": ["Ctrl+M"], "action": "Go to matching bracket", "actionRu": "Перейти к парной скобке" },
+        { "keys": ["Ctrl+PageUp", "Ctrl+PageDown"], "action": "Previous / next tab", "actionRu": "Предыдущая / следующая вкладка" },
+        { "keys": ["Ctrl+Tab"], "action": "Switch tabs (MRU order)", "actionRu": "Переключение между вкладками (MRU)" }
+      ]
+    },
+    {
+      "title": "Multi-cursor and selection", "titleRu": "Мультикурсор и выделение",
+      "items": [
+        { "keys": ["Ctrl+D"], "action": "Quick Add Next", "actionRu": "Выделить следующее вхождение" },
+        { "keys": ["Alt+F3"], "action": "Find All", "actionRu": "Выделить все вхождения" },
+        { "keys": ["Ctrl+L"], "action": "Select line", "actionRu": "Выделить строку" },
+        { "keys": ["Ctrl+Shift+L"], "action": "Split selection into lines", "actionRu": "Разбить выделение на строки" },
+        { "keys": ["Ctrl+Shift+M"], "action": "Select contents of brackets", "actionRu": "Выделить содержимое скобок" }
+      ]
+    },
+    {
+      "title": "Line editing", "titleRu": "Правка строк",
+      "items": [
+        { "keys": ["Ctrl+Shift+D"], "action": "Duplicate line", "actionRu": "Дублировать строку" },
+        { "keys": ["Ctrl+Shift+K"], "action": "Delete line", "actionRu": "Удалить строку" },
+        { "keys": ["Ctrl+Shift+Up", "Ctrl+Shift+Down"], "action": "Move line up / down", "actionRu": "Переместить строку вверх / вниз" },
+        { "keys": ["Ctrl+J"], "action": "Join lines", "actionRu": "Объединить строки" },
+        { "keys": ["Ctrl+/"], "action": "Comment out line", "actionRu": "Закомментировать строку" },
+        { "keys": ["Ctrl+]"], "action": "Increase indent", "actionRu": "Увеличить отступ" },
+        { "keys": ["Ctrl+["], "action": "Decrease indent", "actionRu": "Уменьшить отступ" },
+        { "keys": ["Ctrl+Shift+U"], "action": "Toggle case (upper/lower)", "actionRu": "Переключить регистр (верхний/нижний)" }
+      ]
+    },
+    {
+      "title": "Search", "titleRu": "Поиск",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Find", "actionRu": "Найти" },
+        { "keys": ["Ctrl+H"], "action": "Replace", "actionRu": "Заменить" },
+        { "keys": ["Ctrl+Shift+F"], "action": "Find in files", "actionRu": "Найти в файлах" },
+        { "keys": ["F3", "Shift+F3"], "action": "Next / previous match", "actionRu": "Следующее / предыдущее совпадение" },
+        { "keys": ["Ctrl+F3"], "action": "Find word under cursor (forward)", "actionRu": "Найти слово под курсором вперёд" }
+      ]
+    },
+    {
+      "title": "File and view", "titleRu": "Файл и вид",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "New file", "actionRu": "Новый файл" },
+        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Save as", "actionRu": "Сохранить как" },
+        { "keys": ["Ctrl+W"], "action": "Close tab", "actionRu": "Закрыть вкладку" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Reopen closed tab", "actionRu": "Восстановить закрытую вкладку" },
+        { "keys": ["Ctrl+K, Ctrl+B"], "action": "Show / hide sidebar", "actionRu": "Показать / скрыть боковую панель" },
+        { "keys": ["F11"], "action": "Fullscreen mode", "actionRu": "Полноэкранный режим" },
+        { "keys": ["Shift+F11"], "action": "Distraction-free mode", "actionRu": "Режим без отвлечений" },
+        { "keys": ["Ctrl++", "Ctrl+-"], "action": "Font size larger / smaller", "actionRu": "Размер шрифта больше / меньше" },
+        { "keys": ["Ctrl+`"], "action": "Console", "actionRu": "Консоль" }
+      ]
+    }
+  ]
+}

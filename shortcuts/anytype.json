@@ -1,0 +1,35 @@
+{
+  "appId": "anytype",
+  "displayName": "Anytype",
+  "source": "https://doc.anytype.io/anytype/settings/keyboard-shortcuts",
+  "note": "Almost all shortcuts are remappable; check your platform's exact bindings in the app: ? (bottom left) → Keyboard shortcuts. Below are the documented defaults",
+  "noteRu": "Почти все хоткеи переназначаются; точные биндинги своей платформы смотрите в приложении: ? (внизу слева) → Keyboard shortcuts. Ниже — дефолты из документации",
+  "groups": [
+    {
+      "title": "Essentials",
+      "titleRu": "Основное",
+      "items": [
+        { "keys": ["Ctrl+K"], "action": "Search objects", "actionRu": "Поиск по объектам" },
+        { "keys": ["Ctrl+N"], "action": "New object", "actionRu": "Новый объект" },
+        { "keys": ["Ctrl+Alt+N"], "action": "Object creation menu", "actionRu": "Меню создания объекта" },
+        { "keys": ["Ctrl+T"], "action": "New tab", "actionRu": "Новая вкладка" },
+        { "keys": ["Ctrl+Q"], "action": "Quit app", "actionRu": "Выйти из приложения" },
+        { "keys": ["Esc"], "action": "Close popup", "actionRu": "Закрыть попап" }
+      ]
+    },
+    {
+      "title": "Editor",
+      "titleRu": "Редактор",
+      "items": [
+        { "keys": ["/"], "action": "Slash menu for inserting blocks", "actionRu": "Slash-меню вставки блоков" },
+        { "keys": ["@"], "action": "Mention / link", "actionRu": "Упоминание / связь" },
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
+        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Strikethrough", "actionRu": "Зачёркнутый" },
+        { "keys": ["Ctrl+Shift+L"], "action": "Inline code", "actionRu": "Инлайн-код" },
+        { "keys": ["Ctrl+K"], "action": "Link selected text", "actionRu": "Ссылка на выделенный текст" }
+      ]
+    }
+  ]
+}

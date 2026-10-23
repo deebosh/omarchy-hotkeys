@@ -1,0 +1,120 @@
+{
+  "appId": "lazygit",
+  "displayName": "Lazygit",
+  "source": "https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md",
+  "note": "Default lazygit bindings", "noteRu": "Дефолтные биндинги lazygit",
+  "groups": [
+    {
+      "title": "Global keybindings", "titleRu": "Глобальные",
+      "items": [
+        { "keys": ["?"], "action": "Open keybindings menu", "actionRu": "Меню всех хоткеев" },
+        { "keys": ["q", "Ctrl+C"], "action": "Quit", "actionRu": "Выйти" },
+        { "keys": ["R"], "action": "Refresh", "actionRu": "Обновить git-статус" },
+        { "keys": ["P"], "action": "Push", "actionRu": "Push текущей ветки" },
+        { "keys": ["p"], "action": "Pull", "actionRu": "Pull текущей ветки" },
+        { "keys": ["x"], "action": "Menu (panel actions)", "actionRu": "Меню (действия панели)" },
+        { "keys": [":"], "action": "Execute shell command", "actionRu": "Выполнить shell-команду" },
+        { "keys": ["m"], "action": "View merge/rebase options", "actionRu": "Опции merge/rebase" },
+        { "keys": ["z"], "action": "Undo", "actionRu": "Undo (через reflog)" },
+        { "keys": ["Z"], "action": "Redo", "actionRu": "Redo (через reflog)" },
+        { "keys": ["+"], "action": "Next screen mode (normal/half/fullscreen)", "actionRu": "Следующий режим экрана" },
+        { "keys": ["_"], "action": "Prev screen mode", "actionRu": "Предыдущий режим экрана" },
+        { "keys": ["1 2 3 4 5"], "action": "Focus: status / files / branches / commits / stash", "actionRu": "Фокус: статус / файлы / ветки / коммиты / stash" },
+        { "keys": ["Ctrl+G"], "action": "Jump to file in diff", "actionRu": "Перейти к файлу в диффе" },
+        { "keys": ["PgUp PgDn"], "action": "Scroll up / down main window", "actionRu": "Скролл главного окна" },
+        { "keys": ["Esc"], "action": "Cancel", "actionRu": "Отмена / назад" }
+      ]
+    },
+    {
+      "title": "Files", "titleRu": "Файлы",
+      "items": [
+        { "keys": ["Space"], "action": "Stage", "actionRu": "Stage / unstage файл" },
+        { "keys": ["a"], "action": "Stage all", "actionRu": "Stage / unstage все файлы" },
+        { "keys": ["c"], "action": "Commit", "actionRu": "Коммит staged-изменений" },
+        { "keys": ["A"], "action": "Amend last commit", "actionRu": "Amend последнего коммита" },
+        { "keys": ["w"], "action": "Commit changes without pre-commit hook", "actionRu": "Коммит без pre-commit хука" },
+        { "keys": ["C"], "action": "Commit changes using git editor", "actionRu": "Коммит через git-редактор" },
+        { "keys": ["d"], "action": "Discard", "actionRu": "Опции discard для файла" },
+        { "keys": ["D"], "action": "Reset" },
+        { "keys": ["s"], "action": "Stash", "actionRu": "Stash всё" },
+        { "keys": ["S"], "action": "View stash options", "actionRu": "Опции stash" },
+        { "keys": ["e"], "action": "Edit", "actionRu": "Открыть в редакторе" },
+        { "keys": ["o"], "action": "Open file", "actionRu": "Открыть в приложении по умолчанию" },
+        { "keys": ["i"], "action": "Ignore or exclude file", "actionRu": "Ignore / exclude файл" },
+        { "keys": ["Enter"], "action": "Focus file diff / Collapse directory", "actionRu": "Фокус на дифф файла" },
+        { "keys": ["f"], "action": "Fetch" }
+      ]
+    },
+    {
+      "title": "Commits", "titleRu": "Коммиты",
+      "items": [
+        { "keys": ["s"], "action": "Squash", "actionRu": "Squash в коммит ниже" },
+        { "keys": ["f"], "action": "Fixup", "actionRu": "Fixup в коммит ниже" },
+        { "keys": ["F"], "action": "Create fixup commit", "actionRu": "Создать fixup-коммит" },
+        { "keys": ["S"], "action": "Apply fixup commits", "actionRu": "Применить fixup-коммиты (autosquash)" },
+        { "keys": ["r"], "action": "Reword", "actionRu": "Reword (переименовать сообщение)" },
+        { "keys": ["d"], "action": "Drop", "actionRu": "Drop коммит" },
+        { "keys": ["e"], "action": "Edit (interactive rebase)", "actionRu": "Edit (интерактивный rebase)" },
+        { "keys": ["i"], "action": "Start interactive rebase", "actionRu": "Начать интерактивный rebase" },
+        { "keys": ["A"], "action": "Amend", "actionRu": "Amend staged-изменениями" },
+        { "keys": ["t"], "action": "Revert", "actionRu": "Revert коммит" },
+        { "keys": ["T"], "action": "Tag commit", "actionRu": "Тег на коммит" },
+        { "keys": ["C"], "action": "Copy (cherry-pick)", "actionRu": "Скопировать (cherry-pick), V — вставить" },
+        { "keys": ["V"], "action": "Paste (cherry-pick)", "actionRu": "Вставить скопированные коммиты" },
+        { "keys": ["g"], "action": "Reset", "actionRu": "Reset на выбранный коммит" },
+        { "keys": ["n"], "action": "Create new branch off of commit", "actionRu": "Новая ветка от коммита" },
+        { "keys": ["Space"], "action": "Checkout", "actionRu": "Checkout коммита (detached HEAD)" },
+        { "keys": ["Enter"], "action": "View files", "actionRu": "Показать файлы коммита" },
+        { "keys": ["o"], "action": "Open commit in browser", "actionRu": "Открыть коммит в браузере" }
+      ]
+    },
+    {
+      "title": "Local branches", "titleRu": "Ветки",
+      "items": [
+        { "keys": ["Space"], "action": "Checkout", "actionRu": "Checkout ветки" },
+        { "keys": ["n"], "action": "New branch", "actionRu": "Новая ветка" },
+        { "keys": ["r"], "action": "Rebase", "actionRu": "Rebase текущей ветки на выбранную" },
+        { "keys": ["M"], "action": "Merge", "actionRu": "Merge выбранной в текущую" },
+        { "keys": ["d"], "action": "Delete", "actionRu": "Удалить ветку" },
+        { "keys": ["R"], "action": "Rename branch", "actionRu": "Переименовать ветку" },
+        { "keys": ["f"], "action": "Fast-forward" },
+        { "keys": ["u"], "action": "View upstream options", "actionRu": "Опции upstream" },
+        { "keys": ["-"], "action": "Checkout previous branch", "actionRu": "Checkout предыдущей ветки" },
+        { "keys": ["Enter"], "action": "View commits", "actionRu": "Показать коммиты ветки" }
+      ]
+    },
+    {
+      "title": "Diff", "titleRu": "Дифф",
+      "items": [
+        { "keys": ["стрелки / h l"], "action": "Go to previous / next hunk", "actionRu": "Предыдущий / следующий ханк" },
+        { "keys": ["Space"], "action": "Stage", "actionRu": "Stage / unstage выделение" },
+        { "keys": ["v"], "action": "Toggle range select", "actionRu": "Выделение диапазоном" },
+        { "keys": ["a"], "action": "Toggle hunk selection", "actionRu": "Ханк или построчный режим" },
+        { "keys": ["n N"], "action": "Go to next / previous file", "actionRu": "Следующий / предыдущий файл" },
+        { "keys": ["Tab"], "action": "Switch diff pane", "actionRu": "Переключить панель диффа" },
+        { "keys": ["E"], "action": "Edit hunk", "actionRu": "Редактировать ханк в редакторе" }
+      ]
+    },
+    {
+      "title": "List panel navigation", "titleRu": "Навигация по спискам",
+      "items": [
+        { "keys": ["j k / стрелки"], "action": "Down / up", "actionRu": "Вниз / вверх" },
+        { "keys": ["J K"], "action": "Scroll down / up main window", "actionRu": "Скролл вниз / вверх (main view)" },
+        { "keys": ["[ ]"], "action": "Previous / next tab", "actionRu": "Предыдущий / следующий таб" },
+        { "keys": ["/"], "action": "Search current view", "actionRu": "Поиск по виду" },
+        { "keys": ["0"], "action": "Focus main view", "actionRu": "Фокус в главное окно" },
+        { "keys": ["v"], "action": "Toggle range select", "actionRu": "Выделение диапазоном" }
+      ]
+    },
+    {
+      "title": "Stash",
+      "items": [
+        { "keys": ["Space"], "action": "Apply" },
+        { "keys": ["g"], "action": "Pop" },
+        { "keys": ["d"], "action": "Drop" },
+        { "keys": ["n"], "action": "New branch", "actionRu": "Новая ветка из stash" },
+        { "keys": ["r"], "action": "Rename stash", "actionRu": "Переименовать stash" }
+      ]
+    }
+  ]
+}

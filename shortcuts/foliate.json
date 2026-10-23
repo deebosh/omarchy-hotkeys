@@ -1,0 +1,119 @@
+{
+  "appId": "foliate",
+  "displayName": "Foliate",
+  "source": "https://github.com/johnfactotum/foliate (wiki)",
+  "groups": [
+    {
+      "title": "Reading",
+      "titleRu": "Чтение",
+      "items": [
+        {
+          "keys": [
+            "Right",
+            "Left",
+            "Space",
+            "Shift+Space"
+          ],
+          "action": "Forward / back in book",
+          "actionRu": "Вперёд / назад по книге"
+        },
+        {
+          "keys": [
+            "Up",
+            "Down"
+          ],
+          "action": "Scroll",
+          "actionRu": "Прокрутка"
+        },
+        {
+          "keys": [
+            "PageDown",
+            "PageUp"
+          ],
+          "action": "Page down / up",
+          "actionRu": "Страница вниз / вверх"
+        },
+        {
+          "keys": [
+            "Home",
+            "End"
+          ],
+          "action": "Start / end of chapter",
+          "actionRu": "Начало / конец главы"
+        },
+        {
+          "keys": [
+            "Ctrl+Right",
+            "Ctrl+Left"
+          ],
+          "action": "Next / previous chapter",
+          "actionRu": "Следующая / предыдущая глава"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "titleRu": "Вид",
+      "items": [
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Fullscreen",
+          "actionRu": "Полный экран"
+        },
+        {
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-",
+            "Ctrl+0"
+          ],
+          "action": "Font larger / smaller / normal",
+          "actionRu": "Шрифт больше / меньше / обычный"
+        }
+      ]
+    },
+    {
+      "title": "Book",
+      "titleRu": "Книга",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Find in book",
+          "actionRu": "Найти в книге"
+        },
+        {
+          "keys": [
+            "Ctrl+T"
+          ],
+          "action": "Table of contents",
+          "actionRu": "Оглавление"
+        },
+        {
+          "keys": [
+            "Ctrl+D"
+          ],
+          "action": "Bookmark",
+          "actionRu": "Закладка"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open book",
+          "actionRu": "Открыть книгу"
+        },
+        {
+          "keys": [
+            "Ctrl+Q",
+            "Esc"
+          ],
+          "action": "Quit / close",
+          "actionRu": "Выйти / закрыть"
+        }
+      ]
+    }
+  ]
+}

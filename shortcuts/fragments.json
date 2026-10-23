@@ -1,0 +1,58 @@
+{
+  "appId": "fragments",
+  "displayName": "Fragments",
+  "source": "https://apps.gnome.org/Fragments",
+  "note": "Fragments has almost no official hotkeys; working bindings below",
+  "noteRu": "Официальных хоткеев у Fragments почти нет; ниже — работающие сочетания",
+  "groups": [
+    {
+      "title": "Main",
+      "titleRu": "Основное",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Add torrent",
+          "actionRu": "Добавить торрент"
+        },
+        {
+          "keys": [
+            "Ctrl+M"
+          ],
+          "action": "Add magnet link",
+          "actionRu": "Добавить magnet-ссылку"
+        },
+        {
+          "keys": [
+            "Space"
+          ],
+          "action": "Pause / resume",
+          "actionRu": "Пауза / продолжить"
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Remove torrent",
+          "actionRu": "Убрать торрент"
+        },
+        {
+          "keys": [
+            "Ctrl+,",
+            "Ctrl+Q"
+          ],
+          "action": "Settings / quit",
+          "actionRu": "Настройки / выйти"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Close dialog",
+          "actionRu": "Закрыть диалог"
+        }
+      ]
+    }
+  ]
+}

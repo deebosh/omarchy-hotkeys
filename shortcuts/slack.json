@@ -1,0 +1,408 @@
+{
+  "appId": "slack",
+  "displayName": "Slack",
+  "source": "https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts",
+  "note": "Hotkeys for Windows/Linux (on Mac, Cmd is used instead of Ctrl)",
+  "noteRu": "Хоткеи для Windows/Linux (на Mac вместо Ctrl используется Cmd)",
+  "groups": [
+    {
+      "title": "Essentials",
+      "titleRu": "Основное",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N",
+            "Ctrl+Shift+K"
+          ],
+          "action": "Compose a new message",
+          "actionRu": "Новое сообщение"
+        },
+        {
+          "keys": [
+            "Ctrl+/"
+          ],
+          "action": "Show all keyboard shortcuts",
+          "actionRu": "Показать все горячие клавиши"
+        },
+        {
+          "keys": [
+            "Ctrl+G"
+          ],
+          "action": "Start a search",
+          "actionRu": "Поиск"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Search in the current conversation",
+          "actionRu": "Поиск в текущем диалоге"
+        },
+        {
+          "keys": [
+            "Ctrl+K",
+            "Ctrl+T"
+          ],
+          "action": "Jump to a conversation",
+          "actionRu": "Перейти к диалогу (быстрый переключатель)"
+        },
+        {
+          "keys": [
+            "Ctrl+,"
+          ],
+          "action": "Open your preferences",
+          "actionRu": "Открыть настройки"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Upload a file",
+          "actionRu": "Загрузить файл"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+E"
+          ],
+          "action": "Open the People view",
+          "actionRu": "Открыть вид «Люди»"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Toggle full screen view",
+          "actionRu": "Полноэкранный режим"
+        },
+        {
+          "keys": [
+            "Ctrl+W"
+          ],
+          "action": "Close window",
+          "actionRu": "Закрыть окно"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+W"
+          ],
+          "action": "Reopen last closed window",
+          "actionRu": "Открыть последнее закрытое окно"
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit Slack",
+          "actionRu": "Выйти из Slack"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        {
+          "keys": [
+            "Alt+ArrowUp",
+            "Alt+ArrowDown"
+          ],
+          "action": "Jump to previous / next channel or DM",
+          "actionRu": "Предыдущий / следующий канал или личка"
+        },
+        {
+          "keys": [
+            "Alt+Shift+ArrowUp",
+            "Alt+Shift+ArrowDown"
+          ],
+          "action": "Jump to previous / next unread channel or DM",
+          "actionRu": "Предыдущий / следующий непрочитанный канал"
+        },
+        {
+          "keys": [
+            "Ctrl+J"
+          ],
+          "action": "Jump to most recent unread message",
+          "actionRu": "К последнему непрочитанному сообщению"
+        },
+        {
+          "keys": [
+            "Alt+Left",
+            "Alt+Right"
+          ],
+          "action": "Go back / forward in history",
+          "actionRu": "Назад / вперёд по истории"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+1"
+          ],
+          "action": "Open the Home view",
+          "actionRu": "Открыть вид «Главная»"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+2"
+          ],
+          "action": "Browse DMs",
+          "actionRu": "Личные сообщения"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+T"
+          ],
+          "action": "Open the Threads view",
+          "actionRu": "Открыть вид «Треды»"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+L"
+          ],
+          "action": "Browse channels",
+          "actionRu": "Обзор каналов"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+M"
+          ],
+          "action": "Open the Activity view",
+          "actionRu": "Открыть вид «Активность»"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+A"
+          ],
+          "action": "Open the All unreads view",
+          "actionRu": "Открыть вид «Все непрочитанные»"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+I"
+          ],
+          "action": "Open conversation details",
+          "actionRu": "Детали диалога"
+        },
+        {
+          "keys": [
+            "F6",
+            "Shift+F6"
+          ],
+          "action": "Move focus to next / previous section",
+          "actionRu": "Фокус на следующую / предыдущую область"
+        }
+      ]
+    },
+    {
+      "title": "Read state",
+      "titleRu": "Прочитанное",
+      "items": [
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Mark all messages in conversation as read",
+          "actionRu": "Отметить все сообщения диалога прочитанными"
+        },
+        {
+          "keys": [
+            "Shift+Esc"
+          ],
+          "action": "Mark all messages as read",
+          "actionRu": "Отметить все сообщения прочитанными"
+        }
+      ]
+    },
+    {
+      "title": "Workspaces",
+      "titleRu": "Рабочие области",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Tab",
+            "Ctrl+Shift+Tab"
+          ],
+          "action": "Switch to next / previous workspace",
+          "actionRu": "Следующая / предыдущая рабочая область"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "action": "Expand / collapse workspace switcher",
+          "actionRu": "Показать переключатель рабочих областей"
+        }
+      ]
+    },
+    {
+      "title": "Message actions (with message focused)",
+      "titleRu": "Действия с сообщениями (в фокусе на сообщении)",
+      "items": [
+        {
+          "keys": [
+            "E"
+          ],
+          "action": "Edit a message you sent",
+          "actionRu": "Редактировать своё сообщение"
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Delete a message you sent",
+          "actionRu": "Удалить своё сообщение"
+        },
+        {
+          "keys": [
+            "T"
+          ],
+          "action": "Open or reply to a thread",
+          "actionRu": "Открыть тред / ответить в треде"
+        },
+        {
+          "keys": [
+            "A"
+          ],
+          "action": "Save a message (or remove a message from Saved)",
+          "actionRu": "Сохранить сообщение (или убрать из сохранённых)"
+        },
+        {
+          "keys": [
+            "P"
+          ],
+          "action": "Pin or unpin a message",
+          "actionRu": "Закрепить / открепить сообщение"
+        },
+        {
+          "keys": [
+            "R"
+          ],
+          "action": "Add an emoji reaction to a message",
+          "actionRu": "Добавить реакцию эмодзи"
+        },
+        {
+          "keys": [
+            "M"
+          ],
+          "action": "Create a reminder about a message",
+          "actionRu": "Создать напоминание о сообщении"
+        },
+        {
+          "keys": [
+            "U"
+          ],
+          "action": "Mark all messages above the one in focus as unread",
+          "actionRu": "Отметить все сообщения выше непрочитанными"
+        },
+        {
+          "keys": [
+            "ArrowUp"
+          ],
+          "action": "Edit last message you sent",
+          "actionRu": "Редактировать последнее отправленное сообщение"
+        }
+      ]
+    },
+    {
+      "title": "Formatting (cursor in input field)",
+      "titleRu": "Форматирование (курсор в поле ввода)",
+      "items": [
+        {
+          "keys": [
+            "Shift+Enter"
+          ],
+          "action": "Create a new line",
+          "actionRu": "Новая строка"
+        },
+        {
+          "keys": [
+            "Ctrl+B"
+          ],
+          "action": "Bold selected text",
+          "actionRu": "Жирный"
+        },
+        {
+          "keys": [
+            "Ctrl+I"
+          ],
+          "action": "Italicize selected text",
+          "actionRu": "Курсив"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+X"
+          ],
+          "action": "Strikethrough selected text",
+          "actionRu": "Зачёркнутый"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+U"
+          ],
+          "action": "Hyperlink selected text",
+          "actionRu": "Ссылка на выделенный текст"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+9"
+          ],
+          "action": "Quote selected text",
+          "actionRu": "Цитата"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+C"
+          ],
+          "action": "Code selected text",
+          "actionRu": "Код"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+Shift+C"
+          ],
+          "action": "Codeblock selected text",
+          "actionRu": "Блок кода"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+8"
+          ],
+          "action": "Format selected text as a bulleted list",
+          "actionRu": "Маркированный список"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+7"
+          ],
+          "action": "Format selected text as a numbered list",
+          "actionRu": "Нумерованный список"
+        },
+        {
+          "keys": [
+            "Ctrl+Z"
+          ],
+          "action": "Undo formatting",
+          "actionRu": "Отменить форматирование"
+        }
+      ]
+    },
+    {
+      "title": "Huddle (audio)",
+      "titleRu": "Huddle (аудио)",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+H"
+          ],
+          "action": "Start, join, leave, or end a huddle",
+          "actionRu": "Начать / войти / выйти из huddle"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+Space"
+          ],
+          "action": "Toggle mute on a huddle",
+          "actionRu": "Вкл/выкл микрофон в huddle"
+        }
+      ]
+    }
+  ]
+}

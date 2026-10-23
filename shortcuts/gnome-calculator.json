@@ -1,0 +1,98 @@
+{
+  "appId": "gnome-calculator",
+  "displayName": "Calculator",
+  "displayNameRu": "Калькулятор",
+  "source": "https://help.gnome.org/calculator",
+  "groups": [
+    {
+      "title": "Modes",
+      "titleRu": "Режимы",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+1"
+          ],
+          "action": "Basic mode",
+          "actionRu": "Обычный режим"
+        },
+        {
+          "keys": [
+            "Ctrl+2"
+          ],
+          "action": "Advanced mode",
+          "actionRu": "Расширенный режим"
+        },
+        {
+          "keys": [
+            "Ctrl+3"
+          ],
+          "action": "Financial mode",
+          "actionRu": "Финансовый режим"
+        },
+        {
+          "keys": [
+            "Ctrl+4"
+          ],
+          "action": "Programming mode",
+          "actionRu": "Программирование"
+        }
+      ]
+    },
+    {
+      "title": "Input",
+      "titleRu": "Ввод",
+      "items": [
+        {
+          "keys": [
+            "0 … 9",
+            "+",
+            "-",
+            "*",
+            "/"
+          ],
+          "action": "Digits and operations",
+          "actionRu": "Цифры и операции"
+        },
+        {
+          "keys": [
+            "Enter",
+            "="
+          ],
+          "action": "Calculate",
+          "actionRu": "Посчитать"
+        },
+        {
+          "keys": [
+            "Esc",
+            "Delete"
+          ],
+          "action": "Clear",
+          "actionRu": "Очистить"
+        },
+        {
+          "keys": [
+            "Backspace"
+          ],
+          "action": "Delete character",
+          "actionRu": "Стереть символ"
+        },
+        {
+          "keys": [
+            "Ctrl+Z",
+            "Ctrl+Shift+Z"
+          ],
+          "action": "Undo / redo",
+          "actionRu": "Отменить / повторить"
+        },
+        {
+          "keys": [
+            "Ctrl+C",
+            "Ctrl+V"
+          ],
+          "action": "Copy / paste",
+          "actionRu": "Копировать / вставить"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "appId": "okular",
+  "displayName": "Okular",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Next / previous page",
+          "actionRu": "Следующая / предыдущая страница",
+          "keys": [
+            "PgDwn",
+            "PgUp",
+            "Ctrl+PgDwn",
+            "Ctrl+PgUp"
+          ]
+        },
+        {
+          "action": "First / last page",
+          "actionRu": "Первая / последняя страница",
+          "keys": [
+            "Home",
+            "End"
+          ]
+        },
+        {
+          "action": "Back / forward through history",
+          "actionRu": "Назад / вперёд по истории",
+          "keys": [
+            "Alt+Left",
+            "Alt+Right"
+          ]
+        }
+      ],
+      "title": "Navigation",
+      "titleRu": "Навигация"
+    },
+    {
+      "items": [
+        {
+          "action": "Zoom in / out",
+          "actionRu": "Приблизить / отдалить",
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-"
+          ]
+        },
+        {
+          "action": "Actual size",
+          "actionRu": "Реальный размер",
+          "keys": [
+            "Ctrl+0"
+          ]
+        },
+        {
+          "action": "Fit to width",
+          "actionRu": "По ширине",
+          "keys": [
+            "Ctrl+9"
+          ]
+        },
+        {
+          "action": "Presentation",
+          "actionRu": "Презентация",
+          "keys": [
+            "F5"
+          ]
+        },
+        {
+          "action": "Fullscreen mode",
+          "actionRu": "Полноэкранный режим",
+          "keys": [
+            "Ctrl+Shift+F"
+          ]
+        }
+      ],
+      "title": "Zoom and view",
+      "titleRu": "Масштаб и вид"
+    },
+    {
+      "items": [
+        {
+          "action": "Browse tool",
+          "actionRu": "Инструмент просмотра",
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "action": "Selection tool",
+          "actionRu": "Инструмент выделения",
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "action": "Note",
+          "actionRu": "Заметка",
+          "keys": [
+            "4"
+          ]
+        },
+        {
+          "action": "Find",
+          "actionRu": "Найти",
+          "keys": [
+            "Ctrl+F"
+          ]
+        },
+        {
+          "action": "Sidebar",
+          "actionRu": "Боковая панель",
+          "keys": [
+            "F7"
+          ]
+        }
+      ],
+      "title": "Tools",
+      "titleRu": "Инструменты"
+    },
+    {
+      "items": [
+        {
+          "action": "Open",
+          "actionRu": "Открыть",
+          "keys": [
+            "Ctrl+O"
+          ]
+        },
+        {
+          "action": "Save a copy",
+          "actionRu": "Сохранить копию",
+          "keys": [
+            "Ctrl+S"
+          ]
+        },
+        {
+          "action": "Print",
+          "actionRu": "Печать",
+          "keys": [
+            "Ctrl+P"
+          ]
+        },
+        {
+          "action": "Reload",
+          "actionRu": "Перезагрузить",
+          "keys": [
+            "F5"
+          ]
+        },
+        {
+          "action": "Quit",
+          "actionRu": "Выйти",
+          "keys": [
+            "Ctrl+Q"
+          ]
+        }
+      ],
+      "title": "File",
+      "titleRu": "Файл"
+    }
+  ],
+  "note": "Core hotkeys; the full list is configured in Settings → Configure Shortcuts",
+  "noteRu": "Ядро хоткеев; полный список настраивается в Настройки → Настроить комбинации клавиш",
+  "source": "https://docs.kde.org (okular shortcuts)"
+}

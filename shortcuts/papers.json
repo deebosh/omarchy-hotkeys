@@ -1,0 +1,141 @@
+{
+  "appId": "papers",
+  "displayName": "Papers",
+  "source": "https://apps.gnome.org/Papers",
+  "note": "Successor of Evince; classic document-viewer shortcuts",
+  "noteRu": "Наследник Evince, сочетания классические для просмотра документов",
+  "groups": [
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        {
+          "keys": [
+            "PageDown",
+            "PageUp",
+            "Space",
+            "Shift+Space"
+          ],
+          "action": "Page down / up",
+          "actionRu": "Страница вниз / вверх"
+        },
+        {
+          "keys": [
+            "Home",
+            "End"
+          ],
+          "action": "First / last page",
+          "actionRu": "Первая / последняя страница"
+        },
+        {
+          "keys": [
+            "Ctrl+L"
+          ],
+          "action": "Go to page",
+          "actionRu": "Перейти к странице"
+        },
+        {
+          "keys": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ],
+          "action": "Scroll",
+          "actionRu": "Прокрутка"
+        }
+      ]
+    },
+    {
+      "title": "Zoom",
+      "titleRu": "Масштаб",
+      "items": [
+        {
+          "keys": [
+            "Ctrl++"
+          ],
+          "action": "Zoom in",
+          "actionRu": "Приблизить"
+        },
+        {
+          "keys": [
+            "Ctrl+-"
+          ],
+          "action": "Zoom out",
+          "actionRu": "Отдалить"
+        },
+        {
+          "keys": [
+            "Ctrl+0"
+          ],
+          "action": "Normal size",
+          "actionRu": "Обычный размер"
+        },
+        {
+          "keys": [
+            "Ctrl+9"
+          ],
+          "action": "Fit to page width",
+          "actionRu": "По ширине страницы"
+        }
+      ]
+    },
+    {
+      "title": "Actions",
+      "titleRu": "Действия",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Find in document",
+          "actionRu": "Найти в документе"
+        },
+        {
+          "keys": [
+            "F3",
+            "Shift+F3"
+          ],
+          "action": "Next / previous match",
+          "actionRu": "Следующее / предыдущее совпадение"
+        },
+        {
+          "keys": [
+            "F5"
+          ],
+          "action": "Presentation",
+          "actionRu": "Презентация"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Fullscreen",
+          "actionRu": "Полный экран"
+        },
+        {
+          "keys": [
+            "Ctrl+P"
+          ],
+          "action": "Print",
+          "actionRu": "Печать"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open document",
+          "actionRu": "Открыть документ"
+        },
+        {
+          "keys": [
+            "Ctrl+W",
+            "Ctrl+Q"
+          ],
+          "action": "Close / quit",
+          "actionRu": "Закрыть / выйти"
+        }
+      ]
+    }
+  ]
+}

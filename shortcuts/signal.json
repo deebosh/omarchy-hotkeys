@@ -1,0 +1,93 @@
+{
+  "appId": "signal",
+  "displayName": "Signal",
+  "source": "https://support.signal.org (раздел keyboard shortcuts десктоп-приложения)",
+  "note": "The official Signal list is short; documented desktop-app hotkeys are listed below",
+  "noteRu": "Официальный список Signal невелик; ниже — задокументированные хоткеи десктоп-приложения",
+  "groups": [
+    {
+      "title": "Chats",
+      "titleRu": "Чаты",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "Start new chat",
+          "actionRu": "Новый чат"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Search",
+          "actionRu": "Поиск по чатам"
+        },
+        {
+          "keys": [
+            "Ctrl+E"
+          ],
+          "action": "Archive chat",
+          "actionRu": "Архивировать выбранный чат"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Close current chat",
+          "actionRu": "Закрыть / назад"
+        }
+      ]
+    },
+    {
+      "title": "Messages",
+      "titleRu": "Сообщения",
+      "items": [
+        {
+          "keys": [
+            "Enter",
+            "Ctrl+Enter"
+          ],
+          "action": "Send (in expanded composer)",
+          "actionRu": "Отправить сообщение"
+        },
+        {
+          "keys": [
+            "ArrowUp"
+          ],
+          "action": "Edit the previous message",
+          "actionRu": "Редактировать последнее сообщение"
+        }
+      ]
+    },
+    {
+      "title": "App",
+      "titleRu": "Приложение",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+,"
+          ],
+          "action": "Preferences",
+          "actionRu": "Открыть настройки"
+        },
+        {
+          "keys": [
+            "Ctrl+=",
+            "Ctrl+-",
+            "Ctrl+0"
+          ],
+          "action": "Zoom in / out",
+          "actionRu": "Масштаб: больше / меньше / сброс"
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit Signal",
+          "actionRu": "Выйти из Signal"
+        }
+      ]
+    }
+  ]
+}

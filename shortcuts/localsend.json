@@ -1,0 +1,7 @@
+{
+  "appId": "localsend",
+  "displayName": "LocalSend",
+  "source": "https://localsend.org",
+  "note": "LocalSend documents no hotkeys on its official site or in its docs — it is mouse/touch-driven. Stub file so the widget states this honestly", "noteRu": "На официальном сайте и в документации LocalSend горячие клавиши не описаны — приложение управляется мышью/тачем. Файл-заглушка, чтобы виджет показывал это честно",
+  "groups": []
+}

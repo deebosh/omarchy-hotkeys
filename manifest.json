@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "deebosh.hotkeys",
+  "name": "Hotkeys",
+  "version": "1.0.0",
+  "author": "deebosh",
+  "license": "MIT",
+  "description": "Хоткеи активного приложения: значок в центре бара, попап со списком по клику или SUPER+SHIFT+K",
+  "homepage": "",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Hotkeys",
+    "description": "Показывает хоткеи текущего активного приложения",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "center",
+    "defaults": {
+      "showGlobals": "Off",
+      "compact": "Off",
+      "maxItems": 0
+    },
+    "schema": [
+      {
+        "key": "showGlobals",
+        "type": "enum",
+        "label": "Показывать глобальные бинды",
+        "options": [
+          "On",
+          "Off"
+        ],
+        "defaultValue": "Off",
+        "description": "Когда On, внизу панели дописываются глобальные бинды Hyprland."
+      },
+      {
+        "key": "compact",
+        "type": "enum",
+        "label": "Компактный вид",
+        "options": [
+          "On",
+          "Off"
+        ],
+        "defaultValue": "Off",
+        "description": "Когда On, панель скрывает описания групп и уменьшает отступы."
+      },
+      {
+        "key": "maxItems",
+        "type": "integer",
+        "label": "Лимит записей",
+        "min": 0,
+        "max": 500,
+        "step": 10,
+        "defaultValue": 0,
+        "description": "Максимум записей в панели. 0 — без лимита."
+      }
+    ]
+  }
+}

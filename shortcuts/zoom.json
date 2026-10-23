@@ -1,0 +1,48 @@
+{
+  "appId": "zoom",
+  "displayName": "Zoom",
+  "source": "https://support.zoom.com (раздел hot keys and keyboard shortcuts; хоткеи Windows-клиента во время встречи)",
+  "note": "Хоткеи десктоп-клиента Windows во время встречи",
+  "groups": [
+    {
+      "title": "Аудио и видео",
+      "items": [
+        { "keys": ["Alt+A"], "action": "Вкл/выкл микрофон" },
+        { "keys": ["Alt+V"], "action": "Вкл/выкл камеру" },
+        { "keys": ["Alt+M"], "action": "Всех на мут / снять мут (хост)" },
+        { "keys": ["Alt+N"], "action": "Переключить камеру" },
+        { "keys": ["Space"], "action": "Говорить, пока удерживается (push-to-talk)" }
+      ]
+    },
+    {
+      "title": "Демонстрация и запись",
+      "items": [
+        { "keys": ["Alt+S"], "action": "Начать / остановить демонстрацию экрана" },
+        { "keys": ["Alt+T"], "action": "Пауза / продолжить демонстрацию" },
+        { "keys": ["Alt+R"], "action": "Начать / остановить локальную запись" },
+        { "keys": ["Alt+C"], "action": "Начать / остановить облачную запись" },
+        { "keys": ["Alt+P"], "action": "Пауза / продолжить запись" },
+        { "keys": ["Alt+Shift+T"], "action": "Скриншот" }
+      ]
+    },
+    {
+      "title": "Встреча",
+      "items": [
+        { "keys": ["Alt+Q"], "action": "Покинуть / завершить встречу" },
+        { "keys": ["Alt+Y"], "action": "Поднять / опустить руку" },
+        { "keys": ["Alt+I"], "action": "Окно приглашения" },
+        { "keys": ["Alt+U"], "action": "Показать / скрыть участников" },
+        { "keys": ["Alt+H"], "action": "Показать / скрыть чат" },
+        { "keys": ["Alt+F"], "action": "Полноэкранный режим" },
+        { "keys": ["Alt+L"], "action": "Портретный / альбомный вид" }
+      ]
+    },
+    {
+      "title": "Навигация",
+      "items": [
+        { "keys": ["Ctrl+Tab", "Ctrl+Shift+Tab"], "action": "Следующая / предыдущая вкладка" },
+        { "keys": ["Ctrl+ArrowUp", "Ctrl+ArrowDown"], "action": "Предыдущее / следующее видео в галерее" }
+      ]
+    }
+  ]
+}

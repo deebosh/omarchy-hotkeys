@@ -1,0 +1,97 @@
+{
+  "appId": "obs-studio",
+  "displayName": "OBS Studio",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Start / stop streaming",
+          "actionRu": "Начать / остановить трансляцию",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        },
+        {
+          "action": "Start / stop recording",
+          "actionRu": "Начать / остановить запись",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        },
+        {
+          "action": "Pause recording",
+          "actionRu": "Пауза записи",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        },
+        {
+          "action": "Studio mode",
+          "actionRu": "Режим студии",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        },
+        {
+          "action": "Transition",
+          "actionRu": "Переход",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        }
+      ],
+      "title": "Streaming and recording",
+      "titleRu": "Трансляция и запись"
+    },
+    {
+      "items": [
+        {
+          "action": "Switch scene",
+          "actionRu": "Переключить сцену",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        },
+        {
+          "action": "Show / hide source",
+          "actionRu": "Показать / скрыть источник",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        }
+      ],
+      "title": "Scenes and sources",
+      "titleRu": "Сцены и источники"
+    },
+    {
+      "items": [
+        {
+          "action": "Mute track",
+          "actionRu": "Отключить звук дорожки",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        },
+        {
+          "action": "Push-to-talk",
+          "actionRu": "Нажми и говори (push-to-talk)",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        },
+        {
+          "action": "Push-to-mute",
+          "actionRu": "Нажми и выключи (push-to-mute)",
+          "keys": [
+            "(назначается вручную)"
+          ]
+        }
+      ],
+      "title": "Audio",
+      "titleRu": "Звук"
+    }
+  ],
+  "note": "OBS has almost no default hotkeys: all actions above are assigned in Settings → Hotkeys. The list covers the main configurable actions.",
+  "noteRu": "В OBS почти нет дефолтных хоткеев: все действия выше назначаются в Настройки → Горячие клавиши. Список — основные настраиваемые действия.",
+  "source": "https://obsproject.com/kb"
+}

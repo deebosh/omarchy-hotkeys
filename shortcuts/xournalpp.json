@@ -1,0 +1,52 @@
+{
+  "appId": "xournalpp",
+  "displayName": "Xournal++",
+  "source": "https://xournalpp.github.io",
+  "note": "Базовый набор Xournal++",
+  "groups": [
+    {
+      "title": "Файл",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "Новый журнал" },
+        { "keys": ["Ctrl+O"], "action": "Открыть" },
+        { "keys": ["Ctrl+S"], "action": "Сохранить" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Сохранить как" },
+        { "keys": ["Ctrl+E"], "action": "Экспорт в PDF" },
+        { "keys": ["Ctrl+P"], "action": "Печать" }
+      ]
+    },
+    {
+      "title": "Правка",
+      "items": [
+        { "keys": ["Ctrl+Z"], "action": "Отменить" },
+        { "keys": ["Ctrl+Y", "Ctrl+Shift+Z"], "action": "Повторить" },
+        { "keys": ["Ctrl+X", "Ctrl+C", "Ctrl+V"], "action": "Вырезать / копировать / вставить" },
+        { "keys": ["Delete"], "action": "Удалить выделение" },
+        { "keys": ["Ctrl+A"], "action": "Выбрать всё" }
+      ]
+    },
+    {
+      "title": "Инструменты",
+      "items": [
+        { "keys": ["P"], "action": "Ручка" },
+        { "keys": ["E"], "action": "Ластик" },
+        { "keys": ["H"], "action": "Маркер" },
+        { "keys": ["T"], "action": "Текст" },
+        { "keys": ["S"], "action": "Выделение областью" },
+        { "keys": ["M"], "action": "Выделение прямоугольником" },
+        { "keys": ["R"], "action": "Прямоугольник" },
+        { "keys": ["O"], "action": "Эллипс" }
+      ]
+    },
+    {
+      "title": "Вид",
+      "items": [
+        { "keys": ["Ctrl++", "Ctrl+-"], "action": "Масштаб больше / меньше" },
+        { "keys": ["Ctrl+0"], "action": "Сбросить масштаб" },
+        { "keys": ["F5"], "action": "Режим презентации" },
+        { "keys": ["F11"], "action": "Полный экран" },
+        { "keys": ["Ctrl+PageDown", "Ctrl+PageUp"], "action": "Следующая / предыдущая страница" }
+      ]
+    }
+  ]
+}

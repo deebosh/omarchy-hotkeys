@@ -1,0 +1,147 @@
+{
+  "appId": "postman",
+  "displayName": "Postman",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "New tab",
+          "actionRu": "Новая вкладка",
+          "keys": [
+            "Ctrl+T"
+          ]
+        },
+        {
+          "action": "New (request, collection, environment)",
+          "actionRu": "Новое (запрос, коллекция, окружение)",
+          "keys": [
+            "Ctrl+N"
+          ]
+        },
+        {
+          "action": "New window",
+          "actionRu": "Новое окно",
+          "keys": [
+            "Ctrl+Shift+N"
+          ]
+        },
+        {
+          "action": "Close tab",
+          "actionRu": "Закрыть вкладку",
+          "keys": [
+            "Ctrl+W"
+          ]
+        },
+        {
+          "action": "Next / previous tab",
+          "actionRu": "Следующая / предыдущая вкладка",
+          "keys": [
+            "Ctrl+Tab",
+            "Ctrl+Shift+Tab"
+          ]
+        },
+        {
+          "action": "Show / hide sidebar",
+          "actionRu": "Показать / скрыть боковую панель",
+          "keys": [
+            "Ctrl+\\"
+          ]
+        },
+        {
+          "action": "Focus address bar (URL)",
+          "actionRu": "Фокус на адресной строке (URL)",
+          "keys": [
+            "Ctrl+L"
+          ]
+        },
+        {
+          "action": "Keyboard shortcuts window",
+          "actionRu": "Окно горячих клавиш",
+          "keys": [
+            "Ctrl+/"
+          ]
+        },
+        {
+          "action": "Settings",
+          "actionRu": "Настройки",
+          "keys": [
+            "Ctrl+,"
+          ]
+        },
+        {
+          "action": "Fullscreen mode",
+          "actionRu": "Полноэкранный режим",
+          "keys": [
+            "F11"
+          ]
+        }
+      ],
+      "title": "General",
+      "titleRu": "Общее"
+    },
+    {
+      "items": [
+        {
+          "action": "Send request",
+          "actionRu": "Отправить запрос",
+          "keys": [
+            "Ctrl+Enter"
+          ]
+        },
+        {
+          "action": "Save request",
+          "actionRu": "Сохранить запрос",
+          "keys": [
+            "Ctrl+S"
+          ]
+        },
+        {
+          "action": "Save as",
+          "actionRu": "Сохранить как",
+          "keys": [
+            "Ctrl+Shift+S"
+          ]
+        },
+        {
+          "action": "Find in response",
+          "actionRu": "Найти в ответе",
+          "keys": [
+            "Ctrl+F"
+          ]
+        },
+        {
+          "action": "Postman console",
+          "actionRu": "Консоль Postman",
+          "keys": [
+            "Ctrl+Alt+C"
+          ]
+        },
+        {
+          "action": "Two-pane view",
+          "actionRu": "Двухпанельный вид",
+          "keys": [
+            "Ctrl+Alt+V"
+          ]
+        }
+      ],
+      "title": "Request and response",
+      "titleRu": "Запрос и ответ"
+    },
+    {
+      "items": [
+        {
+          "action": "Zoom: in / out / reset",
+          "actionRu": "Масштаб: больше / меньше / сброс",
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-",
+            "Ctrl+0"
+          ]
+        }
+      ],
+      "title": "View",
+      "titleRu": "Вид"
+    }
+  ],
+  "source": "https://learning.postman.com (Using Postman > Keyboard shortcuts)"
+}

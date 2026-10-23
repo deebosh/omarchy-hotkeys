@@ -1,0 +1,45 @@
+{
+  "appId": "tig",
+  "displayName": "Tig",
+  "source": "https://github.com/jonas/tig (tig manual, tigrc)",
+  "note": "Bindings are configured in tigrc; defaults are listed below", "noteRu": "Биндинги настраиваются в tigrc; ниже — дефолтные",
+  "groups": [
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["j", "k", "Up", "Down"], "action": "Move cursor one line up / down", "actionRu": "Строка вниз / вверх" },
+        { "keys": ["PageUp", "PageDown"], "action": "Move cursor one page up / down", "actionRu": "Страница вверх / вниз" },
+        { "keys": ["Home", "End"], "action": "Jump to first / last line", "actionRu": "В начало / в конец" },
+        { "keys": ["Enter"], "action": "Open (context sensitive)", "actionRu": "Открыть / раскрыть" },
+        { "keys": ["Tab"], "action": "Switch to next view", "actionRu": "Следующий вид" },
+        { "keys": ["Left", "Right"], "action": "Collapse / expand (tree)", "actionRu": "Свернуть / развернуть (дерево)" }
+      ]
+    },
+    {
+      "title": "Views", "titleRu": "Виды",
+      "items": [
+        { "keys": ["m"], "action": "Switch to main view", "actionRu": "Вид main (коммиты)" },
+        { "keys": ["s"], "action": "Switch to status view", "actionRu": "Вид status" },
+        { "keys": ["d"], "action": "Switch to diff view", "actionRu": "Вид diff" },
+        { "keys": ["l"], "action": "Switch to log view", "actionRu": "Вид log" },
+        { "keys": ["t"], "action": "Switch to tree view", "actionRu": "Вид tree" },
+        { "keys": ["b"], "action": "Switch to blame view", "actionRu": "Вид blame" },
+        { "keys": ["H"], "action": "Go to the HEAD commit", "actionRu": "Вид stage" }
+      ]
+    },
+    {
+      "title": "Actions", "titleRu": "Действия",
+      "items": [
+        { "keys": ["q"], "action": "Close view", "actionRu": "Закрыть вид" },
+        { "keys": ["Q"], "action": "Quit", "actionRu": "Выйти" },
+        { "keys": ["R"], "action": "Reload and refresh the current view", "actionRu": "Обновить" },
+        { "keys": ["/"], "action": "Search the view", "actionRu": "Поиск" },
+        { "keys": ["?"], "action": "Search backwards in the view", "actionRu": "Справка по клавишам" },
+        { "keys": ["u"], "action": "Update status of file (stage changes)", "actionRu": "Stage/unstage изменения (status)" },
+        { "keys": ["!"], "action": "Check out file with unstaged changes", "actionRu": "Выполнить команду" },
+        { "keys": ["e"], "action": "Open file in editor", "actionRu": "Открыть в редакторе" },
+        { "keys": ["C"], "action": "Commit (status)", "actionRu": "Коммит (status)" }
+      ]
+    }
+  ]
+}

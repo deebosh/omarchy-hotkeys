@@ -1,0 +1,298 @@
+{
+  "appId": "nautilus",
+  "displayName": "Files",
+  "displayNameRu": "Файлы",
+  "source": "https://help.gnome.org/users/gnome-help/stable/keyboard-shortcuts.html и справка Files",
+  "note": "GNOME Files (Nautilus)",
+  "groups": [
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        {
+          "keys": [
+            "Alt+Left",
+            "Alt+Right"
+          ],
+          "action": "Back / forward",
+          "actionRu": "Назад / вперёд"
+        },
+        {
+          "keys": [
+            "Alt+Up"
+          ],
+          "action": "Parent folder",
+          "actionRu": "Родительская папка"
+        },
+        {
+          "keys": [
+            "Alt+Down"
+          ],
+          "action": "Open selection",
+          "actionRu": "Открыть выделенное"
+        },
+        {
+          "keys": [
+            "Alt+Home"
+          ],
+          "action": "Home folder",
+          "actionRu": "Домашняя папка"
+        },
+        {
+          "keys": [
+            "Enter"
+          ],
+          "action": "Open",
+          "actionRu": "Открыть"
+        },
+        {
+          "keys": [
+            "Backspace"
+          ],
+          "action": "Back (up in history)",
+          "actionRu": "Назад (вверх по истории)"
+        },
+        {
+          "keys": [
+            "Ctrl+L"
+          ],
+          "action": "Location bar (type path)",
+          "actionRu": "Строка адреса (ввести путь)"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Restore breadcrumbs",
+          "actionRu": "Вернуть хлебные крошки"
+        },
+        {
+          "keys": [
+            "/"
+          ],
+          "action": "Quick path entry",
+          "actionRu": "Быстрый ввод пути"
+        },
+        {
+          "keys": [
+            "F2"
+          ],
+          "action": "Rename",
+          "actionRu": "Переименовать"
+        }
+      ]
+    },
+    {
+      "title": "Tabs and windows",
+      "titleRu": "Вкладки и окна",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+T"
+          ],
+          "action": "New tab",
+          "actionRu": "Новая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+W"
+          ],
+          "action": "Close tab",
+          "actionRu": "Закрыть вкладку"
+        },
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New window",
+          "actionRu": "Новое окно"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+N"
+          ],
+          "action": "New folder",
+          "actionRu": "Новая папка"
+        },
+        {
+          "keys": [
+            "Ctrl+Tab"
+          ],
+          "action": "Next tab",
+          "actionRu": "Следующая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+Tab"
+          ],
+          "action": "Previous tab",
+          "actionRu": "Предыдущая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+PageUp PageDown"
+          ],
+          "action": "Tab left / right",
+          "actionRu": "Вкладка влево / вправо"
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit",
+          "actionRu": "Выйти"
+        }
+      ]
+    },
+    {
+      "title": "View and search",
+      "titleRu": "Вид и поиск",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+1"
+          ],
+          "action": "Icon view",
+          "actionRu": "Вид значками"
+        },
+        {
+          "keys": [
+            "Ctrl+2"
+          ],
+          "action": "List view",
+          "actionRu": "Вид списком"
+        },
+        {
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-",
+            "Ctrl+0"
+          ],
+          "action": "Zoom: in / out / reset",
+          "actionRu": "Зум: больше / меньше / сброс"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Search",
+          "actionRu": "Поиск"
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Select by pattern",
+          "actionRu": "Выбрать по шаблону"
+        },
+        {
+          "keys": [
+            "Ctrl+H"
+          ],
+          "action": "Show hidden files",
+          "actionRu": "Показать скрытые файлы"
+        },
+        {
+          "keys": [
+            "F5",
+            "Ctrl+R"
+          ],
+          "action": "Refresh",
+          "actionRu": "Обновить"
+        },
+        {
+          "keys": [
+            "F9"
+          ],
+          "action": "Sidebar",
+          "actionRu": "Боковая панель"
+        }
+      ]
+    },
+    {
+      "title": "Files",
+      "titleRu": "Файлы",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+C",
+            "Ctrl+X",
+            "Ctrl+V"
+          ],
+          "action": "Copy / cut / paste",
+          "actionRu": "Копировать / вырезать / вставить"
+        },
+        {
+          "keys": [
+            "Ctrl+D"
+          ],
+          "action": "Duplicate (copy in same folder)",
+          "actionRu": "Дублировать (копия в той же папке)"
+        },
+        {
+          "keys": [
+            "Ctrl+Z"
+          ],
+          "action": "Undo (rename, trash)",
+          "actionRu": "Отменить (переименование, корзина)"
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Move to trash",
+          "actionRu": "В корзину"
+        },
+        {
+          "keys": [
+            "Shift+Delete"
+          ],
+          "action": "Delete permanently",
+          "actionRu": "Удалить навсегда"
+        },
+        {
+          "keys": [
+            "Ctrl+A"
+          ],
+          "action": "Select all",
+          "actionRu": "Выбрать всё"
+        },
+        {
+          "keys": [
+            "Enter"
+          ],
+          "action": "Open / launch",
+          "actionRu": "Открыть / запустить"
+        },
+        {
+          "keys": [
+            "Shift+Enter"
+          ],
+          "action": "Open in new tab",
+          "actionRu": "Открыть в новой вкладке"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open with…",
+          "actionRu": "Открыть с помощью…"
+        },
+        {
+          "keys": [
+            "Alt+Enter"
+          ],
+          "action": "Properties",
+          "actionRu": "Свойства"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+C"
+          ],
+          "action": "Copy path",
+          "actionRu": "Копировать путь"
+        }
+      ]
+    }
+  ]
+}

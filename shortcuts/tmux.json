@@ -1,0 +1,81 @@
+{
+  "appId": "tmux",
+  "displayName": "Tmux",
+  "source": "https://github.com/tmux/tmux/wiki/Getting-Started",
+  "note": "Default prefix: Ctrl+B. «C-b c» means press Ctrl+B, release it, then press c", "noteRu": "Префикс по умолчанию: Ctrl+B. Запись «C-b c» = нажать Ctrl+B, отпустить, нажать c",
+  "groups": [
+    {
+      "title": "Sessions", "titleRu": "Сессии",
+      "items": [
+        { "keys": ["C-b d"], "action": "Detach the current client", "actionRu": "Отсоединиться (detach), сессия живёт дальше" },
+        { "keys": ["C-b s"], "action": "Session tree (select/switch)", "actionRu": "Дерево сессий (выбор/переход)" },
+        { "keys": ["C-b $"], "action": "Rename the current session", "actionRu": "Переименовать сессию" },
+        { "keys": ["C-b ("], "action": "Switch to the previous session", "actionRu": "Предыдущая сессия" },
+        { "keys": ["C-b )"], "action": "Switch to the next session", "actionRu": "Следующая сессия" },
+        { "keys": ["C-b L"], "action": "Move to the previously selected session", "actionRu": "Последняя сессия" },
+        { "keys": ["tmux new -s {name}"], "action": "New session (from shell)", "actionRu": "Создать сессию (из shell)" },
+        { "keys": ["tmux attach -t {name}"], "action": "Attach (from shell)", "actionRu": "Подключиться (из shell)" },
+        { "keys": ["tmux ls"], "action": "List sessions (from shell)", "actionRu": "Список сессий (из shell)" }
+      ]
+    },
+    {
+      "title": "Windows", "titleRu": "Окна",
+      "items": [
+        { "keys": ["C-b c"], "action": "Create a new window", "actionRu": "Новое окно" },
+        { "keys": ["C-b n"], "action": "Change to the next window", "actionRu": "Следующее окно" },
+        { "keys": ["C-b p"], "action": "Change to the previous window", "actionRu": "Предыдущее окно" },
+        { "keys": ["C-b l"], "action": "Move to the previously selected window", "actionRu": "Последнее окно" },
+        { "keys": ["C-b 0 … C-b 9"], "action": "Window by number", "actionRu": "Окно по номеру" },
+        { "keys": ["C-b '"], "action": "Prompt for a window index and select it", "actionRu": "Перейти к окну (запрос индекса)" },
+        { "keys": ["C-b w"], "action": "Window tree (select)", "actionRu": "Дерево окон (выбор)" },
+        { "keys": ["C-b Tab"], "action": "Quick switch (fuzzy window search)", "actionRu": "Быстрый переход (fuzzy-поиск окна)" },
+        { "keys": ["C-b f"], "action": "Find window by text", "actionRu": "Найти окно по тексту" },
+        { "keys": ["C-b ,"], "action": "Rename the current window", "actionRu": "Переименовать окно" },
+        { "keys": ["C-b ."], "action": "Prompt for an index to move the current window", "actionRu": "Переместить окно (запрос индекса)" },
+        { "keys": ["C-b &"], "action": "Kill the current window", "actionRu": "Убить окно (с подтверждением)" }
+      ]
+    },
+    {
+      "title": "Panes", "titleRu": "Панели",
+      "items": [
+        { "keys": ["C-b %"], "action": "Split the current pane into two, left and right", "actionRu": "Разделить вертикально (рядом)" },
+        { "keys": ["C-b \""], "action": "Split the current pane into two, top and bottom", "actionRu": "Разделить горизонтально (друг под другом)" },
+        { "keys": ["C-b стрелки"], "action": "Select the pane above / below / left / right", "actionRu": "Фокус панели (вверх/вниз/влево/вправо)" },
+        { "keys": ["C-b o"], "action": "Select the next pane", "actionRu": "Следующая панель" },
+        { "keys": ["C-b q"], "action": "Display the pane numbers", "actionRu": "Показать номера панелей (+ цифра = фокус)" },
+        { "keys": ["C-b x"], "action": "Kill the active pane", "actionRu": "Убить панель" },
+        { "keys": ["C-b z"], "action": "Zoom the active pane", "actionRu": "Зум панели (во весь экран) / назад" },
+        { "keys": ["C-b {"], "action": "Swap the current pane with the pane above", "actionRu": "Поменять с панелью выше/левее" },
+        { "keys": ["C-b }"], "action": "Swap the current pane with the pane below", "actionRu": "Поменять с панелью ниже/правее" },
+        { "keys": ["C-b Ctrl+стрелки"], "action": "Resize pane (small step)", "actionRu": "Ресайз панели (мелкий шаг)" },
+        { "keys": ["C-b Alt+стрелки"], "action": "Resize pane (large step)", "actionRu": "Ресайз панели (крупный шаг)" },
+        { "keys": ["C-b Space"], "action": "Select the next window layout", "actionRu": "Следующий layout окна" },
+        { "keys": ["C-b Alt+1…5"], "action": "Layout: even-h / even-v / main-h / main-v / tiled" },
+        { "keys": ["C-b m"], "action": "Mark the current pane", "actionRu": "Пометить панель (для swap-pane)" },
+        { "keys": ["C-b !"], "action": "Break the current pane out of the window", "actionRu": "Панель в отдельное окно" }
+      ]
+    },
+    {
+      "title": "Copying", "titleRu": "Копирование",
+      "items": [
+        { "keys": ["C-b ["], "action": "Enter copy mode", "actionRu": "Copy mode (навигация, выделение)" },
+        { "keys": ["C-b ]"], "action": "Paste the most recent paste buffer", "actionRu": "Вставить последний буфер" },
+        { "keys": ["C-b ="], "action": "Choose buffer to paste", "actionRu": "Выбор буфера для вставки" },
+        { "keys": ["q"], "action": "Exit copy mode", "actionRu": "Выйти из copy mode" },
+        { "keys": ["Space (vi)"], "action": "Start selection (vi keys)", "actionRu": "Начать выделение (vi-ключи)" },
+        { "keys": ["Enter (vi)"], "action": "Copy and exit (vi keys)", "actionRu": "Скопировать и выйти (vi-ключи)" },
+        { "keys": ["Ctrl+Space (emacs)"], "action": "Start selection (emacs keys)", "actionRu": "Начать выделение (emacs-ключи)" },
+        { "keys": ["Alt+W (emacs)"], "action": "Copy (emacs keys)", "actionRu": "Скопировать (emacs-ключи)" }
+      ]
+    },
+    {
+      "title": "Misc", "titleRu": "Прочее",
+      "items": [
+        { "keys": ["C-b ?"], "action": "List key bindings", "actionRu": "Все биндинги" },
+        { "keys": ["C-b :"], "action": "Prompt for a command", "actionRu": "Командная строка tmux" },
+        { "keys": ["C-b D"], "action": "Choose a client from a list", "actionRu": "Список клиентов (отключить лишний)" },
+        { "keys": ["C-b t"], "action": "Show a clock", "actionRu": "Часы" }
+      ]
+    }
+  ]
+}

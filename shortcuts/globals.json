@@ -1,0 +1,1368 @@
+{
+  "appId": "globals",
+  "displayName": "Hyprland",
+  "source": "omarchy menu keybindings --print",
+  "note": "Global Hyprland/Omarchy bindings. Fallback for unknown apps.",
+  "noteRu": "Глобальные бинды Hyprland/Omarchy. Fallback для неизвестных приложений.",
+  "groups": [
+    {
+      "title": "Menus and More",
+      "titleRu": "Меню и прочее",
+      "items": [
+        {
+          "keys": [
+            "SUPER + K"
+          ],
+          "action": "Keybindings"
+        },
+        {
+          "keys": [
+            "SUPER + SPACE"
+          ],
+          "action": "Omarchy menu"
+        },
+        {
+          "keys": [
+            "SUPER + ESCAPE"
+          ],
+          "action": "System menu"
+        },
+        {
+          "keys": [
+            "SUPER + F"
+          ],
+          "action": "Full screen"
+        },
+        {
+          "keys": [
+            "SUPER ALT + F"
+          ],
+          "action": "Full width"
+        },
+        {
+          "keys": [
+            "SUPER + C"
+          ],
+          "action": "Universal copy"
+        },
+        {
+          "keys": [
+            "SUPER + V"
+          ],
+          "action": "Universal paste"
+        },
+        {
+          "keys": [
+            "SUPER + X"
+          ],
+          "action": "Universal cut"
+        },
+        {
+          "keys": [
+            "SHIFT ALT + D"
+          ],
+          "action": "Download Video from Web App"
+        },
+        {
+          "keys": [
+            "SHIFT ALT + L"
+          ],
+          "action": "Copy URL from Web App"
+        },
+        {
+          "keys": [
+            "SUPER ALT + BRACKETLEFT"
+          ],
+          "action": "Make webcam overlay smaller"
+        },
+        {
+          "keys": [
+            "SUPER ALT + BRACKETRIGHT"
+          ],
+          "action": "Make webcam overlay larger"
+        },
+        {
+          "keys": [
+            "SUPER ALT + SLASH"
+          ],
+          "action": "Monitor scaling down"
+        },
+        {
+          "keys": [
+            "SUPER ALT + SPACE"
+          ],
+          "action": "Apps menu"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 1"
+          ],
+          "action": "Bar panel 1"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 2"
+          ],
+          "action": "Bar panel 2"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 3"
+          ],
+          "action": "Bar panel 3"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 4"
+          ],
+          "action": "Bar panel 4"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 5"
+          ],
+          "action": "Bar panel 5"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 6"
+          ],
+          "action": "Bar panel 6"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 7"
+          ],
+          "action": "Bar panel 7"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 8"
+          ],
+          "action": "Bar panel 8"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + 9"
+          ],
+          "action": "Bar panel 9"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + A"
+          ],
+          "action": "Audio"
+        },
+        {
+          "keys": [
+            "SUPER CTRL ALT + B"
+          ],
+          "action": "Show battery remaining"
+        },
+        {
+          "keys": [
+            "SUPER CTRL ALT + D",
+            "SUPER SHIFT + C"
+          ],
+          "action": "Calendar"
+        },
+        {
+          "keys": [
+            "SUPER CTRL ALT + Delete"
+          ],
+          "action": "Toggle laptop display mirroring"
+        },
+        {
+          "keys": [
+            "SUPER CTRL ALT + R"
+          ],
+          "action": "Show reminders"
+        },
+        {
+          "keys": [
+            "SUPER CTRL ALT + T"
+          ],
+          "action": "Show time"
+        },
+        {
+          "keys": [
+            "SUPER CTRL ALT + W"
+          ],
+          "action": "Toggle weather"
+        },
+        {
+          "keys": [
+            "SUPER CTRL ALT + Z"
+          ],
+          "action": "Reset zoom"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + B"
+          ],
+          "action": "Bluetooth"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + C"
+          ],
+          "action": "Capture menu"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + D"
+          ],
+          "action": "Display"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + Delete"
+          ],
+          "action": "Toggle laptop display"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + F"
+          ],
+          "action": "Tiled full screen"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + H"
+          ],
+          "action": "Hardware menu"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + O"
+          ],
+          "action": "Toggle menu"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + PERIOD"
+          ],
+          "action": "Transcode"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + P"
+          ],
+          "action": "Power"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + Q",
+            "XF86Calculator"
+          ],
+          "action": "Calculator"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + R"
+          ],
+          "action": "Set reminder"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + SPACE"
+          ],
+          "action": "Background switcher"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + S"
+          ],
+          "action": "Share"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + T"
+          ],
+          "action": "Activity"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + W"
+          ],
+          "action": "Network"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + Z"
+          ],
+          "action": "Zoom in"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + A"
+          ],
+          "action": "ChatGPT"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + A"
+          ],
+          "action": "Grok"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + E"
+          ],
+          "action": "New email"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + G"
+          ],
+          "action": "WhatsApp"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + M"
+          ],
+          "action": "Music TUI"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + X"
+          ],
+          "action": "X Post"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT CTRL + A"
+          ],
+          "action": "Agent"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT CTRL + G"
+          ],
+          "action": "Google Messages"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT CTRL + R"
+          ],
+          "action": "Clear reminders"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + D"
+          ],
+          "action": "Docker"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + E"
+          ],
+          "action": "Email"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + G"
+          ],
+          "action": "Signal"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + M"
+          ],
+          "action": "Music"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + N"
+          ],
+          "action": "Editor"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + O"
+          ],
+          "action": "Obsidian"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + P"
+          ],
+          "action": "Google Photos"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + S"
+          ],
+          "action": "Google Maps"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + SLASH"
+          ],
+          "action": "Passwords"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + SPACE"
+          ],
+          "action": "Toggle top bar"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + W"
+          ],
+          "action": "Omawrite"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + X"
+          ],
+          "action": "X"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + Y"
+          ],
+          "action": "YouTube"
+        },
+        {
+          "keys": [
+            "SUPER + SLASH"
+          ],
+          "action": "Monitor scaling up"
+        },
+        {
+          "keys": [
+            "ALT + XF86AudioLowerVolume"
+          ],
+          "action": "Volume down precise"
+        },
+        {
+          "keys": [
+            "ALT + XF86AudioPlay",
+            "XF86AudioNext"
+          ],
+          "action": "Next track"
+        },
+        {
+          "keys": [
+            "ALT + XF86AudioRaiseVolume"
+          ],
+          "action": "Volume up precise"
+        },
+        {
+          "keys": [
+            "ALT + XF86MonBrightnessDown"
+          ],
+          "action": "Brightness down precise"
+        },
+        {
+          "keys": [
+            "ALT + XF86MonBrightnessUp"
+          ],
+          "action": "Brightness up precise"
+        },
+        {
+          "keys": [
+            "SHIFT ALT + XF86AudioPlay",
+            "XF86AudioPrev"
+          ],
+          "action": "Previous track"
+        },
+        {
+          "keys": [
+            "SHIFT + XF86AudioMute"
+          ],
+          "action": "Switch audio output"
+        },
+        {
+          "keys": [
+            "SHIFT + XF86AudioPause",
+            "SHIFT + XF86AudioPlay"
+          ],
+          "action": "Switch media source"
+        },
+        {
+          "keys": [
+            "SHIFT + XF86MonBrightnessDown"
+          ],
+          "action": "Brightness minimum"
+        },
+        {
+          "keys": [
+            "SHIFT + XF86MonBrightnessUp"
+          ],
+          "action": "Brightness maximum"
+        },
+        {
+          "keys": [
+            "XF86AudioLowerVolume"
+          ],
+          "action": "Volume down"
+        },
+        {
+          "keys": [
+            "XF86AudioMicMute"
+          ],
+          "action": "Mute microphone"
+        },
+        {
+          "keys": [
+            "XF86AudioMute"
+          ],
+          "action": "Mute"
+        },
+        {
+          "keys": [
+            "XF86AudioPause"
+          ],
+          "action": "Pause"
+        },
+        {
+          "keys": [
+            "XF86AudioPlay"
+          ],
+          "action": "Play"
+        },
+        {
+          "keys": [
+            "XF86AudioRaiseVolume"
+          ],
+          "action": "Volume up"
+        },
+        {
+          "keys": [
+            "XF86Eject"
+          ],
+          "action": "Eject media"
+        },
+        {
+          "keys": [
+            "XF86KbdBrightnessDown"
+          ],
+          "action": "Keyboard brightness down"
+        },
+        {
+          "keys": [
+            "XF86KbdBrightnessUp"
+          ],
+          "action": "Keyboard brightness up"
+        },
+        {
+          "keys": [
+            "XF86KbdLightOnOff"
+          ],
+          "action": "Keyboard backlight cycle"
+        },
+        {
+          "keys": [
+            "XF86MonBrightnessDown"
+          ],
+          "action": "Brightness down"
+        },
+        {
+          "keys": [
+            "XF86MonBrightnessUp"
+          ],
+          "action": "Brightness up"
+        },
+        {
+          "keys": [
+            "XF86PowerOff"
+          ],
+          "action": "Power menu"
+        },
+        {
+          "keys": [
+            "XF86TouchpadOff"
+          ],
+          "action": "Disable touchpad"
+        },
+        {
+          "keys": [
+            "XF86TouchpadOn"
+          ],
+          "action": "Enable touchpad"
+        },
+        {
+          "keys": [
+            "XF86TouchpadToggle"
+          ],
+          "action": "Toggle touchpad"
+        }
+      ]
+    },
+    {
+      "title": "Apps",
+      "titleRu": "Приложения",
+      "items": [
+        {
+          "keys": [
+            "SUPER + RETURN"
+          ],
+          "action": "Terminal"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + RETURN",
+            "SUPER SHIFT + B"
+          ],
+          "action": "Browser"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + F"
+          ],
+          "action": "File manager"
+        },
+        {
+          "keys": [
+            "SUPER ALT + RETURN"
+          ],
+          "action": "Tmux"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + RETURN"
+          ],
+          "action": "Herdr"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + B"
+          ],
+          "action": "Browser (private)"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + F"
+          ],
+          "action": "File manager (cwd)"
+        },
+        {
+          "keys": [
+            "SUPER ALT + K"
+          ],
+          "action": "Tmux keybindings"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + K"
+          ],
+          "action": "Herdr keybindings"
+        }
+      ]
+    },
+    {
+      "title": "System and Appearance",
+      "titleRu": "Система и оформление",
+      "items": [
+        {
+          "keys": [
+            "SUPER SHIFT CTRL + SPACE"
+          ],
+          "action": "Theme menu"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + L"
+          ],
+          "action": "Lock system"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + N"
+          ],
+          "action": "Toggle nightlight"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + I"
+          ],
+          "action": "Toggle locking on idle"
+        }
+      ]
+    },
+    {
+      "title": "Windows and Workspaces",
+      "titleRu": "Окна и воркспейсы",
+      "items": [
+        {
+          "keys": [
+            "SUPER + W"
+          ],
+          "action": "Close window"
+        },
+        {
+          "keys": [
+            "CTRL ALT + DELETE"
+          ],
+          "action": "Close all windows"
+        },
+        {
+          "keys": [
+            "SUPER + T"
+          ],
+          "action": "Toggle window floating/tiling"
+        },
+        {
+          "keys": [
+            "SUPER + J"
+          ],
+          "action": "Toggle window split"
+        },
+        {
+          "keys": [
+            "SUPER + O"
+          ],
+          "action": "Pop window out (float & pin)"
+        },
+        {
+          "keys": [
+            "SUPER + 0"
+          ],
+          "action": "Switch to workspace 10"
+        },
+        {
+          "keys": [
+            "SUPER + 1"
+          ],
+          "action": "Switch to workspace 1"
+        },
+        {
+          "keys": [
+            "SUPER + 2"
+          ],
+          "action": "Switch to workspace 2"
+        },
+        {
+          "keys": [
+            "SUPER + 3"
+          ],
+          "action": "Switch to workspace 3"
+        },
+        {
+          "keys": [
+            "SUPER + 4"
+          ],
+          "action": "Switch to workspace 4"
+        },
+        {
+          "keys": [
+            "SUPER + 5"
+          ],
+          "action": "Switch to workspace 5"
+        },
+        {
+          "keys": [
+            "SUPER + 6"
+          ],
+          "action": "Switch to workspace 6"
+        },
+        {
+          "keys": [
+            "SUPER + 7"
+          ],
+          "action": "Switch to workspace 7"
+        },
+        {
+          "keys": [
+            "SUPER + 8"
+          ],
+          "action": "Switch to workspace 8"
+        },
+        {
+          "keys": [
+            "SUPER + 9"
+          ],
+          "action": "Switch to workspace 9"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + TAB"
+          ],
+          "action": "Former workspace"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + TAB"
+          ],
+          "action": "Previous workspace"
+        },
+        {
+          "keys": [
+            "SUPER + TAB"
+          ],
+          "action": "Next workspace"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 0"
+          ],
+          "action": "Move window to workspace 10"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 1"
+          ],
+          "action": "Move window to workspace 1"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 2"
+          ],
+          "action": "Move window to workspace 2"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 3"
+          ],
+          "action": "Move window to workspace 3"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 4"
+          ],
+          "action": "Move window to workspace 4"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 5"
+          ],
+          "action": "Move window to workspace 5"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 6"
+          ],
+          "action": "Move window to workspace 6"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 7"
+          ],
+          "action": "Move window to workspace 7"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 8"
+          ],
+          "action": "Move window to workspace 8"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + 9"
+          ],
+          "action": "Move window to workspace 9"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 0"
+          ],
+          "action": "Move window silently to workspace 10"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 1"
+          ],
+          "action": "Move window silently to workspace 1"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 2"
+          ],
+          "action": "Move window silently to workspace 2"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 3"
+          ],
+          "action": "Move window silently to workspace 3"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 4"
+          ],
+          "action": "Move window silently to workspace 4"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 5"
+          ],
+          "action": "Move window silently to workspace 5"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 6"
+          ],
+          "action": "Move window silently to workspace 6"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 7"
+          ],
+          "action": "Move window silently to workspace 7"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 8"
+          ],
+          "action": "Move window silently to workspace 8"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + 9"
+          ],
+          "action": "Move window silently to workspace 9"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + DOWN"
+          ],
+          "action": "Swap window down"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + LEFT"
+          ],
+          "action": "Swap window to the left"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + RIGHT"
+          ],
+          "action": "Swap window to the right"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + UP"
+          ],
+          "action": "Swap window up"
+        },
+        {
+          "keys": [
+            "ALT + TAB"
+          ],
+          "action": "Focus on next window"
+        },
+        {
+          "keys": [
+            "CTRL ALT + TAB"
+          ],
+          "action": "Focus on next monitor"
+        },
+        {
+          "keys": [
+            "SHIFT ALT + TAB"
+          ],
+          "action": "Focus on previous window"
+        },
+        {
+          "keys": [
+            "SHIFT CTRL ALT + TAB"
+          ],
+          "action": "Focus on previous monitor"
+        },
+        {
+          "keys": [
+            "SUPER + DOWN"
+          ],
+          "action": "Focus on below window"
+        },
+        {
+          "keys": [
+            "SUPER + LEFT"
+          ],
+          "action": "Focus on left window"
+        },
+        {
+          "keys": [
+            "SUPER + RIGHT"
+          ],
+          "action": "Focus on right window"
+        },
+        {
+          "keys": [
+            "SUPER + UP"
+          ],
+          "action": "Focus on above window"
+        },
+        {
+          "keys": [
+            "SUPER + LEFT MOUSE BUTTON"
+          ],
+          "action": "Move window"
+        },
+        {
+          "keys": [
+            "SUPER + RIGHT MOUSE BUTTON"
+          ],
+          "action": "Resize window"
+        },
+        {
+          "keys": [
+            "SUPER ALT + MINUS"
+          ],
+          "action": "Expand window left a little"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + MINUS"
+          ],
+          "action": "Expand window left a lot"
+        },
+        {
+          "keys": [
+            "SUPER + MINUS"
+          ],
+          "action": "Expand window left"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + EQUAL"
+          ],
+          "action": "Expand window down a little"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT CTRL + EQUAL"
+          ],
+          "action": "Expand window down a lot"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + EQUAL"
+          ],
+          "action": "Expand window down"
+        },
+        {
+          "keys": [
+            "SUPER ALT + EQUAL"
+          ],
+          "action": "Shrink window left a little"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + EQUAL"
+          ],
+          "action": "Shrink window left a lot"
+        },
+        {
+          "keys": [
+            "SUPER + EQUAL"
+          ],
+          "action": "Shrink window left"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + MINUS"
+          ],
+          "action": "Shrink window up a little"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT CTRL + MINUS"
+          ],
+          "action": "Shrink window up a lot"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + MINUS"
+          ],
+          "action": "Shrink window up"
+        },
+        {
+          "keys": [
+            "SUPER ALT + S"
+          ],
+          "action": "Move window to scratchpad"
+        },
+        {
+          "keys": [
+            "SUPER + S"
+          ],
+          "action": "Toggle scratchpad"
+        },
+        {
+          "keys": [
+            "SUPER + BACKSPACE"
+          ],
+          "action": "Toggle window transparency"
+        },
+        {
+          "keys": [
+            "SUPER ALT + Home"
+          ],
+          "action": "Save window width"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + BACKSPACE"
+          ],
+          "action": "Toggle single-window square aspect"
+        },
+        {
+          "keys": [
+            "SUPER + Home"
+          ],
+          "action": "Restore window width"
+        },
+        {
+          "keys": [
+            "SUPER + L"
+          ],
+          "action": "Toggle workspace layout"
+        },
+        {
+          "keys": [
+            "SUPER + P"
+          ],
+          "action": "Pseudo window"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + DOWN"
+          ],
+          "action": "Move workspace to down monitor"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + LEFT"
+          ],
+          "action": "Move workspace to left monitor"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + RIGHT"
+          ],
+          "action": "Move workspace to right monitor"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + UP"
+          ],
+          "action": "Move workspace to up monitor"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + BACKSPACE"
+          ],
+          "action": "Toggle window gaps"
+        },
+        {
+          "keys": [
+            "SUPER ALT + 1"
+          ],
+          "action": "Switch to group window 1"
+        },
+        {
+          "keys": [
+            "SUPER ALT + 2"
+          ],
+          "action": "Switch to group window 2"
+        },
+        {
+          "keys": [
+            "SUPER ALT + 3"
+          ],
+          "action": "Switch to group window 3"
+        },
+        {
+          "keys": [
+            "SUPER ALT + 4"
+          ],
+          "action": "Switch to group window 4"
+        },
+        {
+          "keys": [
+            "SUPER ALT + 5"
+          ],
+          "action": "Switch to group window 5"
+        },
+        {
+          "keys": [
+            "SUPER ALT + DOWN"
+          ],
+          "action": "Move window to group on bottom"
+        },
+        {
+          "keys": [
+            "SUPER ALT + G"
+          ],
+          "action": "Move active window out of group"
+        },
+        {
+          "keys": [
+            "SUPER ALT + LEFT"
+          ],
+          "action": "Move window to group on left"
+        },
+        {
+          "keys": [
+            "SUPER ALT + mouse_down",
+            "SUPER ALT + TAB"
+          ],
+          "action": "Next window in group"
+        },
+        {
+          "keys": [
+            "SUPER ALT + mouse_up",
+            "SUPER SHIFT ALT + TAB"
+          ],
+          "action": "Previous window in group"
+        },
+        {
+          "keys": [
+            "SUPER ALT + RIGHT"
+          ],
+          "action": "Move window to group on right"
+        },
+        {
+          "keys": [
+            "SUPER ALT + UP"
+          ],
+          "action": "Move window to group on top"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + LEFT"
+          ],
+          "action": "Move grouped window focus left"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + RIGHT"
+          ],
+          "action": "Move grouped window focus right"
+        },
+        {
+          "keys": [
+            "SUPER + G"
+          ],
+          "action": "Toggle window grouping"
+        },
+        {
+          "keys": [
+            "SUPER + mouse_down"
+          ],
+          "action": "Scroll active workspace forward"
+        },
+        {
+          "keys": [
+            "SUPER + mouse_up"
+          ],
+          "action": "Scroll active workspace backward"
+        },
+        {
+          "keys": [
+            "ALT + TAB",
+            "SHIFT ALT + TAB"
+          ],
+          "action": "Reveal active window on top"
+        }
+      ]
+    },
+    {
+      "title": "Input and Clipboard",
+      "titleRu": "Ввод и буфер",
+      "items": [
+        {
+          "keys": [
+            "SUPER CTRL + V"
+          ],
+          "action": "Clipboard manager"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + E"
+          ],
+          "action": "Emojis"
+        },
+        {
+          "keys": [
+            "SUPER + PRINT"
+          ],
+          "action": "Color picker"
+        },
+        {
+          "keys": [
+            "F9"
+          ],
+          "action": "Start dictation (push-to-talk)"
+        },
+        {
+          "keys": [
+            "F9"
+          ],
+          "action": "Stop dictation (push-to-talk)"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + X"
+          ],
+          "action": "Toggle dictation"
+        }
+      ]
+    },
+    {
+      "title": "Screenshots and Recording",
+      "titleRu": "Скриншоты и запись",
+      "items": [
+        {
+          "keys": [
+            "PRINT"
+          ],
+          "action": "Screenshot"
+        },
+        {
+          "keys": [
+            "ALT + PRINT"
+          ],
+          "action": "Screenrecording"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + PRINT"
+          ],
+          "action": "Extract text (OCR) from screenshot"
+        }
+      ]
+    },
+    {
+      "title": "Notifications",
+      "titleRu": "Уведомления",
+      "items": [
+        {
+          "keys": [
+            "SUPER ALT + COMMA"
+          ],
+          "action": "Invoke last notification"
+        },
+        {
+          "keys": [
+            "SUPER + COMMA"
+          ],
+          "action": "Dismiss last notification"
+        },
+        {
+          "keys": [
+            "SUPER CTRL + COMMA"
+          ],
+          "action": "Toggle silencing notifications"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT ALT + COMMA"
+          ],
+          "action": "Open notification history"
+        },
+        {
+          "keys": [
+            "SUPER SHIFT + COMMA"
+          ],
+          "action": "Dismiss all notifications"
+        }
+      ]
+    }
+  ]
+}

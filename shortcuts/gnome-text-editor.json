@@ -1,0 +1,144 @@
+{
+  "appId": "gnome-text-editor",
+  "displayName": "Text Editor",
+  "displayNameRu": "Текстовый редактор",
+  "source": "https://help.gnome.org/users/gnome-text-editor/stable/ (справка GNOME Text Editor)",
+  "note": "GNOME Text Editor; few documented hotkeys",
+  "noteRu": "GNOME Text Editor; задокументированных хоткеев немного",
+  "groups": [
+    {
+      "title": "File",
+      "titleRu": "Файл",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New window",
+          "actionRu": "Новое окно"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open file",
+          "actionRu": "Открыть файл"
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Save",
+          "actionRu": "Сохранить"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "action": "Save as",
+          "actionRu": "Сохранить как"
+        },
+        {
+          "keys": [
+            "Ctrl+P"
+          ],
+          "action": "Print",
+          "actionRu": "Печать"
+        },
+        {
+          "keys": [
+            "Ctrl+W"
+          ],
+          "action": "Close tab",
+          "actionRu": "Закрыть вкладку"
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit",
+          "actionRu": "Выйти"
+        }
+      ]
+    },
+    {
+      "title": "Edit and Search",
+      "titleRu": "Правка и поиск",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Z",
+            "Ctrl+Shift+Z"
+          ],
+          "action": "Undo / redo",
+          "actionRu": "Отменить / вернуть"
+        },
+        {
+          "keys": [
+            "Ctrl+X",
+            "Ctrl+C",
+            "Ctrl+V"
+          ],
+          "action": "Cut / copy / paste",
+          "actionRu": "Вырезать / копировать / вставить"
+        },
+        {
+          "keys": [
+            "Ctrl+A"
+          ],
+          "action": "Select all",
+          "actionRu": "Выделить всё"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Find",
+          "actionRu": "Найти"
+        },
+        {
+          "keys": [
+            "Ctrl+G",
+            "Ctrl+Shift+G"
+          ],
+          "action": "Next / previous match",
+          "actionRu": "Следующее / предыдущее совпадение"
+        },
+        {
+          "keys": [
+            "Ctrl+H"
+          ],
+          "action": "Replace",
+          "actionRu": "Заменить"
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "titleRu": "Вид",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+,"
+          ],
+          "action": "Preferences",
+          "actionRu": "Параметры"
+        },
+        {
+          "keys": [
+            "F10"
+          ],
+          "action": "Main menu",
+          "actionRu": "Главное меню"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Fullscreen mode",
+          "actionRu": "Полноэкранный режим"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "appId": "skype",
+  "displayName": "Skype",
+  "source": "https://support.skype.com (раздел hotkeys десктоп-приложения)",
+  "groups": [
+    {
+      "title": "Calls",
+      "titleRu": "Звонки",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+P"
+          ],
+          "action": "Answer call",
+          "actionRu": "Ответить на звонок"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+H"
+          ],
+          "action": "End / decline call",
+          "actionRu": "Завершить / отклонить звонок"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+M"
+          ],
+          "action": "Mute / unmute microphone",
+          "actionRu": "Вкл/выкл микрофон"
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Snapshot during video call",
+          "actionRu": "Снимок во время видеозвонка"
+        }
+      ]
+    },
+    {
+      "title": "Chats",
+      "titleRu": "Чаты",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New chat",
+          "actionRu": "Новый чат"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Search contacts and chats",
+          "actionRu": "Поиск по контактам и чатам"
+        },
+        {
+          "keys": [
+            "Enter"
+          ],
+          "action": "Send message",
+          "actionRu": "Отправить сообщение"
+        },
+        {
+          "keys": [
+            "Shift+Enter"
+          ],
+          "action": "New line",
+          "actionRu": "Новая строка"
+        }
+      ]
+    },
+    {
+      "title": "App",
+      "titleRu": "Приложение",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+,"
+          ],
+          "action": "Open settings",
+          "actionRu": "Открыть настройки"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+T"
+          ],
+          "action": "Open gallery",
+          "actionRu": "Открыть галерею"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "action": "Split window mode",
+          "actionRu": "Режим разделённого окна"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "appId": "telegram",
+  "displayName": "Telegram",
+  "source": "https://desktop.telegram.org (дефолтные хоткеи десктоп-клиента; полный список — в настройках приложения)",
+  "note": "See the full list in the desktop client settings", "noteRu": "Полный список смотрите в настройках десктоп-клиента",
+  "groups": [
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Ctrl+Tab", "Ctrl+Shift+Tab"], "action": "Next / previous chat", "actionRu": "Следующий / предыдущий чат" },
+        { "keys": ["Ctrl+F"], "action": "Search within chat", "actionRu": "Поиск внутри чата" },
+        { "keys": ["Esc"], "action": "Back / close", "actionRu": "Назад / закрыть" }
+      ]
+    },
+    {
+      "title": "Messages", "titleRu": "Сообщения",
+      "items": [
+        { "keys": ["Enter", "Ctrl+Enter"], "action": "Send message", "actionRu": "Отправить сообщение" },
+        { "keys": ["Shift+Enter"], "action": "New line", "actionRu": "Новая строка" },
+        { "keys": ["ArrowUp"], "action": "Edit last message", "actionRu": "Редактировать последнее сообщение" }
+      ]
+    },
+    {
+      "title": "Formatting (selected text)", "titleRu": "Форматирование (выделенный текст)",
+      "items": [
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
+        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый" },
+        { "keys": ["Ctrl+K"], "action": "Create link", "actionRu": "Создать ссылку" }
+      ]
+    }
+  ]
+}

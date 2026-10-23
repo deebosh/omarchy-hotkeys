@@ -1,0 +1,57 @@
+{
+  "appId": "libreoffice-calc",
+  "displayName": "LibreOffice Calc",
+  "source": "https://help.libreoffice.org/latest/en-US/text/scalc/04/01010000.html (Shortcut Keys for Spreadsheets)",
+  "groups": [
+    {
+      "title": "File and edit", "titleRu": "Файл и правка",
+      "items": [
+        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
+        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+Y"], "action": "Redo", "actionRu": "Вернуть" },
+        { "keys": ["Ctrl+X", "Ctrl+C", "Ctrl+V"], "action": "Cut / copy / paste", "actionRu": "Вырезать / копировать / вставить" },
+        { "keys": ["Ctrl+D"], "action": "Fill down", "actionRu": "Заполнить вниз" },
+        { "keys": ["Ctrl+R"], "action": "Fill right", "actionRu": "Заполнить вправо" },
+        { "keys": ["Ctrl+F"], "action": "Find and replace", "actionRu": "Найти и заменить" }
+      ]
+    },
+    {
+      "title": "Cells", "titleRu": "Ячейки",
+      "items": [
+        { "keys": ["F2"], "action": "Edit cell contents", "actionRu": "Редактировать ячейку" },
+        { "keys": ["Ctrl+;"], "action": "Insert current date", "actionRu": "Вставить текущую дату" },
+        { "keys": ["Ctrl+Shift+;"], "action": "Insert current time", "actionRu": "Вставить текущее время" },
+        { "keys": ["Ctrl+`"], "action": "Show formulas instead of values", "actionRu": "Показать формулы вместо значений" },
+        { "keys": ["Ctrl+F2"], "action": "Open Function Wizard", "actionRu": "Мастер функций" },
+        { "keys": ["Delete"], "action": "Delete cell contents", "actionRu": "Очистить содержимое ячеек" }
+      ]
+    },
+    {
+      "title": "Selection", "titleRu": "Выделение",
+      "items": [
+        { "keys": ["Ctrl+Space"], "action": "Select current column", "actionRu": "Выделить столбец" },
+        { "keys": ["Shift+Space"], "action": "Select current row", "actionRu": "Выделить строку" },
+        { "keys": ["Ctrl+A"], "action": "Select all", "actionRu": "Выделить всё" },
+        { "keys": ["Ctrl+Home"], "action": "First cell in sheet (A1)", "actionRu": "К началу листа (A1)" },
+        { "keys": ["Ctrl+End"], "action": "Last cell with data", "actionRu": "К последней заполненной ячейке" }
+      ]
+    },
+    {
+      "title": "Sheets", "titleRu": "Листы",
+      "items": [
+        { "keys": ["Shift+F11"], "action": "New sheet", "actionRu": "Новый лист" },
+        { "keys": ["Ctrl+PageDown", "Ctrl+PageUp"], "action": "Next / previous sheet", "actionRu": "Следующий / предыдущий лист" }
+      ]
+    },
+    {
+      "title": "Data and view", "titleRu": "Данные и вид",
+      "items": [
+        { "keys": ["F12"], "action": "Group selected data range", "actionRu": "Группировать диапазон" },
+        { "keys": ["Ctrl+F12"], "action": "Ungroup selected data range", "actionRu": "Разгруппировать диапазон" },
+        { "keys": ["F5"], "action": "Show / hide Navigator", "actionRu": "Навигатор" },
+        { "keys": ["Ctrl+Shift+F5"], "action": "Go to Name Box", "actionRu": "Перейти на страницу / к диапазону" },
+        { "keys": ["F7"], "action": "Check spelling in current sheet", "actionRu": "Проверка орфографии" }
+      ]
+    }
+  ]
+}

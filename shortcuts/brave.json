@@ -1,0 +1,65 @@
+{
+  "appId": "brave",
+  "displayName": "Brave",
+  "source": "https://support.brave.com (Brave построен на Chromium и наследует хоткеи Chrome)",
+  "note": "Brave inherits Chromium shortcuts; the core set is below",
+  "noteRu": "Brave наследует хоткеи Chromium; ниже — основной набор",
+  "groups": [
+    {
+      "title": "Tabs and windows",
+      "titleRu": "Вкладки и окна",
+      "items": [
+        { "keys": ["Ctrl+T"], "action": "Open a new tab, and jump to it", "actionRu": "Новая вкладка" },
+        { "keys": ["Ctrl+N"], "action": "Open a new window", "actionRu": "Новое окно" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Open a new window in Private mode", "actionRu": "Новое приватное окно" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Reopen the last closed tab, and jump to it", "actionRu": "Восстановить закрытые вкладки" },
+        { "keys": ["Ctrl+Tab", "Ctrl+PageDown"], "action": "Jump to the next open tab", "actionRu": "Следующая вкладка" },
+        { "keys": ["Ctrl+Shift+Tab", "Ctrl+PageUp"], "action": "Jump to the previous open tab", "actionRu": "Предыдущая вкладка" },
+        { "keys": ["Ctrl+1 … Ctrl+8"], "action": "Jump to a specific tab", "actionRu": "Перейти на вкладку 1–8" },
+        { "keys": ["Ctrl+9"], "action": "Jump to the last tab", "actionRu": "Перейти на последнюю вкладку" },
+        { "keys": ["Ctrl+W", "Ctrl+F4"], "action": "Close the current tab", "actionRu": "Закрыть текущую вкладку" },
+        { "keys": ["Ctrl+Shift+W", "Alt+F4"], "action": "Close the current window", "actionRu": "Закрыть текущее окно" },
+        { "keys": ["F11"], "action": "Turn full-screen mode on or off", "actionRu": "Полноэкранный режим" }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Open the previous / next page from your browsing history in the current tab", "actionRu": "Назад / вперёд по истории" },
+        { "keys": ["Alt+Home"], "action": "Open your home page in the current tab", "actionRu": "Открыть домашнюю страницу" },
+        { "keys": ["Ctrl+L", "Alt+D", "F6"], "action": "Jump to the address bar", "actionRu": "Перейти в адресную строку" },
+        { "keys": ["Ctrl+K", "Ctrl+E"], "action": "Search from anywhere on page", "actionRu": "Поиск с любого места страницы" }
+      ]
+    },
+    {
+      "title": "Browser features",
+      "titleRu": "Функции браузера",
+      "items": [
+        { "keys": ["Ctrl+H"], "action": "Open the History page in a new tab", "actionRu": "История в новой вкладке" },
+        { "keys": ["Ctrl+J"], "action": "Open the Downloads page in a new tab", "actionRu": "Загрузки в новой вкладке" },
+        { "keys": ["Ctrl+Shift+B"], "action": "Show or hide the Bookmarks bar", "actionRu": "Показать / скрыть панель закладок" },
+        { "keys": ["Ctrl+Shift+O"], "action": "Open the Bookmarks Manager", "actionRu": "Диспетчер закладок" },
+        { "keys": ["Ctrl+D"], "action": "Save your current webpage as a bookmark", "actionRu": "Добавить страницу в закладки" },
+        { "keys": ["Ctrl+F", "F3"], "action": "Open the Find Bar to search the current page", "actionRu": "Найти на странице" },
+        { "keys": ["Ctrl+G"], "action": "Jump to the next match to your Find Bar search", "actionRu": "Следующее совпадение" },
+        { "keys": ["Ctrl+Shift+G"], "action": "Jump to the previous match to your Find Bar search", "actionRu": "Предыдущее совпадение" },
+        { "keys": ["Ctrl+Shift+Delete"], "action": "Open the Clear Browsing Data options", "actionRu": "Очистить данные просмотров" },
+        { "keys": ["Ctrl+Shift+J", "F12"], "action": "Open Developer Tools", "actionRu": "Инструменты разработчика" }
+      ]
+    },
+    {
+      "title": "Page",
+      "titleRu": "Страница",
+      "items": [
+        { "keys": ["Ctrl+R", "F5"], "action": "Reload the current page", "actionRu": "Обновить страницу" },
+        { "keys": ["Ctrl+Shift+R", "Shift+F5"], "action": "Reload the current page, ignoring cached content", "actionRu": "Обновить без кеша" },
+        { "keys": ["Esc"], "action": "Stop the page loading", "actionRu": "Остановить загрузку" },
+        { "keys": ["Ctrl+P"], "action": "Open options to print the current page", "actionRu": "Печать" },
+        { "keys": ["Ctrl+S"], "action": "Open options to save the current page", "actionRu": "Сохранить страницу" },
+        { "keys": ["Ctrl+U"], "action": "Display non-editable HTML source code for the current page", "actionRu": "Исходный код страницы" },
+        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Make everything on the page bigger / Make everything on the page smaller / Return everything on the page to default size", "actionRu": "Масштаб: больше / меньше / сброс" }
+      ]
+    }
+  ]
+}

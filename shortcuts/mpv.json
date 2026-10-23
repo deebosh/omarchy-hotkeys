@@ -1,0 +1,294 @@
+{
+  "appId": "mpv",
+  "displayName": "mpv",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Pause / unpause",
+          "actionRu": "Пауза / продолжить",
+          "keys": [
+            "Space",
+            "p"
+          ]
+        },
+        {
+          "action": "Step forward / backward",
+          "actionRu": "Покадрово вперёд / назад",
+          "keys": [
+            ".",
+            ","
+          ]
+        },
+        {
+          "action": "Stop and quit",
+          "actionRu": "Стоп и выйти",
+          "keys": [
+            "q"
+          ]
+        },
+        {
+          "action": "Quit and save position",
+          "actionRu": "Выйти с запоминанием позиции",
+          "keys": [
+            "Q"
+          ]
+        },
+        {
+          "action": "Increase / decrease playback speed by 10%",
+          "actionRu": "Скорость +10% / −10%",
+          "keys": [
+            "]",
+            "["
+          ]
+        },
+        {
+          "action": "Double / halve playback speed",
+          "actionRu": "Скорость x2 / x0.5",
+          "keys": [
+            "}",
+            "{"
+          ]
+        },
+        {
+          "action": "Reset playback speed",
+          "actionRu": "Сбросить скорость",
+          "keys": [
+            "Backspace"
+          ]
+        }
+      ],
+      "title": "Playback",
+      "titleRu": "Воспроизведение"
+    },
+    {
+      "items": [
+        {
+          "action": "Seek backward / forward 5 seconds",
+          "actionRu": "Назад / вперёд 5 секунд",
+          "keys": [
+            "Left",
+            "Right"
+          ]
+        },
+        {
+          "action": "Seek backward / forward 1 minute",
+          "actionRu": "Назад / вперёд 1 минута",
+          "keys": [
+            "Down",
+            "Up"
+          ]
+        },
+        {
+          "action": "Seek backward / forward 10 minutes",
+          "actionRu": "Назад / вперёд 10 минут",
+          "keys": [
+            "Shift+PgUp",
+            "Shift+PgDwn"
+          ]
+        },
+        {
+          "action": "Seek to beginning of file",
+          "actionRu": "В начало файла",
+          "keys": [
+            "Home"
+          ]
+        },
+        {
+          "action": "Beginning of previous / next chapter",
+          "actionRu": "Предыдущая / следующая глава",
+          "keys": [
+            "PgUp",
+            "PgDwn"
+          ]
+        },
+        {
+          "action": "Go backward / forward in playlist",
+          "actionRu": "Предыдущий / следующий файл плейлиста",
+          "keys": [
+            "<",
+            ">"
+          ]
+        },
+        {
+          "action": "Undo last seek",
+          "actionRu": "Вернуть последний поиск",
+          "keys": [
+            "Shift+Backspace"
+          ]
+        }
+      ],
+      "title": "Navigation",
+      "titleRu": "Навигация"
+    },
+    {
+      "items": [
+        {
+          "action": "Decrease / increase volume",
+          "actionRu": "Громче / тише",
+          "keys": [
+            "*",
+            "/",
+            "9",
+            "0"
+          ]
+        },
+        {
+          "action": "Mute sound",
+          "actionRu": "Без звука",
+          "keys": [
+            "m"
+          ]
+        },
+        {
+          "action": "Adjust audio delay ±0.1 s",
+          "actionRu": "Задержка звука ±0.1 с",
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-"
+          ]
+        }
+      ],
+      "title": "Volume and audio",
+      "titleRu": "Громкость и звук"
+    },
+    {
+      "items": [
+        {
+          "action": "Toggle subtitle visibility",
+          "actionRu": "Показать / скрыть субтитры",
+          "keys": [
+            "v"
+          ]
+        },
+        {
+          "action": "Cycle through available subtitles",
+          "actionRu": "Следующие субтитры",
+          "keys": [
+            "j",
+            "J"
+          ]
+        },
+        {
+          "action": "Adjust subtitle delay ±0.1 s",
+          "actionRu": "Задержка субтитров ±0.1 с",
+          "keys": [
+            "z",
+            "Z"
+          ]
+        },
+        {
+          "action": "Adjust subtitle font size",
+          "actionRu": "Размер шрифта субтитров",
+          "keys": [
+            "G",
+            "F"
+          ]
+        },
+        {
+          "action": "Move subtitles up / down",
+          "actionRu": "Субтитры выше / ниже",
+          "keys": [
+            "R",
+            "r"
+          ]
+        },
+        {
+          "action": "Cycle through audio tracks",
+          "actionRu": "Следующая аудиодорожка",
+          "keys": [
+            "#"
+          ]
+        }
+      ],
+      "title": "Subtitles",
+      "titleRu": "Субтитры"
+    },
+    {
+      "items": [
+        {
+          "action": "Toggle fullscreen",
+          "actionRu": "Полноэкранный режим",
+          "keys": [
+            "f"
+          ]
+        },
+        {
+          "action": "Exit fullscreen mode",
+          "actionRu": "Выйти из полноэкранного",
+          "keys": [
+            "Esc"
+          ]
+        },
+        {
+          "action": "Toggle stay-on-top",
+          "actionRu": "Поверх всех окон",
+          "keys": [
+            "T"
+          ]
+        },
+        {
+          "action": "Take a screenshot (with / without subtitles)",
+          "actionRu": "Снимок с субтитрами / без",
+          "keys": [
+            "s",
+            "S"
+          ]
+        },
+        {
+          "action": "Show statistics overlay",
+          "actionRu": "Статистика",
+          "keys": [
+            "i",
+            "I"
+          ]
+        },
+        {
+          "action": "Show active key bindings",
+          "actionRu": "Список биндингов",
+          "keys": [
+            "?"
+          ]
+        },
+        {
+          "action": "Show the console",
+          "actionRu": "Консоль",
+          "keys": [
+            "`"
+          ]
+        },
+        {
+          "action": "Cycle deinterlacing filter",
+          "actionRu": "Деинтерлейсинг",
+          "keys": [
+            "d"
+          ]
+        },
+        {
+          "action": "Cycle aspect ratio",
+          "actionRu": "Соотношение сторон",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "action": "Toggle infinite looping",
+          "actionRu": "Бесконечный повтор",
+          "keys": [
+            "L"
+          ]
+        },
+        {
+          "action": "Set / clear A-B loop points",
+          "actionRu": "Точки A-B повтора",
+          "keys": [
+            "l"
+          ]
+        }
+      ],
+      "title": "Video and screen",
+      "titleRu": "Видео и экран"
+    }
+  ],
+  "source": "https://mpv.io/manual"
+}

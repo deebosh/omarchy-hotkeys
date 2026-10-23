@@ -1,0 +1,83 @@
+{
+  "appId": "zen",
+  "displayName": "Zen Browser",
+  "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly",
+  "note": "Zen построен на Firefox и наследует его хоткеи",
+  "groups": [
+    {
+      "title": "Вкладки",
+      "items": [
+        { "keys": ["Ctrl+T"], "action": "Новая вкладка" },
+        { "keys": ["Ctrl+W", "Ctrl+F4"], "action": "Закрыть вкладку" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Восстановить закрытую вкладку" },
+        { "keys": ["Ctrl+Tab", "Ctrl+PageDown"], "action": "Следующая вкладка" },
+        { "keys": ["Ctrl+Shift+Tab", "Ctrl+PageUp"], "action": "Предыдущая вкладка" },
+        { "keys": ["Ctrl+1 … Ctrl+8"], "action": "Перейти на вкладку 1–8" },
+        { "keys": ["Ctrl+9"], "action": "Перейти на последнюю вкладку" },
+        { "keys": ["Alt+1 … Alt+9"], "action": "Перейти на вкладку 1–9 (альтернатива)" },
+        { "keys": ["Ctrl+Shift+PageUp"], "action": "Переместить вкладку влево" },
+        { "keys": ["Ctrl+Shift+PageDown"], "action": "Переместить вкладку вправо" },
+        { "keys": ["Ctrl+Shift+O"], "action": "Группировка вкладок / обзор" }
+      ]
+    },
+    {
+      "title": "Навигация",
+      "items": [
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Назад / вперёд" },
+        { "keys": ["F5", "Ctrl+R"], "action": "Обновить страницу" },
+        { "keys": ["Ctrl+Shift+R", "Ctrl+F5"], "action": "Обновить без кеша" },
+        { "keys": ["Esc"], "action": "Остановить загрузку" },
+        { "keys": ["Alt+Home"], "action": "Домашняя страница" },
+        { "keys": ["Ctrl+L", "Alt+D", "F6"], "action": "Фокус в адресную строку" },
+        { "keys": ["Ctrl+K", "Ctrl+E"], "action": "Фокус в строку поиска" }
+      ]
+    },
+    {
+      "title": "Поиск",
+      "items": [
+        { "keys": ["Ctrl+F", "F3"], "action": "Найти на странице" },
+        { "keys": ["Ctrl+G", "F3"], "action": "Следующее совпадение" },
+        { "keys": ["Ctrl+Shift+G", "Shift+F3"], "action": "Предыдущее совпадение" },
+        { "keys": ["'"], "action": "Быстрый поиск (только ссылки)" },
+        { "keys": ["/"], "action": "Быстрый поиск (весь текст)" },
+        { "keys": ["Ctrl+K"], "action": "Поиск в адресной строке" }
+      ]
+    },
+    {
+      "title": "История и закладки",
+      "items": [
+        { "keys": ["Ctrl+H"], "action": "Боковая панель истории" },
+        { "keys": ["Ctrl+Shift+H"], "action": "Окно библиотеки (история)" },
+        { "keys": ["Ctrl+J"], "action": "Загрузки" },
+        { "keys": ["Ctrl+B"], "action": "Боковая панель закладок" },
+        { "keys": ["Ctrl+Shift+O"], "action": "Окно библиотеки (закладки)" },
+        { "keys": ["Ctrl+D"], "action": "Добавить страницу в закладки" },
+        { "keys": ["Ctrl+Shift+D"], "action": "Добавить все вкладки в закладки" }
+      ]
+    },
+    {
+      "title": "Окно и вид",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "Новое окно" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Новое приватное окно" },
+        { "keys": ["Ctrl+Shift+W", "Alt+F4"], "action": "Закрыть окно" },
+        { "keys": ["F11"], "action": "Полноэкранный режим" },
+        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Масштаб: больше / меньше / сброс" },
+        { "keys": ["Ctrl+Shift+M"], "action": "Адаптивный дизайн (мобильный вид)" }
+      ]
+    },
+    {
+      "title": "Страница",
+      "items": [
+        { "keys": ["Ctrl+S"], "action": "Сохранить страницу" },
+        { "keys": ["Ctrl+P"], "action": "Печать" },
+        { "keys": ["Ctrl+U"], "action": "Исходный код страницы" },
+        { "keys": ["Ctrl+I"], "action": "Информация о странице" },
+        { "keys": ["F7"], "action": "Каретный просмотр (навигация курсором)" },
+        { "keys": ["F12", "Ctrl+Shift+I"], "action": "Инструменты разработчика" },
+        { "keys": ["Ctrl+Shift+C"], "action": "Инспектор элементов" },
+        { "keys": ["Ctrl+Shift+K"], "action": "Консоль" }
+      ]
+    }
+  ]
+}

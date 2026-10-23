@@ -1,0 +1,72 @@
+{
+  "appId": "chromium",
+  "displayName": "Chromium",
+  "source": "https://support.google.com/chrome/answer/157179",
+  "note": "Chromium uses the same shortcuts as Google Chrome",
+  "noteRu": "Chromium использует те же хоткеи, что и Google Chrome",
+  "groups": [
+    {
+      "title": "Tabs and windows",
+      "titleRu": "Вкладки и окна",
+      "items": [
+        { "keys": ["Ctrl+T"], "action": "Open a new tab, and jump to it", "actionRu": "Новая вкладка" },
+        { "keys": ["Ctrl+N"], "action": "Open a new window", "actionRu": "Новое окно" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Open a new window in Incognito mode", "actionRu": "Новое окно в режиме инкогнито" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Reopen previously closed tabs in the order they were closed", "actionRu": "Восстановить закрытые вкладки" },
+        { "keys": ["Ctrl+Tab", "Ctrl+PageDown"], "action": "Jump to the next open tab", "actionRu": "Следующая вкладка" },
+        { "keys": ["Ctrl+Shift+Tab", "Ctrl+PageUp"], "action": "Jump to the previous open tab", "actionRu": "Предыдущая вкладка" },
+        { "keys": ["Ctrl+1 … Ctrl+8"], "action": "Jump to a specific tab", "actionRu": "Перейти на вкладку 1–8" },
+        { "keys": ["Ctrl+9"], "action": "Jump to the rightmost tab", "actionRu": "Перейти на последнюю вкладку" },
+        { "keys": ["Ctrl+W", "Ctrl+F4"], "action": "Close the current tab", "actionRu": "Закрыть текущую вкладку" },
+        { "keys": ["Ctrl+Shift+W", "Alt+F4"], "action": "Close the current window", "actionRu": "Закрыть текущее окно" },
+        { "keys": ["Ctrl+Shift+PageUp", "Ctrl+Shift+PageDown"], "action": "Move tabs right or left", "actionRu": "Переместить вкладку влево / вправо" },
+        { "keys": ["F11"], "action": "Turn on full-screen mode", "actionRu": "Полноэкранный режим" }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Open the previous / next page from your browsing history in the current tab", "actionRu": "Назад / вперёд по истории" },
+        { "keys": ["Alt+Home"], "action": "Open your home page in the current tab", "actionRu": "Открыть домашнюю страницу" },
+        { "keys": ["Ctrl+L", "Alt+D", "F6"], "action": "Jump to the address bar", "actionRu": "Перейти в адресную строку" },
+        { "keys": ["Ctrl+K", "Ctrl+E"], "action": "Search from anywhere on page", "actionRu": "Поиск с любого места страницы" }
+      ]
+    },
+    {
+      "title": "Browser features",
+      "titleRu": "Функции браузера",
+      "items": [
+        { "keys": ["Ctrl+H"], "action": "Open the History page in a new tab", "actionRu": "История в новой вкладке" },
+        { "keys": ["Ctrl+J"], "action": "Open the Downloads page in a new tab", "actionRu": "Загрузки в новой вкладке" },
+        { "keys": ["Ctrl+Shift+B"], "action": "Show or hide the Bookmarks bar", "actionRu": "Показать / скрыть панель закладок" },
+        { "keys": ["Ctrl+Shift+O"], "action": "Open the Bookmarks Manager", "actionRu": "Диспетчер закладок" },
+        { "keys": ["Ctrl+D"], "action": "Save your current webpage as a bookmark", "actionRu": "Добавить страницу в закладки" },
+        { "keys": ["Ctrl+Shift+D"], "action": "Save all open tabs as bookmarks in a new folder", "actionRu": "Добавить все вкладки в закладки" },
+        { "keys": ["Ctrl+F", "F3"], "action": "Open the Find Bar to search the current page", "actionRu": "Найти на странице" },
+        { "keys": ["Ctrl+G"], "action": "Jump to the next match to your Find Bar search", "actionRu": "Следующее совпадение" },
+        { "keys": ["Ctrl+Shift+G"], "action": "Jump to the previous match to your Find Bar search", "actionRu": "Предыдущее совпадение" },
+        { "keys": ["Ctrl+Shift+Delete"], "action": "Open the Delete Browsing Data options", "actionRu": "Очистить данные просмотров" },
+        { "keys": ["Ctrl+Shift+J", "F12"], "action": "Open Developer Tools", "actionRu": "Инструменты разработчика" },
+        { "keys": ["F7"], "action": "Turn on caret browsing", "actionRu": "Каретный просмотр" }
+      ]
+    },
+    {
+      "title": "Page",
+      "titleRu": "Страница",
+      "items": [
+        { "keys": ["Ctrl+R", "F5"], "action": "Reload the current page", "actionRu": "Обновить страницу" },
+        { "keys": ["Ctrl+Shift+R", "Shift+F5"], "action": "Reload the current page, ignoring cached content", "actionRu": "Обновить без кеша" },
+        { "keys": ["Esc"], "action": "Stop the page loading", "actionRu": "Остановить загрузку" },
+        { "keys": ["Ctrl+P"], "action": "Open options to print the current page", "actionRu": "Печать" },
+        { "keys": ["Ctrl+S"], "action": "Open options to save the current page", "actionRu": "Сохранить страницу" },
+        { "keys": ["Ctrl+U"], "action": "Display non-editable HTML source code for the current page", "actionRu": "Исходный код страницы" },
+        { "keys": ["Ctrl+O"], "action": "Open a file from your computer in Chromium", "actionRu": "Открыть файл с компьютера" },
+        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Make everything on the page bigger / Make everything on the page smaller / Return everything on the page to default size", "actionRu": "Масштаб: больше / меньше / сброс" },
+        { "keys": ["Space", "PageDown"], "action": "Scroll down a webpage, a screen at a time", "actionRu": "Прокрутка вниз на экран" },
+        { "keys": ["Shift+Space", "PageUp"], "action": "Scroll up a webpage, a screen at a time", "actionRu": "Прокрутка вверх на экран" },
+        { "keys": ["Home", "End"], "action": "Go to the top of the page / Go to the bottom of the page", "actionRu": "В начало / в конец страницы" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "appId": "retroarch",
+  "displayName": "RetroArch",
+  "source": "https://docs.libretro.com/guides/input-and-controls",
+  "note": "Hotkeys are configured in Settings → Input → Hotkeys; defaults are listed below",
+  "noteRu": "Хоткеи настраиваются в Settings → Input → Hotkeys; ниже — дефолтные",
+  "groups": [
+    {
+      "title": "Game (hotkeys)",
+      "titleRu": "Игра (хоткеи)",
+      "items": [
+        {
+          "keys": [
+            "F1"
+          ],
+          "action": "Menu toggle",
+          "actionRu": "Меню (пауза)"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Exit RetroArch",
+          "actionRu": "Выйти из RetroArch"
+        },
+        {
+          "keys": [
+            "P"
+          ],
+          "action": "Pause",
+          "actionRu": "Пауза"
+        },
+        {
+          "keys": [
+            "Space"
+          ],
+          "action": "Fast-forward toggle",
+          "actionRu": "Перемотка вкл/выкл"
+        },
+        {
+          "keys": [
+            "L"
+          ],
+          "action": "Fast-forward hold",
+          "actionRu": "Перемотка (удерживать)"
+        },
+        {
+          "keys": [
+            "E"
+          ],
+          "action": "Slow motion",
+          "actionRu": "Замедление"
+        },
+        {
+          "keys": [
+            "R"
+          ],
+          "action": "Rewind",
+          "actionRu": "Откат (rewind)"
+        },
+        {
+          "keys": [
+            "H"
+          ],
+          "action": "Reset",
+          "actionRu": "Сброс игры"
+        },
+        {
+          "keys": [
+            "K"
+          ],
+          "action": "Frame advance",
+          "actionRu": "Кадр вперёд (при паузе)"
+        }
+      ]
+    },
+    {
+      "title": "Save states",
+      "titleRu": "Сохранения",
+      "items": [
+        {
+          "keys": [
+            "F2"
+          ],
+          "action": "Save state",
+          "actionRu": "Сохранить состояние"
+        },
+        {
+          "keys": [
+            "F4"
+          ],
+          "action": "Load state",
+          "actionRu": "Загрузить состояние"
+        },
+        {
+          "keys": [
+            "F6",
+            "F7"
+          ],
+          "action": "Decrease / increase state slot",
+          "actionRu": "Слот сохранения − / +"
+        },
+        {
+          "keys": [
+            "F8"
+          ],
+          "action": "Take screenshot",
+          "actionRu": "Скриншот"
+        }
+      ]
+    },
+    {
+      "title": "Video and audio",
+      "titleRu": "Видео и звук",
+      "items": [
+        {
+          "keys": [
+            "F"
+          ],
+          "action": "Fullscreen toggle",
+          "actionRu": "Полный экран"
+        },
+        {
+          "keys": [
+            "F3"
+          ],
+          "action": "Show FPS",
+          "actionRu": "Показать FPS"
+        },
+        {
+          "keys": [
+            "F9"
+          ],
+          "action": "Mute",
+          "actionRu": "Без звука"
+        },
+        {
+          "keys": [
+            "+"
+          ],
+          "action": "Volume Up",
+          "actionRu": "Громче"
+        },
+        {
+          "keys": [
+            "-"
+          ],
+          "action": "Volume Down",
+          "actionRu": "Тише"
+        },
+        {
+          "keys": [
+            "M",
+            "N"
+          ],
+          "action": "Next / previous shader",
+          "actionRu": "Следующий / предыдущий шейдер"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Grab mouse",
+          "actionRu": "Захватить мышь"
+        }
+      ]
+    },
+    {
+      "title": "Menu (player 1)",
+      "titleRu": "Меню (игрок 1)",
+      "items": [
+        {
+          "keys": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ],
+          "action": "Move cursor",
+          "actionRu": "Навигация"
+        },
+        {
+          "keys": [
+            "X"
+          ],
+          "action": "Select item",
+          "actionRu": "Выбрать"
+        },
+        {
+          "keys": [
+            "Z"
+          ],
+          "action": "Return to previous screen",
+          "actionRu": "Назад"
+        },
+        {
+          "keys": [
+            "Enter"
+          ],
+          "action": "Select item",
+          "actionRu": "Выбрать (старт)"
+        },
+        {
+          "keys": [
+            "Q",
+            "W"
+          ],
+          "action": "Scroll one page up / down",
+          "actionRu": "Страница вверх / вниз"
+        },
+        {
+          "keys": [
+            "A"
+          ],
+          "action": "Scan content / Remove highlighted input bind",
+          "actionRu": "Сканировать / снять биндинг"
+        },
+        {
+          "keys": [
+            "S"
+          ],
+          "action": "Search",
+          "actionRu": "Поиск"
+        },
+        {
+          "keys": [
+            "ScrollLock"
+          ],
+          "action": "Game Focus mode",
+          "actionRu": "Game Focus (отдать клавиатуру ядру)"
+        }
+      ]
+    }
+  ]
+}

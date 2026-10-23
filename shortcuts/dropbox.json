@@ -1,0 +1,29 @@
+{
+  "appId": "dropbox",
+  "displayName": "Dropbox",
+  "source": "https://help.dropbox.com (раздел keyboard shortcuts; ниже — Dropbox Paper)",
+  "note": "The desktop app and files site have no special hotkeys; below are the Dropbox Paper editor shortcuts",
+  "noteRu": "У десктоп-приложения и сайта файлов особых хоткеев нет; ниже — хоткеи редактора Dropbox Paper",
+  "groups": [
+    {
+      "title": "Dropbox Paper: formatting",
+      "titleRu": "Dropbox Paper: форматирование",
+      "items": [
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
+        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый" },
+        { "keys": ["Ctrl+K"], "action": "Link", "actionRu": "Ссылка" },
+        { "keys": ["Ctrl+Alt+1", "Ctrl+Alt+2", "Ctrl+Alt+3"], "action": "Heading H1 / H2 / H3", "actionRu": "Заголовок H1 / H2 / H3" }
+      ]
+    },
+    {
+      "title": "Dropbox Paper: lists and blocks",
+      "titleRu": "Dropbox Paper: списки и блоки",
+      "items": [
+        { "keys": ["Ctrl+Shift+8"], "action": "Bulleted list", "actionRu": "Маркированный список" },
+        { "keys": ["Ctrl+Shift+7"], "action": "Numbered list", "actionRu": "Нумерованный список" },
+        { "keys": ["Ctrl+Shift+9"], "action": "Task checklist", "actionRu": "Чеклист задач" }
+      ]
+    }
+  ]
+}

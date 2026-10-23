@@ -1,0 +1,98 @@
+{
+  "appId": "todoist",
+  "displayName": "Todoist",
+  "source": "https://todoist.com/help/articles/use-keyboard-shortcuts-in-todoist-Wyovn2",
+  "note": "Хоткеи для Windows (на Mac вместо Ctrl используется Cmd, вместо Alt — Option)",
+  "groups": [
+    {
+      "title": "General", "titleRu": "Общее",
+      "items": [
+        { "keys": ["Q"], "action": "Quick Add", "actionRu": "Быстрое добавление задачи" },
+        { "keys": ["Ctrl+K"], "action": "Open Quick Find", "actionRu": "Быстрый поиск" },
+        { "keys": ["/", "F"], "action": "Search", "actionRu": "Поиск" },
+        { "keys": ["M"], "action": "Open/close sidebar", "actionRu": "Показать / скрыть боковую панель" },
+        { "keys": ["?"], "action": "Show keyboard shortcuts", "actionRu": "Показать все горячие клавиши" },
+        { "keys": ["Esc"], "action": "Dismiss/Cancel", "actionRu": "Отмена / закрыть" },
+        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+P"], "action": "Print current view", "actionRu": "Печать текущего вида" },
+        { "keys": ["Ctrl+=", "Ctrl+-", "Ctrl+0"], "action": "Zoom in / Zoom out / Reset zoom level", "actionRu": "Масштаб: больше / меньше / сброс" }
+      ]
+    },
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["H", "G then H"], "action": "Go to home", "actionRu": "Домой" },
+        { "keys": ["G then I"], "action": "Go to Inbox", "actionRu": "Входящие" },
+        { "keys": ["G then T"], "action": "Go to Today", "actionRu": "Сегодня" },
+        { "keys": ["G then U"], "action": "Go to Upcoming", "actionRu": "Предстоящее" },
+        { "keys": ["G then P"], "action": "Go to projects", "actionRu": "Проекты" },
+        { "keys": ["G then L"], "action": "Go to labels", "actionRu": "Метки" },
+        { "keys": ["G then V"], "action": "Open Filters & Labels", "actionRu": "Фильтры и метки" },
+        { "keys": ["G then A"], "action": "Open Reporting", "actionRu": "Отчёты" },
+        { "keys": ["J", "K"], "action": "Move focus down / up", "actionRu": "Фокус вниз / вверх" },
+        { "keys": ["O then S"], "action": "Open settings", "actionRu": "Открыть настройки" },
+        { "keys": ["O then N"], "action": "Open notifications", "actionRu": "Открыть уведомления" },
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Go back to the previous view / Go forward to the most recent view", "actionRu": "Назад / вперёд по видам" }
+      ]
+    },
+    {
+      "title": "Global", "titleRu": "Глобальные (десктоп-приложение свёрнуто)",
+      "items": [
+        { "keys": ["Ctrl+Space"], "action": "Open Quick Add", "actionRu": "Быстрое добавление из любого места" },
+        { "keys": ["Alt+Space"], "action": "Quick Ramble", "actionRu": "Быстрая заметка (Ramble)" },
+        { "keys": ["Win+Alt+S"], "action": "Show or hide Todoist", "actionRu": "Показать / скрыть Todoist" }
+      ]
+    },
+    {
+      "title": "Create tasks", "titleRu": "Создание задач",
+      "items": [
+        { "keys": ["A"], "action": "Add new task to the bottom of list", "actionRu": "Новая задача в конец списка" },
+        { "keys": ["Shift+A"], "action": "Add new task to the top of list", "actionRu": "Новая задача в начало списка" },
+        { "keys": ["Enter"], "action": "Save a newly created task and create a new one below", "actionRu": "Сохранить и создать следующую ниже" },
+        { "keys": ["Ctrl+Enter"], "action": "Save a new task or save changes to an existing one and create a new task above", "actionRu": "Сохранить и создать новую выше" },
+        { "keys": ["Ctrl+N"], "action": "Open Task Quick Add", "actionRu": "Быстрое добавление задачи" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Create a new task at the top of the list", "actionRu": "Новая задача в начало списка (в проекте)" }
+      ]
+    },
+    {
+      "title": "Manage tasks", "titleRu": "Управление задачами (фокус на задаче)",
+      "items": [
+        { "keys": ["E"], "action": "Complete focused task", "actionRu": "Выполнить задачу" },
+        { "keys": ["Enter"], "action": "Open task view", "actionRu": "Открыть задачу" },
+        { "keys": ["Ctrl+E"], "action": "Edit task", "actionRu": "Редактировать задачу" },
+        { "keys": ["T"], "action": "Set date", "actionRu": "Установить дату" },
+        { "keys": ["Shift+T"], "action": "Remove date", "actionRu": "Убрать дату" },
+        { "keys": ["1", "2", "3", "4"], "action": "Set priority level", "actionRu": "Установить приоритет" },
+        { "keys": ["C"], "action": "Comment", "actionRu": "Комментарий" },
+        { "keys": ["L"], "action": "Add label", "actionRu": "Добавить метку" },
+        { "keys": ["V"], "action": "Move to …", "actionRu": "Переместить в…" },
+        { "keys": ["."], "action": "More task actions", "actionRu": "Прочие действия с задачей" },
+        { "keys": ["Shift+Delete"], "action": "Delete selected task(s)", "actionRu": "Удалить задачу" },
+        { "keys": ["Shift+Ctrl+C"], "action": "Copy link to task", "actionRu": "Скопировать ссылку на задачу" },
+        { "keys": ["Shift+G"], "action": "Open task in its project", "actionRu": "Открыть задачу в её проекте" }
+      ]
+    },
+    {
+      "title": "Sub-tasks and sorting", "titleRu": "Подзадачи и сортировка",
+      "items": [
+        { "keys": ["Ctrl+]", "Ctrl+["], "action": "Increase / decrease indent of focused task", "actionRu": "Увеличить / уменьшить отступ (подзадача)" },
+        { "keys": ["Shift+E"], "action": "See or hide sub-tasks", "actionRu": "Показать / скрыть подзадачи" },
+        { "keys": ["D"], "action": "Sort by date", "actionRu": "Сортировать по дате" },
+        { "keys": ["P"], "action": "Sort by priority", "actionRu": "Сортировать по приоритету" },
+        { "keys": ["N"], "action": "Sort by name", "actionRu": "Сортировать по имени" },
+        { "keys": ["R"], "action": "Sort by assignee", "actionRu": "Сортировать по исполнителю" }
+      ]
+    },
+    {
+      "title": "Project shortcuts", "titleRu": "Проекты",
+      "items": [
+        { "keys": ["Alt+P"], "action": "Create a new project", "actionRu": "Новый проект" },
+        { "keys": ["S"], "action": "Add section", "actionRu": "Добавить секцию" },
+        { "keys": ["Shift+S"], "action": "Share project", "actionRu": "Поделиться проектом" },
+        { "keys": ["Shift+V"], "action": "Change to list/board/calendar layout", "actionRu": "Сменить вид: список / доска / календарь" },
+        { "keys": ["W"], "action": "Open more project actions", "actionRu": "Прочие действия проекта" },
+        { "keys": ["I"], "action": "Open/close Insights", "actionRu": "Открыть / закрыть Insights" }
+      ]
+    }
+  ]
+}

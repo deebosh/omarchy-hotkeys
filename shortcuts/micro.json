@@ -1,0 +1,93 @@
+{
+  "appId": "micro",
+  "displayName": "Micro",
+  "source": "https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md (дефолтные биндинги)",
+  "note": "Default Micro bindings (Linux, not macOS)", "noteRu": "Дефолтные биндинги Micro (Linux, не macOS)",
+  "groups": [
+    {
+      "title": "File", "titleRu": "Файл",
+      "items": [
+        { "keys": ["Ctrl+O"], "action": "Open file", "actionRu": "Открыть файл" },
+        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
+        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти" },
+        { "keys": ["F2"], "action": "Save", "actionRu": "Сохранить" },
+        { "keys": ["F3", "F4", "F10"], "action": "Find / quit / quit", "actionRu": "Найти / выйти / выйти" }
+      ]
+    },
+    {
+      "title": "Edit", "titleRu": "Правка",
+      "items": [
+        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+Y"], "action": "Redo", "actionRu": "Вернуть" },
+        { "keys": ["Ctrl+C"], "action": "Copy (or line if no selection)", "actionRu": "Копировать (или строку, если нет выделения)" },
+        { "keys": ["Ctrl+X"], "action": "Cut (or line if no selection)", "actionRu": "Вырезать (или строку, если нет выделения)" },
+        { "keys": ["Ctrl+K"], "action": "Cut line", "actionRu": "Вырезать строку" },
+        { "keys": ["Ctrl+D"], "action": "Duplicate line / selection", "actionRu": "Дублировать строку / выделение" },
+        { "keys": ["Ctrl+V"], "action": "Paste", "actionRu": "Вставить" },
+        { "keys": ["Ctrl+A"], "action": "Select all", "actionRu": "Выделить всё" },
+        { "keys": ["Tab"], "action": "Autocomplete / indent / tab", "actionRu": "Автодополнение / отступ / таб" },
+        { "keys": ["Backtab"], "action": "Unindent", "actionRu": "Убрать отступ" }
+      ]
+    },
+    {
+      "title": "Search", "titleRu": "Поиск",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Find", "actionRu": "Найти" },
+        { "keys": ["Alt+F"], "action": "Find literally (no regex)", "actionRu": "Найти буквально (без регулярок)" },
+        { "keys": ["Ctrl+N"], "action": "Next match", "actionRu": "Следующее совпадение" },
+        { "keys": ["Ctrl+P"], "action": "Previous match", "actionRu": "Предыдущее совпадение" },
+        { "keys": ["Esc"], "action": "Reset search / close", "actionRu": "Сбросить поиск / закрыть" }
+      ]
+    },
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Ctrl+Left", "Ctrl+Right"], "action": "Word left / right", "actionRu": "Слово влево / вправо" },
+        { "keys": ["Ctrl+Up", "Ctrl+Down"], "action": "Start / end of buffer", "actionRu": "В начало / в конец буфера" },
+        { "keys": ["Alt+{"], "action": "Previous paragraph", "actionRu": "Предыдущий абзац" },
+        { "keys": ["Alt+}"], "action": "Next paragraph", "actionRu": "Следующий абзац" },
+        { "keys": ["Home"], "action": "Start of line text", "actionRu": "В начало текста строки" },
+        { "keys": ["Ctrl+Home", "Ctrl+End"], "action": "Start / end of file", "actionRu": "В начало / в конец файла" },
+        { "keys": ["Ctrl+L"], "action": "Go to line", "actionRu": "Перейти к строке (goto)" }
+      ]
+    },
+    {
+      "title": "Lines", "titleRu": "Строки",
+      "items": [
+        { "keys": ["Alt+Up", "Alt+Down"], "action": "Move lines up / down", "actionRu": "Переместить строки вверх / вниз" }
+      ]
+    },
+    {
+      "title": "Tabs and splits", "titleRu": "Вкладки и сплиты",
+      "items": [
+        { "keys": ["Ctrl+T"], "action": "New tab", "actionRu": "Новая вкладка" },
+        { "keys": ["Alt+,", "Alt+."], "action": "Previous / next tab", "actionRu": "Предыдущая / следующая вкладка" },
+        { "keys": ["Ctrl+PageUp", "Ctrl+PageDown"], "action": "Previous / next tab", "actionRu": "Предыдущая / следующая вкладка" },
+        { "keys": ["Ctrl+W"], "action": "Next split", "actionRu": "Следующий сплит" }
+      ]
+    },
+    {
+      "title": "Multicursor", "titleRu": "Мультикурсор",
+      "items": [
+        { "keys": ["Alt+N"], "action": "Create multicursor", "actionRu": "Создать мультикурсор" },
+        { "keys": ["Alt+Shift+Up", "Alt+Shift+Down"], "action": "Multicursor up / down", "actionRu": "Мультикурсор вверх / вниз" },
+        { "keys": ["Alt+M"], "action": "Select under cursor", "actionRu": "Выделить под курсором" },
+        { "keys": ["Alt+P"], "action": "Remove cursor", "actionRu": "Убрать курсор" },
+        { "keys": ["Alt+C"], "action": "Remove all cursors", "actionRu": "Убрать все курсоры" }
+      ]
+    },
+    {
+      "title": "Miscellaneous", "titleRu": "Прочее",
+      "items": [
+        { "keys": ["Ctrl+G"], "action": "Show help", "actionRu": "Показать помощь" },
+        { "keys": ["Ctrl+E"], "action": "Command mode", "actionRu": "Командный режим" },
+        { "keys": ["Ctrl+B"], "action": "Shell mode", "actionRu": "Режим шелла" },
+        { "keys": ["Ctrl+R"], "action": "Show / hide ruler", "actionRu": "Показать / скрыть линейку" },
+        { "keys": ["Ctrl+U"], "action": "Start / stop macro", "actionRu": "Начать / остановить макрос" },
+        { "keys": ["Ctrl+J"], "action": "Run macro", "actionRu": "Выполнить макрос" },
+        { "keys": ["Alt+G"], "action": "Key menu", "actionRu": "Меню клавиш" },
+        { "keys": ["Insert"], "action": "Replace mode", "actionRu": "Режим замены" }
+      ]
+    }
+  ]
+}

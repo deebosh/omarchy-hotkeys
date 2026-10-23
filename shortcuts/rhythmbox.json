@@ -1,0 +1,113 @@
+{
+  "appId": "rhythmbox",
+  "displayName": "Rhythmbox",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Play / pause",
+          "actionRu": "Играть / пауза",
+          "keys": [
+            "Ctrl+Space"
+          ]
+        },
+        {
+          "action": "Stop",
+          "actionRu": "Стоп",
+          "keys": [
+            "Ctrl+."
+          ]
+        },
+        {
+          "action": "Next track",
+          "actionRu": "Следующий трек",
+          "keys": [
+            "Ctrl+Right"
+          ]
+        },
+        {
+          "action": "Previous track",
+          "actionRu": "Предыдущий трек",
+          "keys": [
+            "Ctrl+Left"
+          ]
+        },
+        {
+          "action": "Volume up / down",
+          "actionRu": "Громче / тише",
+          "keys": [
+            "Ctrl+Up",
+            "Ctrl+Down"
+          ]
+        },
+        {
+          "action": "Mute",
+          "actionRu": "Без звука",
+          "keys": [
+            "Ctrl+M"
+          ]
+        }
+      ],
+      "title": "Playback",
+      "titleRu": "Воспроизведение"
+    },
+    {
+      "items": [
+        {
+          "action": "Search",
+          "actionRu": "Поиск",
+          "keys": [
+            "Ctrl+F"
+          ]
+        },
+        {
+          "action": "Queue",
+          "actionRu": "Очередь",
+          "keys": [
+            "Ctrl+D"
+          ]
+        },
+        {
+          "action": "Shuffle",
+          "actionRu": "Случайный порядок",
+          "keys": [
+            "Ctrl+U"
+          ]
+        },
+        {
+          "action": "Repeat",
+          "actionRu": "Повтор",
+          "keys": [
+            "Ctrl+E"
+          ]
+        },
+        {
+          "action": "Track properties",
+          "actionRu": "Свойства трека",
+          "keys": [
+            "Alt+Return"
+          ]
+        },
+        {
+          "action": "Settings",
+          "actionRu": "Настройки",
+          "keys": [
+            "Ctrl+,"
+          ]
+        },
+        {
+          "action": "Quit",
+          "actionRu": "Выйти",
+          "keys": [
+            "Ctrl+Q"
+          ]
+        }
+      ],
+      "title": "Library and misc",
+      "titleRu": "Библиотека и прочее"
+    }
+  ],
+  "note": "The set may vary between versions; verified against GNOME Help",
+  "noteRu": "Набор может отличаться между версиями; сверено с GNOME Help",
+  "source": "https://help.gnome.org/rhythmbox"
+}

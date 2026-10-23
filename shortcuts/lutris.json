@@ -1,0 +1,21 @@
+{
+  "appId": "lutris",
+  "displayName": "Lutris",
+  "source": "https://lutris.net",
+  "note": "Lutris has few official hotkeys; working GTK-interface combinations below", "noteRu": "Официальных хоткеев у Lutris мало; ниже — работающие сочетания GTK-интерфейса",
+  "groups": [
+    {
+      "title": "Main", "titleRu": "Основное",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Search library", "actionRu": "Поиск по библиотеке" },
+        { "keys": ["Ctrl+,", "Ctrl+P"], "action": "Settings", "actionRu": "Настройки" },
+        { "keys": ["F5", "Ctrl+R"], "action": "Refresh library", "actionRu": "Обновить библиотеку" },
+        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти" },
+        { "keys": ["Enter"], "action": "Launch selected game", "actionRu": "Запустить выбранную игру" },
+        { "keys": ["Delete"], "action": "Remove game from library", "actionRu": "Убрать игру из библиотеки" },
+        { "keys": ["Ctrl+1", "Ctrl+2"], "action": "Grid / list view", "actionRu": "Вид сеткой / списком" },
+        { "keys": ["Esc"], "action": "Close dialog", "actionRu": "Закрыть диалог" }
+      ]
+    }
+  ]
+}

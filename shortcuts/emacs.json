@@ -1,0 +1,75 @@
+{
+  "appId": "emacs",
+  "displayName": "Emacs",
+  "source": "https://www.gnu.org/software/emacs (Emacs reference card)",
+  "note": "C = Ctrl, M = Meta (Alt or Esc), as in the official reference card",
+  "noteRu": "C = Ctrl, M = Meta (Alt или Esc), обозначения из официальной reference card",
+  "groups": [
+    {
+      "title": "Files",
+      "titleRu": "Файлы",
+      "items": [
+        { "keys": ["Ctrl+X", "Ctrl+F"], "action": "Read a file into Emacs", "actionRu": "Открыть файл" },
+        { "keys": ["Ctrl+X", "Ctrl+S"], "action": "Save a file back to disk", "actionRu": "Сохранить файл" },
+        { "keys": ["Ctrl+X", "Ctrl+W"], "action": "Write buffer to a specified file", "actionRu": "Сохранить как" },
+        { "keys": ["Ctrl+X", "Ctrl+C"], "action": "Exit Emacs permanently", "actionRu": "Выйти из Emacs" },
+        { "keys": ["Ctrl+X", "b"], "action": "Select another buffer", "actionRu": "Переключиться на буфер" },
+        { "keys": ["Ctrl+X", "k"], "action": "Kill a buffer", "actionRu": "Закрыть буфер" },
+        { "keys": ["Ctrl+X", "Ctrl+B"], "action": "List all buffers", "actionRu": "Список буферов" }
+      ]
+    },
+    {
+      "title": "Motion",
+      "titleRu": "Движение",
+      "items": [
+        { "keys": ["Ctrl+F", "Ctrl+B", "Ctrl+N", "Ctrl+P"], "action": "Character forward / backward, line down / up", "actionRu": "Символ вперёд / назад, строка вниз / вверх" },
+        { "keys": ["Alt+F", "Alt+B"], "action": "Word forward / backward", "actionRu": "Слово вперёд / назад" },
+        { "keys": ["Ctrl+A", "Ctrl+E"], "action": "Go to line beginning (or end)", "actionRu": "Начало / конец строки" },
+        { "keys": ["Alt+<", "Alt+>"], "action": "Go to buffer beginning (or end)", "actionRu": "Начало / конец буфера" },
+        { "keys": ["Ctrl+V", "Alt+V"], "action": "Scroll to next screen / Scroll to previous screen", "actionRu": "Экран вниз / вверх" },
+        { "keys": ["Ctrl+L"], "action": "Scroll current line to center, top, bottom", "actionRu": "Центрировать экран на курсоре" },
+        { "keys": ["Alt+G", "G"], "action": "Goto line", "actionRu": "Перейти к строке" }
+      ]
+    },
+    {
+      "title": "Editing",
+      "titleRu": "Правки",
+      "items": [
+        { "keys": ["Ctrl+Space"], "action": "Set mark here", "actionRu": "Поставить метку (начать выделение)" },
+        { "keys": ["Ctrl+W", "Alt+W", "Ctrl+Y"], "action": "Kill region / copy region / yank", "actionRu": "Вырезать / копировать / вставить" },
+        { "keys": ["Ctrl+K"], "action": "Kill to end of line", "actionRu": "Удалить до конца строки" },
+        { "keys": ["Ctrl+D", "Alt+D"], "action": "Delete character / word", "actionRu": "Удалить символ / слово" },
+        { "keys": ["Ctrl+/", "Ctrl+X", "u"], "action": "Undo an unwanted change", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+G"], "action": "Abort partially typed or executing command", "actionRu": "Отменить команду" }
+      ]
+    },
+    {
+      "title": "Search and replace",
+      "titleRu": "Поиск и замена",
+      "items": [
+        { "keys": ["Ctrl+S", "Ctrl+R"], "action": "Search forward / Search backward", "actionRu": "Инкрементальный поиск вперёд / назад" },
+        { "keys": ["Alt+%"], "action": "Interactively replace a text string", "actionRu": "Замена (query-replace)" },
+        { "keys": ["Alt+X"], "action": "Execute extended command", "actionRu": "Выполнить команду по имени" }
+      ]
+    },
+    {
+      "title": "Multiple Windows",
+      "titleRu": "Окна",
+      "items": [
+        { "keys": ["Ctrl+X", "2", "Ctrl+X", "3"], "action": "Split window above and below / side by side", "actionRu": "Разделить горизонтально / вертикально" },
+        { "keys": ["Ctrl+X", "o"], "action": "Switch cursor to another window", "actionRu": "Перейти в другое окно" },
+        { "keys": ["Ctrl+X", "0", "Ctrl+X", "1"], "action": "Delete this window / delete all other windows", "actionRu": "Закрыть окно / оставить одно" }
+      ]
+    },
+    {
+      "title": "Getting Help",
+      "titleRu": "Справка",
+      "items": [
+        { "keys": ["Ctrl+H", "t"], "action": "Tutorial", "actionRu": "Обучение (tutorial)" },
+        { "keys": ["Ctrl+H", "k"], "action": "Describe the function a key runs", "actionRu": "Что делает клавиша" },
+        { "keys": ["Ctrl+H", "f"], "action": "Describe a function", "actionRu": "Что делает функция" },
+        { "keys": ["Ctrl+H", "i"], "action": "Enter the Info documentation reader", "actionRu": "Документация (info)" }
+      ]
+    }
+  ]
+}

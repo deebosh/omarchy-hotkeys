@@ -1,0 +1,133 @@
+{
+  "appId": "obsidian",
+  "displayName": "Obsidian",
+  "source": "https://help.obsidian.md (раздел Hotkeys; все хоткеи переназначаются в Settings → Hotkeys)",
+  "note": "Default hotkeys; all can be reassigned in Settings → Hotkeys",
+  "noteRu": "Дефолтные хоткеи; все переназначаются в Settings → Hotkeys",
+  "groups": [
+    {
+      "title": "Essentials",
+      "titleRu": "Основное",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+P"
+          ],
+          "action": "Command palette",
+          "actionRu": "Палитра команд"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Quick switch between notes",
+          "actionRu": "Быстрый переход между заметками"
+        },
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New note",
+          "actionRu": "Новая заметка"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+F"
+          ],
+          "action": "Search all notes",
+          "actionRu": "Поиск по всем заметкам"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Search current note",
+          "actionRu": "Поиск в текущей заметке"
+        },
+        {
+          "keys": [
+            "Ctrl+H"
+          ],
+          "action": "Find and replace",
+          "actionRu": "Найти и заменить"
+        },
+        {
+          "keys": [
+            "Ctrl+,"
+          ],
+          "action": "Open settings",
+          "actionRu": "Открыть настройки"
+        }
+      ]
+    },
+    {
+      "title": "Editor",
+      "titleRu": "Редактор",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+E"
+          ],
+          "action": "Editing / preview mode",
+          "actionRu": "Режим редактирования / просмотра"
+        },
+        {
+          "keys": [
+            "Ctrl+B"
+          ],
+          "action": "Bold",
+          "actionRu": "Жирный"
+        },
+        {
+          "keys": [
+            "Ctrl+I"
+          ],
+          "action": "Italic",
+          "actionRu": "Курсив"
+        },
+        {
+          "keys": [
+            "Ctrl+K"
+          ],
+          "action": "Insert link",
+          "actionRu": "Вставить ссылку"
+        }
+      ]
+    },
+    {
+      "title": "Tabs and view",
+      "titleRu": "Вкладки и вид",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+T"
+          ],
+          "action": "New tab",
+          "actionRu": "Новая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+W"
+          ],
+          "action": "Close tab",
+          "actionRu": "Закрыть вкладку"
+        },
+        {
+          "keys": [
+            "Ctrl+Tab",
+            "Ctrl+Shift+Tab"
+          ],
+          "action": "Next / previous tab",
+          "actionRu": "Следующая / предыдущая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+G"
+          ],
+          "action": "Graph view",
+          "actionRu": "Вид графа"
+        }
+      ]
+    }
+  ]
+}

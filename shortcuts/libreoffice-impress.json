@@ -1,0 +1,40 @@
+{
+  "appId": "libreoffice-impress",
+  "displayName": "LibreOffice Impress",
+  "source": "https://help.libreoffice.org/latest/en-US/text/simpress/04/01010000.html (Shortcut Keys for LibreOffice Impress)",
+  "note": "Impress has few hotkeys of its own; the rest are shared LibreOffice ones", "noteRu": "Собственных хоткеев у Impress немного; остальные — общие для LibreOffice",
+  "groups": [
+    {
+      "title": "Slideshow", "titleRu": "Слайд-шоу",
+      "items": [
+        { "keys": ["F5"], "action": "View slide show", "actionRu": "Начать показ с первого слайда" },
+        { "keys": ["Shift+F5"], "action": "Start show from current slide", "actionRu": "Начать показ с текущего слайда" },
+        { "keys": ["Esc"], "action": "End presentation", "actionRu": "Завершить показ" },
+        { "keys": ["Space", "Enter", "PageDown", "Right"], "action": "Next effect, else next slide", "actionRu": "Следующий слайд / эффект" },
+        { "keys": ["Backspace", "PageUp", "Left"], "action": "Previous effect, else previous slide", "actionRu": "Предыдущий слайд / эффект" },
+        { "keys": ["B", "."], "action": "Show black screen until next key", "actionRu": "Чёрный экран / вернуться к показу" },
+        { "keys": ["W", ","], "action": "Show white screen until next key", "actionRu": "Белый экран / вернуться к показу" }
+      ]
+    },
+    {
+      "title": "Slides", "titleRu": "Слайды",
+      "items": [
+        { "keys": ["F2"], "action": "Edit text", "actionRu": "Вставить текстовое поле" },
+        { "keys": ["PageUp", "PageDown"], "action": "Previous / next slide", "actionRu": "Предыдущий / следующий слайд" },
+        { "keys": ["Home", "End"], "action": "First / last slide", "actionRu": "Первый / последний слайд" },
+        { "keys": ["Delete"], "action": "Delete slide", "actionRu": "Удалить слайд" }
+      ]
+    },
+    {
+      "title": "Edit and view", "titleRu": "Правка и вид",
+      "items": [
+        { "keys": ["Ctrl+Z", "Ctrl+Y"], "action": "Undo / redo", "actionRu": "Отменить / вернуть" },
+        { "keys": ["Ctrl+X", "Ctrl+C", "Ctrl+V"], "action": "Cut / copy / paste", "actionRu": "Вырезать / копировать / вставить" },
+        { "keys": ["Ctrl+A"], "action": "Select all", "actionRu": "Выделить всё" },
+        { "keys": ["F5"], "action": "Navigator (in Normal view)", "actionRu": "Навигатор (в обычном режиме)" },
+        { "keys": ["Ctrl+Shift+F5"], "action": "Navigator", "actionRu": "Перейти на страницу" },
+        { "keys": ["F7"], "action": "Spelling", "actionRu": "Проверка орфографии" }
+      ]
+    }
+  ]
+}

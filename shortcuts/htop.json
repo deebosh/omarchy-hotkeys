@@ -1,0 +1,51 @@
+{
+  "appId": "htop",
+  "displayName": "htop",
+  "source": "https://github.com/htop-dev/htop (man htop)",
+  "groups": [
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Up", "Down"], "action": "Select previous / next process", "actionRu": "Предыдущий / следующий процесс" },
+        { "keys": ["PageUp", "PageDown"], "action": "Scroll up / down one window", "actionRu": "Страница вверх / вниз" },
+        { "keys": ["Home", "End"], "action": "Scroll to top / bottom of list", "actionRu": "В начало / в конец списка" },
+        { "keys": ["/"], "action": "Incremental search", "actionRu": "Поиск процесса по имени" },
+        { "keys": ["\\"], "action": "Incremental process filtering", "actionRu": "Фильтр процессов" },
+        { "keys": ["Esc"], "action": "Clear search/filter", "actionRu": "Очистить поиск/фильтр" }
+      ]
+    },
+    {
+      "title": "View", "titleRu": "Вид",
+      "items": [
+        { "keys": ["F1", "h", "?"], "action": "Help screen", "actionRu": "Справка" },
+        { "keys": ["F2", "Shift+S"], "action": "Setup screen", "actionRu": "Настройки" },
+        { "keys": ["F3"], "action": "Incremental search", "actionRu": "Инкрементальный поиск" },
+        { "keys": ["F4"], "action": "Incremental process filtering", "actionRu": "Фильтр" },
+        { "keys": ["F5", "t"], "action": "Tree view", "actionRu": "Режим дерева вкл/выкл" },
+        { "keys": ["F6", ">"], "action": "Select sort field", "actionRu": "Выбор колонки сортировки" },
+        { "keys": ["P", "M", "T"], "action": "Sort by: CPU / memory / time", "actionRu": "Сортировка: CPU / память / время" },
+        { "keys": ["I"], "action": "Invert sort order", "actionRu": "Инвертировать порядок сортировки" },
+        { "keys": ["H"], "action": "Hide user threads", "actionRu": "Показать/скрыть потоки пользователя" },
+        { "keys": ["K"], "action": "Hide kernel threads", "actionRu": "Показать/скрыть потоки ядра" },
+        { "keys": ["Z"], "action": "Pause/resume updates", "actionRu": "Пауза обновления" },
+        { "keys": ["m"], "action": "Merge exe, comm and cmdline", "actionRu": "Объединить счётчики CPU" },
+        { "keys": ["p"], "action": "Show full paths", "actionRu": "Показать полные пути" },
+        { "keys": ["u"], "action": "Show one user's processes", "actionRu": "Процессы одного пользователя" }
+      ]
+    },
+    {
+      "title": "Actions", "titleRu": "Действия",
+      "items": [
+        { "keys": ["F7", "F8"], "action": "Raise / lower priority (nice)", "actionRu": "Понизить / повысить nice" },
+        { "keys": ["F9", "k"], "action": "Send signal to process", "actionRu": "Завершить процесс (выбор сигнала)" },
+        { "keys": ["Space"], "action": "Tag / untag process", "actionRu": "Отметить процесс" },
+        { "keys": ["U"], "action": "Untag all processes", "actionRu": "Снять все метки" },
+        { "keys": ["c"], "action": "Tag process and children", "actionRu": "Отметить процесс и потомков" },
+        { "keys": ["s"], "action": "Trace system calls (strace)", "actionRu": "strace процесса" },
+        { "keys": ["l"], "action": "Display open files (lsof)", "actionRu": "Открытые файлы (lsof)" },
+        { "keys": ["e"], "action": "Process environment", "actionRu": "Окружение процесса" },
+        { "keys": ["F10", "q"], "action": "Quit", "actionRu": "Выйти" }
+      ]
+    }
+  ]
+}

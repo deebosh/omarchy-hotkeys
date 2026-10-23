@@ -1,0 +1,158 @@
+{
+  "appId": "ghostty",
+  "displayName": "Ghostty",
+  "source": "https://ghostty.org/docs (дефолтные биндинги)",
+  "note": "Default Ghostty bindings (Linux)",
+  "noteRu": "Дефолтные биндинги Ghostty (Linux)",
+  "groups": [
+    {
+      "title": "Clipboard",
+      "titleRu": "Буфер обмена",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+C",
+            "Ctrl+Insert"
+          ],
+          "action": "Copy to clipboard",
+          "actionRu": "Копировать в буфер обмена"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+V",
+            "Shift+Insert"
+          ],
+          "action": "Paste from clipboard",
+          "actionRu": "Вставить из буфера обмена"
+        }
+      ]
+    },
+    {
+      "title": "Tabs and Windows",
+      "titleRu": "Вкладки и окна",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+T"
+          ],
+          "action": "New tab",
+          "actionRu": "Новая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+W"
+          ],
+          "action": "Close tab",
+          "actionRu": "Закрыть вкладку"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+N"
+          ],
+          "action": "New window",
+          "actionRu": "Новое окно"
+        },
+        {
+          "keys": [
+            "Ctrl+Tab",
+            "Ctrl+Shift+Tab"
+          ],
+          "action": "Next / previous tab",
+          "actionRu": "Следующая / предыдущая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+1 … Ctrl+Alt+9"
+          ],
+          "action": "Go to tab 1–9",
+          "actionRu": "Перейти на вкладку 1–9"
+        }
+      ]
+    },
+    {
+      "title": "Splits",
+      "titleRu": "Сплиты",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+O"
+          ],
+          "action": "Split right",
+          "actionRu": "Сплит вправо"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+E"
+          ],
+          "action": "Split down",
+          "actionRu": "Сплит вниз"
+        },
+        {
+          "keys": [
+            "Alt+Up",
+            "Alt+Down",
+            "Alt+Left",
+            "Alt+Right"
+          ],
+          "action": "Focus adjacent split",
+          "actionRu": "Фокус на соседний сплит"
+        }
+      ]
+    },
+    {
+      "title": "Font and View",
+      "titleRu": "Шрифт и вид",
+      "items": [
+        {
+          "keys": [
+            "Ctrl++",
+            "Ctrl+="
+          ],
+          "action": "Increase font size",
+          "actionRu": "Увеличить шрифт"
+        },
+        {
+          "keys": [
+            "Ctrl+-"
+          ],
+          "action": "Decrease font size",
+          "actionRu": "Уменьшить шрифт"
+        },
+        {
+          "keys": [
+            "Ctrl+0"
+          ],
+          "action": "Reset font size",
+          "actionRu": "Сбросить размер шрифта"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Fullscreen mode",
+          "actionRu": "Полноэкранный режим"
+        }
+      ]
+    },
+    {
+      "title": "Scrolling",
+      "titleRu": "Скролл",
+      "items": [
+        {
+          "keys": [
+            "Shift+PageUp"
+          ],
+          "action": "Page up",
+          "actionRu": "Страница вверх"
+        },
+        {
+          "keys": [
+            "Shift+PageDown"
+          ],
+          "action": "Page down",
+          "actionRu": "Страница вниз"
+        }
+      ]
+    }
+  ]
+}

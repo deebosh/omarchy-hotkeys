@@ -1,0 +1,55 @@
+{
+  "appId": "thunar",
+  "displayName": "Thunar",
+  "source": "https://docs.xfce.org/xfce/thunar/start",
+  "note": "Some shortcuts are standard GTK/Xfce ones that work in Thunar", "noteRu": "Часть сочетаний — стандартные GTK/Xfce, работают в Thunar",
+  "groups": [
+    {
+      "title": "Windows and tabs", "titleRu": "Окна и вкладки",
+      "items": [
+        { "keys": ["Ctrl+T"], "action": "New tab", "actionRu": "Новая вкладка" },
+        { "keys": ["Ctrl+W"], "action": "Close tab", "actionRu": "Закрыть вкладку" },
+        { "keys": ["Ctrl+N"], "action": "New window", "actionRu": "Новое окно" },
+        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти" },
+        { "keys": ["Ctrl+Tab", "Ctrl+Shift+Tab"], "action": "Next / previous tab", "actionRu": "Следующая / предыдущая вкладка" }
+      ]
+    },
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Alt+Up"], "action": "Parent directory", "actionRu": "Родительский каталог" },
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Back / forward", "actionRu": "Назад / вперёд" },
+        { "keys": ["Backspace"], "action": "Up", "actionRu": "Вверх" },
+        { "keys": ["Alt+Home"], "action": "Home directory", "actionRu": "Домашний каталог" },
+        { "keys": ["Ctrl+L"], "action": "Location bar", "actionRu": "Строка адреса" },
+        { "keys": ["Ctrl+R", "F5"], "action": "Refresh", "actionRu": "Обновить" },
+        { "keys": ["Ctrl+H"], "action": "Show hidden files", "actionRu": "Показать скрытые файлы" }
+      ]
+    },
+    {
+      "title": "Files", "titleRu": "Файлы",
+      "items": [
+        { "keys": ["F2"], "action": "Rename", "actionRu": "Переименовать" },
+        { "keys": ["Delete"], "action": "Move to trash", "actionRu": "В корзину" },
+        { "keys": ["Shift+Delete"], "action": "Delete permanently", "actionRu": "Удалить навсегда" },
+        { "keys": ["Ctrl+C", "Ctrl+X", "Ctrl+V"], "action": "Copy / cut / paste", "actionRu": "Копировать / вырезать / вставить" },
+        { "keys": ["Ctrl+A"], "action": "Select all", "actionRu": "Выбрать всё" },
+        { "keys": ["Ctrl+S"], "action": "Select by pattern", "actionRu": "Выбрать по шаблону" },
+        { "keys": ["Ctrl+F"], "action": "Find", "actionRu": "Найти" },
+        { "keys": ["F4"], "action": "Open terminal here", "actionRu": "Открыть терминал здесь" },
+        { "keys": ["Ctrl+M"], "action": "Create directory", "actionRu": "Создать каталог" },
+        { "keys": ["Shift+F10"], "action": "Context menu", "actionRu": "Контекстное меню" }
+      ]
+    },
+    {
+      "title": "View", "titleRu": "Вид",
+      "items": [
+        { "keys": ["Ctrl+1", "Ctrl+2", "Ctrl+3"], "action": "Icons / detailed / compact", "actionRu": "Значки / подробно / компактно" },
+        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Zoom in / zoom out / normal zoom", "actionRu": "Крупнее / мельче / обычный масштаб" },
+        { "keys": ["Ctrl+P"], "action": "Properties", "actionRu": "Свойства" },
+        { "keys": ["Ctrl+D"], "action": "Bookmark", "actionRu": "В закладки" },
+        { "keys": ["Ctrl+B"], "action": "Bookmarks sidebar", "actionRu": "Боковая панель закладок" }
+      ]
+    }
+  ]
+}

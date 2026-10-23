@@ -1,0 +1,76 @@
+{
+  "appId": "yazi",
+  "displayName": "Yazi",
+  "source": "https://yazi-rs.github.io/docs/configuration/keymap (дефолтный keymap-default.toml)",
+  "groups": [
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["j", "k", "Up", "Down"], "action": "Next / previous file", "actionRu": "Следующий / предыдущий файл" },
+        { "keys": ["h", "l", "Left", "Right"], "action": "Back to the parent directory / enter the child directory", "actionRu": "Вверх в каталог / войти в каталог" },
+        { "keys": ["H", "L"], "action": "Back to previous directory / forward to next directory", "actionRu": "Назад / вперёд по истории" },
+        { "keys": ["g", "g", "G"], "action": "Go to top / go to bottom", "actionRu": "В начало / в конец списка" },
+        { "keys": ["Ctrl+U", "Ctrl+D"], "action": "Move cursor up / down half page", "actionRu": "Полстраницы вверх / вниз" },
+        { "keys": ["Ctrl+B", "Ctrl+F"], "action": "Move cursor up / down one page", "actionRu": "Страница вверх / вниз" },
+        { "keys": ["K", "J"], "action": "Seek up / down in the preview", "actionRu": "Прокрутка предпросмотра вверх / вниз" }
+      ]
+    },
+    {
+      "title": "File operations", "titleRu": "Файловые операции",
+      "items": [
+        { "keys": ["o", "Enter"], "action": "Open selected files", "actionRu": "Открыть файл" },
+        { "keys": ["O"], "action": "Open selected files interactively", "actionRu": "Открыть с выбором программы" },
+        { "keys": ["y", "x", "p"], "action": "Yank selected files (copy / cut) / paste yanked files", "actionRu": "Копировать / вырезать / вставить" },
+        { "keys": ["P"], "action": "Paste yanked files (overwrite if the destination exists)", "actionRu": "Вставить с перезаписью" },
+        { "keys": ["Y", "X"], "action": "Cancel the yank status", "actionRu": "Отменить копирование/вырезание" },
+        { "keys": ["a"], "action": "Create a file (ends with / for directories)", "actionRu": "Создать файл (с / — каталог)" },
+        { "keys": ["r"], "action": "Rename selected file(s)", "actionRu": "Переименовать" },
+        { "keys": ["d"], "action": "Trash selected files", "actionRu": "Переместить в корзину" },
+        { "keys": ["D"], "action": "Permanently delete selected files", "actionRu": "Удалить навсегда" },
+        { "keys": ["-", "_"], "action": "Symlink the absolute / relative path of yanked files", "actionRu": "Симлинк абсолютный / относительный" },
+        { "keys": [";"], "action": "Run a shell command", "actionRu": "Выполнить shell-команду" },
+        { "keys": [":"], "action": "Run a shell command (block until finishes)", "actionRu": "Выполнить shell-команду (блокирующе)" }
+      ]
+    },
+    {
+      "title": "Selection and search", "titleRu": "Выделение и поиск",
+      "items": [
+        { "keys": ["Space"], "action": "Toggle the current selection state", "actionRu": "Выбрать файл и перейти дальше" },
+        { "keys": ["v", "V"], "action": "Enter visual mode (selection mode / unset mode)", "actionRu": "Визуальный режим / режим снятия выделения" },
+        { "keys": ["Ctrl+A", "Ctrl+R"], "action": "Select all files / invert selection of all files", "actionRu": "Выбрать все / инвертировать выделение" },
+        { "keys": ["Esc"], "action": "Exit visual mode, clear selection, or exit view", "actionRu": "Выйти из режима / снять выделение / отменить поиск" },
+        { "keys": ["f"], "action": "Filter files", "actionRu": "Фильтр файлов" },
+        { "keys": ["/", "?"], "action": "Find next / previous file", "actionRu": "Найти следующий / предыдущий" },
+        { "keys": ["n", "N"], "action": "Next / previous found", "actionRu": "К найденному вперёд / назад" },
+        { "keys": ["s", "S"], "action": "Search files by name via fd / by content via ripgrep", "actionRu": "Поиск по имени (fd) / по содержимому (rg)" },
+        { "keys": ["."], "action": "Toggle the visibility of hidden files", "actionRu": "Показать/скрыть скрытые файлы" }
+      ]
+    },
+    {
+      "title": "Jumping and tabs", "titleRu": "Переходы и вкладки",
+      "items": [
+        { "keys": ["g", "h"], "action": "Go home", "actionRu": "Домой" },
+        { "keys": ["g", "c"], "action": "Go to ~/.config", "actionRu": "В ~/.config" },
+        { "keys": ["g", "d"], "action": "Go to ~/Downloads", "actionRu": "В ~/Downloads" },
+        { "keys": ["g", "Space"], "action": "Jump interactively", "actionRu": "Перейти интерактивно" },
+        { "keys": ["g", "f"], "action": "Follow hovered symlink", "actionRu": "Перейти по симлинку" },
+        { "keys": ["z", "Z"], "action": "Jump to a file/directory via fzf / to a directory via zoxide", "actionRu": "Прыжок через fzf / zoxide" },
+        { "keys": ["t", "t"], "action": "Create a new tab in CWD", "actionRu": "Новая вкладка в текущем каталоге" },
+        { "keys": ["1 … 9"], "action": "Switch to tab 1–9", "actionRu": "Перейти на вкладку 1–9" },
+        { "keys": ["[", "]"], "action": "Switch to previous / next tab", "actionRu": "Предыдущая / следующая вкладка" }
+      ]
+    },
+    {
+      "title": "View and misc", "titleRu": "Вид и прочее",
+      "items": [
+        { "keys": ["Tab"], "action": "Spot hovered file", "actionRu": "Просмотр информации о файле (spot)" },
+        { "keys": ["m", "s", "m", "m", "m", "n"], "action": "Linemode: size / mtime / none", "actionRu": "Строка: размер / время изменения / выкл" },
+        { "keys": ["c", "c", "c", "f", "c", "d"], "action": "Copy file path / filename / directory path", "actionRu": "Скопировать путь / имя / путь каталога" },
+        { "keys": [",", "n", ",", "s"], "action": "Sort naturally / sort by size", "actionRu": "Сортировка: по имени / по размеру" },
+        { "keys": ["w"], "action": "Show task manager", "actionRu": "Менеджер задач" },
+        { "keys": ["~", "F1"], "action": "Open help", "actionRu": "Справка по клавишам" },
+        { "keys": ["q"], "action": "Quit the process", "actionRu": "Выйти" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "appId": "btop",
+  "displayName": "btop",
+  "source": "https://github.com/aristocratos/btop (README)",
+  "note": "Keys are configurable; full list: Esc menu → Help inside btop",
+  "noteRu": "Клавиши настраиваются; полный список — Esc-меню → Help внутри btop",
+  "groups": [
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Up", "Down"], "action": "Previous / next process", "actionRu": "Предыдущий / следующий процесс" },
+        { "keys": ["Left", "Right"], "action": "Collapse / expand (tree)", "actionRu": "Свернуть / развернуть (дерево)" },
+        { "keys": ["PageUp", "PageDown"], "action": "Page up / down", "actionRu": "Страница вверх / вниз" },
+        { "keys": ["Home", "End"], "action": "To start / end of list", "actionRu": "В начало / в конец списка" },
+        { "keys": ["Enter"], "action": "Expand / show details", "actionRu": "Развернуть / показать детали" },
+        { "keys": ["Esc"], "action": "Back / close menu", "actionRu": "Назад / закрыть меню" }
+      ]
+    },
+    {
+      "title": "View",
+      "titleRu": "Вид",
+      "items": [
+        { "keys": ["1"], "action": "All CPU cores / average", "actionRu": "Все ядра CPU / среднее" },
+        { "keys": ["e"], "action": "Process tree mode", "actionRu": "Режим дерева процессов" },
+        { "keys": ["f"], "action": "Filter processes", "actionRu": "Фильтр процессов" },
+        { "keys": ["r"], "action": "Reverse sort order", "actionRu": "Обратный порядок сортировки" },
+        { "keys": ["P", "M", "C"], "action": "Sort: CPU / memory / name", "actionRu": "Сортировка: CPU / память / имя" },
+        { "keys": ["o", "F2"], "action": "Settings", "actionRu": "Настройки" },
+        { "keys": ["m"], "action": "Menu", "actionRu": "Меню" },
+        { "keys": ["H", "?"], "action": "Help", "actionRu": "Справка" }
+      ]
+    },
+    {
+      "title": "Actions",
+      "titleRu": "Действия",
+      "items": [
+        { "keys": ["q"], "action": "Quit", "actionRu": "Выйти" },
+        { "keys": ["k"], "action": "Kill selected process", "actionRu": "Завершить выбранный процесс" }
+      ]
+    }
+  ]
+}

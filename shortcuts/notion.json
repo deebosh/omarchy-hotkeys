@@ -1,0 +1,324 @@
+{
+  "appId": "notion",
+  "displayName": "Notion",
+  "source": "https://www.notion.so/help/keyboard-shortcuts",
+  "note": "cmd/ctrl = Ctrl on Windows/Linux; option/shift = Shift on Windows/Linux",
+  "noteRu": "cmd/ctrl = Ctrl на Windows/Linux; option/shift = Shift на Windows/Linux",
+  "groups": [
+    {
+      "title": "Popular",
+      "titleRu": "Популярное",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Search inside a page",
+          "actionRu": "Поиск внутри страницы"
+        },
+        {
+          "keys": [
+            "Ctrl+P",
+            "Ctrl+K"
+          ],
+          "action": "Search or jump to recent page",
+          "actionRu": "Поиск или переход к недавней странице"
+        },
+        {
+          "keys": [
+            "Ctrl+L"
+          ],
+          "action": "Copy a page's URL",
+          "actionRu": "Скопировать URL страницы"
+        },
+        {
+          "keys": [
+            "Ctrl+["
+          ],
+          "action": "Go back a page",
+          "actionRu": "Назад"
+        },
+        {
+          "keys": [
+            "Ctrl+]"
+          ],
+          "action": "Go forward a page",
+          "actionRu": "Вперёд"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+L"
+          ],
+          "action": "Toggle dark / light mode",
+          "actionRu": "Тёмная / светлая тема"
+        },
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "Create a new page",
+          "actionRu": "Новая страница"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+N"
+          ],
+          "action": "Open a new Notion window",
+          "actionRu": "Новое окно Notion"
+        },
+        {
+          "keys": [
+            "Ctrl+T"
+          ],
+          "action": "Create a new Notion tab",
+          "actionRu": "Новая вкладка Notion"
+        }
+      ]
+    },
+    {
+      "title": "Text formatting",
+      "titleRu": "Форматирование текста",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+B"
+          ],
+          "action": "Bold text",
+          "actionRu": "Жирный"
+        },
+        {
+          "keys": [
+            "Ctrl+I"
+          ],
+          "action": "Italicize text",
+          "actionRu": "Курсив"
+        },
+        {
+          "keys": [
+            "Ctrl+U"
+          ],
+          "action": "Underline text",
+          "actionRu": "Подчёркнутый"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "action": "Strikethrough text",
+          "actionRu": "Зачёркнутый"
+        },
+        {
+          "keys": [
+            "Ctrl+K"
+          ],
+          "action": "Add a link",
+          "actionRu": "Ссылка на выделенный текст"
+        },
+        {
+          "keys": [
+            "Ctrl+E"
+          ],
+          "action": "Inline code",
+          "actionRu": "Инлайн-код"
+        },
+        {
+          "keys": [
+            "Shift+Enter"
+          ],
+          "action": "Line break within block",
+          "actionRu": "Разрыв строки внутри блока"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+M"
+          ],
+          "action": "Create a comment",
+          "actionRu": "Создать комментарий"
+        },
+        {
+          "keys": [
+            "Tab",
+            "Shift+Tab"
+          ],
+          "action": "Nest / un-nest block",
+          "actionRu": "Вложить блок / убрать вложенность"
+        }
+      ]
+    },
+    {
+      "title": "Block types (Ctrl+Shift+number)",
+      "titleRu": "Типы блоков (Ctrl+Shift+цифра)",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+0"
+          ],
+          "action": "Create text",
+          "actionRu": "Обычный текст"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+1"
+          ],
+          "action": "Create H1 heading",
+          "actionRu": "Заголовок H1"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+2"
+          ],
+          "action": "Create H2 heading",
+          "actionRu": "Заголовок H2"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+3"
+          ],
+          "action": "Create H3 heading",
+          "actionRu": "Заголовок H3"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+4"
+          ],
+          "action": "Create to-do checkbox",
+          "actionRu": "Чекбокс to-do"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+5"
+          ],
+          "action": "Create bulleted list",
+          "actionRu": "Маркированный список"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+6"
+          ],
+          "action": "Create numbered list",
+          "actionRu": "Нумерованный список"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+7"
+          ],
+          "action": "Create toggle list",
+          "actionRu": "Переключаемый список (тогл)"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+8"
+          ],
+          "action": "Create code block",
+          "actionRu": "Блок кода"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+9"
+          ],
+          "action": "Create a new page",
+          "actionRu": "Новая страница"
+        },
+        {
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-"
+          ],
+          "action": "Zoom in / out",
+          "actionRu": "Приблизить / отдалить"
+        }
+      ]
+    },
+    {
+      "title": "Working with blocks",
+      "titleRu": "Работа с блоками",
+      "items": [
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Select current block / clear selection",
+          "actionRu": "Выбрать текущий блок / снять выделение"
+        },
+        {
+          "keys": [
+            "Ctrl+A"
+          ],
+          "action": "Select the block your cursor is in",
+          "actionRu": "Выбрать блок, где курсор"
+        },
+        {
+          "keys": [
+            "Ctrl+D"
+          ],
+          "action": "Duplicate selected blocks",
+          "actionRu": "Дублировать выбранные блоки"
+        },
+        {
+          "keys": [
+            "Ctrl+/"
+          ],
+          "action": "Edit or change selected blocks",
+          "actionRu": "Изменить / переместить / удалить блок"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+ArrowUp",
+            "Ctrl+Shift+ArrowDown"
+          ],
+          "action": "Move selected block up / down",
+          "actionRu": "Переместить блок вверх / вниз"
+        },
+        {
+          "keys": [
+            "Ctrl+Enter"
+          ],
+          "action": "Modify current block",
+          "actionRu": "Открыть страницу / отметить чекбокс / свернуть тогл"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+T"
+          ],
+          "action": "Expand / close all toggles",
+          "actionRu": "Развернуть / свернуть все тоглы"
+        },
+        {
+          "keys": [
+            "Backspace",
+            "Delete"
+          ],
+          "action": "Delete selected blocks",
+          "actionRu": "Удалить выбранные блоки"
+        }
+      ]
+    },
+    {
+      "title": "Quick commands",
+      "titleRu": "Быстрые команды",
+      "items": [
+        {
+          "keys": [
+            "/"
+          ],
+          "action": "Block insert menu",
+          "actionRu": "Меню вставки блоков"
+        },
+        {
+          "keys": [
+            "@"
+          ],
+          "action": "Mention a person, page, or date",
+          "actionRu": "Упомянуть человека, страницу или дату"
+        },
+        {
+          "keys": [
+            "[["
+          ],
+          "action": "Link a page",
+          "actionRu": "Ссылка на страницу"
+        }
+      ]
+    }
+  ]
+}

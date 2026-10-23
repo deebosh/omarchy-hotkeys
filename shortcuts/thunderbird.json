@@ -1,0 +1,48 @@
+{
+  "appId": "thunderbird",
+  "displayName": "Thunderbird",
+  "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird",
+  "groups": [
+    {
+      "title": "Messages", "titleRu": "Сообщения",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "New message", "actionRu": "Новое сообщение" },
+        { "keys": ["Ctrl+R"], "action": "Reply", "actionRu": "Ответить" },
+        { "keys": ["Ctrl+Shift+R"], "action": "Reply to all", "actionRu": "Ответить всем" },
+        { "keys": ["Ctrl+L"], "action": "Forward", "actionRu": "Переслать" },
+        { "keys": ["Ctrl+Enter"], "action": "Send now", "actionRu": "Отправить сейчас" },
+        { "keys": ["Ctrl+S"], "action": "Save message", "actionRu": "Сохранить сообщение" },
+        { "keys": ["Ctrl+O"], "action": "Open message", "actionRu": "Открыть сообщение" },
+        { "keys": ["Delete"], "action": "Delete message", "actionRu": "Удалить сообщение" },
+        { "keys": ["A"], "action": "Archive", "actionRu": "Архивировать" },
+        { "keys": ["J"], "action": "Mark as spam", "actionRu": "Отметить как спам" },
+        { "keys": ["M"], "action": "Mark as read", "actionRu": "Отметить как прочитанное" },
+        { "keys": ["S"], "action": "Flag message", "actionRu": "Пометить флажком" }
+      ]
+    },
+    {
+      "title": "Mail", "titleRu": "Почта",
+      "items": [
+        { "keys": ["F5"], "action": "Get new messages", "actionRu": "Получить новые сообщения" },
+        { "keys": ["Ctrl+T"], "action": "New tab", "actionRu": "Новая вкладка" },
+        { "keys": ["Ctrl+W"], "action": "Close tab", "actionRu": "Закрыть вкладку" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Reopen closed tab", "actionRu": "Восстановить закрытую вкладку" },
+        { "keys": ["F", "N"], "action": "Next message", "actionRu": "Следующее сообщение" },
+        { "keys": ["B", "P"], "action": "Previous message", "actionRu": "Предыдущее сообщение" },
+        { "keys": ["Ctrl+U"], "action": "Message source", "actionRu": "Исходный текст сообщения" }
+      ]
+    },
+    {
+      "title": "Search and view", "titleRu": "Поиск и вид",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Find in message", "actionRu": "Найти в сообщении" },
+        { "keys": ["Ctrl+Shift+F"], "action": "Search all messages", "actionRu": "Поиск по всем сообщениям" },
+        { "keys": ["Ctrl+K"], "action": "Quick filter", "actionRu": "Быстрый фильтр" },
+        { "keys": ["Ctrl+1", "Ctrl+2", "Ctrl+3", "Ctrl+4"], "action": "Mail / Address Book / Calendar / Tasks", "actionRu": "Почта / Адреса / Календарь / Задачи" },
+        { "keys": ["F8"], "action": "Show / hide message pane", "actionRu": "Показать / скрыть панель сообщения" },
+        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Text zoom: in / out / reset", "actionRu": "Масштаб текста: больше / меньше / сброс" },
+        { "keys": ["Ctrl+P"], "action": "Print", "actionRu": "Печать" }
+      ]
+    }
+  ]
+}

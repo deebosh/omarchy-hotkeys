@@ -1,0 +1,94 @@
+{
+  "appId": "helix",
+  "displayName": "Helix",
+  "source": "https://docs.helix-editor.com/keymap.html",
+  "note": "Default keymap; normal mode is the default, Esc returns to it", "noteRu": "Дефолтный кеймап; нормальный режим — по умолчанию, выход в него — Esc",
+  "groups": [
+    {
+      "title": "Movement", "titleRu": "Движение",
+      "items": [
+        { "keys": ["h", "j", "k", "l"], "action": "Move left / down / up / right", "actionRu": "Влево / вниз / вверх / вправо" },
+        { "keys": ["w", "b", "e"], "action": "Move to next / previous word start, next word end", "actionRu": "Следующее слово / предыдущее слово / конец слова" },
+        { "keys": ["W", "B", "E"], "action": "Move to next / previous WORD start, next WORD end", "actionRu": "То же для WORD (до пробела)" },
+        { "keys": ["f", "t", "F", "T"], "action": "Find next / till next / previous / till previous char", "actionRu": "К символу / до символа (вперёд / назад)" },
+        { "keys": ["Home", "End"], "action": "Move to start / end of line", "actionRu": "Начало / конец строки" },
+        { "keys": ["G"], "action": "Go to line number <n>", "actionRu": "Перейти к строке N (с числом)" },
+        { "keys": ["Ctrl+U", "Ctrl+D"], "action": "Move cursor and page half page up / down", "actionRu": "Полстраницы вверх / вниз" },
+        { "keys": ["Ctrl+B", "Ctrl+F"], "action": "Move page up / down", "actionRu": "Страница вверх / вниз" },
+        { "keys": ["Ctrl+O", "Ctrl+I"], "action": "Jump backward / forward on the jumplist", "actionRu": "Назад / вперёд по jumplist" }
+      ]
+    },
+    {
+      "title": "Changes", "titleRu": "Правки",
+      "items": [
+        { "keys": ["i", "a", "I", "A"], "action": "Insert before / after selection, at line start / end", "actionRu": "Вставка до / после / в начало / в конец строки" },
+        { "keys": ["o", "O"], "action": "Open new line below / above selection", "actionRu": "Новая строка ниже / выше" },
+        { "keys": ["r"], "action": "Replace with a character", "actionRu": "Заменить символ" },
+        { "keys": ["u", "U"], "action": "Undo / redo change", "actionRu": "Отменить / повторить" },
+        { "keys": ["y", "p", "P"], "action": "Yank selection / paste after / before", "actionRu": "Копировать / вставить после / вставить до" },
+        { "keys": ["d", "c"], "action": "Delete / change selection", "actionRu": "Удалить / изменить выделение" },
+        { "keys": ["Alt+D", "Alt+C"], "action": "Delete / change selection without yanking", "actionRu": "Удалить / изменить без копирования в буфер" },
+        { "keys": [">", "<"], "action": "Indent / unindent selection", "actionRu": "Отступ вправо / влево" },
+        { "keys": ["="], "action": "Format selection (LSP)", "actionRu": "Форматировать (LSP)" },
+        { "keys": ["Ctrl+C"], "action": "Comment / uncomment selection", "actionRu": "Закомментировать / раскомментировать" },
+        { "keys": ["Ctrl+A", "Ctrl+X"], "action": "Increment / decrement object (number) under cursor", "actionRu": "Увеличить / уменьшить число под курсором" },
+        { "keys": ["."], "action": "Repeat last insert", "actionRu": "Повторить последнюю вставку" }
+      ]
+    },
+    {
+      "title": "Selection manipulation", "titleRu": "Выделение",
+      "items": [
+        { "keys": ["v"], "action": "Enter select (extend) mode", "actionRu": "Режим выделения" },
+        { "keys": ["x", "X"], "action": "Select current line / extend to line bounds", "actionRu": "Выбрать строку / расширить до границ строк" },
+        { "keys": ["%"], "action": "Select entire file", "actionRu": "Выбрать весь файл" },
+        { "keys": [";"], "action": "Collapse selection onto a single cursor", "actionRu": "Схлопнуть выделение в курсор" },
+        { "keys": [","], "action": "Keep only primary selection", "actionRu": "Оставить только главное выделение" },
+        { "keys": ["s", "S"], "action": "Select all regex matches / split on matches", "actionRu": "Выбрать совпадения regex / разбить по совпадениям" },
+        { "keys": ["Alt+;"], "action": "Flip selection cursor and anchor", "actionRu": "Поменять местами якорь и курсор" },
+        { "keys": ["C", "Alt+C"], "action": "Copy selection onto next / previous line", "actionRu": "Добавить курсор строкой ниже / выше" }
+      ]
+    },
+    {
+      "title": "Search", "titleRu": "Поиск",
+      "items": [
+        { "keys": ["/", "?"], "action": "Search for regex pattern / previous pattern", "actionRu": "Поиск вперёд / назад" },
+        { "keys": ["n", "N"], "action": "Select next / previous search match", "actionRu": "Следующее / предыдущее совпадение" },
+        { "keys": ["*"], "action": "Search current selection as word", "actionRu": "Искать текущее выделение как слово" }
+      ]
+    },
+    {
+      "title": "Goto and window modes", "titleRu": "Переходы (g) и окна",
+      "items": [
+        { "keys": ["g", "g", "g", "e"], "action": "Go to file start / end", "actionRu": "Начало / конец файла" },
+        { "keys": ["g", "h", "g", "l"], "action": "Go to line start / end", "actionRu": "Начало / конец строки" },
+        { "keys": ["g", "d", "g", "r"], "action": "Go to definition / references (LSP)", "actionRu": "Определение / использования (LSP)" },
+        { "keys": ["g", "n", "g", "p"], "action": "Go to next / previous buffer", "actionRu": "Следующий / предыдущий буфер" },
+        { "keys": ["Ctrl+W", "Ctrl+W"], "action": "Switch to next window", "actionRu": "Следующее окно" },
+        { "keys": ["Ctrl+W", "v", "Ctrl+W", "s"], "action": "Vertical right / horizontal bottom split", "actionRu": "Разделить вертикально / горизонтально" },
+        { "keys": ["Ctrl+W", "h", "Ctrl+W", "j", "Ctrl+W", "k", "Ctrl+W", "l"], "action": "Move to left split / split below / above / right split", "actionRu": "Фокус окна слева / снизу / сверху / справа" },
+        { "keys": ["Ctrl+W", "q"], "action": "Close current window", "actionRu": "Закрыть окно" }
+      ]
+    },
+    {
+      "title": "Space mode", "titleRu": "Space-меню",
+      "items": [
+        { "keys": ["Space", "f"], "action": "Open file picker", "actionRu": "Выбор файла (пикер)" },
+        { "keys": ["Space", "b"], "action": "Open buffer picker", "actionRu": "Выбор буфера" },
+        { "keys": ["Space", "/"], "action": "Global search in workspace folder", "actionRu": "Глобальный поиск по проекту" },
+        { "keys": ["Space", "?"], "action": "Open command palette", "actionRu": "Палитра команд" },
+        { "keys": ["Space", "r", "Space", "a"], "action": "Rename symbol / apply code action (LSP)", "actionRu": "Переименовать символ / действие кода (LSP)" },
+        { "keys": ["Space", "k"], "action": "Show documentation for item under cursor (LSP)", "actionRu": "Документация под курсором (LSP)" },
+        { "keys": ["Space", "s", "Space", "d"], "action": "Document symbol / diagnostics picker (LSP)", "actionRu": "Символы документа / диагностика (LSP)" },
+        { "keys": ["Space", "y", "Space", "p"], "action": "Yank to / paste from system clipboard", "actionRu": "Копировать в / вставить из системного буфера" }
+      ]
+    },
+    {
+      "title": "View mode and misc", "titleRu": "Вид и прочее",
+      "items": [
+        { "keys": ["z", "c", "z", "t", "z", "b"], "action": "Center line / align to top / bottom", "actionRu": "Строку по центру / к верху / к низу" },
+        { "keys": [":"], "action": "Enter command mode", "actionRu": "Командный режим" },
+        { "keys": ["Esc", "Ctrl+C"], "action": "Normal mode / close picker", "actionRu": "Нормальный режим / закрыть пикер" }
+      ]
+    }
+  ]
+}

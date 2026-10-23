@@ -1,0 +1,70 @@
+{
+  "appId": "libreoffice-writer",
+  "displayName": "LibreOffice Writer",
+  "source": "https://help.libreoffice.org/latest/en-US/text/swriter/04/01010000.html (Shortcut Keys for LibreOffice Writer)",
+  "groups": [
+    {
+      "title": "File", "titleRu": "Файл",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "New document", "actionRu": "Новый документ" },
+        { "keys": ["Ctrl+O"], "action": "Open document", "actionRu": "Открыть документ" },
+        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Save as", "actionRu": "Сохранить как" },
+        { "keys": ["Ctrl+P"], "action": "Print", "actionRu": "Печать" },
+        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти" }
+      ]
+    },
+    {
+      "title": "Edit", "titleRu": "Правка",
+      "items": [
+        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+Y", "Ctrl+Shift+Z"], "action": "Redo", "actionRu": "Вернуть" },
+        { "keys": ["Ctrl+X"], "action": "Cut", "actionRu": "Вырезать" },
+        { "keys": ["Ctrl+C"], "action": "Copy", "actionRu": "Копировать" },
+        { "keys": ["Ctrl+V"], "action": "Paste", "actionRu": "Вставить" },
+        { "keys": ["Ctrl+Shift+V"], "action": "Paste as unformatted text", "actionRu": "Специальная вставка" },
+        { "keys": ["Ctrl+A"], "action": "Select All", "actionRu": "Выделить всё" },
+        { "keys": ["Ctrl+F", "Ctrl+H"], "action": "Find and Replace", "actionRu": "Найти и заменить" }
+      ]
+    },
+    {
+      "title": "Formatting", "titleRu": "Форматирование",
+      "items": [
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Полужирный" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
+        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый" },
+        { "keys": ["Ctrl+D"], "action": "Double Underline", "actionRu": "Двойное подчёркивание" },
+        { "keys": ["Ctrl+M"], "action": "Clear direct formatting", "actionRu": "Очистить прямое форматирование" },
+        { "keys": ["Ctrl+Shift+P"], "action": "Superscript", "actionRu": "Верхний индекс" },
+        { "keys": ["Ctrl+Shift+B"], "action": "Subscript", "actionRu": "Нижний индекс" },
+        { "keys": ["Ctrl+E"], "action": "Align Centered", "actionRu": "По центру" },
+        { "keys": ["Ctrl+J"], "action": "Align Justify", "actionRu": "По ширине" },
+        { "keys": ["Ctrl+L"], "action": "Align Left", "actionRu": "По левому краю" },
+        { "keys": ["Ctrl+R"], "action": "Align Right", "actionRu": "По правому краю" },
+        { "keys": ["F12"], "action": "Toggle Ordered List", "actionRu": "Нумерация вкл / выкл" },
+        { "keys": ["Shift+F12"], "action": "Toggle Unordered List", "actionRu": "Маркеры вкл / выкл" }
+      ]
+    },
+    {
+      "title": "Insert and structure", "titleRu": "Вставка и структура",
+      "items": [
+        { "keys": ["Ctrl+Enter"], "action": "Manual page break", "actionRu": "Разрыв страницы" },
+        { "keys": ["Ctrl+F12"], "action": "Insert or edit Table", "actionRu": "Вставить таблицу" },
+        { "keys": ["Ctrl+Alt+C"], "action": "Insert comment", "actionRu": "Вставить примечание" },
+        { "keys": ["Ctrl+1", "Ctrl+2", "Ctrl+3"], "action": "Apply Heading 1 / 2 / 3 paragraph style", "actionRu": "Стиль заголовка 1 / 2 / 3" },
+        { "keys": ["Ctrl+0"], "action": "Apply Body Text paragraph style", "actionRu": "Стиль основного текста" }
+      ]
+    },
+    {
+      "title": "Tools and view", "titleRu": "Инструменты и вид",
+      "items": [
+        { "keys": ["F7"], "action": "Spelling", "actionRu": "Проверка орфографии" },
+        { "keys": ["Ctrl+F7"], "action": "Thesaurus", "actionRu": "Тезаурус" },
+        { "keys": ["Shift+F7"], "action": "AutoCorrect while typing", "actionRu": "Автозамена при вводе" },
+        { "keys": ["F5"], "action": "Navigator on/off", "actionRu": "Навигатор" },
+        { "keys": ["F11"], "action": "Styles deck on/off", "actionRu": "Стили" },
+        { "keys": ["Ctrl+Shift+F5"], "action": "Navigator on, go to page number", "actionRu": "Перейти на страницу" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "appId": "wezterm",
+  "displayName": "WezTerm",
+  "source": "https://wezfurlong.org/wezterm/config/default-keys.html (дефолтные биндинги)",
+  "note": "Дефолтные биндинги WezTerm (Linux)",
+  "groups": [
+    {
+      "title": "Clipboard", "titleRu": "Буфер обмена",
+      "items": [
+        { "keys": ["Ctrl+Shift+C"], "action": "Copy to clipboard", "actionRu": "Копировать в буфер обмена" },
+        { "keys": ["Ctrl+Shift+V"], "action": "Paste from clipboard", "actionRu": "Вставить из буфера обмена" },
+        { "keys": ["Ctrl+Shift+X"], "action": "Activate copy mode", "actionRu": "Копировать только текст (без форматирования)" }
+      ]
+    },
+    {
+      "title": "Tabs and windows", "titleRu": "Вкладки и окна",
+      "items": [
+        { "keys": ["Ctrl+Shift+T"], "action": "Spawn new tab", "actionRu": "Новая вкладка" },
+        { "keys": ["Ctrl+Shift+W"], "action": "Close current tab", "actionRu": "Закрыть вкладку" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Spawn new window", "actionRu": "Новое окно" },
+        { "keys": ["Ctrl+Shift+Tab", "Ctrl+Tab"], "action": "Activate previous / next tab", "actionRu": "Предыдущая / следующая вкладка" },
+        { "keys": ["Ctrl+Shift+1 … Ctrl+Shift+8"], "action": "Activate tab 1–8", "actionRu": "Перейти на вкладку 1–8" },
+        { "keys": ["Ctrl+Shift+9"], "action": "Activate last tab", "actionRu": "Перейти на последнюю вкладку" }
+      ]
+    },
+    {
+      "title": "Panes", "titleRu": "Панели",
+      "items": [
+        { "keys": ["Ctrl+Shift+Alt+\""], "action": "Split vertically", "actionRu": "Горизонтальный сплит" },
+        { "keys": ["Ctrl+Shift+Alt+%"], "action": "Split horizontally", "actionRu": "Вертикальный сплит" },
+        { "keys": ["Ctrl+Shift+]", "Ctrl+Shift+["], "action": "Следующая / предыдущая панель" },
+        { "keys": ["Ctrl+Shift+R"], "action": "Reload configuration", "actionRu": "Режим изменения размера панели" }
+      ]
+    },
+    {
+      "title": "Font and search", "titleRu": "Шрифт и поиск",
+      "items": [
+        { "keys": ["Ctrl+=", "Ctrl+Shift+="], "action": "Increase font size", "actionRu": "Увеличить шрифт" },
+        { "keys": ["Ctrl+-"], "action": "Decrease font size", "actionRu": "Уменьшить шрифт" },
+        { "keys": ["Ctrl+0"], "action": "Reset font size", "actionRu": "Сбросить размер шрифта" },
+        { "keys": ["Ctrl+Shift+F"], "action": "Search scrollback", "actionRu": "Поиск по скролбэку" },
+        { "keys": ["Ctrl+Shift+K"], "action": "Clear scrollback", "actionRu": "Очистить скролбэк" },
+        { "keys": ["Ctrl+Shift+L"], "action": "Show debug overlay", "actionRu": "Лаунчер команд" }
+      ]
+    },
+    {
+      "title": "Scrollback", "titleRu": "Скролл",
+      "items": [
+        { "keys": ["Shift+PageUp"], "action": "Scroll up by page", "actionRu": "Страница вверх" },
+        { "keys": ["Shift+PageDown"], "action": "Scroll down by page", "actionRu": "Страница вниз" }
+      ]
+    }
+  ]
+}

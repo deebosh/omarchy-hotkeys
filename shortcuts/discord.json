@@ -1,0 +1,48 @@
+{
+  "appId": "discord",
+  "displayName": "Discord",
+  "source": "https://support.discord.com (раздел keyboard shortcuts; полный список — в приложении по Ctrl+/)",
+  "note": "See the full list in the app via Ctrl+/",
+  "noteRu": "Полный список смотрите в приложении по Ctrl+/",
+  "groups": [
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Ctrl+/"], "action": "Toggle Hotkeys", "actionRu": "Показать все горячие клавиши" },
+        { "keys": ["Ctrl+K"], "action": "Quick Switcher", "actionRu": "Быстрый переход: серверы, каналы, личка" },
+        { "keys": ["Ctrl+1 … Ctrl+9"], "action": "Go to server 1–9", "actionRu": "Перейти на сервер 1–9" },
+        { "keys": ["Alt+ArrowUp", "Alt+ArrowDown"], "action": "Navigate between channels", "actionRu": "Предыдущий / следующий сервер" },
+        { "keys": ["Alt+Shift+ArrowUp", "Alt+Shift+ArrowDown"], "action": "Navigate between unread channels", "actionRu": "Предыдущий / следующий непрочитанный канал" },
+        { "keys": ["Esc"], "action": "Mark channel as read", "actionRu": "Отметить текущий канал прочитанным" },
+        { "keys": ["Shift+Esc"], "action": "Mark server read", "actionRu": "Отметить сервер прочитанным" }
+      ]
+    },
+    {
+      "title": "Message Navigation",
+      "titleRu": "Сообщения",
+      "items": [
+        { "keys": ["Enter"], "action": "Send message", "actionRu": "Отправить сообщение" },
+        { "keys": ["Shift+Enter"], "action": "New line", "actionRu": "Новая строка" },
+        { "keys": ["ArrowUp"], "action": "Edit your last message", "actionRu": "Редактировать последнее сообщение" }
+      ]
+    },
+    {
+      "title": "Voice and video",
+      "titleRu": "Голос и видео",
+      "items": [
+        { "keys": ["Ctrl+Shift+M"], "action": "Toggle mute", "actionRu": "Вкл/выкл микрофон" },
+        { "keys": ["Ctrl+Shift+D"], "action": "Toggle deafen", "actionRu": "Вкл/выкл звук (deafen)" }
+      ]
+    },
+    {
+      "title": "App",
+      "titleRu": "Приложение",
+      "items": [
+        { "keys": ["Ctrl+R"], "action": "Reload Discord", "actionRu": "Перезагрузить Discord" },
+        { "keys": ["Ctrl+Q"], "action": "Quit Discord", "actionRu": "Выйти из Discord" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Toggle streamer mode", "actionRu": "Вкл/выкл режим стримера" }
+      ]
+    }
+  ]
+}

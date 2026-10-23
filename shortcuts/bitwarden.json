@@ -1,0 +1,53 @@
+{
+  "appId": "bitwarden",
+  "displayName": "Bitwarden",
+  "source": "https://bitwarden.com/help/keyboard-shortcuts/",
+  "note": "Ctrl/Cmd means Ctrl on Windows/Linux",
+  "noteRu": "Ctrl/Cmd = Ctrl на Windows/Linux",
+  "groups": [
+    {
+      "title": "Browser extension",
+      "titleRu": "Расширение браузера",
+      "items": [
+        { "keys": ["Ctrl+Shift+Y"], "action": "Activate the extension", "actionRu": "Активировать расширение" },
+        { "keys": ["Ctrl+Shift+L"], "action": "Autofill the last used login for the current website", "actionRu": "Автозаполнение последнего логина (повторно — следующий)" },
+        { "keys": ["Ctrl+Shift+9"], "action": "Generate a password and copy it to the clipboard", "actionRu": "Сгенерировать пароль и скопировать" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Lock the vault", "actionRu": "Заблокировать хранилище" }
+      ]
+    },
+    {
+      "title": "Desktop app: general",
+      "titleRu": "Десктоп-приложение: общее",
+      "items": [
+        { "keys": ["Ctrl+L"], "action": "Lock the vault", "actionRu": "Заблокировать хранилище" },
+        { "keys": ["Ctrl+F"], "action": "Place the cursor in the vault's search box", "actionRu": "Поиск по хранилищу" },
+        { "keys": ["Ctrl+N"], "action": "Add a new login", "actionRu": "Новый логин" },
+        { "keys": ["Ctrl+G"], "action": "Open the Bitwarden generator", "actionRu": "Генератор паролей" },
+        { "keys": ["Ctrl+,"], "action": "Open Bitwarden preferences", "actionRu": "Настройки" },
+        { "keys": ["Ctrl+Shift+R"], "action": "Reload the Bitwarden desktop app", "actionRu": "Перезагрузить приложение" },
+        { "keys": ["Ctrl+Q"], "action": "Quit the Bitwarden desktop app", "actionRu": "Выйти из приложения" }
+      ]
+    },
+    {
+      "title": "Edit items",
+      "titleRu": "Десктоп-приложение: копирование",
+      "items": [
+        { "keys": ["Ctrl+U"], "action": "Copy the open item's username", "actionRu": "Скопировать имя пользователя" },
+        { "keys": ["Ctrl+P"], "action": "Copy the open item's password", "actionRu": "Скопировать пароль" },
+        { "keys": ["Ctrl+T"], "action": "Copy the open item's TOTP", "actionRu": "Скопировать TOTP-код" }
+      ]
+    },
+    {
+      "title": "Desktop app: window and view",
+      "titleRu": "Десктоп-приложение: окно и вид",
+      "items": [
+        { "keys": ["Ctrl+=", "Ctrl+-", "Ctrl+0"], "action": "Zoom in / Zoom out / Reset the zoom level", "actionRu": "Масштаб: больше / меньше / сброс" },
+        { "keys": ["F11"], "action": "Enter full-screen mode", "actionRu": "Полноэкранный режим" },
+        { "keys": ["Ctrl+M"], "action": "Minimize the Bitwarden desktop app", "actionRu": "Свернуть приложение" },
+        { "keys": ["Ctrl+Shift+M"], "action": "Hide the Bitwarden desktop app in the tray", "actionRu": "Скрыть в трей" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Always keep the Bitwarden desktop app on top", "actionRu": "Поверх всех окон (вкл/выкл)" },
+        { "keys": ["Ctrl+W"], "action": "Close the Bitwarden desktop app window", "actionRu": "Закрыть окно" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "appId": "lazydocker",
+  "displayName": "Lazydocker",
+  "source": "https://github.com/jesseduffield/lazydocker (docs/keybindings)",
+  "note": "Full list under the ? key inside the app; lazygit-style bindings", "noteRu": "Полный список — клавиша ? внутри приложения; биндинги в стиле lazygit",
+  "groups": [
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Up", "Down", "j", "k"], "action": "Up / down the list", "actionRu": "Вверх / вниз по списку" },
+        { "keys": ["Left", "Right", "h", "l"], "action": "Previous / next panel", "actionRu": "Предыдущая / следующая панель" },
+        { "keys": ["Tab", "Shift+Tab"], "action": "Next / previous panel", "actionRu": "Следующая / предыдущая панель" },
+        { "keys": ["1", "2", "3", "4", "5"], "action": "Focus projects / services / containers / images / volumes", "actionRu": "Проект / сервисы / контейнеры / образы / тома" },
+        { "keys": ["PageUp", "PageDown"], "action": "Scroll panel", "actionRu": "Прокрутка панели" },
+        { "keys": ["/"], "action": "Filter list", "actionRu": "Фильтр" }
+      ]
+    },
+    {
+      "title": "Containers and services", "titleRu": "Контейнеры и сервисы",
+      "items": [
+        { "keys": ["r"], "action": "Restart", "actionRu": "Перезапустить" },
+        { "keys": ["s"], "action": "Stop", "actionRu": "Остановить" },
+        { "keys": ["d"], "action": "Remove", "actionRu": "Удалить" },
+        { "keys": ["a"], "action": "Attach", "actionRu": "Подключиться (attach)" },
+        { "keys": ["e"], "action": "Hide/show stopped containers", "actionRu": "Выполнить shell в контейнере" },
+        { "keys": ["m"], "action": "View logs", "actionRu": "Показать логи" },
+        { "keys": ["L"], "action": "Go to logs", "actionRu": "Перейти к логам" }
+      ]
+    },
+    {
+      "title": "Application", "titleRu": "Приложение",
+      "items": [
+        { "keys": ["x"], "action": "Menu", "actionRu": "Меню" },
+        { "keys": ["o"], "action": "Open lazydocker config", "actionRu": "Открыть файл конфигурации" },
+        { "keys": ["?"], "action": "Open keybindings menu", "actionRu": "Все сочетания клавиш" },
+        { "keys": ["q", "Esc"], "action": "Back / quit", "actionRu": "Назад / выйти" }
+      ]
+    }
+  ]
+}

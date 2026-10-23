@@ -1,0 +1,129 @@
+{
+  "appId": "evolution",
+  "displayName": "Evolution",
+  "source": "https://help.gnome.org/users/evolution/stable/ (справка Evolution)",
+  "note": "Main Evolution hotkeys; the documented set is small",
+  "noteRu": "Основные хоткеи Evolution; задокументированный набор невелик",
+  "groups": [
+    {
+      "title": "Messages",
+      "titleRu": "Сообщения",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "Create a new message",
+          "actionRu": "Новое сообщение"
+        },
+        {
+          "keys": [
+            "Ctrl+R"
+          ],
+          "action": "Reply to sender",
+          "actionRu": "Ответить"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+R"
+          ],
+          "action": "Reply to all recipients",
+          "actionRu": "Ответить всем"
+        },
+        {
+          "keys": [
+            "Ctrl+L"
+          ],
+          "action": "Forward selection",
+          "actionRu": "Переслать"
+        },
+        {
+          "keys": [
+            "Ctrl+Enter"
+          ],
+          "action": "Send message",
+          "actionRu": "Отправить сообщение"
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Delete selection",
+          "actionRu": "Удалить сообщение"
+        }
+      ]
+    },
+    {
+      "title": "Mail",
+      "titleRu": "Почта",
+      "items": [
+        {
+          "keys": [
+            "F9"
+          ],
+          "action": "Send and receive messages",
+          "actionRu": "Отправить / получить почту"
+        },
+        {
+          "keys": [
+            "Ctrl+1",
+            "Ctrl+2",
+            "Ctrl+3",
+            "Ctrl+4"
+          ],
+          "action": "Select Mail / Contacts / Calendars / Tasks components",
+          "actionRu": "Почта / Контакты / Календари / Задачи"
+        },
+        {
+          "keys": [
+            "Ctrl+E"
+          ],
+          "action": "Search messages",
+          "actionRu": "Поиск сообщений"
+        },
+        {
+          "keys": [
+            "]",
+            "["
+          ],
+          "action": "Jump to next / previous unread message",
+          "actionRu": "Следующее / предыдущее сообщение"
+        }
+      ]
+    },
+    {
+      "title": "Global",
+      "titleRu": "Файл и вид",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Save selection",
+          "actionRu": "Сохранить"
+        },
+        {
+          "keys": [
+            "Ctrl+P"
+          ],
+          "action": "Print selection",
+          "actionRu": "Печать"
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit Evolution",
+          "actionRu": "Выйти"
+        },
+        {
+          "keys": [
+            "Ctrl+W"
+          ],
+          "action": "Close window",
+          "actionRu": "Закрыть окно"
+        }
+      ]
+    }
+  ]
+}

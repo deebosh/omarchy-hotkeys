@@ -1,0 +1,93 @@
+{
+  "appId": "geary",
+  "displayName": "Geary",
+  "source": "https://wiki.gnome.org/Apps/Geary (справка Geary)",
+  "note": "Geary has few built-in hotkeys — all documented ones below",
+  "noteRu": "У Geary мало собственных хоткеев — ниже все задокументированные",
+  "groups": [
+    {
+      "title": "Messages",
+      "titleRu": "Сообщения",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New message",
+          "actionRu": "Новое сообщение"
+        },
+        {
+          "keys": [
+            "Ctrl+R"
+          ],
+          "action": "Reply",
+          "actionRu": "Ответить"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+R"
+          ],
+          "action": "Reply to all",
+          "actionRu": "Ответить всем"
+        },
+        {
+          "keys": [
+            "Ctrl+L"
+          ],
+          "action": "Forward",
+          "actionRu": "Переслать"
+        },
+        {
+          "keys": [
+            "Ctrl+Enter"
+          ],
+          "action": "Send message",
+          "actionRu": "Отправить сообщение"
+        },
+        {
+          "keys": [
+            "Delete",
+            "Backspace"
+          ],
+          "action": "Archive conversation",
+          "actionRu": "Архивировать беседу"
+        },
+        {
+          "keys": [
+            "S"
+          ],
+          "action": "Star",
+          "actionRu": "Пометить звёздочкой"
+        }
+      ]
+    },
+    {
+      "title": "Navigation and Search",
+      "titleRu": "Навигация и поиск",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Find in conversation",
+          "actionRu": "Найти в беседе"
+        },
+        {
+          "keys": [
+            "J",
+            "K"
+          ],
+          "action": "Next / previous conversation",
+          "actionRu": "Следующая / предыдущая беседа"
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit",
+          "actionRu": "Выйти"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "appId": "element",
+  "displayName": "Element",
+  "source": "https://element.io/help (keyboard shortcuts; полный список — в приложении по кнопке ?)",
+  "note": "The official list is short; see the full list in the app via the ? button (bottom left)",
+  "noteRu": "Официальный список невелик; полный список смотрите в приложении по кнопке ? (внизу слева)",
+  "groups": [
+    {
+      "title": "Message (composer)",
+      "titleRu": "Сообщение (композер)",
+      "items": [
+        { "keys": ["Ctrl+Enter"], "action": "Send message", "actionRu": "Отправить сообщение" },
+        { "keys": ["Shift+Enter"], "action": "New line", "actionRu": "Новая строка" },
+        { "keys": ["ArrowUp"], "action": "Edit last message", "actionRu": "Редактировать последнее сообщение" },
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
+        { "keys": ["Ctrl+Z"], "action": "Undo input", "actionRu": "Отменить ввод" }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Search in current room", "actionRu": "Поиск в текущей комнате" },
+        { "keys": ["Alt+ArrowLeft", "Alt+ArrowRight"], "action": "Back / forward in room history", "actionRu": "Назад / вперёд по истории комнат" },
+        { "keys": ["Esc"], "action": "Close dialog", "actionRu": "Закрыть диалог" }
+      ]
+    }
+  ]
+}

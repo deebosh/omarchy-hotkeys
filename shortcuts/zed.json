@@ -1,0 +1,108 @@
+{
+  "appId": "zed",
+  "displayName": "Zed",
+  "source": "https://github.com/zed-industries/zed/blob/main/assets/keymaps/default-linux.json и https://zed.dev/docs/key-bindings",
+  "note": "Дефолтный Linux-кеймап Zed",
+  "groups": [
+    {
+      "title": "Files and project", "titleRu": "Файлы и проект",
+      "items": [
+        { "keys": ["Ctrl+P", "Ctrl+E"], "action": "Toggle file finder", "actionRu": "Быстрое открытие файла" },
+        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Save as", "actionRu": "Сохранить как" },
+        { "keys": ["Ctrl+N"], "action": "New file", "actionRu": "Новый файл" },
+        { "keys": ["Ctrl+Shift+N"], "action": "New window", "actionRu": "Новое окно" },
+        { "keys": ["Ctrl+O"], "action": "Open files", "actionRu": "Открыть файлы" },
+        { "keys": ["Ctrl+R"], "action": "Open recent projects", "actionRu": "Недавние проекты" },
+        { "keys": ["Ctrl+W"], "action": "Close active item", "actionRu": "Закрыть активную вкладку" },
+        { "keys": ["Ctrl+Tab", "Ctrl+Shift+Tab"], "action": "Toggle tab switcher", "actionRu": "Переключатель вкладок" },
+        { "keys": ["Ctrl+PageUp", "Ctrl+PageDown"], "action": "Activate previous / next item", "actionRu": "Предыдущая / следующая вкладка" },
+        { "keys": ["Alt+1 … Alt+9"], "action": "Activate item by number", "actionRu": "Вкладка по номеру" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Reopen closed item", "actionRu": "Переоткрыть закрытую вкладку" }
+      ]
+    },
+    {
+      "title": "Editor", "titleRu": "Редактор",
+      "items": [
+        { "keys": ["Ctrl+Z", "Ctrl+Shift+Z", "Ctrl+Y"], "action": "Undo / redo", "actionRu": "Отменить / повторить" },
+        { "keys": ["Ctrl+X", "Ctrl+C", "Ctrl+V"], "action": "Cut / copy / paste", "actionRu": "Вырезать / копировать / вставить" },
+        { "keys": ["Ctrl+A"], "action": "Select all", "actionRu": "Выбрать всё" },
+        { "keys": ["Ctrl+L"], "action": "Select line", "actionRu": "Выбрать строку" },
+        { "keys": ["Ctrl+D"], "action": "Select next", "actionRu": "Следующее совпадение в выделение" },
+        { "keys": ["Ctrl+Shift+K"], "action": "Delete line", "actionRu": "Удалить строку" },
+        { "keys": ["Alt+Up", "Alt+Down"], "action": "Move line up / down", "actionRu": "Переместить строку вверх / вниз" },
+        { "keys": ["Ctrl+/"], "action": "Toggle line comment", "actionRu": "Комментарий строкой" },
+        { "keys": ["Shift+Alt+A"], "action": "Toggle block comments", "actionRu": "Блочный комментарий" },
+        { "keys": ["Ctrl+Shift+Space"], "action": "Show word completions", "actionRu": "Подсказки по словам" },
+        { "keys": ["Ctrl+Space"], "action": "Show completions", "actionRu": "Автодополнение" },
+        { "keys": ["Ctrl+."], "action": "Код-действия" },
+        { "keys": ["Ctrl+Shift+I"], "action": "Format", "actionRu": "Форматировать" },
+        { "keys": ["F2"], "action": "Rename", "actionRu": "Переименовать символ" },
+        { "keys": ["F12"], "action": "Go to definition", "actionRu": "К определению" },
+        { "keys": ["Shift+F12"], "action": "Go to implementation", "actionRu": "К реализации" },
+        { "keys": ["Alt+Shift+F12"], "action": "Find all references", "actionRu": "Все ссылки" },
+        { "keys": ["F8", "Shift+F8"], "action": "Go to next / previous diagnostic", "actionRu": "Следующая / предыдущая диагностика" },
+        { "keys": ["Ctrl+K Ctrl+C"], "action": "Toggle comments", "actionRu": "Показать hover" }
+      ]
+    },
+    {
+      "title": "Search", "titleRu": "Поиск",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Find in file", "actionRu": "Поиск в файле" },
+        { "keys": ["Ctrl+H"], "action": "Find and replace in file", "actionRu": "Поиск с заменой" },
+        { "keys": ["Ctrl+Shift+F"], "action": "Search in project", "actionRu": "Поиск по проекту" },
+        { "keys": ["F3", "Shift+F3"], "action": "Select next / previous match", "actionRu": "Следующее / предыдущее совпадение" },
+        { "keys": ["Ctrl+G"], "action": "Go to line", "actionRu": "Перейти к строке" }
+      ]
+    },
+    {
+      "title": "Panels", "titleRu": "Панели",
+      "items": [
+        { "keys": ["Ctrl+B"], "action": "Toggle left dock", "actionRu": "Левая панель (проект)" },
+        { "keys": ["Ctrl+J"], "action": "Toggle bottom dock", "actionRu": "Нижняя панель" },
+        { "keys": ["Ctrl+Shift+E"], "action": "Toggle project panel focus", "actionRu": "Фокус: проект" },
+        { "keys": ["Ctrl+Shift+G"], "action": "Toggle git panel focus", "actionRu": "Фокус: git" },
+        { "keys": ["Ctrl+Shift+M"], "action": "Show diagnostics", "actionRu": "Диагностика" },
+        { "keys": ["Ctrl+`"], "action": "Toggle terminal", "actionRu": "Терминал" },
+        { "keys": ["Ctrl+Shift+P", "F1"], "action": "Toggle command palette", "actionRu": "Палитра команд" },
+        { "keys": ["Ctrl+K Ctrl+S"], "action": "Open keymap", "actionRu": "Редактор кеймапа" },
+        { "keys": ["Ctrl+K Ctrl+T"], "action": "Toggle theme selector", "actionRu": "Выбор темы" }
+      ]
+    },
+    {
+      "title": "Git", "titleRu": "Git",
+      "items": [
+        { "keys": ["Alt+G B"], "action": "Blame" },
+        { "keys": ["Alt+G M"], "action": "Open modified files", "actionRu": "Изменённые файлы" },
+        { "keys": ["Alt+G R"], "action": "Review diff" },
+        { "keys": ["Alt+Y"], "action": "Stage and next", "actionRu": "Stage и следующий" },
+        { "keys": ["Alt+Shift+Y"], "action": "Unstage and next", "actionRu": "Unstage и следующий" },
+        { "keys": ["Ctrl+Alt+Y"], "action": "Toggle staged", "actionRu": "Переключить staged" },
+        { "keys": ["Ctrl+G Ctrl+G"], "action": "Fetch" },
+        { "keys": ["Ctrl+G Up"], "action": "Push" },
+        { "keys": ["Ctrl+G Down"], "action": "Pull" },
+        { "keys": ["Ctrl+Enter"], "action": "Commit" },
+        { "keys": ["Ctrl+Shift+Enter"], "action": "Amend" }
+      ]
+    },
+    {
+      "title": "Built-in terminal", "titleRu": "Терминал (встроенный)",
+      "items": [
+        { "keys": ["Ctrl+Shift+C", "Ctrl+Shift+V"], "action": "Copy / paste", "actionRu": "Копировать / вставить" },
+        { "keys": ["Ctrl+Shift+L"], "action": "Clear", "actionRu": "Очистить" },
+        { "keys": ["Shift+PageUp", "Shift+PageDown"], "action": "Scroll page up / down", "actionRu": "Скролл" },
+        { "keys": ["Ctrl+~"], "action": "New terminal", "actionRu": "Новый терминал" }
+      ]
+    },
+    {
+      "title": "Misc", "titleRu": "Прочее",
+      "items": [
+        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти" },
+        { "keys": ["F11"], "action": "Toggle fullscreen", "actionRu": "Полный экран" },
+        { "keys": ["Ctrl+Shift+E"], "action": "Toggle project panel focus", "actionRu": "Расширения" },
+        { "keys": ["Ctrl+K Z"], "action": "Toggle soft wrap", "actionRu": "Мягкий перенос строк" },
+        { "keys": ["Shift+Esc"], "action": "Toggle zoom", "actionRu": "Переключить зум панели" }
+      ]
+    }
+  ]
+}

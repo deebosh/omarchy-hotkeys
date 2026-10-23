@@ -1,0 +1,57 @@
+{
+  "appId": "alacritty",
+  "displayName": "Alacritty",
+  "source": "https://alacritty.org (дефолтные биндинги из alacritty.toml)",
+  "note": "Default Alacritty bindings (Linux)",
+  "noteRu": "Дефолтные биндинги Alacritty (Linux)",
+  "groups": [
+    {
+      "title": "Clipboard",
+      "titleRu": "Буфер обмена",
+      "items": [
+        { "keys": ["Ctrl+Shift+C"], "action": "Store current selection into clipboard", "actionRu": "Копировать в буфер обмена" },
+        { "keys": ["Ctrl+Shift+V"], "action": "Paste contents of system clipboard", "actionRu": "Вставить из буфера обмена" },
+        { "keys": ["Shift+Insert"], "action": "Paste contents of selection buffer", "actionRu": "Вставить из primary selection" }
+      ]
+    },
+    {
+      "title": "Window",
+      "titleRu": "Окно",
+      "items": [
+        { "keys": ["Ctrl+Shift+Return"], "action": "Create a new Alacritty window", "actionRu": "Новое окно" },
+        { "keys": ["Ctrl+Shift+Q"], "action": "Quit Alacritty", "actionRu": "Выйти" },
+        { "keys": ["F11"], "action": "Toggle fullscreen", "actionRu": "Полноэкранный режим" }
+      ]
+    },
+    {
+      "title": "Font",
+      "titleRu": "Шрифт",
+      "items": [
+        { "keys": ["Ctrl++", "Ctrl+="], "action": "Increase font size", "actionRu": "Увеличить шрифт" },
+        { "keys": ["Ctrl+-"], "action": "Decrease font size", "actionRu": "Уменьшить шрифт" },
+        { "keys": ["Ctrl+0"], "action": "Reset font size to the config value", "actionRu": "Сбросить размер шрифта" }
+      ]
+    },
+    {
+      "title": "Scrolling",
+      "titleRu": "Скролл",
+      "items": [
+        { "keys": ["Shift+PageUp"], "action": "Scroll exactly one page up", "actionRu": "Страница вверх" },
+        { "keys": ["Shift+PageDown"], "action": "Scroll exactly one page down", "actionRu": "Страница вниз" },
+        { "keys": ["Ctrl+Shift+Home"], "action": "Scroll all the way to the top", "actionRu": "К началу скролбэка" },
+        { "keys": ["Ctrl+Shift+End"], "action": "Scroll all the way to the bottom", "actionRu": "К концу скролбэка" }
+      ]
+    },
+    {
+      "title": "Search and misc",
+      "titleRu": "Поиск и прочее",
+      "items": [
+        { "keys": ["Ctrl+Shift+F"], "action": "Start a forward buffer search", "actionRu": "Поиск вперёд по скролбэку" },
+        { "keys": ["Ctrl+Shift+B"], "action": "Start a backward buffer search", "actionRu": "Поиск назад по скролбэку" },
+        { "keys": ["Ctrl+Shift+Space"], "action": "Toggle vi mode", "actionRu": "Vi-режим" },
+        { "keys": ["Ctrl+Shift+O"], "action": "Regex keyboard hints", "actionRu": "Подсказки: открыть URL и ссылки" },
+        { "keys": ["Ctrl+Shift+L"], "action": "Clear the display buffer to remove history", "actionRu": "Очистить экран и скролбэк" }
+      ]
+    }
+  ]
+}

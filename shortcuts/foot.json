@@ -1,0 +1,171 @@
+{
+  "appId": "foot",
+  "displayName": "Foot",
+  "source": "https://codeberg.org/dnkl/foot (foot.ini, секции key-bindings / search-bindings)",
+  "note": "Default foot bindings",
+  "noteRu": "Дефолтные биндинги foot",
+  "groups": [
+    {
+      "title": "Clipboard",
+      "titleRu": "Буфер обмена",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+C"
+          ],
+          "action": "Copies the current selection into the clipboard",
+          "actionRu": "Копировать в буфер обмена"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+V"
+          ],
+          "action": "Pastes from the clipboard",
+          "actionRu": "Вставить из буфера обмена"
+        },
+        {
+          "keys": [
+            "Shift+Insert"
+          ],
+          "action": "Pastes from the primary selection",
+          "actionRu": "Вставить из primary selection"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+N"
+          ],
+          "action": "Spawns a new terminal",
+          "actionRu": "Новый терминал"
+        }
+      ]
+    },
+    {
+      "title": "Scrolling",
+      "titleRu": "Скролл",
+      "items": [
+        {
+          "keys": [
+            "Shift+PageUp"
+          ],
+          "action": "Scrolls up/back one page in history",
+          "actionRu": "Скролл вверх на страницу"
+        },
+        {
+          "keys": [
+            "Shift+PageDown"
+          ],
+          "action": "Scrolls down/forward one page in history",
+          "actionRu": "Скролл вниз на страницу"
+        }
+      ]
+    },
+    {
+      "title": "Search",
+      "titleRu": "Поиск",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+R"
+          ],
+          "action": "Starts a scrollback/history search",
+          "actionRu": "Начать поиск по скролбэку"
+        },
+        {
+          "keys": [
+            "Ctrl+R"
+          ],
+          "action": "Search backwards in the scrollback history for the next match",
+          "actionRu": "Найти предыдущее"
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Searches forwards in the scrollback history for the next match",
+          "actionRu": "Найти следующее"
+        },
+        {
+          "keys": [
+            "Enter"
+          ],
+          "action": "Exit search mode and copy current selection into the primary selection",
+          "actionRu": "Подтвердить поиск"
+        },
+        {
+          "keys": [
+            "Esc",
+            "Ctrl+G",
+            "Ctrl+C"
+          ],
+          "action": "Aborts the search",
+          "actionRu": "Отменить поиск"
+        }
+      ]
+    },
+    {
+      "title": "Font",
+      "titleRu": "Шрифт",
+      "items": [
+        {
+          "keys": [
+            "Ctrl++",
+            "Ctrl+=",
+            "Ctrl+KP_Add"
+          ],
+          "action": "Increases the font size by 0.5pt",
+          "actionRu": "Увеличить шрифт"
+        },
+        {
+          "keys": [
+            "Ctrl+-",
+            "Ctrl+KP_Subtract"
+          ],
+          "action": "Decreases the font size by 0.5pt",
+          "actionRu": "Уменьшить шрифт"
+        },
+        {
+          "keys": [
+            "Ctrl+0",
+            "Ctrl+KP_0"
+          ],
+          "action": "Resets the font size to the default",
+          "actionRu": "Сбросить размер шрифта"
+        }
+      ]
+    },
+    {
+      "title": "URLs and More",
+      "titleRu": "URL и прочее",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Shift+O"
+          ],
+          "action": "Show URLs and open",
+          "actionRu": "Показать URL и открыть"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+U"
+          ],
+          "action": "Input a Unicode character",
+          "actionRu": "Ввод Unicode-символа"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+Z"
+          ],
+          "action": "Jump to the previous prompt",
+          "actionRu": "К предыдущему промпту"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+X"
+          ],
+          "action": "Jump to the next prompt",
+          "actionRu": "К следующему промпту"
+        }
+      ]
+    }
+  ]
+}

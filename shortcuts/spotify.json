@@ -1,0 +1,178 @@
+{
+  "appId": "spotify",
+  "displayName": "Spotify",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Play/Pause",
+          "actionRu": "Играть / пауза",
+          "keys": [
+            "Space"
+          ]
+        },
+        {
+          "action": "Go to Next",
+          "actionRu": "Следующий трек",
+          "keys": [
+            "Down"
+          ]
+        },
+        {
+          "action": "Go to Previous",
+          "actionRu": "Предыдущий трек",
+          "keys": [
+            "Up"
+          ]
+        },
+        {
+          "action": "Shuffle",
+          "actionRu": "Перемешать",
+          "keys": [
+            "Ctrl+S",
+            "Alt+S"
+          ]
+        },
+        {
+          "action": "Repeat",
+          "actionRu": "Повтор",
+          "keys": [
+            "Ctrl+R",
+            "Alt+R"
+          ]
+        },
+        {
+          "action": "Mute/Unmute",
+          "actionRu": "Без звука",
+          "keys": [
+            "M"
+          ]
+        },
+        {
+          "action": "Add to Queue",
+          "actionRu": "В очередь",
+          "keys": [
+            "Right"
+          ]
+        },
+        {
+          "action": "Add to Library",
+          "actionRu": "В медиатеку",
+          "keys": [
+            "Left"
+          ]
+        }
+      ],
+      "title": "Playback",
+      "titleRu": "Воспроизведение"
+    },
+    {
+      "items": [
+        {
+          "action": "Open Search",
+          "actionRu": "Поиск",
+          "keys": [
+            "Ctrl+K"
+          ]
+        },
+        {
+          "action": "Filter",
+          "actionRu": "Фильтр",
+          "keys": [
+            "Ctrl+F"
+          ]
+        },
+        {
+          "action": "Select All",
+          "actionRu": "Выделить всё",
+          "keys": [
+            "Ctrl+A"
+          ]
+        },
+        {
+          "action": "Go to Preferences",
+          "actionRu": "Настройки",
+          "keys": [
+            "Ctrl+,"
+          ]
+        },
+        {
+          "action": "Open Help",
+          "actionRu": "Справка по хоткеям",
+          "keys": [
+            "Ctrl+/",
+            "Ctrl+?"
+          ]
+        },
+        {
+          "action": "Like/Dislike Song",
+          "actionRu": "Нравится / не нравится",
+          "keys": [
+            "Alt+Shift+B"
+          ]
+        }
+      ],
+      "title": "General",
+      "titleRu": "Общие"
+    },
+    {
+      "items": [
+        {
+          "action": "Go to Home",
+          "actionRu": "Домой",
+          "keys": [
+            "Alt+Shift+H"
+          ]
+        },
+        {
+          "action": "Go to Library",
+          "actionRu": "Медиатека",
+          "keys": [
+            "Alt+Shift+0",
+            "Alt+Shift+L"
+          ]
+        },
+        {
+          "action": "Go to Playlists",
+          "actionRu": "Плейлисты",
+          "keys": [
+            "Alt+Shift+1"
+          ]
+        },
+        {
+          "action": "Go to Artists",
+          "actionRu": "Исполнители",
+          "keys": [
+            "Alt+Shift+3"
+          ]
+        },
+        {
+          "action": "Go to Albums",
+          "actionRu": "Альбомы",
+          "keys": [
+            "Alt+Shift+4"
+          ]
+        },
+        {
+          "action": "Go to Now Playing",
+          "actionRu": "Сейчас играет",
+          "keys": [
+            "Alt+Shift+J"
+          ]
+        },
+        {
+          "action": "Go to Queue",
+          "actionRu": "Очередь",
+          "keys": [
+            "Alt+Shift+Q"
+          ]
+        }
+      ],
+      "title": "Navigation",
+      "titleRu": "Навигация"
+    }
+  ],
+  "note": "On Linux the Ctrl variants apply; on macOS some combinations use Cmd/Alt",
+  "noteRu": "На Linux действуют варианты с Ctrl; на macOS часть комбинаций с Cmd/Alt",
+  "source": "https://support.spotify.com (keyboard shortcuts)"
+}

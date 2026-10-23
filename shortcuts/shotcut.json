@@ -1,0 +1,304 @@
+{
+  "appId": "shotcut",
+  "displayName": "Shotcut",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Play",
+          "actionRu": "Играть",
+          "keys": [
+            "L",
+            "Space"
+          ]
+        },
+        {
+          "action": "Pause",
+          "actionRu": "Пауза",
+          "keys": [
+            "K",
+            "Space"
+          ]
+        },
+        {
+          "action": "Rewind",
+          "actionRu": "Перемотка назад",
+          "keys": [
+            "J"
+          ]
+        },
+        {
+          "action": "Set In / Out",
+          "actionRu": "Точка входа / выхода",
+          "keys": [
+            "I",
+            "O"
+          ]
+        },
+        {
+          "action": "Next / Previous Frame",
+          "actionRu": "Следующий / предыдущий кадр",
+          "keys": [
+            "Right",
+            "Left"
+          ]
+        },
+        {
+          "action": "Forward / Backward One Second",
+          "actionRu": "Вперёд / назад 1 секунда",
+          "keys": [
+            "PgDwn",
+            "PgUp"
+          ]
+        },
+        {
+          "action": "Seek Start / End",
+          "actionRu": "В начало / конец",
+          "keys": [
+            "Home",
+            "End"
+          ]
+        },
+        {
+          "action": "Loop",
+          "actionRu": "Зацикливание",
+          "keys": [
+            "\\"
+          ]
+        },
+        {
+          "action": "Enter Timecode",
+          "actionRu": "Ввести таймкод",
+          "keys": [
+            "Ctrl+T"
+          ]
+        }
+      ],
+      "title": "Player",
+      "titleRu": "Плеер"
+    },
+    {
+      "items": [
+        {
+          "action": "Cut / copy / paste",
+          "actionRu": "Вырезать / копировать / вставить",
+          "keys": [
+            "Ctrl+X",
+            "Ctrl+C",
+            "Ctrl+V"
+          ]
+        },
+        {
+          "action": "Append",
+          "actionRu": "Добавить",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "action": "Insert",
+          "actionRu": "Вставить",
+          "keys": [
+            "V"
+          ]
+        },
+        {
+          "action": "Overwrite",
+          "actionRu": "Перезаписать",
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "action": "Replace",
+          "actionRu": "Заменить",
+          "keys": [
+            "R"
+          ]
+        },
+        {
+          "action": "Split",
+          "actionRu": "Разрезать",
+          "keys": [
+            "S"
+          ]
+        },
+        {
+          "action": "Split All Tracks",
+          "actionRu": "Разрезать все дорожки",
+          "keys": [
+            "Shift+S"
+          ]
+        },
+        {
+          "action": "Ripple Delete",
+          "actionRu": "Удалить со сдвигом (ripple)",
+          "keys": [
+            "X"
+          ]
+        },
+        {
+          "action": "Lift",
+          "actionRu": "Поднять (lift)",
+          "keys": [
+            "Z"
+          ]
+        },
+        {
+          "action": "Add/Edit marker at cursor",
+          "actionRu": "Маркер на курсоре",
+          "keys": [
+            "M"
+          ]
+        },
+        {
+          "action": "Zoom In / Out",
+          "actionRu": "Приблизить / отдалить",
+          "keys": [
+            "=",
+            "-"
+          ]
+        },
+        {
+          "action": "Select All",
+          "actionRu": "Выделить всё",
+          "keys": [
+            "Ctrl+A"
+          ]
+        },
+        {
+          "action": "Select None",
+          "actionRu": "Снять выделение",
+          "keys": [
+            "Ctrl+D"
+          ]
+        },
+        {
+          "action": "Group/Ungroup",
+          "actionRu": "Группировать",
+          "keys": [
+            "Ctrl+G"
+          ]
+        },
+        {
+          "action": "Toggle Snapping",
+          "actionRu": "Привязка вкл / выкл",
+          "keys": [
+            "Ctrl+P"
+          ]
+        },
+        {
+          "action": "Toggle Ripple mode",
+          "actionRu": "Режим ripple",
+          "keys": [
+            "Ctrl+R"
+          ]
+        }
+      ],
+      "title": "Timeline",
+      "titleRu": "Таймлайн"
+    },
+    {
+      "items": [
+        {
+          "action": "New / open / save",
+          "actionRu": "Новый / открыть / сохранить",
+          "keys": [
+            "Ctrl+N",
+            "Ctrl+O",
+            "Ctrl+S"
+          ]
+        },
+        {
+          "action": "Export Video",
+          "actionRu": "Экспорт видео",
+          "keys": [
+            "Ctrl+E"
+          ]
+        },
+        {
+          "action": "Export Frame",
+          "actionRu": "Экспорт кадра",
+          "keys": [
+            "Ctrl+Shift+E"
+          ]
+        },
+        {
+          "action": "Undo / Redo",
+          "actionRu": "Отменить / вернуть",
+          "keys": [
+            "Ctrl+Z",
+            "Ctrl+Y"
+          ]
+        },
+        {
+          "action": "Timeline",
+          "actionRu": "Таймлайн",
+          "keys": [
+            "Ctrl+5"
+          ]
+        },
+        {
+          "action": "Filters",
+          "actionRu": "Фильтры",
+          "keys": [
+            "Ctrl+6"
+          ]
+        },
+        {
+          "action": "Playlist",
+          "actionRu": "Плейлист",
+          "keys": [
+            "Ctrl+4"
+          ]
+        },
+        {
+          "action": "Fullscreen",
+          "actionRu": "Полноэкранный режим",
+          "keys": [
+            "F11"
+          ]
+        }
+      ],
+      "title": "File and panels",
+      "titleRu": "Файл и панели"
+    },
+    {
+      "items": [
+        {
+          "action": "Append to playlist",
+          "actionRu": "Добавить в плейлист",
+          "keys": [
+            "Shift+A"
+          ]
+        },
+        {
+          "action": "Copy / Insert in playlist",
+          "actionRu": "Копировать / вставить в плейлисте",
+          "keys": [
+            "Shift+C",
+            "Shift+V"
+          ]
+        },
+        {
+          "action": "Select Item 1–9",
+          "actionRu": "Выбрать элемент 1–9",
+          "keys": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "title": "Playlist",
+      "titleRu": "Плейлист"
+    }
+  ],
+  "source": "https://www.shotcut.org (keyboard shortcuts)"
+}

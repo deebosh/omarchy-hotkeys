@@ -1,0 +1,659 @@
+{
+  "appId": "neovim",
+  "displayName": "Neovim",
+  "source": "https://neovim.io/doc/user/quickref.html",
+  "note": "Default leader: space is unset, shown as \\. LSP bindings are the Neovim 0.11+ defaults",
+  "noteRu": "Лидер по умолчанию: пробел не задан, показан \\. LSP-биндинги — дефолты Neovim 0.11+",
+  "groups": [
+    {
+      "title": "Movement (normal)",
+      "titleRu": "Движение (normal)",
+      "items": [
+        {
+          "keys": [
+            "h j k l"
+          ],
+          "action": "Left / down / up / right",
+          "actionRu": "Влево / вниз / вверх / вправо"
+        },
+        {
+          "keys": [
+            "w b e"
+          ],
+          "action": "Words forward / backward / to end of word",
+          "actionRu": "Следующее слово / назад / конец слова"
+        },
+        {
+          "keys": [
+            "W B E"
+          ],
+          "action": "Same for blank-separated WORDs",
+          "actionRu": "То же по WORD (до пробела)"
+        },
+        {
+          "keys": [
+            "0 ^ $"
+          ],
+          "action": "First character / first non-blank / end of line",
+          "actionRu": "Начало строки / первый символ / конец строки"
+        },
+        {
+          "keys": [
+            "gg G"
+          ],
+          "action": "First / last line of file",
+          "actionRu": "Начало / конец файла"
+        },
+        {
+          "keys": [
+            "H M L"
+          ],
+          "action": "Top / middle / bottom line of window",
+          "actionRu": "Верх / середина / низ экрана"
+        },
+        {
+          "keys": [
+            "Ctrl+U Ctrl+D"
+          ],
+          "action": "Half-window up / down",
+          "actionRu": "Полстраницы вверх / вниз"
+        },
+        {
+          "keys": [
+            "Ctrl+B Ctrl+F"
+          ],
+          "action": "Full page up / down",
+          "actionRu": "Страница вверх / вниз"
+        },
+        {
+          "keys": [
+            "{ }"
+          ],
+          "action": "Paragraphs backward / forward",
+          "actionRu": "Абзац назад / вперёд"
+        },
+        {
+          "keys": [
+            "%"
+          ],
+          "action": "Go to matching bracket",
+          "actionRu": "К парной скобке"
+        },
+        {
+          "keys": [
+            "* #"
+          ],
+          "action": "Search forward / backward for word under cursor",
+          "actionRu": "Следующее / предыдущее вхождение слова"
+        },
+        {
+          "keys": [
+            "f{char} F{char} t{char} T{char}"
+          ],
+          "action": "To / till character (forward / backward)",
+          "actionRu": "К символу (вперёд/назад, на/до)"
+        },
+        {
+          "keys": [
+            "; ,"
+          ],
+          "action": "Repeat f / t (forward / opposite)",
+          "actionRu": "Повторить f/t вперёд / назад"
+        },
+        {
+          "keys": [
+            "''",
+            "``"
+          ],
+          "action": "Go to position before last jump",
+          "actionRu": "Вернуться к метке / позиции"
+        },
+        {
+          "keys": [
+            "Ctrl+O Ctrl+I"
+          ],
+          "action": "Older / newer position in jump list",
+          "actionRu": "Назад / вперёд по jumplist"
+        }
+      ]
+    },
+    {
+      "title": "Editing (normal)",
+      "titleRu": "Редактирование (normal)",
+      "items": [
+        {
+          "keys": [
+            "i a o O"
+          ],
+          "action": "Insert before cursor / append after / open line below / above",
+          "actionRu": "Вставка: тут / после / строка ниже / строка выше"
+        },
+        {
+          "keys": [
+            "I A"
+          ],
+          "action": "Insert at first non-blank / end of line",
+          "actionRu": "Вставка в начало / конец строки"
+        },
+        {
+          "keys": [
+            "x X"
+          ],
+          "action": "Delete character under / before cursor",
+          "actionRu": "Удалить символ под / перед курсором"
+        },
+        {
+          "keys": [
+            "dd"
+          ],
+          "action": "Delete lines",
+          "actionRu": "Удалить (вырезать) строку"
+        },
+        {
+          "keys": [
+            "yy"
+          ],
+          "action": "Yank lines",
+          "actionRu": "Копировать строку"
+        },
+        {
+          "keys": [
+            "p P"
+          ],
+          "action": "Put after / before cursor",
+          "actionRu": "Вставить после / до курсора"
+        },
+        {
+          "keys": [
+            "u Ctrl+R"
+          ],
+          "action": "Undo / redo",
+          "actionRu": "Отменить / повторить"
+        },
+        {
+          "keys": [
+            "."
+          ],
+          "action": "Repeat last change",
+          "actionRu": "Повторить последнее изменение"
+        },
+        {
+          "keys": [
+            "cw ce"
+          ],
+          "action": "Change word",
+          "actionRu": "Заменить слово"
+        },
+        {
+          "keys": [
+            "cc S"
+          ],
+          "action": "Change whole line",
+          "actionRu": "Заменить всю строку"
+        },
+        {
+          "keys": [
+            "C"
+          ],
+          "action": "Change to end of line",
+          "actionRu": "Заменить до конца строки"
+        },
+        {
+          "keys": [
+            "D"
+          ],
+          "action": "Delete to end of line",
+          "actionRu": "Удалить до конца строки"
+        },
+        {
+          "keys": [
+            "r{char}"
+          ],
+          "action": "Replace characters",
+          "actionRu": "Заменить один символ"
+        },
+        {
+          "keys": [
+            "J"
+          ],
+          "action": "Join lines",
+          "actionRu": "Склеить строки"
+        },
+        {
+          "keys": [
+            "~"
+          ],
+          "action": "Switch case of characters",
+          "actionRu": "Сменить регистр символа"
+        },
+        {
+          "keys": [
+            "guu gUU"
+          ],
+          "action": "Make line lowercase / uppercase",
+          "actionRu": "Строка в нижний / верхний регистр"
+        },
+        {
+          "keys": [
+            ">> <<"
+          ],
+          "action": "Shift lines right / left",
+          "actionRu": "Сдвиг строки вправо / влево"
+        },
+        {
+          "keys": [
+            "=="
+          ],
+          "action": "Filter lines through equalprg",
+          "actionRu": "Автовыравнивание строки"
+        }
+      ]
+    },
+    {
+      "title": "Operators + text objects",
+      "titleRu": "Операторы + текст-объекты",
+      "items": [
+        {
+          "keys": [
+            "d y c"
+          ],
+          "action": "Delete / yank / change + motion",
+          "actionRu": "Удалить / копировать / заменить + движение"
+        },
+        {
+          "keys": [
+            "di( da("
+          ],
+          "action": "Inner / a () block",
+          "actionRu": "Внутри / включая скобки"
+        },
+        {
+          "keys": [
+            "di{ da{"
+          ],
+          "action": "Inner / a {} block",
+          "actionRu": "Внутри / включая фигурные скобки"
+        },
+        {
+          "keys": [
+            "di[ da[]"
+          ],
+          "action": "Inner / a [] block",
+          "actionRu": "Внутри / включая квадратные скобки"
+        },
+        {
+          "keys": [
+            "di\" da\""
+          ],
+          "action": "A / inner quoted string",
+          "actionRu": "Внутри / включая кавычки"
+        },
+        {
+          "keys": [
+            "dit dat"
+          ],
+          "action": "A / inner tag block",
+          "actionRu": "Внутри / включая тег"
+        },
+        {
+          "keys": [
+            "diw daw"
+          ],
+          "action": "A / inner word",
+          "actionRu": "Слово под курсором (внутри / включая)"
+        },
+        {
+          "keys": [
+            "dip dap"
+          ],
+          "action": "A / inner paragraph",
+          "actionRu": "Абзац (внутри / включая)"
+        },
+        {
+          "keys": [
+            "ciw"
+          ],
+          "action": "Change inner word",
+          "actionRu": "Заменить слово (классика)"
+        },
+        {
+          "keys": [
+            "\"+y \"+p"
+          ],
+          "action": "Yank / put via system clipboard",
+          "actionRu": "Копировать в / вставить из системного буфера"
+        }
+      ]
+    },
+    {
+      "title": "Visual mode",
+      "titleRu": "Визуальный режим",
+      "items": [
+        {
+          "keys": [
+            "v V Ctrl+V"
+          ],
+          "action": "Highlight characters / lines / block",
+          "actionRu": "Символьный / построчный / блочный режим"
+        },
+        {
+          "keys": [
+            "o"
+          ],
+          "action": "Go to other end of highlighting",
+          "actionRu": "Перейти к другому концу выделения"
+        },
+        {
+          "keys": [
+            "y d c"
+          ],
+          "action": "Yank / delete / change selection",
+          "actionRu": "Копировать / удалить / заменить выделение"
+        },
+        {
+          "keys": [
+            "> <"
+          ],
+          "action": "Shift lines right / left",
+          "actionRu": "Сдвиг выделения"
+        },
+        {
+          "keys": [
+            "gv"
+          ],
+          "action": "Reselect previous visual area",
+          "actionRu": "Вернуть последнее выделение"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Exit visual mode",
+          "actionRu": "Выйти из визуального режима"
+        }
+      ]
+    },
+    {
+      "title": "Search and replace",
+      "titleRu": "Поиск и замена",
+      "items": [
+        {
+          "keys": [
+            "/ ?"
+          ],
+          "action": "Search forward / backward",
+          "actionRu": "Поиск вперёд / назад"
+        },
+        {
+          "keys": [
+            "n N"
+          ],
+          "action": "Repeat search (forward / opposite)",
+          "actionRu": "Следующее / предыдущее совпадение"
+        },
+        {
+          "keys": [
+            ":noh"
+          ],
+          "action": "Clear search highlighting",
+          "actionRu": "Убрать подсветку поиска"
+        },
+        {
+          "keys": [
+            ":%s/old/new/g"
+          ],
+          "action": "Substitute in whole file",
+          "actionRu": "Заменить во всём файле"
+        },
+        {
+          "keys": [
+            ":%s/old/new/gc"
+          ],
+          "action": "Substitute with confirmation",
+          "actionRu": "Заменить с подтверждением"
+        }
+      ]
+    },
+    {
+      "title": "Files and buffers",
+      "titleRu": "Файлы и буферы",
+      "items": [
+        {
+          "keys": [
+            ":w :q :wq :q!"
+          ],
+          "action": "Write / quit / write and quit / quit without saving",
+          "actionRu": "Сохранить / выйти / сохранить+выйти / выйти без сохранения"
+        },
+        {
+          "keys": [
+            ":e {file}"
+          ],
+          "action": "Edit file",
+          "actionRu": "Открыть файл"
+        },
+        {
+          "keys": [
+            ":bn :bp"
+          ],
+          "action": "Next / previous buffer",
+          "actionRu": "Следующий / предыдущий буфер"
+        },
+        {
+          "keys": [
+            ":ls"
+          ],
+          "action": "List buffers",
+          "actionRu": "Список буферов"
+        },
+        {
+          "keys": [
+            ":b {n}"
+          ],
+          "action": "Go to buffer N",
+          "actionRu": "Перейти к буферу N"
+        },
+        {
+          "keys": [
+            ":bd"
+          ],
+          "action": "Unload and delete buffer",
+          "actionRu": "Закрыть буфер"
+        },
+        {
+          "keys": [
+            "gx"
+          ],
+          "action": "Open URL under cursor",
+          "actionRu": "Открыть URL под курсором"
+        }
+      ]
+    },
+    {
+      "title": "Windows and tabs",
+      "titleRu": "Окна и вкладки",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+W s"
+          ],
+          "action": "Split window",
+          "actionRu": "Разделить горизонтально"
+        },
+        {
+          "keys": [
+            "Ctrl+W v"
+          ],
+          "action": "Split window vertically",
+          "actionRu": "Разделить вертикально"
+        },
+        {
+          "keys": [
+            "Ctrl+W h/j/k/l"
+          ],
+          "action": "Go to left / lower / upper / right window",
+          "actionRu": "Фокус влево / вниз / вверх / вправо"
+        },
+        {
+          "keys": [
+            "Ctrl+W q"
+          ],
+          "action": "Quit window",
+          "actionRu": "Закрыть окно"
+        },
+        {
+          "keys": [
+            "Ctrl+W ="
+          ],
+          "action": "Make windows equal size",
+          "actionRu": "Выровнять размеры окон"
+        },
+        {
+          "keys": [
+            "Ctrl+W _"
+          ],
+          "action": "Maximize height",
+          "actionRu": "Окно на максимум по высоте"
+        },
+        {
+          "keys": [
+            "Ctrl+W |"
+          ],
+          "action": "Maximize width",
+          "actionRu": "Окно на максимум по ширине"
+        },
+        {
+          "keys": [
+            ":tabnew :tabn :tabp"
+          ],
+          "action": "New tab / next / previous",
+          "actionRu": "Новая вкладка / следующая / предыдущая"
+        },
+        {
+          "keys": [
+            "gt gT"
+          ],
+          "action": "Next / previous tab",
+          "actionRu": "Следующая / предыдущая вкладка"
+        }
+      ]
+    },
+    {
+      "title": "LSP (Neovim defaults)",
+      "titleRu": "LSP (дефолты Neovim)",
+      "items": [
+        {
+          "keys": [
+            "K"
+          ],
+          "action": "Hover documentation",
+          "actionRu": "Документация (hover)"
+        },
+        {
+          "keys": [
+            "grr"
+          ],
+          "action": "References",
+          "actionRu": "Ссылки (references)"
+        },
+        {
+          "keys": [
+            "gra"
+          ],
+          "action": "Code actions",
+          "actionRu": "Код-действия (actions)"
+        },
+        {
+          "keys": [
+            "grn"
+          ],
+          "action": "Rename",
+          "actionRu": "Переименовать символ"
+        },
+        {
+          "keys": [
+            "gri"
+          ],
+          "action": "Implementations",
+          "actionRu": "Реализации (implementation)"
+        },
+        {
+          "keys": [
+            "gO"
+          ],
+          "action": "Document symbols",
+          "actionRu": "Символы документа"
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Signature help (insert)",
+          "actionRu": "Помощь по сигнатуре (insert)"
+        },
+        {
+          "keys": [
+            "]d [d"
+          ],
+          "action": "Next / previous diagnostic",
+          "actionRu": "Следующая / предыдущая диагностика"
+        },
+        {
+          "keys": [
+            "<C-W>d"
+          ],
+          "action": "Show diagnostics",
+          "actionRu": "Показать диагностику под курсором"
+        }
+      ]
+    },
+    {
+      "title": "Miscellaneous",
+      "titleRu": "Разное",
+      "items": [
+        {
+          "keys": [
+            "ZZ ZQ"
+          ],
+          "action": "Write and quit / quit without saving",
+          "actionRu": "Сохранить+выйти / выйти без сохранения"
+        },
+        {
+          "keys": [
+            "Ctrl+G"
+          ],
+          "action": "Show file name and cursor position",
+          "actionRu": "Показать позицию в файле"
+        },
+        {
+          "keys": [
+            "qa"
+          ],
+          "action": "Record keystrokes into register a",
+          "actionRu": "Записать макрос в регистр a"
+        },
+        {
+          "keys": [
+            "@a"
+          ],
+          "action": "Execute macro in register a",
+          "actionRu": "Выполнить макрос из регистра a"
+        },
+        {
+          "keys": [
+            "@@ "
+          ],
+          "action": "Repeat previous macro",
+          "actionRu": "Повторить последний макрос"
+        },
+        {
+          "keys": [
+            ":help {topic}"
+          ],
+          "action": "Help",
+          "actionRu": "Справка"
+        }
+      ]
+    }
+  ]
+}

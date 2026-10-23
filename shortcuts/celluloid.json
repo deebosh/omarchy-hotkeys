@@ -1,0 +1,151 @@
+{
+ "appId": "celluloid",
+ "displayName": "Celluloid",
+ "groups": [
+  {
+   "items": [
+    {
+     "action": "Pause",
+     "actionRu": "Играть / пауза",
+     "keys": [
+      "Space"
+     ]
+    },
+    {
+     "action": "Stop",
+     "actionRu": "Стоп",
+     "keys": [
+      "S"
+     ]
+    },
+    {
+     "action": "Seek backward / forward 5 seconds",
+     "actionRu": "Назад / вперёд 5 секунд",
+     "keys": [
+      "Left",
+      "Right"
+     ]
+    },
+    {
+     "action": "Seek forward / backward 1 minute",
+     "actionRu": "Назад / вперёд 1 минута",
+     "keys": [
+      "Up",
+      "Down"
+     ]
+    },
+    {
+     "action": "Seek to the beginning of the previous / next chapter",
+     "actionRu": "Предыдущая / следующая глава",
+     "keys": [
+      "PgUp",
+      "PgDwn"
+     ]
+    },
+    {
+     "action": "Seek to the beginning of the file",
+     "actionRu": "В начало файла",
+     "keys": [
+      "Home"
+     ]
+    }
+   ],
+   "title": "Playback",
+   "titleRu": "Воспроизведение"
+  },
+  {
+   "items": [
+    {
+     "action": "Toggle fullscreen",
+     "actionRu": "Полноэкранный режим",
+     "keys": [
+      "F"
+     ]
+    },
+    {
+     "action": "Decrease / increase volume",
+     "actionRu": "Громче / тише",
+     "keys": [
+      "*",
+      "/"
+     ]
+    },
+    {
+     "action": "Mute sound",
+     "actionRu": "Без звука",
+     "keys": [
+      "m"
+     ]
+    },
+    {
+     "action": "Toggle subtitle visibility",
+     "actionRu": "Субтитры вкл / выкл",
+     "keys": [
+      "v"
+     ]
+    },
+    {
+     "action": "Cycle through the available audio tracks",
+     "actionRu": "Следующая аудиодорожка",
+     "keys": [
+      "#"
+     ]
+    },
+    {
+     "action": "Take a screenshot",
+     "actionRu": "Снимок",
+     "keys": [
+      "s"
+     ]
+    },
+    {
+     "action": "Decrease / increase playback speed",
+     "actionRu": "Скорость + / −",
+     "keys": [
+      "]",
+      "["
+     ]
+    }
+   ],
+   "title": "Video and audio",
+   "titleRu": "Видео и звук"
+  },
+  {
+   "items": [
+    {
+     "action": "Open file",
+     "actionRu": "Открыть файл",
+     "keys": [
+      "Ctrl+O"
+     ]
+    },
+    {
+     "action": "Open location",
+     "actionRu": "Открыть адрес",
+     "keys": [
+      "Ctrl+L"
+     ]
+    },
+    {
+     "action": "Toggle playlist",
+     "actionRu": "Плейлист: показать / скрыть",
+     "keys": [
+      "F9"
+     ]
+    },
+    {
+     "action": "Quit",
+     "actionRu": "Выйти",
+     "keys": [
+      "Ctrl+Q"
+     ]
+    }
+   ],
+   "title": "Interface",
+   "titleRu": "Интерфейс"
+  }
+ ],
+ "note": "Celluloid is built on MPV and inherits its bindings; here is the core set",
+ "noteRu": "Celluloid построен на MPV и наследует его биндинги; здесь — основное ядро",
+ "source": "https://github.com/celluloid-player/celluloid"
+}

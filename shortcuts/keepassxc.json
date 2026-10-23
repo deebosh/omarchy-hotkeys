@@ -1,0 +1,39 @@
+{
+  "appId": "keepassxc",
+  "displayName": "KeePassXC",
+  "source": "https://keepassxc.org/docs/KeePassXC_UserGuide.html (раздел Keyboard Shortcuts)",
+  "note": "Shortcuts are configurable: Tools → Settings → Shortcuts. Defaults from the User Guide below", "noteRu": "Хоткеи настраиваются: Tools → Settings → Shortcuts. Ниже — дефолты из User Guide",
+  "groups": [
+    {
+      "title": "Database", "titleRu": "База данных",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "New Entry", "actionRu": "Новая база данных" },
+        { "keys": ["Ctrl+O"], "action": "Open Database", "actionRu": "Открыть базу данных" },
+        { "keys": ["Ctrl+S"], "action": "Save Database", "actionRu": "Сохранить базу данных" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Save Database As", "actionRu": "Сохранить как…" },
+        { "keys": ["Ctrl+W"], "action": "Close Database", "actionRu": "Закрыть базу данных" },
+        { "keys": ["Ctrl+L"], "action": "Lock Current Database", "actionRu": "Заблокировать базу данных" },
+        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти из KeePassXC" }
+      ]
+    },
+    {
+      "title": "Entries", "titleRu": "Записи",
+      "items": [
+        { "keys": ["Ctrl+E"], "action": "Edit Entry", "actionRu": "Новая запись" },
+        { "keys": ["Ctrl+G"], "action": "New group", "actionRu": "Новая группа" },
+        { "keys": ["Delete"], "action": "Delete Entry", "actionRu": "Удалить запись" },
+        { "keys": ["Ctrl+B"], "action": "Copy Username", "actionRu": "Скопировать имя пользователя" },
+        { "keys": ["Ctrl+C"], "action": "Copy Password", "actionRu": "Скопировать пароль" },
+        { "keys": ["Ctrl+T"], "action": "Copy TOTP", "actionRu": "Скопировать TOTP-код" },
+        { "keys": ["Ctrl+U"], "action": "Copy URL", "actionRu": "Открыть URL записи" }
+      ]
+    },
+    {
+      "title": "Search", "titleRu": "Поиск",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Focus Search", "actionRu": "Поиск по записям" },
+        { "keys": ["Esc"], "action": "Clear Search", "actionRu": "Очистить поиск" }
+      ]
+    }
+  ]
+}

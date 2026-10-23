@@ -1,0 +1,19 @@
+{
+  "appId": "heroic",
+  "displayName": "Heroic",
+  "source": "https://heroicgameslauncher.com",
+  "note": "Heroic has almost no official hotkeys — it is mostly mouse-driven; standard UI keys that work are listed below", "noteRu": "Официальных хоткеев у Heroic почти нет — приложение в основном под мышь; ниже работают стандартные клавиши интерфейса",
+  "groups": [
+    {
+      "title": "Interface", "titleRu": "Интерфейс",
+      "items": [
+        { "keys": ["Tab", "Shift+Tab"], "action": "Next / previous item", "actionRu": "Следующий / предыдущий элемент" },
+        { "keys": ["Enter", "Space"], "action": "Activate button", "actionRu": "Активировать кнопку" },
+        { "keys": ["Esc"], "action": "Close dialog", "actionRu": "Закрыть диалог" },
+        { "keys": ["Up", "Down", "Left", "Right"], "action": "Navigate game list", "actionRu": "Навигация по списку игр" },
+        { "keys": ["Ctrl+R"], "action": "Reload window", "actionRu": "Перезагрузить окно" },
+        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Interface zoom", "actionRu": "Масштаб интерфейса" }
+      ]
+    }
+  ]
+}

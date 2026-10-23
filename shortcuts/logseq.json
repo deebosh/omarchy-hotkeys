@@ -1,0 +1,38 @@
+{
+  "appId": "logseq",
+  "displayName": "Logseq",
+  "source": "https://docs.logseq.com (раздел Shortcuts)",
+  "note": "Shortcuts can be remapped in Settings → Keyboard shortcuts. Documentation defaults below", "noteRu": "Хоткеи переназначаются в Settings → Keyboard shortcuts. Ниже — дефолты из документации",
+  "groups": [
+    {
+      "title": "Navigation", "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Ctrl+K"], "action": "Search pages, blocks, files and commands", "actionRu": "Поиск / переход к странице" },
+        { "keys": ["Ctrl+Shift+P"], "action": "Command palette", "actionRu": "Палитра команд" },
+        { "keys": ["Ctrl+N"], "action": "New page", "actionRu": "Новая страница" },
+        { "keys": ["g then h"], "action": "Home", "actionRu": "Домой" },
+        { "keys": ["g then j"], "action": "Journals", "actionRu": "Журналы (дневник)" },
+        { "keys": ["t then t"], "action": "Dark / light theme", "actionRu": "Тёмная / светлая тема" }
+      ]
+    },
+    {
+      "title": "Block editor", "titleRu": "Редактор блоков",
+      "items": [
+        { "keys": ["Enter"], "action": "Edit block / new block", "actionRu": "Редактировать блок / новый блок" },
+        { "keys": ["Esc"], "action": "Exit editing", "actionRu": "Выйти из редактирования" },
+        { "keys": ["Tab", "Shift+Tab"], "action": "Increase / decrease indent", "actionRu": "Увеличить / уменьшить отступ" },
+        { "keys": ["Ctrl+Shift+ArrowUp", "Ctrl+Shift+ArrowDown"], "action": "Move block up / down", "actionRu": "Переместить блок вверх / вниз" },
+        { "keys": ["Ctrl+Z", "Ctrl+Y"], "action": "Undo / redo", "actionRu": "Отменить / вернуть" }
+      ]
+    },
+    {
+      "title": "Formatting", "titleRu": "Форматирование",
+      "items": [
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
+        { "keys": ["Ctrl+."], "action": "Zoom block in", "actionRu": "Приблизить блок (zoom in)" },
+        { "keys": ["Ctrl+,"], "action": "Zoom block out", "actionRu": "Отдалить блок (zoom out)" }
+      ]
+    }
+  ]
+}

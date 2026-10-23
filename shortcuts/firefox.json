@@ -1,0 +1,353 @@
+{
+  "appId": "firefox",
+  "displayName": "Firefox",
+  "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly",
+  "groups": [
+    {
+      "title": "Tabs",
+      "titleRu": "Вкладки",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+T"
+          ],
+          "action": "New tab",
+          "actionRu": "Новая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+W",
+            "Ctrl+F4"
+          ],
+          "action": "Close tab",
+          "actionRu": "Закрыть вкладку"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+T"
+          ],
+          "action": "Reopen closed tab",
+          "actionRu": "Восстановить закрытую вкладку"
+        },
+        {
+          "keys": [
+            "Ctrl+Tab",
+            "Ctrl+PageDown"
+          ],
+          "action": "Next tab",
+          "actionRu": "Следующая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+Tab",
+            "Ctrl+PageUp"
+          ],
+          "action": "Previous tab",
+          "actionRu": "Предыдущая вкладка"
+        },
+        {
+          "keys": [
+            "Ctrl+1 … Ctrl+8"
+          ],
+          "action": "Go to tab 1–8",
+          "actionRu": "Перейти на вкладку 1–8"
+        },
+        {
+          "keys": [
+            "Ctrl+9"
+          ],
+          "action": "Go to last tab",
+          "actionRu": "Перейти на последнюю вкладку"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+PageUp"
+          ],
+          "action": "Move tab left",
+          "actionRu": "Переместить вкладку влево"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+PageDown"
+          ],
+          "action": "Move tab right",
+          "actionRu": "Переместить вкладку вправо"
+        }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        {
+          "keys": [
+            "Alt+Left",
+            "Alt+Right"
+          ],
+          "action": "Back / forward",
+          "actionRu": "Назад / вперёд"
+        },
+        {
+          "keys": [
+            "F5",
+            "Ctrl+R"
+          ],
+          "action": "Reload page",
+          "actionRu": "Обновить страницу"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+R",
+            "Ctrl+F5"
+          ],
+          "action": "Hard reload (bypass cache)",
+          "actionRu": "Обновить без кеша"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Stop loading",
+          "actionRu": "Остановить загрузку"
+        },
+        {
+          "keys": [
+            "Alt+Home"
+          ],
+          "action": "Home page",
+          "actionRu": "Домашняя страница"
+        },
+        {
+          "keys": [
+            "Ctrl+L",
+            "Alt+D",
+            "F6"
+          ],
+          "action": "Focus address bar",
+          "actionRu": "Фокус в адресную строку"
+        },
+        {
+          "keys": [
+            "Ctrl+K",
+            "Ctrl+E"
+          ],
+          "action": "Focus search bar",
+          "actionRu": "Фокус в строку поиска"
+        }
+      ]
+    },
+    {
+      "title": "Search",
+      "titleRu": "Поиск",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+F",
+            "F3"
+          ],
+          "action": "Find in page",
+          "actionRu": "Найти на странице"
+        },
+        {
+          "keys": [
+            "Ctrl+G",
+            "F3"
+          ],
+          "action": "Next match",
+          "actionRu": "Следующее совпадение"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+G",
+            "Shift+F3"
+          ],
+          "action": "Previous match",
+          "actionRu": "Предыдущее совпадение"
+        },
+        {
+          "keys": [
+            "'"
+          ],
+          "action": "Quick find (links only)",
+          "actionRu": "Быстрый поиск (только ссылки)"
+        },
+        {
+          "keys": [
+            "/"
+          ],
+          "action": "Quick find (all text)",
+          "actionRu": "Быстрый поиск (весь текст)"
+        }
+      ]
+    },
+    {
+      "title": "History and Bookmarks",
+      "titleRu": "История и закладки",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+H"
+          ],
+          "action": "History sidebar",
+          "actionRu": "Боковая панель истории"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+H"
+          ],
+          "action": "Library window (history)",
+          "actionRu": "Окно библиотеки (история)"
+        },
+        {
+          "keys": [
+            "Ctrl+J"
+          ],
+          "action": "Downloads",
+          "actionRu": "Загрузки"
+        },
+        {
+          "keys": [
+            "Ctrl+B"
+          ],
+          "action": "Bookmarks sidebar",
+          "actionRu": "Боковая панель закладок"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+O"
+          ],
+          "action": "Library window (bookmarks)",
+          "actionRu": "Окно библиотеки (закладки)"
+        },
+        {
+          "keys": [
+            "Ctrl+D"
+          ],
+          "action": "Bookmark this page",
+          "actionRu": "Добавить страницу в закладки"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+D"
+          ],
+          "action": "Bookmark all tabs",
+          "actionRu": "Добавить все вкладки в закладки"
+        }
+      ]
+    },
+    {
+      "title": "Window and View",
+      "titleRu": "Окно и вид",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New window",
+          "actionRu": "Новое окно"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+N"
+          ],
+          "action": "New private window",
+          "actionRu": "Новое приватное окно"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+W",
+            "Alt+F4"
+          ],
+          "action": "Close window",
+          "actionRu": "Закрыть окно"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Fullscreen mode",
+          "actionRu": "Полноэкранный режим"
+        },
+        {
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-",
+            "Ctrl+0"
+          ],
+          "action": "Zoom: in / out / reset",
+          "actionRu": "Масштаб: больше / меньше / сброс"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+M"
+          ],
+          "action": "Responsive design mode (mobile view)",
+          "actionRu": "Адаптивный дизайн (мобильный вид)"
+        }
+      ]
+    },
+    {
+      "title": "Page",
+      "titleRu": "Страница",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Save page",
+          "actionRu": "Сохранить страницу"
+        },
+        {
+          "keys": [
+            "Ctrl+P"
+          ],
+          "action": "Print",
+          "actionRu": "Печать"
+        },
+        {
+          "keys": [
+            "Ctrl+U"
+          ],
+          "action": "Page source",
+          "actionRu": "Исходный код страницы"
+        },
+        {
+          "keys": [
+            "Ctrl+I"
+          ],
+          "action": "Page info",
+          "actionRu": "Информация о странице"
+        },
+        {
+          "keys": [
+            "F7"
+          ],
+          "action": "Caret browsing (cursor navigation)",
+          "actionRu": "Каретный просмотр (навигация курсором)"
+        },
+        {
+          "keys": [
+            "F12",
+            "Ctrl+Shift+I"
+          ],
+          "action": "Developer tools",
+          "actionRu": "Инструменты разработчика"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+C"
+          ],
+          "action": "Element inspector",
+          "actionRu": "Инспектор элементов"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+K"
+          ],
+          "action": "Web console",
+          "actionRu": "Веб-консоль"
+        }
+      ]
+    }
+  ]
+}

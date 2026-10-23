@@ -1,0 +1,272 @@
+{
+  "appId": "ranger",
+  "displayName": "Ranger",
+  "source": "https://github.com/ranger/ranger (man ranger, дефолтный rc.conf)",
+  "groups": [
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        {
+          "keys": [
+            "j",
+            "k",
+            "Up",
+            "Down"
+          ],
+          "action": "Move down / up",
+          "actionRu": "Вниз / вверх"
+        },
+        {
+          "keys": [
+            "h",
+            "l",
+            "Left",
+            "Right"
+          ],
+          "action": "Up a directory / enter",
+          "actionRu": "Вверх в каталог / войти"
+        },
+        {
+          "keys": [
+            "H",
+            "L"
+          ],
+          "action": "Go back / forward in history",
+          "actionRu": "Назад / вперёд по истории"
+        },
+        {
+          "keys": [
+            "g",
+            "g",
+            "G"
+          ],
+          "action": "Go to first / last line",
+          "actionRu": "В начало / в конец"
+        },
+        {
+          "keys": [
+            "Ctrl+D",
+            "Ctrl+U"
+          ],
+          "action": "Half-page down / up",
+          "actionRu": "Полстраницы вниз / вверх"
+        },
+        {
+          "keys": [
+            "g",
+            "h",
+            "g",
+            "c",
+            "g",
+            "d"
+          ],
+          "action": "Home / ~/.config / ~/Downloads",
+          "actionRu": "Домой / ~/.config / ~/Downloads"
+        },
+        {
+          "keys": [
+            "g",
+            "h"
+          ],
+          "action": "Go to home directory",
+          "actionRu": "Домашний каталог"
+        }
+      ]
+    },
+    {
+      "title": "File operations",
+      "titleRu": "Файловые операции",
+      "items": [
+        {
+          "keys": [
+            "y",
+            "y"
+          ],
+          "action": "Copy",
+          "actionRu": "Копировать (yank)"
+        },
+        {
+          "keys": [
+            "d",
+            "d"
+          ],
+          "action": "Cut",
+          "actionRu": "Вырезать"
+        },
+        {
+          "keys": [
+            "p",
+            "p"
+          ],
+          "action": "Paste",
+          "actionRu": "Вставить"
+        },
+        {
+          "keys": [
+            "p",
+            "o",
+            "p",
+            "O"
+          ],
+          "action": "Paste with overwrite / append as new",
+          "actionRu": "Вставить с перезаписью / с переименованием"
+        },
+        {
+          "keys": [
+            "d",
+            "D"
+          ],
+          "action": "Delete",
+          "actionRu": "Удалить навсегда"
+        },
+        {
+          "keys": [
+            "d",
+            "T"
+          ],
+          "action": "Move to trash",
+          "actionRu": "В корзину"
+        },
+        {
+          "keys": [
+            "c",
+            "w"
+          ],
+          "action": "Rename",
+          "actionRu": "Переименовать"
+        },
+        {
+          "keys": [
+            "a"
+          ],
+          "action": "Rename (append)",
+          "actionRu": "Переименовать (добавить)"
+        },
+        {
+          "keys": [
+            "r"
+          ],
+          "action": "Open with…",
+          "actionRu": "Открыть с помощью…"
+        },
+        {
+          "keys": [
+            "E"
+          ],
+          "action": "Edit file",
+          "actionRu": "Открыть в редакторе"
+        }
+      ]
+    },
+    {
+      "title": "Selection and search",
+      "titleRu": "Выделение и поиск",
+      "items": [
+        {
+          "keys": [
+            "Space"
+          ],
+          "action": "Mark file",
+          "actionRu": "Выбрать файл"
+        },
+        {
+          "keys": [
+            "v"
+          ],
+          "action": "Mark all (toggle)",
+          "actionRu": "Отметить всё (переключить)"
+        },
+        {
+          "keys": [
+            "u",
+            "v"
+          ],
+          "action": "Unmark all",
+          "actionRu": "Снять выделение"
+        },
+        {
+          "keys": [
+            "/"
+          ],
+          "action": "Search",
+          "actionRu": "Поиск"
+        },
+        {
+          "keys": [
+            "n",
+            "N"
+          ],
+          "action": "Next / previous match",
+          "actionRu": "Следующее / предыдущее совпадение"
+        },
+        {
+          "keys": [
+            "z",
+            "h"
+          ],
+          "action": "Toggle hidden files",
+          "actionRu": "Показать/скрыть скрытые файлы"
+        }
+      ]
+    },
+    {
+      "title": "Tabs and misc",
+      "titleRu": "Вкладки и прочее",
+      "items": [
+        {
+          "keys": [
+            "Tab",
+            "Shift+Tab"
+          ],
+          "action": "Next / previous tab",
+          "actionRu": "Следующая / предыдущая вкладка"
+        },
+        {
+          "keys": [
+            "g",
+            "n"
+          ],
+          "action": "New tab",
+          "actionRu": "Новая вкладка"
+        },
+        {
+          "keys": [
+            "g",
+            "c"
+          ],
+          "action": "Close tab",
+          "actionRu": "Закрыть вкладку"
+        },
+        {
+          "keys": [
+            "S"
+          ],
+          "action": "Open shell",
+          "actionRu": "Открыть shell"
+        },
+        {
+          "keys": [
+            ":"
+          ],
+          "action": "Open console",
+          "actionRu": "Команда ranger"
+        },
+        {
+          "keys": [
+            "?"
+          ],
+          "action": "Show help",
+          "actionRu": "Справка по клавишам"
+        },
+        {
+          "keys": [
+            "q"
+          ],
+          "action": "Quit",
+          "actionRu": "Выйти"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "appId": "steam",
+  "displayName": "Steam",
+  "source": "https://help.steampowered.com",
+  "note": "The client has few global hotkeys; the built-in browser is Chromium with standard browser shortcuts", "noteRu": "Глобальных хоткеев у клиента мало; встроенный браузер — Chromium, в нём стандартные браузерные сочетания",
+  "groups": [
+    {
+      "title": "Overlay and in-game", "titleRu": "Оверлей и игра",
+      "items": [
+        { "keys": ["Shift+Tab"], "action": "Steam overlay in-game", "actionRu": "Оверлей Steam в игре" },
+        { "keys": ["F12"], "action": "Screenshot", "actionRu": "Скриншот" }
+      ]
+    },
+    {
+      "title": "Client", "titleRu": "Клиент",
+      "items": [
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Back / forward", "actionRu": "Назад / вперёд" },
+        { "keys": ["Ctrl+1", "Ctrl+2", "Ctrl+3"], "action": "Store / Library / Community", "actionRu": "Магазин / Библиотека / Сообщество" },
+        { "keys": ["Ctrl+F"], "action": "Search library", "actionRu": "Поиск по библиотеке" },
+        { "keys": ["Enter"], "action": "Play / open selection", "actionRu": "Играть / открыть выбранное" },
+        { "keys": ["Delete"], "action": "Remove from library (for shortcuts)", "actionRu": "Убрать из библиотеки (для ярлыков)" }
+      ]
+    },
+    {
+      "title": "Big Picture",
+      "items": [
+        { "keys": ["Alt+Enter"], "action": "Fullscreen / windowed", "actionRu": "Полный экран / окно" },
+        { "keys": ["Esc"], "action": "Back", "actionRu": "Назад" },
+        { "keys": ["Up", "Down", "Left", "Right", "Enter"], "action": "Navigate and select", "actionRu": "Навигация и выбор" },
+        { "keys": ["Tab", "Shift+Tab"], "action": "Next / previous item", "actionRu": "Следующий / предыдущий элемент" }
+      ]
+    }
+  ]
+}

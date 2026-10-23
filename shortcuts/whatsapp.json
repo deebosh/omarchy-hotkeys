@@ -1,0 +1,41 @@
+{
+  "appId": "whatsapp",
+  "displayName": "WhatsApp",
+  "source": "https://faq.whatsapp.com (раздел keyboard shortcuts десктоп-приложения)",
+  "groups": [
+    {
+      "title": "Чаты",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "Новый чат" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Новая группа" },
+        { "keys": ["Ctrl+F"], "action": "Поиск по списку чатов" },
+        { "keys": ["Ctrl+Shift+F"], "action": "Поиск внутри открытого чата" },
+        { "keys": ["Ctrl+Shift+[", "Ctrl+Shift+]"], "action": "Предыдущий / следующий чат" },
+        { "keys": ["Esc"], "action": "Закрыть открытый чат" }
+      ]
+    },
+    {
+      "title": "Действия с чатом",
+      "items": [
+        { "keys": ["Ctrl+E"], "action": "Архивировать чат" },
+        { "keys": ["Ctrl+Shift+M"], "action": "Отключить звук чата" },
+        { "keys": ["Ctrl+Shift+U"], "action": "Отметить чат непрочитанным" },
+        { "keys": ["Ctrl+Backspace"], "action": "Удалить чат" },
+        { "keys": ["Ctrl+P"], "action": "Открыть свой профиль" }
+      ]
+    },
+    {
+      "title": "Сообщения",
+      "items": [
+        { "keys": ["Enter"], "action": "Отправить сообщение" },
+        { "keys": ["Shift+Enter"], "action": "Новая строка" }
+      ]
+    },
+    {
+      "title": "Вид",
+      "items": [
+        { "keys": ["Ctrl+Shift+=", "Ctrl+-", "Ctrl+0"], "action": "Размер текста: больше / меньше / сброс" }
+      ]
+    }
+  ]
+}

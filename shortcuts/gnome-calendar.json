@@ -1,0 +1,69 @@
+{
+  "appId": "gnome-calendar",
+  "displayName": "Calendar",
+  "displayNameRu": "Календарь",
+  "source": "https://help.gnome.org/calendar",
+  "groups": [
+    {
+      "title": "Main",
+      "titleRu": "Основное",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New event",
+          "actionRu": "Новое событие"
+        },
+        {
+          "keys": [
+            "Ctrl+T"
+          ],
+          "action": "Today",
+          "actionRu": "Сегодня"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Search",
+          "actionRu": "Поиск"
+        },
+        {
+          "keys": [
+            "Ctrl+Left",
+            "Ctrl+Right"
+          ],
+          "action": "Previous / next period",
+          "actionRu": "Предыдущий / следующий период"
+        },
+        {
+          "keys": [
+            "Ctrl+1",
+            "Ctrl+2",
+            "Ctrl+3",
+            "Ctrl+4"
+          ],
+          "action": "Day / week / month / year",
+          "actionRu": "День / неделя / месяц / год"
+        },
+        {
+          "keys": [
+            "F5",
+            "Ctrl+R"
+          ],
+          "action": "Refresh",
+          "actionRu": "Обновить"
+        },
+        {
+          "keys": [
+            "Ctrl+W",
+            "Ctrl+Q"
+          ],
+          "action": "Close / quit",
+          "actionRu": "Закрыть / выйти"
+        }
+      ]
+    }
+  ]
+}

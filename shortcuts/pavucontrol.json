@@ -1,0 +1,42 @@
+{
+  "appId": "pavucontrol",
+  "displayName": "Volume (PulseAudio)",
+  "displayNameRu": "Громкость (PulseAudio)",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Playback / Recording / Output Devices / Input Devices / Configuration",
+          "actionRu": "Воспроизведение / Запись / Устройства вывода / Устройства ввода / Конфигурация",
+          "keys": [
+            "Ctrl+1",
+            "Ctrl+2",
+            "Ctrl+3",
+            "Ctrl+4",
+            "Ctrl+5"
+          ]
+        },
+        {
+          "action": "Next / previous tab",
+          "actionRu": "Следующая / предыдущая вкладка",
+          "keys": [
+            "Ctrl+PageDown",
+            "Ctrl+PageUp"
+          ]
+        },
+        {
+          "action": "Quit",
+          "actionRu": "Выйти",
+          "keys": [
+            "Ctrl+Q"
+          ]
+        }
+      ],
+      "title": "Tabs",
+      "titleRu": "Вкладки"
+    }
+  ],
+  "note": "pavucontrol is almost entirely mouse-driven; the only keys switch tabs",
+  "noteRu": "pavucontrol почти полностью управляется мышью; из клавиш есть только переключение вкладок",
+  "source": "https://freedesktop.org/software/pulseaudio (pavucontrol)"
+}

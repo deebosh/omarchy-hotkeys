@@ -1,0 +1,66 @@
+{
+  "appId": "kitty",
+  "displayName": "Kitty",
+  "source": "https://sw.kovidgoyal.net/kitty/conf/ (секция Keyboard shortcuts, дефолтные биндинги)",
+  "note": "Default Kitty bindings (modifier is Ctrl+Shift)", "noteRu": "Дефолтные биндинги Kitty (модификатор — Ctrl+Shift)",
+  "groups": [
+    {
+      "title": "Clipboard", "titleRu": "Буфер обмена",
+      "items": [
+        { "keys": ["Ctrl+Shift+C"], "action": "Copy to clipboard", "actionRu": "Копировать в буфер обмена" },
+        { "keys": ["Ctrl+Shift+V"], "action": "Paste from clipboard", "actionRu": "Вставить из буфера обмена" },
+        { "keys": ["Shift+Insert"], "action": "Paste from selection", "actionRu": "Вставить из primary selection" }
+      ]
+    },
+    {
+      "title": "Window management", "titleRu": "Окна",
+      "items": [
+        { "keys": ["Ctrl+Shift+Enter"], "action": "New window", "actionRu": "Новое окно" },
+        { "keys": ["Ctrl+Shift+W"], "action": "Close window", "actionRu": "Закрыть окно" },
+        { "keys": ["Ctrl+Shift+]", "Ctrl+Shift+["], "action": "Next / previous window", "actionRu": "Следующее / предыдущее окно" },
+        { "keys": ["Ctrl+Shift+R"], "action": "Start resizing window", "actionRu": "Изменить размер окна" },
+        { "keys": ["Ctrl+Shift+L"], "action": "Next layout", "actionRu": "Следующий layout" },
+        { "keys": ["Ctrl+Shift+D"], "action": "Detach window into a new tab", "actionRu": "Открепить окно в новую вкладку" }
+      ]
+    },
+    {
+      "title": "Tab management", "titleRu": "Вкладки",
+      "items": [
+        { "keys": ["Ctrl+Shift+T"], "action": "New tab", "actionRu": "Новая вкладка" },
+        { "keys": ["Ctrl+Shift+Q"], "action": "Close tab", "actionRu": "Закрыть вкладку" },
+        { "keys": ["Ctrl+Shift+Right", "Ctrl+Shift+Left"], "action": "Next / previous tab", "actionRu": "Следующая / предыдущая вкладка" },
+        { "keys": ["Ctrl+Shift+.", "Ctrl+Shift+,"], "action": "Move tab forward / backward", "actionRu": "Переместить вкладку вправо / влево" },
+        { "keys": ["Ctrl+Shift+1 … Ctrl+Shift+8"], "action": "Go to tab 1–8", "actionRu": "Перейти на вкладку 1–8" },
+        { "keys": ["Ctrl+Shift+9"], "action": "Go to last tab", "actionRu": "Перейти на последнюю вкладку" },
+        { "keys": ["Ctrl+Shift+Alt+T"], "action": "Set tab title", "actionRu": "Заголовок вкладки" }
+      ]
+    },
+    {
+      "title": "Scrolling", "titleRu": "Скролл",
+      "items": [
+        { "keys": ["Ctrl+Shift+Up", "Ctrl+Shift+Down"], "action": "Scroll line up / down", "actionRu": "Строка вверх / вниз" },
+        { "keys": ["Ctrl+Shift+PageUp", "Ctrl+Shift+PageDown"], "action": "Scroll page up / down", "actionRu": "Страница вверх / вниз" },
+        { "keys": ["Ctrl+Shift+Home", "Ctrl+Shift+End"], "action": "Scroll to top / bottom", "actionRu": "К началу / к концу скролбэка" },
+        { "keys": ["Ctrl+Shift+H"], "action": "Browse scrollback buffer in pager", "actionRu": "Показать скролбэк в пейджере" }
+      ]
+    },
+    {
+      "title": "Font sizes", "titleRu": "Шрифт",
+      "items": [
+        { "keys": ["Ctrl+Shift+="], "action": "Increase font size", "actionRu": "Увеличить шрифт" },
+        { "keys": ["Ctrl+Shift+-"], "action": "Decrease font size", "actionRu": "Уменьшить шрифт" },
+        { "keys": ["Ctrl+Shift+Backspace"], "action": "Reset font size", "actionRu": "Сбросить размер шрифта" }
+      ]
+    },
+    {
+      "title": "Miscellaneous", "titleRu": "Прочее",
+      "items": [
+        { "keys": ["Ctrl+Shift+O"], "action": "Pass selection to program", "actionRu": "Hints: выбрать URL и ссылки" },
+        { "keys": ["Ctrl+Shift+P"], "action": "Command palette", "actionRu": "Командная палитра" },
+        { "keys": ["Ctrl+Shift+U"], "action": "Unicode input", "actionRu": "Ввод Unicode-символа" },
+        { "keys": ["Ctrl+Shift+E"], "action": "Open URL", "actionRu": "Открыть скролбэк в редакторе" },
+        { "keys": ["Ctrl+Shift+F5"], "action": "Reload kitty.conf", "actionRu": "Перезагрузить конфигурацию" }
+      ]
+    }
+  ]
+}
