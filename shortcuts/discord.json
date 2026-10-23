@@ -9,13 +9,13 @@
       "title": "Navigation",
       "titleRu": "Навигация",
       "items": [
-        { "keys": ["Ctrl+/"], "action": "Toggle Hotkeys", "actionRu": "Показать все горячие клавиши" },
-        { "keys": ["Ctrl+K"], "action": "Quick Switcher", "actionRu": "Быстрый переход: серверы, каналы, личка" },
+        { "keys": ["Ctrl+/"], "action": "Toggle Hotkeys", "actionRu": "Показать все горячие клавиши", "actionDe": "Hotkeys umschalten", "actionFr": "Basculer les raccourcis", "actionEs": "Alternar teclas de acceso rápido", "actionPt": "Ativar atalhos de teclado" },
+        { "keys": ["Ctrl+K"], "action": "Quick Switcher", "actionRu": "Быстрый переход: серверы, каналы, личка", "actionDe": "Eine Direktnachricht suchen oder starten", "actionFr": "Rechercher ou commencer un message privé", "actionEs": "Buscar o iniciar un mensaje directo", "actionPt": "Encontrar ou iniciar uma mensagem direta" },
         { "keys": ["Ctrl+1 … Ctrl+9"], "action": "Go to server 1–9", "actionRu": "Перейти на сервер 1–9" },
-        { "keys": ["Alt+ArrowUp", "Alt+ArrowDown"], "action": "Navigate between channels", "actionRu": "Предыдущий / следующий сервер" },
-        { "keys": ["Alt+Shift+ArrowUp", "Alt+Shift+ArrowDown"], "action": "Navigate between unread channels", "actionRu": "Предыдущий / следующий непрочитанный канал" },
-        { "keys": ["Esc"], "action": "Mark channel as read", "actionRu": "Отметить текущий канал прочитанным" },
-        { "keys": ["Shift+Esc"], "action": "Mark server read", "actionRu": "Отметить сервер прочитанным" }
+        { "keys": ["Alt+ArrowUp", "Alt+ArrowDown"], "action": "Navigate between channels", "actionRu": "Предыдущий / следующий сервер", "actionDe": "Zwischen Kanälen navigieren", "actionFr": "Naviguer entre les salons", "actionEs": "Navegar entre canales", "actionPt": "Navegar entre Canais" },
+        { "keys": ["Alt+Shift+ArrowUp", "Alt+Shift+ArrowDown"], "action": "Navigate between unread channels", "actionRu": "Предыдущий / следующий непрочитанный канал", "actionDe": "Zwischen ungelesenen Kanälen navigieren", "actionFr": "Naviguer entre les salons non lus", "actionEs": "Navegar entre canales sin leer", "actionPt": "Navegar entre Canais não lidos" },
+        { "keys": ["Esc"], "action": "Mark channel as read", "actionRu": "Отметить текущий канал прочитанным", "actionDe": "Kanal als gelesen markieren", "actionFr": "Marquer le salon comme lu", "actionEs": "Marcar canal como leído", "actionPt": "Marcar Canal como lido" },
+        { "keys": ["Shift+Esc"], "action": "Mark server read", "actionRu": "Отметить сервер прочитанным", "actionDe": "Server als gelesen markieren", "actionFr": "Marquer le serveur comme lu", "actionEs": "Marcar servidor leído", "actionPt": "Marcar Servidor como lido" }
       ]
     },
     {
@@ -31,8 +31,8 @@
       "title": "Voice and video",
       "titleRu": "Голос и видео",
       "items": [
-        { "keys": ["Ctrl+Shift+M"], "action": "Toggle mute", "actionRu": "Вкл/выкл микрофон" },
-        { "keys": ["Ctrl+Shift+D"], "action": "Toggle deafen", "actionRu": "Вкл/выкл звук (deafen)" }
+        { "keys": ["Ctrl+Shift+M"], "action": "Toggle mute", "actionRu": "Вкл/выкл микрофон", "actionDe": "Stummschalten umschalten", "actionFr": "Activer/Désactiver le micro", "actionEs": "Activar o desactivar silencio", "actionPt": "Ativar/desativar microfone" },
+        { "keys": ["Ctrl+Shift+D"], "action": "Toggle deafen", "actionRu": "Вкл/выкл звук (deafen)", "actionDe": "Ein- und Ausgabe deaktivieren umschalten", "actionFr": "Activer/Désactiver la sourdine", "actionEs": "Activar o desactivar ensordecer", "actionPt": "Ativar/desativar áudio" }
       ]
     },
     {

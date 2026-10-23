@@ -37,9 +37,11 @@ for (const f of files) {
     continue;
   }
   let n = 0;
+  const LANGS = ["Ru", "De", "Fr", "Es", "Pt"];
   d.groups.forEach((g, gi) => {
     if (!g.title) err(f, `groups[${gi}].title missing (EN base required)`);
-    if (g.titleRu !== undefined && !g.titleRu) err(f, `groups[${gi}].titleRu empty`);
+    for (const L of LANGS)
+      if (g["title" + L] !== undefined && !g["title" + L]) err(f, `groups[${gi}].title${L} empty`);
     if (!Array.isArray(g.items) || g.items.length === 0) {
       err(f, `groups[${gi}].items empty`);
       return;
@@ -49,8 +51,9 @@ for (const f of files) {
       if (!Array.isArray(it.keys) || it.keys.length === 0 || it.keys.some((k) => !k))
         err(f, `groups[${gi}].items[${ii}].keys invalid`);
       if (!it.action) err(f, `groups[${gi}].items[${ii}].action missing (EN base required)`);
-      if (it.actionRu !== undefined && !it.actionRu)
-        err(f, `groups[${gi}].items[${ii}].actionRu empty`);
+      for (const L of LANGS)
+        if (it["action" + L] !== undefined && !it["action" + L])
+          err(f, `groups[${gi}].items[${ii}].action${L} empty`);
     });
   });
   console.log(`OK ${f} groups:${d.groups.length} items:${n}`);

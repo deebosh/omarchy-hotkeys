@@ -14,28 +14,44 @@
             "Ctrl+N"
           ],
           "action": "Start new chat",
-          "actionRu": "Новый чат"
+          "actionRu": "Новый чат",
+          "actionDe": "Neuen Chat starten",
+          "actionFr": "Commencer une nouvelle conversation",
+          "actionEs": "Iniciar nuevo chat",
+          "actionPt": "Iniciar novo chat"
         },
         {
           "keys": [
             "Ctrl+F"
           ],
           "action": "Search",
-          "actionRu": "Поиск по чатам"
+          "actionRu": "Поиск по чатам",
+          "actionDe": "Suchen",
+          "actionFr": "Rechercher",
+          "actionEs": "Buscar",
+          "actionPt": "Pesquisar"
         },
         {
           "keys": [
             "Ctrl+E"
           ],
           "action": "Archive chat",
-          "actionRu": "Архивировать выбранный чат"
+          "actionRu": "Архивировать выбранный чат",
+          "actionDe": "Chat archivieren",
+          "actionFr": "Archiver la conversation",
+          "actionEs": "Archivar chat",
+          "actionPt": "Arquivar chat"
         },
         {
           "keys": [
             "Esc"
           ],
           "action": "Close current chat",
-          "actionRu": "Закрыть / назад"
+          "actionRu": "Закрыть / назад",
+          "actionDe": "Aktuellen Chat schließen",
+          "actionFr": "Fermer la conversation affichée",
+          "actionEs": "Cerrar chat actual",
+          "actionPt": "Fechar chat atual"
         }
       ]
     },
@@ -49,16 +65,28 @@
             "Ctrl+Enter"
           ],
           "action": "Send (in expanded composer)",
-          "actionRu": "Отправить сообщение"
+          "actionRu": "Отправить сообщение",
+          "actionDe": "Senden (in erweitertem Nachrichteneingabefeld)",
+          "actionFr": "Envoyer (dans la zone de saisie agrandie)",
+          "actionEs": "Enviar (en campo de escritura expandido)",
+          "actionPt": "Enviar (em campo de texto expandido)"
         },
         {
           "keys": [
             "ArrowUp"
           ],
           "action": "Edit the previous message",
-          "actionRu": "Редактировать последнее сообщение"
+          "actionRu": "Редактировать последнее сообщение",
+          "actionDe": "Vorherige Nachricht bearbeiten",
+          "actionFr": "Modifier le message précédent",
+          "actionEs": "Editar el mensaje anterior",
+          "actionPt": "Editar a mensagem anterior"
         }
-      ]
+      ],
+      "titleDe": "Nachrichten",
+      "titleFr": "Messages",
+      "titleEs": "Mensajes",
+      "titlePt": "Mensagens"
     },
     {
       "title": "App",
@@ -69,7 +97,11 @@
             "Ctrl+,"
           ],
           "action": "Preferences",
-          "actionRu": "Открыть настройки"
+          "actionRu": "Открыть настройки",
+          "actionDe": "Einstellungen",
+          "actionFr": "Paramètres",
+          "actionEs": "Ajustes",
+          "actionPt": "Preferências"
         },
         {
           "keys": [

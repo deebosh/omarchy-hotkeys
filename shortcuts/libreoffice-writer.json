@@ -4,66 +4,452 @@
   "source": "https://help.libreoffice.org/latest/en-US/text/swriter/04/01010000.html (Shortcut Keys for LibreOffice Writer)",
   "groups": [
     {
-      "title": "File", "titleRu": "Файл",
+      "title": "File",
+      "titleRu": "Файл",
       "items": [
-        { "keys": ["Ctrl+N"], "action": "New document", "actionRu": "Новый документ" },
-        { "keys": ["Ctrl+O"], "action": "Open document", "actionRu": "Открыть документ" },
-        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
-        { "keys": ["Ctrl+Shift+S"], "action": "Save as", "actionRu": "Сохранить как" },
-        { "keys": ["Ctrl+P"], "action": "Print", "actionRu": "Печать" },
-        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти" }
+        {
+          "keys": [
+            "Ctrl+N"
+          ],
+          "action": "New document",
+          "actionRu": "Новый документ",
+          "actionDe": "Erstellt ein neues Dokument.",
+          "actionFr": "Crée un nouveau document.",
+          "actionEs": "Crea un documento nuevo.",
+          "actionPt": "Cria um novo documento."
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open document",
+          "actionRu": "Открыть документ",
+          "actionDe": "Öffnet ein Dokument.",
+          "actionFr": "Ouvre un document.",
+          "actionEs": "Abre un documento.",
+          "actionPt": "Abre um documento."
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Save",
+          "actionRu": "Сохранить",
+          "actionDe": "Speichert das aktuelle Dokument.",
+          "actionFr": "Enregistre le document actif.",
+          "actionEs": "Guarda el documento actual.",
+          "actionPt": "Salva o documento atual."
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "action": "Save as",
+          "actionRu": "Сохранить как"
+        },
+        {
+          "keys": [
+            "Ctrl+P"
+          ],
+          "action": "Print",
+          "actionRu": "Печать",
+          "actionDe": "Druckt das Dokument.",
+          "actionFr": "Imprime le document.",
+          "actionEs": "Imprime el documento.",
+          "actionPt": "Imprime o documento."
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit",
+          "actionRu": "Выйти",
+          "actionDe": "Beendet die Anwendung.",
+          "actionFr": "Quitte l'application.",
+          "actionEs": "Sale de la aplicación.",
+          "actionPt": "Sai do aplicativo."
+        }
+      ],
+      "titleDe": "Datei",
+      "titleFr": "Fichier",
+      "titleEs": "Archivo",
+      "titlePt": "Arquivo"
+    },
+    {
+      "title": "Edit",
+      "titleRu": "Правка",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Z"
+          ],
+          "action": "Undo",
+          "actionRu": "Отменить",
+          "actionDe": "Macht die letzte Aktion rückgängig.",
+          "actionFr": "Annule la dernière action.",
+          "actionEs": "Deshace la última acción.",
+          "actionPt": "Desfaz a última ação."
+        },
+        {
+          "keys": [
+            "Ctrl+Y",
+            "Ctrl+Shift+Z"
+          ],
+          "action": "Redo",
+          "actionRu": "Вернуть",
+          "actionDe": "Stellt die letzte Aktion wieder her.",
+          "actionFr": "Répète la dernière action.",
+          "actionEs": "Rehace la última acción.",
+          "actionPt": "Refaz a última ação."
+        },
+        {
+          "keys": [
+            "Ctrl+X"
+          ],
+          "action": "Cut",
+          "actionRu": "Вырезать",
+          "actionDe": "Schneidet die ausgewählten Elemente aus.",
+          "actionFr": "Coupe les éléments sélectionnés.",
+          "actionEs": "Corta los elementos seleccionados.",
+          "actionPt": "Corta os elementos selecionados."
+        },
+        {
+          "keys": [
+            "Ctrl+C"
+          ],
+          "action": "Copy",
+          "actionRu": "Копировать",
+          "actionDe": "Kopiert die ausgewählten Elemente.",
+          "actionFr": "Copie les éléments sélectionnés.",
+          "actionEs": "Copia los elementos seleccionados.",
+          "actionPt": "Copia os itens selecionados."
+        },
+        {
+          "keys": [
+            "Ctrl+V"
+          ],
+          "action": "Paste",
+          "actionRu": "Вставить",
+          "actionDe": "Fügt aus der Zwischenablage ein.",
+          "actionFr": "Colle depuis le presse-papiers.",
+          "actionEs": "Pega desde el portapapeles.",
+          "actionPt": "Cola o conteúdo da área de transferência."
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+V"
+          ],
+          "action": "Paste as unformatted text",
+          "actionRu": "Специальная вставка",
+          "actionDe": "Fügt unformatierten Text aus der Zwischenablage ein. Der eingefügte Text wird mit dem Format der Einfügestelle formatiert.",
+          "actionFr": "Colle du texte non formaté à partir du presse-papiers. Le texte est collé en utilisant le format qui est présent au point d'insertion.",
+          "actionEs": "Pega texto sin formato desde el portapapeles. El texto se pegará con el formato que exista en el punto de inserción.",
+          "actionPt": "Cola texto não formatado da área de transferência. O texto será colado utilizando o formato que existir no ponto de inserção."
+        },
+        {
+          "keys": [
+            "Ctrl+A"
+          ],
+          "action": "Select All",
+          "actionRu": "Выделить всё",
+          "actionDe": "Wählt alles aus.",
+          "actionFr": "Sélectionne tout.",
+          "actionEs": "Lo selecciona todo.",
+          "actionPt": "Seleciona tudo."
+        },
+        {
+          "keys": [
+            "Ctrl+F",
+            "Ctrl+H"
+          ],
+          "action": "Find and Replace",
+          "actionRu": "Найти и заменить",
+          "actionDe": "Aufrufen des Dialogs Suchen und ersetzen.",
+          "actionFr": "Appelle la boîte de dialogue Rechercher & Remplacer.",
+          "actionEs": "Activa el diálogo Buscar y reemplazar.",
+          "actionPt": "Chama a caixa de diálogo Localizar e substituir."
+        }
+      ],
+      "titleFr": "Édition",
+      "titleEs": "Editar",
+      "titlePt": "Editar"
+    },
+    {
+      "title": "Formatting",
+      "titleRu": "Форматирование",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+B"
+          ],
+          "action": "Bold",
+          "actionRu": "Полужирный",
+          "actionFr": "L'attribut «Gras» est appliqué à la zone sélectionnée. Si le curseur est positionné dans un mot, ce mot est également mis en gras.",
+          "actionEs": "El área seleccionada adopta el atributo «Negrita». Si el cursor se encuentra en una palabra, esta se pone en negrita también.",
+          "actionPt": "Aplica o atributo «Negrito» na área selecionada. Se o cursor estiver posicionado sobre uma palavra, tal palavra também será colocada em negrito."
+        },
+        {
+          "keys": [
+            "Ctrl+I"
+          ],
+          "action": "Italic",
+          "actionRu": "Курсив",
+          "actionFr": "L'attribut «italique» est appliqué à la zone sélectionnée. Si le curseur est positionné dans un mot, ce mot est également mis en italique.",
+          "actionEs": "El área seleccionada adopta el atributo «Itálica». Si el cursor se encuentra en una palabra, esta se resalta en itálicas también.",
+          "actionPt": "Aplica o atributo «Itálico» na área selecionada. Se o cursor estiver posicionado em uma palavra, essa palavra também será marcada em itálico."
+        },
+        {
+          "keys": [
+            "Ctrl+U"
+          ],
+          "action": "Underline",
+          "actionRu": "Подчёркнутый",
+          "actionFr": "L'attribut «Souligné» est appliqué à la zone sélectionnée. Si le curseur est positionné dans un mot, ce mot est également souligné.",
+          "actionEs": "El área seleccionada adopta el atributo «Subrayado». Si el cursor se encuentra en una palabra, esta se subraya también.",
+          "actionPt": "Aplica o atributo «Sublinhado» na área selecionada. Se o cursor estiver posicionado em uma palavra, esta também será sublinhada."
+        },
+        {
+          "keys": [
+            "Ctrl+D"
+          ],
+          "action": "Double Underline",
+          "actionRu": "Двойное подчёркивание",
+          "actionDe": "Doppelt unterstreichen",
+          "actionFr": "Soulignage double",
+          "actionEs": "Subrayado doble",
+          "actionPt": "Sublinhado duplo"
+        },
+        {
+          "keys": [
+            "Ctrl+M"
+          ],
+          "action": "Clear direct formatting",
+          "actionRu": "Очистить прямое форматирование",
+          "actionDe": "Entfernt direkte Formatierungen aus markiertem Text beziehungsweise Objekten (wie mit Format – Direkte Formatierung löschen).",
+          "actionFr": "Supprime le formatage direct du texte ou des objets sélectionnés (comme dans Format - Effacer le formatage direct).",
+          "actionEs": "Quita el formato directo del texto o los objetos seleccionados (como en Formato ▸ Limpiar formato directo).",
+          "actionPt": "Remove a formatação direta do texto selecionado ou dos objetos (como em Formatar - Limpar formatação direta)."
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+P"
+          ],
+          "action": "Superscript",
+          "actionRu": "Верхний индекс",
+          "actionDe": "Hochstellen",
+          "actionFr": "Exposant",
+          "actionEs": "Superíndice",
+          "actionPt": "Sobrescrito"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+B"
+          ],
+          "action": "Subscript",
+          "actionRu": "Нижний индекс",
+          "actionDe": "Tiefstellen",
+          "actionFr": "Indice",
+          "actionEs": "Subíndice",
+          "actionPt": "Subscrito"
+        },
+        {
+          "keys": [
+            "Ctrl+E"
+          ],
+          "action": "Align Centered",
+          "actionRu": "По центру",
+          "actionDe": "Zentriert",
+          "actionFr": "Aligner centré",
+          "actionEs": "Alineación centrada",
+          "actionPt": "Alinhamento centralizado"
+        },
+        {
+          "keys": [
+            "Ctrl+J"
+          ],
+          "action": "Align Justify",
+          "actionRu": "По ширине",
+          "actionDe": "Blocksatz",
+          "actionFr": "Aligner justifié",
+          "actionEs": "Alineación justificada",
+          "actionPt": "Alinhamento justificado"
+        },
+        {
+          "keys": [
+            "Ctrl+L"
+          ],
+          "action": "Align Left",
+          "actionRu": "По левому краю",
+          "actionDe": "Linksbündig",
+          "actionFr": "Aligner à gauche",
+          "actionEs": "Alinear a la izquierda",
+          "actionPt": "Alinha à esquerda"
+        },
+        {
+          "keys": [
+            "Ctrl+R"
+          ],
+          "action": "Align Right",
+          "actionRu": "По правому краю",
+          "actionDe": "Rechtsbündig",
+          "actionFr": "Aligner à droite",
+          "actionEs": "Alinear a la derecha",
+          "actionPt": "Alinhar à direita"
+        },
+        {
+          "keys": [
+            "F12"
+          ],
+          "action": "Toggle Ordered List",
+          "actionRu": "Нумерация вкл / выкл",
+          "actionDe": "Nummerierte Liste umschalten",
+          "actionFr": "(Dés)activer la liste ordonnée",
+          "actionEs": "Alternar lista ordenada",
+          "actionPt": "Alternar listas ordenada"
+        },
+        {
+          "keys": [
+            "Shift+F12"
+          ],
+          "action": "Toggle Unordered List",
+          "actionRu": "Маркеры вкл / выкл",
+          "actionDe": "Aufzählungsliste umschalten",
+          "actionFr": "(Dés)activer la liste non ordonnée",
+          "actionEs": "Alternar lista no ordenada",
+          "actionPt": "Alternar lista não ordenada"
+        }
+      ],
+      "titleDe": "Formatierung",
+      "titleFr": "Formatage",
+      "titleEs": "Formato",
+      "titlePt": "Formatação"
+    },
+    {
+      "title": "Insert and structure",
+      "titleRu": "Вставка и структура",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Enter"
+          ],
+          "action": "Manual page break",
+          "actionRu": "Разрыв страницы",
+          "actionDe": "Manueller Seitenumbruch",
+          "actionFr": "Saut de page manuel",
+          "actionEs": "Salto de página manual",
+          "actionPt": "Quebra manual de página"
+        },
+        {
+          "keys": [
+            "Ctrl+F12"
+          ],
+          "action": "Insert or edit Table",
+          "actionRu": "Вставить таблицу",
+          "actionDe": "Tabelle einfügen oder bearbeiten",
+          "actionFr": "Insérer ou éditer un tableau",
+          "actionEs": "Insertar o editar tablas",
+          "actionPt": "Insere ou edita a tabela"
+        },
+        {
+          "keys": [
+            "Ctrl+Alt+C"
+          ],
+          "action": "Insert comment",
+          "actionRu": "Вставить примечание"
+        },
+        {
+          "keys": [
+            "Ctrl+1",
+            "Ctrl+2",
+            "Ctrl+3"
+          ],
+          "action": "Apply Heading 1 / 2 / 3 paragraph style",
+          "actionRu": "Стиль заголовка 1 / 2 / 3",
+          "actionDe": "Absatzvorlage „Überschrift 1“ anwenden / Absatzvorlage „Überschrift 2“ anwenden / Absatzvorlage „Überschrift 3“ anwenden",
+          "actionFr": "Appliquer un style de paragraphe Titre 1 / Appliquer un style de paragraphe Titre 2 / Appliquer le style de paragraphe Titre 3",
+          "actionEs": "Aplicar el estilo de párrafo Título 1 / Aplicar el estilo de párrafo Título 2 / Aplicar el estilo de párrafo Título 3",
+          "actionPt": "Aplica o estilo de parágrafo Título 1 / Aplica o estilo de parágrafo Título 2 / Aplica o estilo de parágrafo Título 3"
+        },
+        {
+          "keys": [
+            "Ctrl+0"
+          ],
+          "action": "Apply Body Text paragraph style",
+          "actionRu": "Стиль основного текста",
+          "actionDe": "Absatzvorlage „Fließtext“ anwenden",
+          "actionFr": "Appliquer le style de paragraphe Corps de texte",
+          "actionEs": "Aplicar el estilo de párrafo «Cuerpo de texto»",
+          "actionPt": "Aplicar estilo de parágrafo Corpo de texto"
+        }
       ]
     },
     {
-      "title": "Edit", "titleRu": "Правка",
+      "title": "Tools and view",
+      "titleRu": "Инструменты и вид",
       "items": [
-        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
-        { "keys": ["Ctrl+Y", "Ctrl+Shift+Z"], "action": "Redo", "actionRu": "Вернуть" },
-        { "keys": ["Ctrl+X"], "action": "Cut", "actionRu": "Вырезать" },
-        { "keys": ["Ctrl+C"], "action": "Copy", "actionRu": "Копировать" },
-        { "keys": ["Ctrl+V"], "action": "Paste", "actionRu": "Вставить" },
-        { "keys": ["Ctrl+Shift+V"], "action": "Paste as unformatted text", "actionRu": "Специальная вставка" },
-        { "keys": ["Ctrl+A"], "action": "Select All", "actionRu": "Выделить всё" },
-        { "keys": ["Ctrl+F", "Ctrl+H"], "action": "Find and Replace", "actionRu": "Найти и заменить" }
-      ]
-    },
-    {
-      "title": "Formatting", "titleRu": "Форматирование",
-      "items": [
-        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Полужирный" },
-        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
-        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый" },
-        { "keys": ["Ctrl+D"], "action": "Double Underline", "actionRu": "Двойное подчёркивание" },
-        { "keys": ["Ctrl+M"], "action": "Clear direct formatting", "actionRu": "Очистить прямое форматирование" },
-        { "keys": ["Ctrl+Shift+P"], "action": "Superscript", "actionRu": "Верхний индекс" },
-        { "keys": ["Ctrl+Shift+B"], "action": "Subscript", "actionRu": "Нижний индекс" },
-        { "keys": ["Ctrl+E"], "action": "Align Centered", "actionRu": "По центру" },
-        { "keys": ["Ctrl+J"], "action": "Align Justify", "actionRu": "По ширине" },
-        { "keys": ["Ctrl+L"], "action": "Align Left", "actionRu": "По левому краю" },
-        { "keys": ["Ctrl+R"], "action": "Align Right", "actionRu": "По правому краю" },
-        { "keys": ["F12"], "action": "Toggle Ordered List", "actionRu": "Нумерация вкл / выкл" },
-        { "keys": ["Shift+F12"], "action": "Toggle Unordered List", "actionRu": "Маркеры вкл / выкл" }
-      ]
-    },
-    {
-      "title": "Insert and structure", "titleRu": "Вставка и структура",
-      "items": [
-        { "keys": ["Ctrl+Enter"], "action": "Manual page break", "actionRu": "Разрыв страницы" },
-        { "keys": ["Ctrl+F12"], "action": "Insert or edit Table", "actionRu": "Вставить таблицу" },
-        { "keys": ["Ctrl+Alt+C"], "action": "Insert comment", "actionRu": "Вставить примечание" },
-        { "keys": ["Ctrl+1", "Ctrl+2", "Ctrl+3"], "action": "Apply Heading 1 / 2 / 3 paragraph style", "actionRu": "Стиль заголовка 1 / 2 / 3" },
-        { "keys": ["Ctrl+0"], "action": "Apply Body Text paragraph style", "actionRu": "Стиль основного текста" }
-      ]
-    },
-    {
-      "title": "Tools and view", "titleRu": "Инструменты и вид",
-      "items": [
-        { "keys": ["F7"], "action": "Spelling", "actionRu": "Проверка орфографии" },
-        { "keys": ["Ctrl+F7"], "action": "Thesaurus", "actionRu": "Тезаурус" },
-        { "keys": ["Shift+F7"], "action": "AutoCorrect while typing", "actionRu": "Автозамена при вводе" },
-        { "keys": ["F5"], "action": "Navigator on/off", "actionRu": "Навигатор" },
-        { "keys": ["F11"], "action": "Styles deck on/off", "actionRu": "Стили" },
-        { "keys": ["Ctrl+Shift+F5"], "action": "Navigator on, go to page number", "actionRu": "Перейти на страницу" }
+        {
+          "keys": [
+            "F7"
+          ],
+          "action": "Spelling",
+          "actionRu": "Проверка орфографии",
+          "actionDe": "Rechtschreibung",
+          "actionFr": "Orthographe",
+          "actionEs": "Ortografía",
+          "actionPt": "Ortografia"
+        },
+        {
+          "keys": [
+            "Ctrl+F7"
+          ],
+          "action": "Thesaurus",
+          "actionRu": "Тезаурус",
+          "actionDe": "Thesaurus",
+          "actionFr": "Dictionnaire des synonymes",
+          "actionEs": "Sinónimos",
+          "actionPt": "Dicionário de sinônimos"
+        },
+        {
+          "keys": [
+            "Shift+F7"
+          ],
+          "action": "AutoCorrect while typing",
+          "actionRu": "Автозамена при вводе",
+          "actionDe": "Schaltet die Automatische Rechtschreibprüfung ein oder aus."
+        },
+        {
+          "keys": [
+            "F5"
+          ],
+          "action": "Navigator on/off",
+          "actionRu": "Навигатор",
+          "actionDe": "Navigator ein/aus",
+          "actionFr": "Activer/désactiver le Navigateur",
+          "actionEs": "Activar/desactivar Navegador",
+          "actionPt": "Ativar/Desativar o Navegador"
+        },
+        {
+          "keys": [
+            "F11"
+          ],
+          "action": "Styles deck on/off",
+          "actionRu": "Стили",
+          "actionDe": "Seitenleiste „Formatvorlagen“ ein/aus",
+          "actionFr": "Panneau Style (dés)activé",
+          "actionEs": "Mostrar/ocultar la Barra lateral",
+          "actionPt": "Ativar/desativar o deque de estilos"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+F5"
+          ],
+          "action": "Navigator on, go to page number",
+          "actionRu": "Перейти на страницу",
+          "actionDe": "Navigator einschalten",
+          "actionFr": "Activer le Navigateur et aller au numéro de la page",
+          "actionEs": "Navegador activado, ir a número de página",
+          "actionPt": "Ativar Navegador, vai para número da página"
+        }
       ]
     }
   ]

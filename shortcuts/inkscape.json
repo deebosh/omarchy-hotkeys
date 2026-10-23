@@ -1,1 +1,603 @@
-{"appId":"inkscape","displayName":"Inkscape","groups":[{"items":[{"action":"Select (arrow)", "actionRu":"Стрелка (выделение)","keys":["S","F1"]},{"action":"Edit nodes", "actionRu":"Редактирование узлов","keys":["N","F2"]},{"action":"Rectangle", "actionRu":"Прямоугольник","keys":["R","F4"]},{"action":"Ellipse", "actionRu":"Эллипс","keys":["E","F5"]},{"action":"Star", "actionRu":"Звезда","keys":["*"]},{"action":"Spiral", "actionRu":"Спираль","keys":["I","F9"]},{"action":"Pen (Bézier)", "actionRu":"Перо (Безье)","keys":["B","Shift+F6"]},{"action":"Pencil", "actionRu":"Карандаш","keys":["P","F6"]},{"action":"Calligraphy", "actionRu":"Каллиграфия","keys":["C","Ctrl+F6"]},{"action":"Text", "actionRu":"Текст","keys":["T","F8"]},{"action":"Gradient", "actionRu":"Градиент","keys":["G","Ctrl+F1"]},{"action":"Dropper", "actionRu":"Пипетка","keys":["D","F7"]},{"action":"Paint bucket", "actionRu":"Заливка","keys":["U","Shift+F7"]},{"action":"Eraser", "actionRu":"Ластик","keys":["Shift+E"]},{"action":"Zoom", "actionRu":"Лупа","keys":["Z","F3"]},{"action":"Ruler", "actionRu":"Линейка","keys":["M"]}],"title":"Tools", "titleRu":"Инструменты"},{"items":[{"action":"New document", "actionRu":"Новый документ","keys":["Ctrl+N"]},{"action":"Open", "actionRu":"Открыть","keys":["Ctrl+O"]},{"action":"Save", "actionRu":"Сохранить","keys":["Ctrl+S"]},{"action":"Save as", "actionRu":"Сохранить как","keys":["Ctrl+Shift+S"]},{"action":"Export", "actionRu":"Экспорт","keys":["Ctrl+Shift+E"]},{"action":"Import", "actionRu":"Импорт","keys":["Ctrl+I"]},{"action":"Print", "actionRu":"Печать","keys":["Ctrl+P"]},{"action":"Quit", "actionRu":"Выйти","keys":["Ctrl+Q"]}],"title":"File", "titleRu":"Файл"},{"items":[{"action":"Zoom in / out", "actionRu":"Приблизить / отдалить","keys":["+","-"]},{"action":"1:1 zoom", "actionRu":"Масштаб 1:1","keys":["1"]},{"action":"Zoom to selection", "actionRu":"По выделению","keys":["3"]},{"action":"Zoom to drawing", "actionRu":"По рисунку","keys":["4"]},{"action":"Zoom to page", "actionRu":"По странице","keys":["5"]},{"action":"Previous zoom", "actionRu":"Предыдущий масштаб","keys":["`"]}],"title":"Canvas and zoom", "titleRu":"Холст и масштаб"},{"items":[{"action":"Undo / redo", "actionRu":"Отменить / вернуть","keys":["Ctrl+Z","Ctrl+Shift+Z"]},{"action":"Duplicate", "actionRu":"Дублировать","keys":["Ctrl+D"]},{"action":"Clone", "actionRu":"Клонировать","keys":["Alt+D"]},{"action":"Group", "actionRu":"Группировать","keys":["Ctrl+G"]},{"action":"Ungroup", "actionRu":"Разгруппировать","keys":["Ctrl+Shift+G"]},{"action":"Raise / lower", "actionRu":"Поднять выше / опустить ниже","keys":["PgUp","PgDn"]},{"action":"To front / to back", "actionRu":"На передний / на задний план","keys":["Home","End"]},{"action":"Fill and stroke", "actionRu":"Заливка и обводка","keys":["Ctrl+Shift+F"]},{"action":"Transform", "actionRu":"Трансформация","keys":["Ctrl+Shift+M"]},{"action":"Layers", "actionRu":"Слои","keys":["Ctrl+Shift+L"]},{"action":"Align and distribute", "actionRu":"Выровнять и распределить","keys":["Ctrl+Shift+A"]},{"action":"Document properties", "actionRu":"Свойства документа","keys":["Ctrl+Shift+D"]},{"action":"Settings", "actionRu":"Настройки","keys":["Ctrl+Shift+P"]}],"title":"Object and dialogs", "titleRu":"Объект и диалоги"},{"items":[{"action":"New layer", "actionRu":"Новый слой","keys":["Ctrl+Shift+N"]},{"action":"Object to layer above / below", "actionRu":"Объект на слой выше / ниже","keys":["Shift+PgUp","Shift+PgDn"]},{"action":"Layer above / below", "actionRu":"Слой выше / ниже","keys":["Ctrl+Shift+PgUp","Ctrl+Shift+PgDn"]},{"action":"Show / hide dialogs", "actionRu":"Показать / скрыть диалоги","keys":["F12"]},{"action":"Fullscreen mode", "actionRu":"Полноэкранный режим","keys":["F11"]},{"action":"Command palette", "actionRu":"Палитра команд","keys":["?"]}],"title":"Layers and window", "titleRu":"Слои и окно"}],"source":"https://inkscape.org/doc"}
+{
+  "appId": "inkscape",
+  "displayName": "Inkscape",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "Select (arrow)",
+          "actionRu": "Стрелка (выделение)",
+          "keys": [
+            "S",
+            "F1"
+          ],
+          "actionDe": "Auswahlwerkzeug",
+          "actionFr": "Sélecteur",
+          "actionEs": "Selector",
+          "actionPt": "Seletor"
+        },
+        {
+          "action": "Edit nodes",
+          "actionRu": "Редактирование узлов",
+          "keys": [
+            "N",
+            "F2"
+          ],
+          "actionDe": "Knotenwerkzeug",
+          "actionFr": "Outil Nœuds",
+          "actionEs": "Herramienta Nodos",
+          "actionPt": "Ferramenta Nó"
+        },
+        {
+          "action": "Rectangle",
+          "actionRu": "Прямоугольник",
+          "keys": [
+            "R",
+            "F4"
+          ],
+          "actionDe": "Rechteckwerkzeug",
+          "actionFr": "Outil Rectangle",
+          "actionEs": "Herramienta Rectángulo",
+          "actionPt": "Ferramenta Retângulo"
+        },
+        {
+          "action": "Ellipse",
+          "actionRu": "Эллипс",
+          "keys": [
+            "E",
+            "F5"
+          ],
+          "actionDe": "Ellipsenwerkzeug",
+          "actionFr": "Outil Ellipse",
+          "actionEs": "Herramienta Elipse/Arco",
+          "actionPt": "Ferramenta de Elipse/arco"
+        },
+        {
+          "action": "Star",
+          "actionRu": "Звезда",
+          "keys": [
+            "*"
+          ],
+          "actionDe": "Sternwerkzeug",
+          "actionFr": "Outil Étoile",
+          "actionEs": "Herramienta Estrella",
+          "actionPt": "Ferramenta Estrela"
+        },
+        {
+          "action": "Spiral",
+          "actionRu": "Спираль",
+          "keys": [
+            "I",
+            "F9"
+          ],
+          "actionDe": "Spiralenwerkzeug",
+          "actionFr": "Outil Spirale",
+          "actionEs": "Herramienta Espiral",
+          "actionPt": "Ferramenta Espiral"
+        },
+        {
+          "action": "Pen (Bézier)",
+          "actionRu": "Перо (Безье)",
+          "keys": [
+            "B",
+            "Shift+F6"
+          ],
+          "actionDe": "Zeichenwerkzeug (Bezier)",
+          "actionFr": "Outil Stylo (Bézier)",
+          "actionEs": "Herramienta Pluma (Bézier)",
+          "actionPt": "Ferramenta Caneta (Bezier)"
+        },
+        {
+          "action": "Pencil",
+          "actionRu": "Карандаш",
+          "keys": [
+            "P",
+            "F6"
+          ],
+          "actionDe": "Malwerkzeug (Freihandzeichnen)",
+          "actionFr": "Outil Crayon (main libre)",
+          "actionEs": "Herramienta Lápiz (mano alzada)",
+          "actionPt": "Ferramenta Lápis (à mão livre)"
+        },
+        {
+          "action": "Calligraphy",
+          "actionRu": "Каллиграфия",
+          "keys": [
+            "C",
+            "Ctrl+F6"
+          ],
+          "actionDe": "Kalligrafiewerkzeug",
+          "actionFr": "Outil Plume calligraphique",
+          "actionEs": "Herramienta Caligrafía",
+          "actionPt": "Ferramenta Caligrafia"
+        },
+        {
+          "action": "Text",
+          "actionRu": "Текст",
+          "keys": [
+            "T",
+            "F8"
+          ],
+          "actionDe": "Textwerkzeug",
+          "actionFr": "Outil Texte",
+          "actionEs": "Herramienta Texto",
+          "actionPt": "Ferramenta Texto"
+        },
+        {
+          "action": "Gradient",
+          "actionRu": "Градиент",
+          "keys": [
+            "G",
+            "Ctrl+F1"
+          ],
+          "actionDe": "Verlaufswerkzeug",
+          "actionFr": "Outil Dégradé",
+          "actionEs": "Herramienta Degradado",
+          "actionPt": "Ferramenta Gradiente"
+        },
+        {
+          "action": "Dropper",
+          "actionRu": "Пипетка",
+          "keys": [
+            "D",
+            "F7"
+          ],
+          "actionDe": "Farbpipette",
+          "actionFr": "Outil Pipette",
+          "actionEs": "Herramienta Gotero",
+          "actionPt": "Ferramenta Conta-gotas"
+        },
+        {
+          "action": "Paint bucket",
+          "actionRu": "Заливка",
+          "keys": [
+            "U",
+            "Shift+F7"
+          ],
+          "actionDe": "Farbeimer-Werkzeug",
+          "actionFr": "Outil Pot de peinture",
+          "actionEs": "Herramienta Cubo de pintura",
+          "actionPt": "Ferramenta Balde de Tinta"
+        },
+        {
+          "action": "Eraser",
+          "actionRu": "Ластик",
+          "keys": [
+            "Shift+E"
+          ],
+          "actionDe": "Löschwerkzeug",
+          "actionFr": "Outil Gomme",
+          "actionEs": "Herramienta Borrador",
+          "actionPt": "Ferramenta Borracha"
+        },
+        {
+          "action": "Zoom",
+          "actionRu": "Лупа",
+          "keys": [
+            "Z",
+            "F3"
+          ],
+          "actionDe": "Zoomwerkzeug",
+          "actionFr": "Outil Zoom",
+          "actionEs": "Herramienta Zoom",
+          "actionPt": "Ferramenta Zoom"
+        },
+        {
+          "action": "Ruler",
+          "actionRu": "Линейка",
+          "keys": [
+            "M"
+          ],
+          "actionDe": "Messwerkzeug",
+          "actionFr": "Outil Mesure",
+          "actionEs": "Herramienta Medición",
+          "actionPt": "Ferramenta Medir"
+        }
+      ],
+      "title": "Tools",
+      "titleRu": "Инструменты",
+      "titleDe": "Werkzeuge",
+      "titleFr": "Outils",
+      "titleEs": "Herramientas",
+      "titlePt": "Ferramentas"
+    },
+    {
+      "items": [
+        {
+          "action": "New document",
+          "actionRu": "Новый документ",
+          "keys": [
+            "Ctrl+N"
+          ],
+          "actionDe": "erstellt neues Dokument",
+          "actionFr": "créer un nouveau document",
+          "actionEs": "crear documento nuevo",
+          "actionPt": "criar novo documento"
+        },
+        {
+          "action": "Open",
+          "actionRu": "Открыть",
+          "keys": [
+            "Ctrl+O"
+          ],
+          "actionDe": "öffnet bestehendes Dokument",
+          "actionFr": "ouvrir un document",
+          "actionEs": "abrir un documento",
+          "actionPt": "abrir um documento"
+        },
+        {
+          "action": "Save",
+          "actionRu": "Сохранить",
+          "keys": [
+            "Ctrl+S"
+          ],
+          "actionDe": "speichert das Dokument",
+          "actionFr": "enregistrer le document",
+          "actionEs": "guardar documento",
+          "actionPt": "salvar documento"
+        },
+        {
+          "action": "Save as",
+          "actionRu": "Сохранить как",
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "actionDe": "speichert unter neuem Namen",
+          "actionFr": "enregistrer avec un nouveau nom",
+          "actionEs": "guardar con otro nombre",
+          "actionPt": "salvar com um novo nome"
+        },
+        {
+          "action": "Export",
+          "actionRu": "Экспорт",
+          "keys": [
+            "Ctrl+Shift+E"
+          ],
+          "actionDe": "exportiert verschiedene Grafikformate",
+          "actionFr": "exporter vers des formats d'image divers",
+          "actionEs": "exportar a distintos formatos de imagen",
+          "actionPt": "exportar para vários formatos de imagem"
+        },
+        {
+          "action": "Import",
+          "actionRu": "Импорт",
+          "keys": [
+            "Ctrl+I"
+          ],
+          "actionDe": "importiert Raster- oder Vektorgrafik",
+          "actionFr": "importer une image matricielle ou vectorielle",
+          "actionEs": "importar mapa de bits o vector",
+          "actionPt": "importar bitmap ou vetor"
+        },
+        {
+          "action": "Print",
+          "actionRu": "Печать",
+          "keys": [
+            "Ctrl+P"
+          ],
+          "actionDe": "druckt das Dokument",
+          "actionFr": "imprimer le document",
+          "actionEs": "imprimir documento",
+          "actionPt": "imprimir documento"
+        },
+        {
+          "action": "Quit",
+          "actionRu": "Выйти",
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "actionDe": "beendet Inkscape",
+          "actionFr": "quitter Inkscape",
+          "actionEs": "salir de Inkscape",
+          "actionPt": "sair do Inkscape"
+        }
+      ],
+      "title": "File",
+      "titleRu": "Файл",
+      "titleDe": "Datei",
+      "titleFr": "Fichier",
+      "titleEs": "Archivo",
+      "titlePt": "Arquivo"
+    },
+    {
+      "items": [
+        {
+          "action": "Zoom in / out",
+          "actionRu": "Приблизить / отдалить",
+          "keys": [
+            "+",
+            "-"
+          ],
+          "actionDe": "zoomt heran / zoomt heraus",
+          "actionFr": "zoomer / dézoomer",
+          "actionEs": "acercar / alejar",
+          "actionPt": "aumentar zoom / diminuir zoom"
+        },
+        {
+          "action": "1:1 zoom",
+          "actionRu": "Масштаб 1:1",
+          "keys": [
+            "1"
+          ],
+          "actionDe": "Zoom 1:1",
+          "actionFr": "zoom 1:1",
+          "actionEs": "zoom 1:1",
+          "actionPt": "zoom 1:1"
+        },
+        {
+          "action": "Zoom to selection",
+          "actionRu": "По выделению",
+          "keys": [
+            "3"
+          ],
+          "actionDe": "zoomt auf Auswahlgröße",
+          "actionFr": "zoom sur la sélection",
+          "actionEs": "zoom a la selección",
+          "actionPt": "zoom para a seleção"
+        },
+        {
+          "action": "Zoom to drawing",
+          "actionRu": "По рисунку",
+          "keys": [
+            "4"
+          ],
+          "actionDe": "zoomt auf Zeichnungsgröße",
+          "actionFr": "zoom sur le dessin",
+          "actionEs": "zoom al dibujo",
+          "actionPt": "zoom para desenho"
+        },
+        {
+          "action": "Zoom to page",
+          "actionRu": "По странице",
+          "keys": [
+            "5"
+          ],
+          "actionDe": "zoomt auf Seitengröße",
+          "actionFr": "zoom sur la page",
+          "actionEs": "zoom a la página",
+          "actionPt": "zoom para a página"
+        },
+        {
+          "action": "Previous zoom",
+          "actionRu": "Предыдущий масштаб",
+          "keys": [
+            "`"
+          ],
+          "actionDe": "Vorherige Zoomstufe",
+          "actionFr": "zoom précédent",
+          "actionEs": "zoom anterior",
+          "actionPt": "zoom anterior"
+        }
+      ],
+      "title": "Canvas and zoom",
+      "titleRu": "Холст и масштаб"
+    },
+    {
+      "items": [
+        {
+          "action": "Undo / redo",
+          "actionRu": "Отменить / вернуть",
+          "keys": [
+            "Ctrl+Z",
+            "Ctrl+Shift+Z"
+          ],
+          "actionDe": "rückgängig / wiederherstellen",
+          "actionFr": "annuler / rétablir",
+          "actionEs": "deshacer / rehacer",
+          "actionPt": "desfazer / refazer"
+        },
+        {
+          "action": "Duplicate",
+          "actionRu": "Дублировать",
+          "keys": [
+            "Ctrl+D"
+          ],
+          "actionDe": "dupliziert die Auswahl",
+          "actionFr": "dupliquer la sélection",
+          "actionEs": "duplicar selección",
+          "actionPt": "duplicar seleção"
+        },
+        {
+          "action": "Clone",
+          "actionRu": "Клонировать",
+          "keys": [
+            "Alt+D"
+          ],
+          "actionDe": "klont Objekt",
+          "actionFr": "cloner l'objet",
+          "actionEs": "clonar objeto",
+          "actionPt": "clonar objeto"
+        },
+        {
+          "action": "Group",
+          "actionRu": "Группировать",
+          "keys": [
+            "Ctrl+G"
+          ],
+          "actionDe": "gruppiert ausgewählte Objekte",
+          "actionFr": "grouper les objets sélectionnés",
+          "actionEs": "agrupar objetos seleccionados",
+          "actionPt": "agrupar objetos selecionados"
+        },
+        {
+          "action": "Ungroup",
+          "actionRu": "Разгруппировать",
+          "keys": [
+            "Ctrl+Shift+G"
+          ],
+          "actionDe": "löst gewählte Gruppe(n) auf",
+          "actionFr": "dégrouper les groupes sélectionnés",
+          "actionEs": "desagrupar grupo(s) seleccionado(s)",
+          "actionPt": "desagrupar grupo(s) selecionado(s)"
+        },
+        {
+          "action": "Raise / lower",
+          "actionRu": "Поднять выше / опустить ниже",
+          "keys": [
+            "PgUp",
+            "PgDn"
+          ],
+          "actionDe": "hebt Auswahl um eine Stufe nach oben an / senkt Auswahl um eine Stufe nach unten ab",
+          "actionFr": "monter la sélection d'un cran / descendre la sélection d'un cran",
+          "actionEs": "elevar la selección un nivel / bajar la selección un nivel",
+          "actionPt": "elevar a seleção um passo / rebaixar a seleção um passo"
+        },
+        {
+          "action": "To front / to back",
+          "actionRu": "На передний / на задний план",
+          "keys": [
+            "Home",
+            "End"
+          ],
+          "actionDe": "hebt Auswahl nach ganz oben an / senkt Auswahl nach ganz unten ab",
+          "actionFr": "monter la sélection au premier plan / descendre la sélection à l'arrière-plan",
+          "actionEs": "elevar selección al primer plano / bajar la selección al fondo",
+          "actionPt": "elevar a seleção ao topo / rebaixar a seleção à base"
+        },
+        {
+          "action": "Fill and stroke",
+          "actionRu": "Заливка и обводка",
+          "keys": [
+            "Ctrl+Shift+F"
+          ],
+          "actionDe": "Füllung und Kontur",
+          "actionFr": "Remplissage et contour",
+          "actionEs": "Relleno y borde",
+          "actionPt": "Preenchimento e Contorno"
+        },
+        {
+          "action": "Transform",
+          "actionRu": "Трансформация",
+          "keys": [
+            "Ctrl+Shift+M"
+          ],
+          "actionDe": "Transformation",
+          "actionFr": "Transformer",
+          "actionEs": "Transformaciones",
+          "actionPt": "Transformar"
+        },
+        {
+          "action": "Layers",
+          "actionRu": "Слои",
+          "keys": [
+            "Ctrl+Shift+L"
+          ],
+          "actionDe": "Ebenen und Objekte",
+          "actionFr": "Calques et Objets",
+          "actionEs": "Capas y objetos",
+          "actionPt": "Camadas e Objetos"
+        },
+        {
+          "action": "Align and distribute",
+          "actionRu": "Выровнять и распределить",
+          "keys": [
+            "Ctrl+Shift+A"
+          ],
+          "actionDe": "Ausrichten und Verteilen",
+          "actionFr": "Aligner et distribuer",
+          "actionEs": "Alinear y distribuir",
+          "actionPt": "Alinhar e Distribuir"
+        },
+        {
+          "action": "Document properties",
+          "actionRu": "Свойства документа",
+          "keys": [
+            "Ctrl+Shift+D"
+          ],
+          "actionDe": "Dokumenteneinstellungen",
+          "actionFr": "Propriétés du document",
+          "actionEs": "Propiedades del documento",
+          "actionPt": "Propriedades do Documento"
+        },
+        {
+          "action": "Settings",
+          "actionRu": "Настройки",
+          "keys": [
+            "Ctrl+Shift+P"
+          ],
+          "actionDe": "Einstellungen",
+          "actionFr": "Préférences d'Inkscape",
+          "actionEs": "Preferencias de Inkscape",
+          "actionPt": "Preferências do Inkscape"
+        }
+      ],
+      "title": "Object and dialogs",
+      "titleRu": "Объект и диалоги"
+    },
+    {
+      "items": [
+        {
+          "action": "New layer",
+          "actionRu": "Новый слой",
+          "keys": [
+            "Ctrl+Shift+N"
+          ],
+          "actionDe": "erstellt neue Ebene",
+          "actionFr": "créer un nouveau calque",
+          "actionEs": "crear capa nueva",
+          "actionPt": "criar nova camada"
+        },
+        {
+          "action": "Object to layer above / below",
+          "actionRu": "Объект на слой выше / ниже",
+          "keys": [
+            "Shift+PgUp",
+            "Shift+PgDn"
+          ],
+          "actionDe": "verschiebt zur darüber liegenden Ebene / verschiebt zur darunter liegenden Ebene",
+          "actionFr": "déplacer la sélection vers le calque supérieur / déplacer la sélection vers le calque inférieur",
+          "actionEs": "mover a la capa superior / mover a la capa inferior",
+          "actionPt": "mover para camada acima / mover para camada abaixo"
+        },
+        {
+          "action": "Layer above / below",
+          "actionRu": "Слой выше / ниже",
+          "keys": [
+            "Ctrl+Shift+PgUp",
+            "Ctrl+Shift+PgDn"
+          ],
+          "actionDe": "hebt Ebene an / senkt Ebene ab",
+          "actionFr": "monter le calque / descendre le calque",
+          "actionEs": "elevar capa / bajar capa",
+          "actionPt": "elevar a camada / rebaixar camada"
+        },
+        {
+          "action": "Show / hide dialogs",
+          "actionRu": "Показать / скрыть диалоги",
+          "keys": [
+            "F12"
+          ],
+          "actionDe": "zeigt Dialoge an oder blendet sie aus",
+          "actionFr": "afficher ou masquer les boîtes de dialogue",
+          "actionEs": "conmutar diálogos",
+          "actionPt": "alternar diálogos"
+        },
+        {
+          "action": "Fullscreen mode",
+          "actionRu": "Полноэкранный режим",
+          "keys": [
+            "F11"
+          ],
+          "actionDe": "Vollbildanzeige an/aus",
+          "actionFr": "passer en plein écran",
+          "actionEs": "intercambiar modo pantalla completa",
+          "actionPt": "alternar tela cheia"
+        },
+        {
+          "action": "Command palette",
+          "actionRu": "Палитра команд",
+          "keys": [
+            "?"
+          ],
+          "actionDe": "Befehlseingabe öffnen",
+          "actionFr": "ouvrir la palette de commande",
+          "actionEs": "abrir paleta de comandos",
+          "actionPt": "abrir paleta de comandos"
+        }
+      ],
+      "title": "Layers and window",
+      "titleRu": "Слои и окно"
+    }
+  ],
+  "source": "https://inkscape.org/doc"
+}

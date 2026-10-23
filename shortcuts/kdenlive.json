@@ -1,1 +1,358 @@
-{"appId":"kdenlive","displayName":"Kdenlive","groups":[{"items":[{"action":"New", "actionRu":"Новый проект","keys":["Ctrl+N"]},{"action":"Open…", "actionRu":"Открыть проект","keys":["Ctrl+O"]},{"action":"Save", "actionRu":"Сохранить проект","keys":["Ctrl+S"]},{"action":"Save As…", "actionRu":"Сохранить как","keys":["Ctrl+Shift+S"]},{"action":"Undo / redo", "actionRu":"Отменить / вернуть","keys":["Ctrl+Z","Ctrl+Shift+Z"]},{"action":"Render", "actionRu":"Рендер","keys":["Ctrl+Return"]},{"action":"Find Action…", "actionRu":"Поиск действия","keys":["Ctrl+Alt+I"]},{"action":"Configure Keyboard Shortcuts…", "actionRu":"Настройка горячих клавиш","keys":["Ctrl+Alt+,"]},{"action":"Quit", "actionRu":"Выйти","keys":["Ctrl+Q"]}],"title":"File and general", "titleRu":"Файл и общие"},{"items":[{"action":"Play / Stop", "actionRu":"Играть / стоп","keys":["Space"]},{"action":"Pause", "actionRu":"Пауза","keys":["K"]},{"action":"Forward / rewind", "actionRu":"Вперёд / назад (JKL)","keys":["L","J"]},{"action":"Forward / rewind 1 frame", "actionRu":"На кадр вперёд / назад","keys":["Right","Left"]},{"action":"Forward / rewind 1 second", "actionRu":"На секунду вперёд / назад","keys":["Shift+Right","Shift+Left"]},{"action":"Go to project start / end", "actionRu":"В начало / конец проекта","keys":["Ctrl+Home","Ctrl+End"]},{"action":"Play Zone", "actionRu":"Играть зону","keys":["Ctrl+Space"]},{"action":"Loop Zone", "actionRu":"Зациклить зону","keys":["Ctrl+Shift+Space"]},{"action":"Switch Monitor", "actionRu":"Переключить монитор","keys":["T"]}],"title":"Navigation and Playback", "titleRu":"Воспроизведение и навигация"},{"items":[{"action":"Set zone in / out", "actionRu":"Точка входа / выхода зоны","keys":["I","O"]},{"action":"Insert Clip Zone in Timeline", "actionRu":"Вставить зону клипа на таймлайн","keys":["V"]},{"action":"Overwrite Clip Zone in Timeline", "actionRu":"Перезаписать зону клипа","keys":["B"]},{"action":"Lift Timeline Zone", "actionRu":"Поднять зону (lift)","keys":["Z"]},{"action":"Extract Timeline Zone", "actionRu":"Извлечь зону (extract)","keys":["Shift+X"]}],"title":"Editing", "titleRu":"Монтаж"},{"items":[{"action":"Selection Tool", "actionRu":"Инструмент выделения","keys":["S"]},{"action":"Razor Tool", "actionRu":"Бритва","keys":["X"]},{"action":"Spacer Tool", "actionRu":"Разделитель","keys":["M"]},{"action":"Cut Clip", "actionRu":"Разрезать клип","keys":["Shift+R"]},{"action":"Cut All Clips", "actionRu":"Разрезать все клипы","keys":["Ctrl+Shift+R"]},{"action":"Duplicate Clip", "actionRu":"Дублировать клип","keys":["Ctrl+D"]},{"action":"Group Clips", "actionRu":"Группировать","keys":["Ctrl+G"]},{"action":"Ungroup Clips", "actionRu":"Разгруппировать","keys":["Ctrl+Shift+G"]},{"action":"Add/Remove Guide", "actionRu":"Добавить маркер","keys":["G"]},{"action":"Add Subtitle", "actionRu":"Добавить субтитр","keys":["Shift+S"]},{"action":"Mix Clips", "actionRu":"Смешать клипы (переход)","keys":["U"]},{"action":"Zoom in / out (timeline)", "actionRu":"Приблизить / отдалить таймлайн","keys":["Ctrl++","Ctrl+-"]}],"title":"Timeline", "titleRu":"Таймлайн"}],"source":"https://docs.kdenlive.org"}
+{
+  "appId": "kdenlive",
+  "displayName": "Kdenlive",
+  "groups": [
+    {
+      "items": [
+        {
+          "action": "New",
+          "actionRu": "Новый проект",
+          "keys": [
+            "Ctrl+N"
+          ],
+          "actionEs": "Nuevo",
+          "actionPt": "Novo"
+        },
+        {
+          "action": "Open…",
+          "actionRu": "Открыть проект",
+          "keys": [
+            "Ctrl+O"
+          ],
+          "actionEs": "Abrir…",
+          "actionPt": "Abrir…"
+        },
+        {
+          "action": "Save",
+          "actionRu": "Сохранить проект",
+          "keys": [
+            "Ctrl+S"
+          ],
+          "actionEs": "Guardar",
+          "actionPt": "Salvar"
+        },
+        {
+          "action": "Save As…",
+          "actionRu": "Сохранить как",
+          "keys": [
+            "Ctrl+Shift+S"
+          ],
+          "actionEs": "Guardar como…",
+          "actionPt": "Salvar como…"
+        },
+        {
+          "action": "Undo / redo",
+          "actionRu": "Отменить / вернуть",
+          "keys": [
+            "Ctrl+Z",
+            "Ctrl+Shift+Z"
+          ],
+          "actionEs": "Deshacer / Rehacer",
+          "actionPt": "Desfazer / Refazer"
+        },
+        {
+          "action": "Render",
+          "actionRu": "Рендер",
+          "keys": [
+            "Ctrl+Return"
+          ],
+          "actionEs": "Procesar",
+          "actionPt": "Renderizar"
+        },
+        {
+          "action": "Find Action…",
+          "actionRu": "Поиск действия",
+          "keys": [
+            "Ctrl+Alt+I"
+          ],
+          "actionEs": "Buscar acción…",
+          "actionPt": "Encontrar ação…"
+        },
+        {
+          "action": "Configure Keyboard Shortcuts…",
+          "actionRu": "Настройка горячих клавиш",
+          "keys": [
+            "Ctrl+Alt+,"
+          ],
+          "actionEs": "Configurar accesos rápidos de teclado…",
+          "actionPt": "Configurar atalhos do teclado…"
+        },
+        {
+          "action": "Quit",
+          "actionRu": "Выйти",
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "actionEs": "Salir",
+          "actionPt": "Sair"
+        }
+      ],
+      "title": "File and general",
+      "titleRu": "Файл и общие"
+    },
+    {
+      "items": [
+        {
+          "action": "Play / Stop",
+          "actionRu": "Играть / стоп",
+          "keys": [
+            "Space"
+          ],
+          "actionEs": "Reproducir / Pausar",
+          "actionPt": "Reproduzir / Parar"
+        },
+        {
+          "action": "Pause",
+          "actionRu": "Пауза",
+          "keys": [
+            "K"
+          ],
+          "actionEs": "Pausar",
+          "actionPt": "Pausar"
+        },
+        {
+          "action": "Forward / rewind",
+          "actionRu": "Вперёд / назад (JKL)",
+          "keys": [
+            "L",
+            "J"
+          ],
+          "actionEs": "Avanzar / Retroceder",
+          "actionPt": "Avançar / Rebobinar"
+        },
+        {
+          "action": "Forward / rewind 1 frame",
+          "actionRu": "На кадр вперёд / назад",
+          "keys": [
+            "Right",
+            "Left"
+          ],
+          "actionEs": "Avanzar 1 fotograma / Retroceder 1 fotograma",
+          "actionPt": "Avançar 1 quadro / Rebobinar 1 quadro"
+        },
+        {
+          "action": "Forward / rewind 1 second",
+          "actionRu": "На секунду вперёд / назад",
+          "keys": [
+            "Shift+Right",
+            "Shift+Left"
+          ],
+          "actionEs": "Avanzar 1 segundo / Retroceder 1 segundo",
+          "actionPt": "Avançar 1 segundo / Rebobinar 1 segundo"
+        },
+        {
+          "action": "Go to project start / end",
+          "actionRu": "В начало / конец проекта",
+          "keys": [
+            "Ctrl+Home",
+            "Ctrl+End"
+          ],
+          "actionEs": "Ir al inicio de la secuencia / Ir al fin de la secuencia",
+          "actionPt": "Ir para início do projeto / Ir para final do projeto"
+        },
+        {
+          "action": "Play Zone",
+          "actionRu": "Играть зону",
+          "keys": [
+            "Ctrl+Space"
+          ],
+          "actionEs": "Reproducir zona",
+          "actionPt": "Reproduzir zona"
+        },
+        {
+          "action": "Loop Zone",
+          "actionRu": "Зациклить зону",
+          "keys": [
+            "Ctrl+Shift+Space"
+          ],
+          "actionEs": "Repetir zona",
+          "actionPt": "Repetir zona"
+        },
+        {
+          "action": "Switch Monitor",
+          "actionRu": "Переключить монитор",
+          "keys": [
+            "T"
+          ],
+          "actionEs": "Cambiar monitor",
+          "actionPt": "Alternar monitor"
+        }
+      ],
+      "title": "Navigation and Playback",
+      "titleRu": "Воспроизведение и навигация",
+      "titleEs": "Navegación y reproducción",
+      "titlePt": "Navegação e reprodução"
+    },
+    {
+      "items": [
+        {
+          "action": "Set zone in / out",
+          "actionRu": "Точка входа / выхода зоны",
+          "keys": [
+            "I",
+            "O"
+          ],
+          "actionEs": "Marcar inicio de zona / Marcar fin de zona",
+          "actionPt": "Definir entrada da zona / Definir saída da zona"
+        },
+        {
+          "action": "Insert Clip Zone in Timeline",
+          "actionRu": "Вставить зону клипа на таймлайн",
+          "keys": [
+            "V"
+          ],
+          "actionEs": "Insertar zona del medio (en línea de tiempo)",
+          "actionPt": "Inserir zona de clipe na linha do tempo"
+        },
+        {
+          "action": "Overwrite Clip Zone in Timeline",
+          "actionRu": "Перезаписать зону клипа",
+          "keys": [
+            "B"
+          ],
+          "actionEs": "Sobrescribir zona del medio (en línea de tiempo)",
+          "actionPt": "Substituir zona de clipe na linha do tempo"
+        },
+        {
+          "action": "Lift Timeline Zone",
+          "actionRu": "Поднять зону (lift)",
+          "keys": [
+            "Z"
+          ],
+          "actionEs": "Remover zona de línea de tiempo",
+          "actionPt": "Elevar zona da linha do tempo"
+        },
+        {
+          "action": "Extract Timeline Zone",
+          "actionRu": "Извлечь зону (extract)",
+          "keys": [
+            "Shift+X"
+          ],
+          "actionEs": "Extraer zona de línea de tiempo",
+          "actionPt": "Extrair zona da linha do tempo"
+        }
+      ],
+      "title": "Editing",
+      "titleRu": "Монтаж",
+      "titleEs": "Edición",
+      "titlePt": "Editando"
+    },
+    {
+      "items": [
+        {
+          "action": "Selection Tool",
+          "actionRu": "Инструмент выделения",
+          "keys": [
+            "S"
+          ],
+          "actionEs": "Seleccionar",
+          "actionPt": "Ferramenta de seleção"
+        },
+        {
+          "action": "Razor Tool",
+          "actionRu": "Бритва",
+          "keys": [
+            "X"
+          ],
+          "actionEs": "Cortar",
+          "actionPt": "Ferramenta de navalha"
+        },
+        {
+          "action": "Spacer Tool",
+          "actionRu": "Разделитель",
+          "keys": [
+            "M"
+          ],
+          "actionEs": "Espaciar",
+          "actionPt": "Ferramenta espaçador"
+        },
+        {
+          "action": "Cut Clip",
+          "actionRu": "Разрезать клип",
+          "keys": [
+            "Shift+R"
+          ],
+          "actionEs": "Cortar clip",
+          "actionPt": "Cortar clipe"
+        },
+        {
+          "action": "Cut All Clips",
+          "actionRu": "Разрезать все клипы",
+          "keys": [
+            "Ctrl+Shift+R"
+          ],
+          "actionEs": "Cortar todos los clips",
+          "actionPt": "Cortar todos os clipes"
+        },
+        {
+          "action": "Duplicate Clip",
+          "actionRu": "Дублировать клип",
+          "keys": [
+            "Ctrl+D"
+          ],
+          "actionPt": "Duplicar clipe"
+        },
+        {
+          "action": "Group Clips",
+          "actionRu": "Группировать",
+          "keys": [
+            "Ctrl+G"
+          ],
+          "actionEs": "Agrupar clips",
+          "actionPt": "Agrupar clipes"
+        },
+        {
+          "action": "Ungroup Clips",
+          "actionRu": "Разгруппировать",
+          "keys": [
+            "Ctrl+Shift+G"
+          ],
+          "actionEs": "Desagrupar clips",
+          "actionPt": "Desagrupar clipes"
+        },
+        {
+          "action": "Add/Remove Guide",
+          "actionRu": "Добавить маркер",
+          "keys": [
+            "G"
+          ],
+          "actionEs": "Agregar/Eliminar marcador",
+          "actionPt": "Adicionar/Remover guia"
+        },
+        {
+          "action": "Add Subtitle",
+          "actionRu": "Добавить субтитр",
+          "keys": [
+            "Shift+S"
+          ],
+          "actionEs": "Agregar subtítulo",
+          "actionPt": "Adicionar legenda"
+        },
+        {
+          "action": "Mix Clips",
+          "actionRu": "Смешать клипы (переход)",
+          "keys": [
+            "U"
+          ],
+          "actionEs": "Mezclar clips",
+          "actionPt": "Mixar clipes"
+        },
+        {
+          "action": "Zoom in / out (timeline)",
+          "actionRu": "Приблизить / отдалить таймлайн",
+          "keys": [
+            "Ctrl++",
+            "Ctrl+-"
+          ],
+          "actionEs": "Ampliar / Reducir",
+          "actionPt": "Ampliar / Reduzir"
+        }
+      ],
+      "title": "Timeline",
+      "titleRu": "Таймлайн",
+      "titleEs": "Línea de tiempo",
+      "titlePt": "Linha do tempo"
+    }
+  ],
+  "source": "https://docs.kdenlive.org"
+}

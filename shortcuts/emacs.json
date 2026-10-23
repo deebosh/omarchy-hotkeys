@@ -8,26 +8,32 @@
     {
       "title": "Files",
       "titleRu": "Файлы",
+      "titleDe": "Dateien",
+      "titleFr": "Fichiers",
+      "titlePt": "Arquivos",
       "items": [
-        { "keys": ["Ctrl+X", "Ctrl+F"], "action": "Read a file into Emacs", "actionRu": "Открыть файл" },
-        { "keys": ["Ctrl+X", "Ctrl+S"], "action": "Save a file back to disk", "actionRu": "Сохранить файл" },
-        { "keys": ["Ctrl+X", "Ctrl+W"], "action": "Write buffer to a specified file", "actionRu": "Сохранить как" },
-        { "keys": ["Ctrl+X", "Ctrl+C"], "action": "Exit Emacs permanently", "actionRu": "Выйти из Emacs" },
-        { "keys": ["Ctrl+X", "b"], "action": "Select another buffer", "actionRu": "Переключиться на буфер" },
-        { "keys": ["Ctrl+X", "k"], "action": "Kill a buffer", "actionRu": "Закрыть буфер" },
-        { "keys": ["Ctrl+X", "Ctrl+B"], "action": "List all buffers", "actionRu": "Список буферов" }
+        { "keys": ["Ctrl+X", "Ctrl+F"], "action": "Read a file into Emacs", "actionRu": "Открыть файл", "actionDe": "Datei öffnen", "actionFr": "Lire un fichier", "actionPt": "abre um arquivo" },
+        { "keys": ["Ctrl+X", "Ctrl+S"], "action": "Save a file back to disk", "actionRu": "Сохранить файл", "actionDe": "Datei speichern", "actionFr": "Sauvegarder un fichier", "actionPt": "salva um arquivo em disco" },
+        { "keys": ["Ctrl+X", "Ctrl+W"], "action": "Write buffer to a specified file", "actionRu": "Сохранить как", "actionDe": "Puffer in neuer Datei speichern", "actionFr": "Sauvegarder sous un autre nom de fichier", "actionPt": "salva o buffer em um arquivo especificado" },
+        { "keys": ["Ctrl+X", "Ctrl+C"], "action": "Exit Emacs permanently", "actionRu": "Выйти из Emacs", "actionDe": "Emacs beenden", "actionFr": "Quitter définitivement Emacs", "actionPt": "encerra o Emacs" },
+        { "keys": ["Ctrl+X", "b"], "action": "Select another buffer", "actionRu": "Переключиться на буфер", "actionDe": "anderen Puffer auswählen", "actionFr": "Choisir un autre tampon", "actionPt": "seleciona outro buffer" },
+        { "keys": ["Ctrl+X", "k"], "action": "Kill a buffer", "actionRu": "Закрыть буфер", "actionDe": "einen Puffer schließen", "actionFr": "Supprimer un tampon", "actionPt": "mata um buffer" },
+        { "keys": ["Ctrl+X", "Ctrl+B"], "action": "List all buffers", "actionRu": "Список буферов", "actionDe": "Liste aller Puffer anzeigen", "actionFr": "Lister tous les tampons", "actionPt": "lista todos buffers" }
       ]
     },
     {
       "title": "Motion",
       "titleRu": "Движение",
+      "titleDe": "Cursor-Bewegung",
+      "titleFr": "Déplacements",
+      "titlePt": "Movimentação",
       "items": [
         { "keys": ["Ctrl+F", "Ctrl+B", "Ctrl+N", "Ctrl+P"], "action": "Character forward / backward, line down / up", "actionRu": "Символ вперёд / назад, строка вниз / вверх" },
         { "keys": ["Alt+F", "Alt+B"], "action": "Word forward / backward", "actionRu": "Слово вперёд / назад" },
-        { "keys": ["Ctrl+A", "Ctrl+E"], "action": "Go to line beginning (or end)", "actionRu": "Начало / конец строки" },
-        { "keys": ["Alt+<", "Alt+>"], "action": "Go to buffer beginning (or end)", "actionRu": "Начало / конец буфера" },
-        { "keys": ["Ctrl+V", "Alt+V"], "action": "Scroll to next screen / Scroll to previous screen", "actionRu": "Экран вниз / вверх" },
-        { "keys": ["Ctrl+L"], "action": "Scroll current line to center, top, bottom", "actionRu": "Центрировать экран на курсоре" },
+        { "keys": ["Ctrl+A", "Ctrl+E"], "action": "Go to line beginning (or end)", "actionRu": "Начало / конец строки", "actionDe": "zum Zeilenanfang (oder -ende) springen", "actionFr": "Aller en début/fin de la ligne", "actionPt": "para início ou fim de linha" },
+        { "keys": ["Alt+<", "Alt+>"], "action": "Go to buffer beginning (or end)", "actionRu": "Начало / конец буфера", "actionDe": "zum Pufferanfang (oder -ende) springen", "actionFr": "Aller en début/fin du tampon", "actionPt": "para início ou fim do buffer" },
+        { "keys": ["Ctrl+V", "Alt+V"], "action": "Scroll to next screen / Scroll to previous screen", "actionRu": "Экран вниз / вверх", "actionDe": "eine Bildschirmseite herunter scrollen / eine Bildschirmseite hoch scrollen", "actionFr": "Passer à l'écran suivant / Passer à l'écran précédent", "actionPt": "rolar para próxima tela / rolar para tela anterior" },
+        { "keys": ["Ctrl+L"], "action": "Scroll current line to center, top, bottom", "actionRu": "Центрировать экран на курсоре", "actionDe": "Cursor-Zeile in die Bildschirmmitte scrollen", "actionFr": "Placer la ligne courante au centre de l'écran", "actionPt": "rolar a linha corrente para o centro da tela" },
         { "keys": ["Alt+G", "G"], "action": "Goto line", "actionRu": "Перейти к строке" }
       ]
     },
@@ -35,40 +41,47 @@
       "title": "Editing",
       "titleRu": "Правки",
       "items": [
-        { "keys": ["Ctrl+Space"], "action": "Set mark here", "actionRu": "Поставить метку (начать выделение)" },
-        { "keys": ["Ctrl+W", "Alt+W", "Ctrl+Y"], "action": "Kill region / copy region / yank", "actionRu": "Вырезать / копировать / вставить" },
-        { "keys": ["Ctrl+K"], "action": "Kill to end of line", "actionRu": "Удалить до конца строки" },
-        { "keys": ["Ctrl+D", "Alt+D"], "action": "Delete character / word", "actionRu": "Удалить символ / слово" },
-        { "keys": ["Ctrl+/", "Ctrl+X", "u"], "action": "Undo an unwanted change", "actionRu": "Отменить" },
-        { "keys": ["Ctrl+G"], "action": "Abort partially typed or executing command", "actionRu": "Отменить команду" }
+        { "keys": ["Ctrl+Space"], "action": "Set mark here", "actionRu": "Поставить метку (начать выделение)", "actionDe": "Marke setzen", "actionFr": "Placer la marque au point", "actionPt": "posiciona a marca aqui" },
+        { "keys": ["Ctrl+W", "Alt+W", "Ctrl+Y"], "action": "Kill region / copy region / yank", "actionRu": "Вырезать / копировать / вставить", "actionDe": "Bereich ausschneiden / Bereich in die Ablage kopieren / zuletzt ausgeschnittenen Text einfügen", "actionFr": "Détruire une région / Copier une région dans le kill ring / Récupérer la dernière région détruite", "actionPt": "corta região / copia a região / colar a última coisa cortada" },
+        { "keys": ["Ctrl+K"], "action": "Kill to end of line", "actionRu": "Удалить до конца строки", "actionDe": "Zeile (bis zum Ende)", "actionPt": "linha (até o final)" },
+        { "keys": ["Ctrl+D", "Alt+D"], "action": "Delete character / word", "actionRu": "Удалить символ / слово", "actionDe": "Zeichen (löschen, nicht ausschneiden) / Wort", "actionFr": "Caractère (suppression) / Mot", "actionPt": "caracter (apaga, não corta) / palavra" },
+        { "keys": ["Ctrl+/", "Ctrl+X", "u"], "action": "Undo an unwanted change", "actionRu": "Отменить", "actionDe": "Änderungen rückgängig machen", "actionFr": "Annuler une modification", "actionPt": "desfaz uma alteração (undo)" },
+        { "keys": ["Ctrl+G"], "action": "Abort partially typed or executing command", "actionRu": "Отменить команду", "actionDe": "Abbrechen eines Vorgangs", "actionFr": "Abandonner une commande", "actionPt": "aborta uma operação" }
       ]
     },
     {
       "title": "Search and replace",
       "titleRu": "Поиск и замена",
+      "titlePt": "Busca e Substituição",
       "items": [
-        { "keys": ["Ctrl+S", "Ctrl+R"], "action": "Search forward / Search backward", "actionRu": "Инкрементальный поиск вперёд / назад" },
-        { "keys": ["Alt+%"], "action": "Interactively replace a text string", "actionRu": "Замена (query-replace)" },
+        { "keys": ["Ctrl+S", "Ctrl+R"], "action": "Search forward / Search backward", "actionRu": "Инкрементальный поиск вперёд / назад", "actionDe": "Suche vorwärts / Suche rückwärts", "actionFr": "Rechercher en avant / Rechercher en arrière", "actionPt": "busca para frente / busca para trás" },
+        { "keys": ["Alt+%"], "action": "Interactively replace a text string", "actionRu": "Замена (query-replace)", "actionDe": "Zeichenkette interaktiv ersetzen", "actionFr": "Remplacer une chaîne de texte", "actionPt": "Substitui interativamente uma string" },
         { "keys": ["Alt+X"], "action": "Execute extended command", "actionRu": "Выполнить команду по имени" }
       ]
     },
     {
       "title": "Multiple Windows",
       "titleRu": "Окна",
+      "titleDe": "Mehrere Fenster",
+      "titleFr": "Fenêtres multiples",
+      "titlePt": "Múltiplas Janelas",
       "items": [
-        { "keys": ["Ctrl+X", "2", "Ctrl+X", "3"], "action": "Split window above and below / side by side", "actionRu": "Разделить горизонтально / вертикально" },
-        { "keys": ["Ctrl+X", "o"], "action": "Switch cursor to another window", "actionRu": "Перейти в другое окно" },
-        { "keys": ["Ctrl+X", "0", "Ctrl+X", "1"], "action": "Delete this window / delete all other windows", "actionRu": "Закрыть окно / оставить одно" }
+        { "keys": ["Ctrl+X", "2", "Ctrl+X", "3"], "action": "Split window above and below / side by side", "actionRu": "Разделить горизонтально / вертикально", "actionDe": "Fenster vertikal teilen / Fenster horizontal teilen", "actionFr": "Diviser la fenêtre horizontalement / Diviser la fenêtre verticalement", "actionPt": "divide a janela, acima e abaixo / divide a janela, lado a lado" },
+        { "keys": ["Ctrl+X", "o"], "action": "Switch cursor to another window", "actionRu": "Перейти в другое окно", "actionDe": "in anderes Fenster wechseln", "actionFr": "Sélectionner une autre fenêtre", "actionPt": "leva o cursor para outra janela" },
+        { "keys": ["Ctrl+X", "0", "Ctrl+X", "1"], "action": "Delete this window / delete all other windows", "actionRu": "Закрыть окно / оставить одно", "actionDe": "dieses Fenster schließen / alle anderen Fenster schließen", "actionFr": "Supprimer cette fenêtre / Supprimer toutes les autres fenêtres", "actionPt": "elimina esta janela / elimina todas outras janelas" }
       ]
     },
     {
       "title": "Getting Help",
       "titleRu": "Справка",
+      "titleDe": "Hilfe",
+      "titleFr": "Obtenir de l'aide",
+      "titlePt": "Ajuda (Help)",
       "items": [
-        { "keys": ["Ctrl+H", "t"], "action": "Tutorial", "actionRu": "Обучение (tutorial)" },
-        { "keys": ["Ctrl+H", "k"], "action": "Describe the function a key runs", "actionRu": "Что делает клавиша" },
-        { "keys": ["Ctrl+H", "f"], "action": "Describe a function", "actionRu": "Что делает функция" },
-        { "keys": ["Ctrl+H", "i"], "action": "Enter the Info documentation reader", "actionRu": "Документация (info)" }
+        { "keys": ["Ctrl+H", "t"], "action": "Tutorial", "actionRu": "Обучение (tutorial)", "actionDe": "Einführung" },
+        { "keys": ["Ctrl+H", "k"], "action": "Describe the function a key runs", "actionRu": "Что делает клавиша", "actionDe": "Tastenkombination beschreiben", "actionFr": "Décrire la fonction associée à une touche", "actionPt": "descreve função associada a teclas" },
+        { "keys": ["Ctrl+H", "f"], "action": "Describe a function", "actionRu": "Что делает функция", "actionDe": "eine Funktion beschreiben", "actionFr": "Décrire une fonction", "actionPt": "descreve uma função" },
+        { "keys": ["Ctrl+H", "i"], "action": "Enter the Info documentation reader", "actionRu": "Документация (info)", "actionDe": "Info-Betrachter starten", "actionFr": "Lire une documentation Info", "actionPt": "entra no leitor de Info" }
       ]
     }
   ]

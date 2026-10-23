@@ -234,50 +234,133 @@ var DISPLAY_NAMES_RU = {
   "gnome-calculator": "Калькулятор"
 };
 
+var DISPLAY_NAME_VARIANTS = {
+  Ru: DISPLAY_NAMES_RU,
+  De: {
+    nautilus: "Dateien",
+    "gnome-text-editor": "Texteditor",
+    eog: "Bildbetrachter",
+    loupe: "Lupe",
+    "virt-manager": "Virtuelle Maschinen",
+    "dconf-editor": "dconf-Editor",
+    "gnome-system-monitor": "Systemmonitor",
+    baobab: "Festplattenbelegung",
+    "gnome-disks": "Laufwerke",
+    pavucontrol: "Lautstärke",
+    "gnome-extensions": "Erweiterungen",
+    "gnome-calendar": "Kalender",
+    "gnome-calculator": "Rechner"
+  },
+  Fr: {
+    nautilus: "Fichiers",
+    "gnome-text-editor": "Éditeur de texte",
+    eog: "Visionneuse d’images",
+    loupe: "Loupe",
+    "virt-manager": "Machines virtuelles",
+    "dconf-editor": "Éditeur dconf",
+    "gnome-system-monitor": "Moniteur système",
+    baobab: "Utilisation des disques",
+    "gnome-disks": "Disques",
+    pavucontrol: "Volume",
+    "gnome-extensions": "Extensions",
+    "gnome-calendar": "Calendrier",
+    "gnome-calculator": "Calculatrice"
+  },
+  Es: {
+    nautilus: "Archivos",
+    "gnome-text-editor": "Editor de texto",
+    eog: "Visor de imágenes",
+    loupe: "Lupa",
+    "virt-manager": "Máquinas virtuales",
+    "dconf-editor": "Editor dconf",
+    "gnome-system-monitor": "Monitor del sistema",
+    baobab: "Uso de discos",
+    "gnome-disks": "Discos",
+    pavucontrol: "Volumen",
+    "gnome-extensions": "Extensiones",
+    "gnome-calendar": "Calendario",
+    "gnome-calculator": "Calculadora"
+  },
+  Pt: {
+    nautilus: "Arquivos",
+    "gnome-text-editor": "Editor de texto",
+    eog: "Visualizador de imagens",
+    loupe: "Lupa",
+    "virt-manager": "Máquinas virtuais",
+    "dconf-editor": "Editor dconf",
+    "gnome-system-monitor": "Monitor do sistema",
+    baobab: "Uso de disco",
+    "gnome-disks": "Discos",
+    pavucontrol: "Volume",
+    "gnome-extensions": "Extensões",
+    "gnome-calendar": "Calendário",
+    "gnome-calculator": "Calculadora"
+  }
+};
+
 // ---- Locale -----------------------------------------------------------
-// UI language follows the system locale: Russian when it starts with "ru",
-// English otherwise. Data files carry EN base fields plus *Ru variants.
+// UI language follows the system locale (en/de/fr/es/pt/ru). Data files
+// carry EN base fields plus per-language variants (*Ru, *De, ...).
+
+var LOCALE_SUFFIX = { ru: "Ru", de: "De", fr: "Fr", es: "Es", pt: "Pt" };
+
+function localeSuffix(localeName) {
+  var l = String(localeName || "").toLowerCase();
+  for (var code in LOCALE_SUFFIX)
+    if (l === code || l.indexOf(code + "_") === 0 || l.indexOf(code + "-") === 0) return LOCALE_SUFFIX[code];
+  return "";
+}
 
 function isRussian(localeName) {
-  return String(localeName || "").toLowerCase().indexOf("ru") === 0;
+  return localeSuffix(localeName) === "Ru";
 }
 
 var UI_STRINGS = {
-  searchPlaceholder: { en: "Search…", ru: "Поиск…" },
-  shortcutsCount: { en: "shortcuts", ru: "хоткеев" },
-  tooltipSuffix: { en: "shortcuts", ru: "хоткеи" },
-  nothingFound: { en: "Nothing found", ru: "Ничего не найдено" },
-  noEntries: { en: "No entries", ru: "Нет записей" },
-  noData: { en: "No data for this app", ru: "Нет данных для этого приложения" },
-  unknownAppNote: { en: "No data for “{app}” — global bindings", ru: "Для «{app}» данных нет — глобальные бинды" }
+  searchPlaceholder: { en: "Search…", ru: "Поиск…", de: "Suchen…", fr: "Rechercher…", es: "Buscar…", pt: "Pesquisar…" },
+  shortcutsCount: { en: "shortcuts", ru: "хоткеев", de: "Tastenkombinationen", fr: "raccourcis", es: "atajos", pt: "atalhos" },
+  tooltipSuffix: { en: "shortcuts", ru: "хоткеи", de: "Tastenkombinationen", fr: "raccourcis", es: "atajos", pt: "atalhos" },
+  nothingFound: { en: "Nothing found", ru: "Ничего не найдено", de: "Nichts gefunden", fr: "Rien trouvé", es: "Nada encontrado", pt: "Nada encontrado" },
+  noEntries: { en: "No entries", ru: "Нет записей", de: "Keine Einträge", fr: "Aucune entrée", es: "Sin entradas", pt: "Sem entradas" },
+  noData: { en: "No data for this app", ru: "Нет данных для этого приложения", de: "Keine Daten für diese App", fr: "Aucune donnée pour cette application", es: "Sin datos para esta aplicación", pt: "Sem dados para este aplicativo" },
+  unknownAppNote: { en: "No data for “{app}” — global bindings", ru: "Для «{app}» данных нет — глобальные бинды", de: "Keine Daten für „{app}“ — globale Bindings", fr: "Aucune donnée pour « {app} » — raccourcis globaux", es: "Sin datos para «{app}» — atajos globales", pt: "Sem dados para «{app}» — atalhos globais" }
 };
 
 function tr(key, localeName) {
   var pair = UI_STRINGS[key];
   if (!pair) return "";
-  return isRussian(localeName) ? pair.ru : pair.en;
+  var sfx = localeSuffix(localeName);
+  var lang = sfx === "Ru" ? "ru" : sfx === "De" ? "de" : sfx === "Fr" ? "fr" : sfx === "Es" ? "es" : sfx === "Pt" ? "pt" : "en";
+  return pair[lang] !== undefined ? pair[lang] : pair.en;
+}
+
+// Localized field lookup: base EN field, then <base><Suffix> variant.
+function locField(obj, base, localeName) {
+  if (!obj) return "";
+  var sfx = localeSuffix(localeName);
+  if (sfx && obj[base + sfx] !== undefined && obj[base + sfx] !== "") return obj[base + sfx];
+  return obj[base] || "";
 }
 
 function displayNameForKey(key, localeName) {
-  if (isRussian(localeName) && DISPLAY_NAMES_RU[key]) return DISPLAY_NAMES_RU[key];
+  var sfx = localeSuffix(localeName);
+  if (sfx && DISPLAY_NAME_VARIANTS[sfx] && DISPLAY_NAME_VARIANTS[sfx][key])
+    return DISPLAY_NAME_VARIANTS[sfx][key];
   return DISPLAY_NAMES[key] || DISPLAY_NAMES[FALLBACK_APP];
 }
 
-// Data-file helpers: EN base field, *Ru variant when Russian locale.
+// Data-file helpers: EN base field, localized variant when matching locale.
 function dataDisplayName(data, key, localeName) {
   if (!data) return displayNameForKey(key, localeName);
-  if (isRussian(localeName) && data.displayNameRu) return data.displayNameRu;
-  return data.displayName || displayNameForKey(key, localeName);
+  var v = locField(data, "displayName", localeName);
+  return v !== "" ? v : displayNameForKey(key, localeName);
 }
 
 function groupTitle(group, localeName) {
-  if (isRussian(localeName) && group.titleRu) return group.titleRu;
-  return group.title || "";
+  return locField(group, "title", localeName);
 }
 
 function itemAction(item, localeName) {
-  if (isRussian(localeName) && item.actionRu) return item.actionRu;
-  return item.action || "";
+  return locField(item, "action", localeName);
 }
 
 // Raw Wayland app-id / Hyprland class -> canonical key.
@@ -479,7 +562,10 @@ function displayNameFor(appKey) {
   return DISPLAY_NAMES[appKey] || DISPLAY_NAMES[FALLBACK_APP];
 }
 
-// Case-insensitive substring match over keys + action (both languages).
+// Case-insensitive substring match over keys + action (all languages:
+// searching in any supported language finds the entry).
+var LOCALIZED_ACTION_FIELDS = ["action", "actionRu", "actionDe", "actionFr", "actionEs", "actionPt"];
+
 function filterItems(groups, query) {
   var q = String(query === undefined || query === null ? "" : query)
     .replace(/^\s+|\s+$/g, "").toLowerCase();
@@ -490,14 +576,22 @@ function filterItems(groups, query) {
     var items = [];
     for (var i = 0; i < (group.items || []).length; i++) {
       var item = group.items[i];
-      var hay = ((item.keys || []).join(" ") + " " + (item.action || "") + " " + (item.actionRu || "")).toLowerCase();
-      if (hay.indexOf(q) !== -1) items.push(item);
+      var hay = (item.keys || []).join(" ");
+      for (var f = 0; f < LOCALIZED_ACTION_FIELDS.length; f++)
+        hay += " " + (item[LOCALIZED_ACTION_FIELDS[f]] || "");
+      if (hay.toLowerCase().indexOf(q) !== -1) items.push(item);
     }
-    if (items.length > 0) {
-      var outGroup = { title: group.title, items: items };
-      if (group.titleRu !== undefined) outGroup.titleRu = group.titleRu;
-      out.push(outGroup);
-    }
+    if (items.length > 0) out.push(copyGroup(group, items));
+  }
+  return out;
+}
+
+// Copy a group with a new item list, preserving every title variant.
+function copyGroup(group, items) {
+  var out = { title: group.title, items: items };
+  for (var sfx in LOCALE_SUFFIX) {
+    var key = "title" + LOCALE_SUFFIX[sfx];
+    if (group[key] !== undefined) out[key] = group[key];
   }
   return out;
 }
@@ -517,11 +611,7 @@ function limitGroups(groups, maxItems) {
   for (var g = 0; g < (groups || []).length && left > 0; g++) {
     var items = (groups[g].items || []).slice(0, left);
     left -= items.length;
-    if (items.length > 0) {
-      var entry = { title: groups[g].title, items: items };
-      if (groups[g].titleRu !== undefined) entry.titleRu = groups[g].titleRu;
-      out.push(entry);
-    }
+    if (items.length > 0) out.push(copyGroup(groups[g], items));
   }
   return out;
 }
@@ -535,6 +625,7 @@ if (typeof module !== "undefined") {
     glyphFor: glyphFor,
     displayNameFor: displayNameFor,
     displayNameForKey: displayNameForKey,
+    localeSuffix: localeSuffix,
     isRussian: isRussian,
     tr: tr,
     dataDisplayName: dataDisplayName,

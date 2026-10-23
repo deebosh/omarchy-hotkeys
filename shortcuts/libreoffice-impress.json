@@ -2,39 +2,216 @@
   "appId": "libreoffice-impress",
   "displayName": "LibreOffice Impress",
   "source": "https://help.libreoffice.org/latest/en-US/text/simpress/04/01010000.html (Shortcut Keys for LibreOffice Impress)",
-  "note": "Impress has few hotkeys of its own; the rest are shared LibreOffice ones", "noteRu": "Собственных хоткеев у Impress немного; остальные — общие для LibreOffice",
+  "note": "Impress has few hotkeys of its own; the rest are shared LibreOffice ones",
+  "noteRu": "Собственных хоткеев у Impress немного; остальные — общие для LibreOffice",
   "groups": [
     {
-      "title": "Slideshow", "titleRu": "Слайд-шоу",
+      "title": "Slideshow",
+      "titleRu": "Слайд-шоу",
       "items": [
-        { "keys": ["F5"], "action": "View slide show", "actionRu": "Начать показ с первого слайда" },
-        { "keys": ["Shift+F5"], "action": "Start show from current slide", "actionRu": "Начать показ с текущего слайда" },
-        { "keys": ["Esc"], "action": "End presentation", "actionRu": "Завершить показ" },
-        { "keys": ["Space", "Enter", "PageDown", "Right"], "action": "Next effect, else next slide", "actionRu": "Следующий слайд / эффект" },
-        { "keys": ["Backspace", "PageUp", "Left"], "action": "Previous effect, else previous slide", "actionRu": "Предыдущий слайд / эффект" },
-        { "keys": ["B", "."], "action": "Show black screen until next key", "actionRu": "Чёрный экран / вернуться к показу" },
-        { "keys": ["W", ","], "action": "Show white screen until next key", "actionRu": "Белый экран / вернуться к показу" }
+        {
+          "keys": [
+            "F5"
+          ],
+          "action": "View slide show",
+          "actionRu": "Начать показ с первого слайда",
+          "actionDe": "Startet die Bildschirmpräsentation.",
+          "actionFr": "Afficher le diaporama.",
+          "actionEs": "Ver presentación.",
+          "actionPt": "Exibir apresentação de slides."
+        },
+        {
+          "keys": [
+            "Shift+F5"
+          ],
+          "action": "Start show from current slide",
+          "actionRu": "Начать показ с текущего слайда"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "End presentation",
+          "actionRu": "Завершить показ",
+          "actionDe": "Beendet eine Präsentation.",
+          "actionFr": "Terminer la présentation.",
+          "actionEs": "Finalizar presentación.",
+          "actionPt": "Finaliza a apresentação."
+        },
+        {
+          "keys": [
+            "Space",
+            "Enter",
+            "PageDown",
+            "Right"
+          ],
+          "action": "Next effect, else next slide",
+          "actionRu": "Следующий слайд / эффект",
+          "actionDe": "Spielt den nächsten Effekt ab (falls vorhanden, sonst Sprung zur nächsten Folie).",
+          "actionFr": "Exécuter l'effet suivant. En l'absence d'effet, passer à la diapo suivante.",
+          "actionEs": "Reproducir efecto siguiente (si lo hubiera y si no, pasar a diapositiva siguiente).",
+          "actionPt": "Reproduz o próximo efeito (se houver, caso contrário, vai para o próximo slide)."
+        },
+        {
+          "keys": [
+            "Backspace",
+            "PageUp",
+            "Left"
+          ],
+          "action": "Previous effect, else previous slide",
+          "actionRu": "Предыдущий слайд / эффект",
+          "actionDe": "Gibt den vorhergehenden Effekt erneut wieder. Wenn kein vorhergehender Effekt auf dieser Folie existiert, wird die vorhergehende Folie angezeigt.",
+          "actionFr": "Répète l'effet précédent. Si cette diapo ne contient aucun effet, affiche la diapo précédente.",
+          "actionEs": "Reproducir efecto anterior otra vez. Si no existe un efecto anterior en esta diapositiva, mostrar diapositiva anterior.",
+          "actionPt": "Reproduz o efeito anterior novamente. Se não houver efeito anterior nesse slide, exibir slide anterior."
+        },
+        {
+          "keys": [
+            "B",
+            "."
+          ],
+          "action": "Show black screen until next key",
+          "actionRu": "Чёрный экран / вернуться к показу",
+          "actionDe": "Schaltet den Bildschirm auf schwarz bis zum nächsten Tastendruck oder zur nächsten Mausradbetätigung.",
+          "actionFr": "Afficher un écran noir jusqu'à la prochaine action sur une touche ou sur la roulette de la souris.",
+          "actionEs": "Mostrar pantalla en negro hasta que se pulse una tecla o se mueva la rueda del ratón.",
+          "actionPt": "Mostra uma tela preta até o próximo evento de tecla ou roda do mouse."
+        },
+        {
+          "keys": [
+            "W",
+            ","
+          ],
+          "action": "Show white screen until next key",
+          "actionRu": "Белый экран / вернуться к показу",
+          "actionDe": "Schaltet den Bildschirm auf weiß bis zum nächsten Tastendruck oder zur nächsten Mausradbetätigung.",
+          "actionFr": "Afficher un écran blanc jusqu'à la prochaine action sur une touche ou sur la molette de la souris.",
+          "actionEs": "Mostrar pantalla en blanco hasta que se pulse una tecla o se mueva la rueda del ratón.",
+          "actionPt": "Mostra uma tela branca até o próximo evento de tecla ou roda do mouse."
+        }
       ]
     },
     {
-      "title": "Slides", "titleRu": "Слайды",
+      "title": "Slides",
+      "titleRu": "Слайды",
       "items": [
-        { "keys": ["F2"], "action": "Edit text", "actionRu": "Вставить текстовое поле" },
-        { "keys": ["PageUp", "PageDown"], "action": "Previous / next slide", "actionRu": "Предыдущий / следующий слайд" },
-        { "keys": ["Home", "End"], "action": "First / last slide", "actionRu": "Первый / последний слайд" },
-        { "keys": ["Delete"], "action": "Delete slide", "actionRu": "Удалить слайд" }
+        {
+          "keys": [
+            "F2"
+          ],
+          "action": "Edit text",
+          "actionRu": "Вставить текстовое поле",
+          "actionDe": "Fügt einen Textrahmen ein.",
+          "actionFr": "Éditer le texte.",
+          "actionEs": "Editar texto.",
+          "actionPt": "Editar o texto."
+        },
+        {
+          "keys": [
+            "PageUp",
+            "PageDown"
+          ],
+          "action": "Previous / next slide",
+          "actionRu": "Предыдущий / следующий слайд",
+          "actionDe": "Wechselt auf die vorhergehende Folie. Auf der ersten Folie ohne Funktion. / Wechselt auf die nächste Folie. Auf der letzten Folie ohne Funktion.",
+          "actionFr": "Aller à la diapo précédente. / Aller à la diapo suivante.",
+          "actionEs": "Ir a la diapositiva anterior. / Ir a la diapositiva siguiente",
+          "actionPt": "Alternar para o slide anterior. Sem função no primeiro slide. / Alternar para o próximo slide. Sem função no último slide."
+        },
+        {
+          "keys": [
+            "Home",
+            "End"
+          ],
+          "action": "First / last slide",
+          "actionRu": "Первый / последний слайд",
+          "actionDe": "Wechselt zur ersten Folie. / Wechselt zur letzten Folie.",
+          "actionFr": "Passage à la première diapo du diaporama. / Passer à la dernière diapo du diaporama.",
+          "actionEs": "Saltar a la primera diapositiva del pase. / Saltar a la última diapositiva del pase.",
+          "actionPt": "Salta para o primeiro slide da apresentação. / Salta para o último slide da apresentação."
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Delete slide",
+          "actionRu": "Удалить слайд"
+        }
       ]
     },
     {
-      "title": "Edit and view", "titleRu": "Правка и вид",
+      "title": "Edit and view",
+      "titleRu": "Правка и вид",
       "items": [
-        { "keys": ["Ctrl+Z", "Ctrl+Y"], "action": "Undo / redo", "actionRu": "Отменить / вернуть" },
-        { "keys": ["Ctrl+X", "Ctrl+C", "Ctrl+V"], "action": "Cut / copy / paste", "actionRu": "Вырезать / копировать / вставить" },
-        { "keys": ["Ctrl+A"], "action": "Select all", "actionRu": "Выделить всё" },
-        { "keys": ["F5"], "action": "Navigator (in Normal view)", "actionRu": "Навигатор (в обычном режиме)" },
-        { "keys": ["Ctrl+Shift+F5"], "action": "Navigator", "actionRu": "Перейти на страницу" },
-        { "keys": ["F7"], "action": "Spelling", "actionRu": "Проверка орфографии" }
+        {
+          "keys": [
+            "Ctrl+Z",
+            "Ctrl+Y"
+          ],
+          "action": "Undo / redo",
+          "actionRu": "Отменить / вернуть",
+          "actionDe": "Macht die letzte Aktion rückgängig. / Stellt die letzte Aktion wieder her.",
+          "actionFr": "Annule la dernière action. / Répète la dernière action.",
+          "actionEs": "Deshace la última acción. / Rehace la última acción.",
+          "actionPt": "Desfaz a última ação. / Refaz a última ação."
+        },
+        {
+          "keys": [
+            "Ctrl+X",
+            "Ctrl+C",
+            "Ctrl+V"
+          ],
+          "action": "Cut / copy / paste",
+          "actionRu": "Вырезать / копировать / вставить",
+          "actionDe": "Schneidet die ausgewählten Elemente aus. / Kopiert die ausgewählten Elemente. / Fügt aus der Zwischenablage ein.",
+          "actionFr": "Coupe les éléments sélectionnés. / Copie les éléments sélectionnés. / Colle depuis le presse-papiers.",
+          "actionEs": "Corta los elementos seleccionados. / Copia los elementos seleccionados. / Pega desde el portapapeles.",
+          "actionPt": "Corta os elementos selecionados. / Copia os itens selecionados. / Cola o conteúdo da área de transferência."
+        },
+        {
+          "keys": [
+            "Ctrl+A"
+          ],
+          "action": "Select all",
+          "actionRu": "Выделить всё",
+          "actionDe": "Wählt alles aus.",
+          "actionFr": "Sélectionne tout.",
+          "actionEs": "Lo selecciona todo.",
+          "actionPt": "Seleciona tudo."
+        },
+        {
+          "keys": [
+            "F5"
+          ],
+          "action": "Navigator (in Normal view)",
+          "actionRu": "Навигатор (в обычном режиме)"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+F5"
+          ],
+          "action": "Navigator",
+          "actionRu": "Перейти на страницу",
+          "actionDe": "Öffnet den Navigator.",
+          "actionFr": "Navigateur",
+          "actionEs": "Navegador",
+          "actionPt": "Navegador"
+        },
+        {
+          "keys": [
+            "F7"
+          ],
+          "action": "Spelling",
+          "actionRu": "Проверка орфографии",
+          "actionDe": "Startet die Rechtschreibprüfung.",
+          "actionFr": "Orthographe",
+          "actionEs": "Ortografía",
+          "actionPt": "Ortografia"
+        }
       ]
     }
-  ]
+  ],
+  "noteFr": "Vous pouvez aussi utiliser les raccourcis clavier généraux dans LibreOffice.",
+  "noteEs": "Además serán válidas las combinaciones de teclas generales de LibreOffice.",
+  "notePt": "Também é possível usar as teclas de atalho gerais no LibreOffice."
 }

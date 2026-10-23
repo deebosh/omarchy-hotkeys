@@ -2,7 +2,7 @@
 
 Hotkeys of the focused app in the [Omarchy](https://omarchy.org) bar: an icon in the bar center, a popup with the shortcut list on click or `SUPER + SHIFT + K`.
 
-The panel follows focus: switch windows and the icon plus the list update. The language follows the system locale (Russian for `ru_*`, English otherwise). Unknown apps fall back to the global Hyprland bindings.
+The panel follows focus: switch windows and the icon plus the list update. The language follows the system locale: English by default, plus Russian (`ru`), German (`de`), French (`fr`), Spanish (`es`) and Portuguese (`pt`). Unknown apps fall back to the global Hyprland bindings.
 
 ## Installation
 
@@ -53,7 +53,7 @@ Only what Omarchy already ships: `hyprctl`, `jq`, `sh`, `ps` (procps). `tmux` is
 node scripts/check-data.js   # schema + name match + counts
 ```
 
-Entries are bilingual: English base fields (`title`, `action`, `displayName`, `note`) plus `*Ru` variants picked up automatically on Russian locales. The core set covers the Omarchy bundle and daily tools: zen, firefox, chromium, foot, alacritty/kitty/ghostty/wezterm, neovim, tmux, lazygit, lazydocker, nautilus, zed, vscode, helix, emacs, btop, LibreOffice (writer/calc/impress), thunderbird, obsidian, spotify, discord/telegram/signal, pinta, xournalpp, mpv, imv, obs-studio, kdenlive...
+Entries are multilingual: English base fields (`title`, `action`, `displayName`, `note`) plus per-language variants (`*Ru`, `*De`, `*Fr`, `*Es`, `*Pt`) picked up automatically from the system locale, with fallback to English. Non-English wording comes from official localized docs only — where none exist, the field stays English. The core set covers the Omarchy bundle and daily tools: zen, firefox, chromium, foot, alacritty/kitty/ghostty/wezterm, neovim, tmux, lazygit, lazydocker, nautilus, zed, vscode, helix, emacs, btop, LibreOffice (writer/calc/impress), thunderbird, obsidian, spotify, discord/telegram/signal, pinta, xournalpp, mpv, imv, obs-studio, kdenlive...
 The full list is the file names in `shortcuts/`. Honest stubs (apps with no documented hotkeys, e.g. `localsend.json`): empty `groups` + `note`.
 
 Format: `{ appId, displayName, source, groups: [{ title, items: [{ keys[], action }] }] }`.

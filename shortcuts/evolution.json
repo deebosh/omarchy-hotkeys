@@ -7,6 +7,9 @@
   "groups": [
     {
       "title": "Messages",
+      "titleDe": "E-Mail",
+      "titleFr": "Messagerie",
+      "titleEs": "Correo",
       "titleRu": "Сообщения",
       "items": [
         {
@@ -14,6 +17,9 @@
             "Ctrl+N"
           ],
           "action": "Create a new message",
+          "actionDe": "Eine neue E-Mail-Nachricht verfassen",
+          "actionFr": "Créer un nouveau message",
+          "actionEs": "Redactar un mensaje de correo nuevo",
           "actionRu": "Новое сообщение"
         },
         {
@@ -21,6 +27,9 @@
             "Ctrl+R"
           ],
           "action": "Reply to sender",
+          "actionDe": "Antwort an Absender",
+          "actionFr": "Répondre à l'expéditeur",
+          "actionEs": "Responder al remitente",
           "actionRu": "Ответить"
         },
         {
@@ -28,6 +37,9 @@
             "Ctrl+Shift+R"
           ],
           "action": "Reply to all recipients",
+          "actionDe": "Antwort an alle Empfänger senden",
+          "actionFr": "Répondre à tous les destinataires",
+          "actionEs": "Responder a todos",
           "actionRu": "Ответить всем"
         },
         {
@@ -35,6 +47,9 @@
             "Ctrl+L"
           ],
           "action": "Forward selection",
+          "actionDe": "Auswahl weiterleiten",
+          "actionFr": "Faire suivre la sélection",
+          "actionEs": "Selección de reenvío",
           "actionRu": "Переслать"
         },
         {
@@ -49,6 +64,9 @@
             "Delete"
           ],
           "action": "Delete selection",
+          "actionDe": "Auswahl löschen",
+          "actionFr": "Supprimer la sélection",
+          "actionEs": "Eliminar la selección",
           "actionRu": "Удалить сообщение"
         }
       ]
@@ -62,6 +80,9 @@
             "F9"
           ],
           "action": "Send and receive messages",
+          "actionDe": "Nachrichten senden und abrufen",
+          "actionFr": "Envoyer et recevoir des messages",
+          "actionEs": "Enviar y recibir mensajes",
           "actionRu": "Отправить / получить почту"
         },
         {
@@ -72,6 +93,9 @@
             "Ctrl+4"
           ],
           "action": "Select Mail / Contacts / Calendars / Tasks components",
+          "actionDe": "Nachrichten- / Kontakte- / Kalender- / Aufgaben-Komponente auswählen",
+          "actionFr": "Sélectionner le composant Courriel / Contacts / Agenda / Tâches",
+          "actionEs": "Seleccione el componente Correo / Contactos / Calendario / Tareas",
           "actionRu": "Почта / Контакты / Календари / Задачи"
         },
         {
@@ -87,6 +111,9 @@
             "["
           ],
           "action": "Jump to next / previous unread message",
+          "actionDe": "Zur nächsten ungelesenen Nachricht wechseln / Zur vorhergehenden ungelesenen Nachricht wechseln",
+          "actionFr": "Aller au message non lu suivant / Aller au message non lu précédent",
+          "actionEs": "Saltar al siguiente mensaje sin leer / Saltar al anterior mensaje sin leer",
           "actionRu": "Следующее / предыдущее сообщение"
         }
       ]
@@ -100,6 +127,9 @@
             "Ctrl+S"
           ],
           "action": "Save selection",
+          "actionDe": "Auswahl speichern",
+          "actionFr": "Enregistrer la sélection",
+          "actionEs": "Guardar selección",
           "actionRu": "Сохранить"
         },
         {
@@ -107,6 +137,9 @@
             "Ctrl+P"
           ],
           "action": "Print selection",
+          "actionDe": "Auswahl drucken",
+          "actionFr": "Imprimer la sélection",
+          "actionEs": "Imprimir la selección",
           "actionRu": "Печать"
         },
         {
@@ -114,6 +147,9 @@
             "Ctrl+Q"
           ],
           "action": "Quit Evolution",
+          "actionDe": "Evolution beenden",
+          "actionFr": "Quitter Evolution",
+          "actionEs": "Salir de Evolution",
           "actionRu": "Выйти"
         },
         {
@@ -121,6 +157,9 @@
             "Ctrl+W"
           ],
           "action": "Close window",
+          "actionDe": "Fenster schließen",
+          "actionFr": "Fermer la fenêtre",
+          "actionEs": "Cerrar ventana",
           "actionRu": "Закрыть окно"
         }
       ]

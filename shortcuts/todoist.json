@@ -5,92 +5,92 @@
   "note": "Хоткеи для Windows (на Mac вместо Ctrl используется Cmd, вместо Alt — Option)",
   "groups": [
     {
-      "title": "General", "titleRu": "Общее",
+      "title": "General", "titleRu": "Общее", "titleDe": "Allgemeine Kurzbefehle", "titleFr": "Raccourcis généraux", "titleEs": "Atajos generales", "titlePt": "Atalhos gerais",
       "items": [
-        { "keys": ["Q"], "action": "Quick Add", "actionRu": "Быстрое добавление задачи" },
-        { "keys": ["Ctrl+K"], "action": "Open Quick Find", "actionRu": "Быстрый поиск" },
-        { "keys": ["/", "F"], "action": "Search", "actionRu": "Поиск" },
-        { "keys": ["M"], "action": "Open/close sidebar", "actionRu": "Показать / скрыть боковую панель" },
-        { "keys": ["?"], "action": "Show keyboard shortcuts", "actionRu": "Показать все горячие клавиши" },
-        { "keys": ["Esc"], "action": "Dismiss/Cancel", "actionRu": "Отмена / закрыть" },
+        { "keys": ["Q"], "action": "Quick Add", "actionRu": "Быстрое добавление задачи", "actionDe": "Schnelleingabe", "actionFr": "Ajout rapide", "actionEs": "Añadir rápido", "actionPt": "Adição rápida" },
+        { "keys": ["Ctrl+K"], "action": "Open Quick Find", "actionRu": "Быстрый поиск", "actionDe": "Schnellsuche öffnen", "actionFr": "Ouvrir la recherche rapide", "actionEs": "Abrir Búsqueda rápida", "actionPt": "Abrir Busca rápida" },
+        { "keys": ["/", "F"], "action": "Search", "actionRu": "Поиск", "actionDe": "Suche", "actionFr": "Rechercher", "actionEs": "Buscar", "actionPt": "Buscar" },
+        { "keys": ["M"], "action": "Open/close sidebar", "actionRu": "Показать / скрыть боковую панель", "actionDe": "Navigationsmenü anzeigen/ausblenden", "actionFr": "Afficher/masquer le menu de navigation", "actionEs": "Mostrar u ocultar menú de navegación", "actionPt": "Mostrar/Esconder menu de navegação" },
+        { "keys": ["?"], "action": "Show keyboard shortcuts", "actionRu": "Показать все горячие клавиши", "actionDe": "Kurzbefehle anzeigen", "actionFr": "Afficher les raccourcis clavier", "actionEs": "Mostrar atajos de teclado", "actionPt": "Mostrar atalhos de teclado" },
+        { "keys": ["Esc"], "action": "Dismiss/Cancel", "actionRu": "Отмена / закрыть", "actionDe": "Verwerfen/Abbrechen", "actionFr": "Ignorer/annuler", "actionEs": "Descartar o cancelar", "actionPt": "Descartar/Cancelar" },
         { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
-        { "keys": ["Ctrl+P"], "action": "Print current view", "actionRu": "Печать текущего вида" },
-        { "keys": ["Ctrl+=", "Ctrl+-", "Ctrl+0"], "action": "Zoom in / Zoom out / Reset zoom level", "actionRu": "Масштаб: больше / меньше / сброс" }
+        { "keys": ["Ctrl+P"], "action": "Print current view", "actionRu": "Печать текущего вида", "actionDe": "Aktuelle Ansicht drucken", "actionFr": "Imprimer la vue actuelle", "actionEs": "Imprimir vista actual", "actionPt": "Imprimir visualização atual" },
+        { "keys": ["Ctrl+=", "Ctrl+-", "Ctrl+0"], "action": "Zoom in / Zoom out / Reset zoom level", "actionRu": "Масштаб: больше / меньше / сброс", "actionDe": "Vergrößern/Schrift vergrößern / Verkleinern/Schrift verkleinern / Vergrößerungsstufe/Schriftgröße zurücksetzen", "actionFr": "Zoom avant/Augmenter la taille de la police / Zoom arrière/Diminuer la taille de la police / Réinitialiser le zoom/la taille de la police", "actionEs": "Nivel de Zoom/Aumentar tamaño de fuente / Nivel de zoom/Disminuir tamaño de fuente / Restablecer nivel de zoom/tamaño de fuente", "actionPt": "Aumentar nível do zoom/tamanho da fonte / Diminuir nível do zoom/tamanho da fonte / Redefinir nível do zoom/tamanho da fonte" }
       ]
     },
     {
-      "title": "Navigation", "titleRu": "Навигация",
+      "title": "Navigation", "titleRu": "Навигация", "titleDe": "Kurzbefehle zur Navigation", "titleFr": "Raccourcis de navigation", "titleEs": "Atajos de navegación", "titlePt": "Atalhos de navegação",
       "items": [
-        { "keys": ["H", "G then H"], "action": "Go to home", "actionRu": "Домой" },
-        { "keys": ["G then I"], "action": "Go to Inbox", "actionRu": "Входящие" },
-        { "keys": ["G then T"], "action": "Go to Today", "actionRu": "Сегодня" },
-        { "keys": ["G then U"], "action": "Go to Upcoming", "actionRu": "Предстоящее" },
-        { "keys": ["G then P"], "action": "Go to projects", "actionRu": "Проекты" },
-        { "keys": ["G then L"], "action": "Go to labels", "actionRu": "Метки" },
-        { "keys": ["G then V"], "action": "Open Filters & Labels", "actionRu": "Фильтры и метки" },
-        { "keys": ["G then A"], "action": "Open Reporting", "actionRu": "Отчёты" },
-        { "keys": ["J", "K"], "action": "Move focus down / up", "actionRu": "Фокус вниз / вверх" },
-        { "keys": ["O then S"], "action": "Open settings", "actionRu": "Открыть настройки" },
-        { "keys": ["O then N"], "action": "Open notifications", "actionRu": "Открыть уведомления" },
-        { "keys": ["Alt+Left", "Alt+Right"], "action": "Go back to the previous view / Go forward to the most recent view", "actionRu": "Назад / вперёд по видам" }
+        { "keys": ["H", "G then H"], "action": "Go to home", "actionRu": "Домой", "actionDe": "Zur Startansicht", "actionFr": "Revenir à l'accueil", "actionEs": "Ir a inicio", "actionPt": "Ir para página inicial" },
+        { "keys": ["G then I"], "action": "Go to Inbox", "actionRu": "Входящие", "actionDe": "Zum Eingang", "actionFr": "Ouvrir la boîte de réception", "actionEs": "Ir a Bandeja de entrada", "actionPt": "Ir para Entrada" },
+        { "keys": ["G then T"], "action": "Go to Today", "actionRu": "Сегодня", "actionDe": "Zu Heute", "actionFr": "Ouvrir Aujourd'hui", "actionEs": "Ir a Hoy", "actionPt": "Ir para Hoje" },
+        { "keys": ["G then U"], "action": "Go to Upcoming", "actionRu": "Предстоящее", "actionDe": "Zur Demnächst-Ansicht", "actionFr": "Ouvrir Prochainement", "actionEs": "Ir a Próximo", "actionPt": "Ir para Em breve" },
+        { "keys": ["G then P"], "action": "Go to projects", "actionRu": "Проекты", "actionDe": "Zu den Projekten", "actionFr": "Ouvrir les projets", "actionEs": "Ir a Proyectos", "actionPt": "Ir para projetos" },
+        { "keys": ["G then L"], "action": "Go to labels", "actionRu": "Метки", "actionDe": "Zu den Etiketten", "actionFr": "Ouvrir les étiquettes", "actionEs": "Ir a Etiquetas", "actionPt": "Ir para etiquetas" },
+        { "keys": ["G then V"], "action": "Open Filters & Labels", "actionRu": "Фильтры и метки", "actionDe": "Filter und Etiketten öffnen", "actionFr": "Ouvrir Filtres et étiquettes", "actionEs": "Abre Filtros y Etiquetas", "actionPt": "Abrir Filtros & Etiquetas" },
+        { "keys": ["G then A"], "action": "Open Reporting", "actionRu": "Отчёты", "actionDe": "Reporting öffnen", "actionFr": "Rapports ouverts", "actionEs": "Abrir Reportes", "actionPt": "Relatórios abertos" },
+        { "keys": ["J", "K"], "action": "Move focus down / up", "actionRu": "Фокус вниз / вверх", "actionDe": "Fokus nach unten verschieben / Fokus nach oben verschieben", "actionFr": "Baisser la sélection d'un cran / Monter la sélection d'un cran", "actionEs": "Vista concentrada abajo / Vista concentrada arriba", "actionPt": "Mover foco para baixo / Mover foco para cima" },
+        { "keys": ["O then S"], "action": "Open settings", "actionRu": "Открыть настройки", "actionDe": "Einstellungen öffnen", "actionFr": "Ouvrir les paramètres", "actionEs": "Abrir configuración", "actionPt": "Abrir configurações" },
+        { "keys": ["O then N"], "action": "Open notifications", "actionRu": "Открыть уведомления", "actionDe": "Benachrichtigungen öffnen", "actionFr": "Ouvrir les notifications", "actionEs": "Abrir notificaciones", "actionPt": "Abrir notificações" },
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Go back to the previous view / Go forward to the most recent view", "actionRu": "Назад / вперёд по видам", "actionDe": "Zurück zur vorherigen Ansicht / Weiter zur aktuellsten Ansicht", "actionFr": "Revenir à la vue précédente / Ouvrir la vue la plus récente", "actionEs": "Volver a la vista anterior / Avanzar a la vista más reciente", "actionPt": "Voltar para visualização anterior / Ir para visualização mais recente" }
       ]
     },
     {
-      "title": "Global", "titleRu": "Глобальные (десктоп-приложение свёрнуто)",
+      "title": "Global", "titleRu": "Глобальные (десктоп-приложение свёрнуто)", "titleDe": "Globale Kurzbefehle", "titleFr": "Raccourcis généraux", "titleEs": "Atajos generales", "titlePt": "Atalhos globais",
       "items": [
-        { "keys": ["Ctrl+Space"], "action": "Open Quick Add", "actionRu": "Быстрое добавление из любого места" },
-        { "keys": ["Alt+Space"], "action": "Quick Ramble", "actionRu": "Быстрая заметка (Ramble)" },
-        { "keys": ["Win+Alt+S"], "action": "Show or hide Todoist", "actionRu": "Показать / скрыть Todoist" }
+        { "keys": ["Ctrl+Space"], "action": "Open Quick Add", "actionRu": "Быстрое добавление из любого места", "actionDe": "Schnelleingabe öffnen", "actionFr": "Ouvrir l'ajout rapide", "actionEs": "Abrir opción para Añadir rápido", "actionPt": "Abrir Adição rápida" },
+        { "keys": ["Alt+Space"], "action": "Quick Ramble", "actionRu": "Быстрая заметка (Ramble)", "actionDe": "Schnelleingabe mit Ramble (bestehende App-Downloads)", "actionFr": "Ajout vocal rapide (téléchargements existants de l'application)", "actionEs": "Ramble rápido (versiones de app anteriores)", "actionPt": "Ramble rápido (downloads de aplicativos existentes)" },
+        { "keys": ["Win+Alt+S"], "action": "Show or hide Todoist", "actionRu": "Показать / скрыть Todoist", "actionDe": "Todoist ein- oder ausblenden", "actionFr": "Afficher ou masquer Todoist", "actionEs": "Mostrar u ocultar Todoist", "actionPt": "Mostrar ou ocultar o Todoist" }
       ]
     },
     {
-      "title": "Create tasks", "titleRu": "Создание задач",
+      "title": "Create tasks", "titleRu": "Создание задач", "titleDe": "Aufgabe erstellen", "titleFr": "Créer des tâches", "titleEs": "Crear tareas", "titlePt": "Criar tarefas",
       "items": [
-        { "keys": ["A"], "action": "Add new task to the bottom of list", "actionRu": "Новая задача в конец списка" },
-        { "keys": ["Shift+A"], "action": "Add new task to the top of list", "actionRu": "Новая задача в начало списка" },
-        { "keys": ["Enter"], "action": "Save a newly created task and create a new one below", "actionRu": "Сохранить и создать следующую ниже" },
-        { "keys": ["Ctrl+Enter"], "action": "Save a new task or save changes to an existing one and create a new task above", "actionRu": "Сохранить и создать новую выше" },
-        { "keys": ["Ctrl+N"], "action": "Open Task Quick Add", "actionRu": "Быстрое добавление задачи" },
-        { "keys": ["Ctrl+Shift+N"], "action": "Create a new task at the top of the list", "actionRu": "Новая задача в начало списка (в проекте)" }
+        { "keys": ["A"], "action": "Add new task to the bottom of list", "actionRu": "Новая задача в конец списка", "actionDe": "Neue Aufgabe ganz unten auf der Liste hinzufügen", "actionFr": "Ajouter une nouvelle tâche en bas de la liste", "actionEs": "Añadir tarea nueva al final de la lista", "actionPt": "Adicionar nova tarefa na parte inferior da lista" },
+        { "keys": ["Shift+A"], "action": "Add new task to the top of list", "actionRu": "Новая задача в начало списка", "actionDe": "Neue Aufgabe ganz oben auf der Liste hinzufügen", "actionFr": "Ajouter une nouvelle tâche en haut de la liste", "actionEs": "Añadir tarea nueva al principio de la lista", "actionPt": "Adicionar nova tarefa na parte superior da lista" },
+        { "keys": ["Enter"], "action": "Save a newly created task and create a new one below", "actionRu": "Сохранить и создать следующую ниже", "actionDe": "Neu erstellte Aufgabe speichern und unten eine neue Aufgabe erstellen", "actionFr": "Enregistrer une nouvelle tâche ou créer une nouvelle tâche juste en dessous", "actionEs": "Guardar una tarea recién creada y añadir una nueva abajo", "actionPt": "Salvar uma tarefa recém criada e criar uma nova abaixo" },
+        { "keys": ["Ctrl+Enter"], "action": "Save a new task or save changes to an existing one and create a new task above", "actionRu": "Сохранить и создать новую выше", "actionDe": "Neue Aufgabe speichern oder Änderungen an einer bestehenden Aufgabe speichern und eine neue Aufgabe oben erstellen", "actionFr": "Enregistrer une nouvelle tâche ou enregistrer les modifications apportées à une tâche existante et créer une nouvelle tâche au dessus", "actionEs": "Guardar una tarea nueva o guardar los cambios de una existente y crear una tarea nueva arriba", "actionPt": "Salvar uma nova tarefa ou salvar alterações em uma tarefa existente e criar uma nova tarefa acima" },
+        { "keys": ["Ctrl+N"], "action": "Open Task Quick Add", "actionRu": "Быстрое добавление задачи", "actionDe": "Aufgaben-Schnelleingabe öffnen", "actionFr": "Ouvrir l'ajout rapide de tâche", "actionEs": "Abrir Añadir tarea rápidamente", "actionPt": "Abrir Adição rápida de tarefa" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Create a new task at the top of the list", "actionRu": "Новая задача в начало списка (в проекте)", "actionDe": "Eine neue Aufgabe am Anfang der Liste erstellen (funktioniert nur innerhalb von Projekten)", "actionFr": "Créer une nouvelle tâche en haut de la liste (seulement disponible dans les projets)", "actionEs": "Crear una tarea nueva al principio de la lista (solo funciona al interior de proyectos)", "actionPt": "Criar uma nova tarefa no topo da lista (disponível apenas em projetos)" }
       ]
     },
     {
-      "title": "Manage tasks", "titleRu": "Управление задачами (фокус на задаче)",
+      "title": "Manage tasks", "titleRu": "Управление задачами (фокус на задаче)", "titleDe": "Aufgaben verwalten", "titleFr": "Gérer des tâches", "titleEs": "Gestionar tareas", "titlePt": "Gerenciar tarefas",
       "items": [
-        { "keys": ["E"], "action": "Complete focused task", "actionRu": "Выполнить задачу" },
-        { "keys": ["Enter"], "action": "Open task view", "actionRu": "Открыть задачу" },
-        { "keys": ["Ctrl+E"], "action": "Edit task", "actionRu": "Редактировать задачу" },
-        { "keys": ["T"], "action": "Set date", "actionRu": "Установить дату" },
-        { "keys": ["Shift+T"], "action": "Remove date", "actionRu": "Убрать дату" },
-        { "keys": ["1", "2", "3", "4"], "action": "Set priority level", "actionRu": "Установить приоритет" },
-        { "keys": ["C"], "action": "Comment", "actionRu": "Комментарий" },
-        { "keys": ["L"], "action": "Add label", "actionRu": "Добавить метку" },
-        { "keys": ["V"], "action": "Move to …", "actionRu": "Переместить в…" },
-        { "keys": ["."], "action": "More task actions", "actionRu": "Прочие действия с задачей" },
-        { "keys": ["Shift+Delete"], "action": "Delete selected task(s)", "actionRu": "Удалить задачу" },
-        { "keys": ["Shift+Ctrl+C"], "action": "Copy link to task", "actionRu": "Скопировать ссылку на задачу" },
-        { "keys": ["Shift+G"], "action": "Open task in its project", "actionRu": "Открыть задачу в её проекте" }
+        { "keys": ["E"], "action": "Complete focused task", "actionRu": "Выполнить задачу", "actionDe": "Fokussierte Aufgabe erledigen", "actionFr": "Achever la tâche ciblée", "actionEs": "Completar tarea centrada", "actionPt": "Concluir tarefa em foco" },
+        { "keys": ["Enter"], "action": "Open task view", "actionRu": "Открыть задачу", "actionDe": "Aufgabenansicht öffnen", "actionFr": "Ouvrir la vue des tâches", "actionEs": "Abrir vista de tarea", "actionPt": "Abrir exibição de tarefa" },
+        { "keys": ["Ctrl+E"], "action": "Edit task", "actionRu": "Редактировать задачу", "actionDe": "Aufgabe bearbeiten", "actionFr": "Modifier la tâche", "actionEs": "Editar tarea", "actionPt": "Editar tarefa" },
+        { "keys": ["T"], "action": "Set date", "actionRu": "Установить дату", "actionDe": "Datum festlegen", "actionFr": "Ajouter une date", "actionEs": "Establecer fecha", "actionPt": "Definir vencimento" },
+        { "keys": ["Shift+T"], "action": "Remove date", "actionRu": "Убрать дату", "actionDe": "Datum entfernen", "actionFr": "Supprimer la date", "actionEs": "Eliminar fecha", "actionPt": "Remover data" },
+        { "keys": ["1", "2", "3", "4"], "action": "Set priority level", "actionRu": "Установить приоритет", "actionDe": "Prioritätsstufe festlegen", "actionFr": "Définir le niveau de priorité", "actionEs": "Establecer nivel de prioridad", "actionPt": "Definir nível de prioridade" },
+        { "keys": ["C"], "action": "Comment", "actionRu": "Комментарий", "actionDe": "Kommentar", "actionFr": "Commentaire", "actionEs": "Comentar", "actionPt": "Comentário" },
+        { "keys": ["L"], "action": "Add label", "actionRu": "Добавить метку", "actionDe": "Etikett hinzufügen", "actionFr": "Ajouter une étiquette", "actionEs": "Añadir etiqueta", "actionPt": "Adicionar etiqueta" },
+        { "keys": ["V"], "action": "Move to …", "actionRu": "Переместить в…", "actionDe": "In anderes Projekt...", "actionFr": "Déplacer dans...", "actionEs": "Mover a...", "actionPt": "Mover para..." },
+        { "keys": ["."], "action": "More task actions", "actionRu": "Прочие действия с задачей", "actionDe": "Mehr Aufgabenaktionen", "actionFr": "Plus d'actions", "actionEs": "Más acciones de tarea", "actionPt": "Mais ações de tarefas" },
+        { "keys": ["Shift+Delete"], "action": "Delete selected task(s)", "actionRu": "Удалить задачу", "actionDe": "Ausgewählte Aufgabe(n) löschen", "actionFr": "Supprimer les tâches sélectionnées", "actionEs": "Eliminar tarea(s) seleccionada(s)", "actionPt": "Excluir tarefa(s) selecionada(s)" },
+        { "keys": ["Shift+Ctrl+C"], "action": "Copy link to task", "actionRu": "Скопировать ссылку на задачу", "actionDe": "Link zur Aufgabe kopieren", "actionFr": "Copier le lien de la tâche", "actionEs": "Copiar enlace a la tarea", "actionPt": "Copiar link para a tarefa" },
+        { "keys": ["Shift+G"], "action": "Open task in its project", "actionRu": "Открыть задачу в её проекте", "actionDe": "Aufgabe im zugehörigen Projekt öffnen", "actionFr": "Ouvrir la tâche dans son projet", "actionEs": "Abrir tarea en su proyecto", "actionPt": "Abrir tarefa em seu projeto" }
       ]
     },
     {
-      "title": "Sub-tasks and sorting", "titleRu": "Подзадачи и сортировка",
+      "title": "Sub-tasks and sorting", "titleRu": "Подзадачи и сортировка", "titleDe": "Kurzbefehle für Unteraufgaben / Aufgaben sortieren", "titleFr": "Raccourcis des sous-tâches / Trier les tâches", "titleEs": "Atajos de subtarea / Ordenar tareas", "titlePt": "Atalhos de subtarefas / Classificar tarefas",
       "items": [
-        { "keys": ["Ctrl+]", "Ctrl+["], "action": "Increase / decrease indent of focused task", "actionRu": "Увеличить / уменьшить отступ (подзадача)" },
-        { "keys": ["Shift+E"], "action": "See or hide sub-tasks", "actionRu": "Показать / скрыть подзадачи" },
-        { "keys": ["D"], "action": "Sort by date", "actionRu": "Сортировать по дате" },
-        { "keys": ["P"], "action": "Sort by priority", "actionRu": "Сортировать по приоритету" },
-        { "keys": ["N"], "action": "Sort by name", "actionRu": "Сортировать по имени" },
-        { "keys": ["R"], "action": "Sort by assignee", "actionRu": "Сортировать по исполнителю" }
+        { "keys": ["Ctrl+]", "Ctrl+["], "action": "Increase / decrease indent of focused task", "actionRu": "Увеличить / уменьшить отступ (подзадача)", "actionDe": "Einzug der fokussierten Aufgabe vergrößern / Einzug der fokussierten Aufgabe verkleinern", "actionEs": "Aumentar sangría de la tarea centrada / Reducir sangría de la tarea centrada", "actionPt": "Aumentar recuo de tarefa selecionada / Diminuir recuo de tarefa selecionada" },
+        { "keys": ["Shift+E"], "action": "See or hide sub-tasks", "actionRu": "Показать / скрыть подзадачи", "actionDe": "Unteraufgaben ein- oder ausblenden", "actionFr": "Afficher ou masquer des sous-tâches", "actionEs": "Ver u ocultar subtareas", "actionPt": "Ver ou ocultar subtarefas" },
+        { "keys": ["D"], "action": "Sort by date", "actionRu": "Сортировать по дате", "actionDe": "Nach Datum sortieren", "actionFr": "Tirer par date", "actionEs": "Ordenar por fecha", "actionPt": "Classificar por data" },
+        { "keys": ["P"], "action": "Sort by priority", "actionRu": "Сортировать по приоритету", "actionDe": "Nach Priorität sortieren", "actionFr": "Trier par priorité", "actionEs": "Ordenar por prioridad", "actionPt": "Classificar por prioridade" },
+        { "keys": ["N"], "action": "Sort by name", "actionRu": "Сортировать по имени", "actionDe": "Nach Namen sortieren", "actionFr": "Trier par nom", "actionEs": "Ordenar por nombre", "actionPt": "Classificar por nome" },
+        { "keys": ["R"], "action": "Sort by assignee", "actionRu": "Сортировать по исполнителю", "actionDe": "Nach beauftragter Person sortieren", "actionFr": "Trier par responsable", "actionEs": "Ordenar por responsable", "actionPt": "Classificar por responsável" }
       ]
     },
     {
-      "title": "Project shortcuts", "titleRu": "Проекты",
+      "title": "Project shortcuts", "titleRu": "Проекты", "titleDe": "Kurzbefehle für Projekte", "titleFr": "Raccourcis des projets", "titleEs": "Atajos de proyecto", "titlePt": "Atalhos de projetos",
       "items": [
-        { "keys": ["Alt+P"], "action": "Create a new project", "actionRu": "Новый проект" },
-        { "keys": ["S"], "action": "Add section", "actionRu": "Добавить секцию" },
-        { "keys": ["Shift+S"], "action": "Share project", "actionRu": "Поделиться проектом" },
-        { "keys": ["Shift+V"], "action": "Change to list/board/calendar layout", "actionRu": "Сменить вид: список / доска / календарь" },
-        { "keys": ["W"], "action": "Open more project actions", "actionRu": "Прочие действия проекта" },
+        { "keys": ["Alt+P"], "action": "Create a new project", "actionRu": "Новый проект", "actionDe": "Neues Projekt erstellen", "actionFr": "Créer un nouveau projet", "actionEs": "Crear un proyecto nuevo", "actionPt": "Criar um novo projeto" },
+        { "keys": ["S"], "action": "Add section", "actionRu": "Добавить секцию", "actionDe": "Abschnitt hinzufügen", "actionFr": "Ajouter une section", "actionEs": "Añadir sección", "actionPt": "Adicionar seção" },
+        { "keys": ["Shift+S"], "action": "Share project", "actionRu": "Поделиться проектом", "actionDe": "Projekt teilen", "actionFr": "Partager le projet", "actionEs": "Compartir proyecto", "actionPt": "Compartilhar projeto" },
+        { "keys": ["Shift+V"], "action": "Change to list/board/calendar layout", "actionRu": "Сменить вид: список / доска / календарь", "actionDe": "Zum Layout Liste/Board/Kalender wechseln", "actionFr": "Basculer sur la présentation en liste/tableau/calendrier", "actionEs": "Cambiar a vista de lista/panel/calendario", "actionPt": "Alterar para layout de lista/painel/calendário" },
+        { "keys": ["W"], "action": "Open more project actions", "actionRu": "Прочие действия проекта", "actionDe": "Mehr Projektoptionen öffnen", "actionFr": "Ouvrir d'autres actions de projet", "actionEs": "Abrir más acciones de proyecto", "actionPt": "Abrir mais ações de projeto" },
         { "keys": ["I"], "action": "Open/close Insights", "actionRu": "Открыть / закрыть Insights" }
       ]
     }

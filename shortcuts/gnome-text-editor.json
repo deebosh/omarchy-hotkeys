@@ -1,6 +1,10 @@
 {
   "appId": "gnome-text-editor",
   "displayName": "Text Editor",
+  "displayNameDe": "GNOME Texteditor",
+  "displayNameFr": "Éditeur de texte de GNOME",
+  "displayNameEs": "Editor de texto de GNOME",
+  "displayNamePt": "Editor de texto do GNOME",
   "displayNameRu": "Текстовый редактор",
   "source": "https://help.gnome.org/users/gnome-text-editor/stable/ (справка GNOME Text Editor)",
   "note": "GNOME Text Editor; few documented hotkeys",
@@ -71,6 +75,9 @@
             "Ctrl+Shift+Z"
           ],
           "action": "Undo / redo",
+          "actionDe": "Rückgängig machen / wiederherstellen",
+          "actionFr": "Annuler / rétablir",
+          "actionPt": "Desfazer / refazer",
           "actionRu": "Отменить / вернуть"
         },
         {
@@ -94,6 +101,10 @@
             "Ctrl+F"
           ],
           "action": "Find",
+          "actionDe": "Nach Text suchen",
+          "actionFr": "Rechercher du texte",
+          "actionEs": "Buscar texto",
+          "actionPt": "Procurar texto",
           "actionRu": "Найти"
         },
         {
@@ -109,6 +120,10 @@
             "Ctrl+H"
           ],
           "action": "Replace",
+          "actionDe": "Ersetzen von Text",
+          "actionFr": "Remplacer du texte",
+          "actionEs": "Reemplazar texto",
+          "actionPt": "Substituir texto",
           "actionRu": "Заменить"
         }
       ]
@@ -129,6 +144,9 @@
             "F10"
           ],
           "action": "Main menu",
+          "actionDe": "Hauptmenü",
+          "actionFr": "Menu principal",
+          "actionPt": "Menu Principal",
           "actionRu": "Главное меню"
         },
         {

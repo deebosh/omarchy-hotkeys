@@ -8,64 +8,72 @@
     {
       "title": "Tabs and windows",
       "titleRu": "Вкладки и окна",
+      "titleDe": "Tabs und Fenster",
+      "titleFr": "Onglets et fenêtres",
+      "titleEs": "Pestañas y ventanas",
+      "titlePt": "Separadores e janelas",
       "items": [
-        { "keys": ["Ctrl+T"], "action": "Open a new tab, and jump to it", "actionRu": "Новая вкладка" },
-        { "keys": ["Ctrl+N"], "action": "Open a new window", "actionRu": "Новое окно" },
-        { "keys": ["Ctrl+Shift+N"], "action": "Open a new window in Incognito mode", "actionRu": "Новое окно в режиме инкогнито" },
-        { "keys": ["Ctrl+Shift+T"], "action": "Reopen previously closed tabs in the order they were closed", "actionRu": "Восстановить закрытые вкладки" },
-        { "keys": ["Ctrl+Tab", "Ctrl+PageDown"], "action": "Jump to the next open tab", "actionRu": "Следующая вкладка" },
-        { "keys": ["Ctrl+Shift+Tab", "Ctrl+PageUp"], "action": "Jump to the previous open tab", "actionRu": "Предыдущая вкладка" },
-        { "keys": ["Ctrl+1 … Ctrl+8"], "action": "Jump to a specific tab", "actionRu": "Перейти на вкладку 1–8" },
-        { "keys": ["Ctrl+9"], "action": "Jump to the rightmost tab", "actionRu": "Перейти на последнюю вкладку" },
-        { "keys": ["Ctrl+W", "Ctrl+F4"], "action": "Close the current tab", "actionRu": "Закрыть текущую вкладку" },
-        { "keys": ["Ctrl+Shift+W", "Alt+F4"], "action": "Close the current window", "actionRu": "Закрыть текущее окно" },
-        { "keys": ["Ctrl+Shift+PageUp", "Ctrl+Shift+PageDown"], "action": "Move tabs right or left", "actionRu": "Переместить вкладку влево / вправо" },
-        { "keys": ["F11"], "action": "Turn on full-screen mode", "actionRu": "Полноэкранный режим" }
+        { "keys": ["Ctrl+T"], "action": "Open a new tab, and jump to it", "actionRu": "Новая вкладка", "actionDe": "Neuen Tab öffnen und aufrufen", "actionFr": "Ouvrir un nouvel onglet, puis y accéder", "actionEs": "Abrir una pestaña nueva y acceder a ella", "actionPt": "Abrir um novo separador e ir para o mesmo" },
+        { "keys": ["Ctrl+N"], "action": "Open a new window", "actionRu": "Новое окно", "actionDe": "Neues Fenster öffnen", "actionFr": "Ouvrir une nouvelle fenêtre", "actionEs": "Abrir una ventana nueva", "actionPt": "Abrir uma nova janela" },
+        { "keys": ["Ctrl+Shift+N"], "action": "Open a new window in Incognito mode", "actionRu": "Новое окно в режиме инкогнито", "actionDe": "Neues Fenster im Inkognitomodus öffnen", "actionFr": "Ouvrir une nouvelle fenêtre en mode navigation privée", "actionEs": "Abrir una ventana nueva en modo Incógnito", "actionPt": "Abrir uma nova janela no Modo de navegação anónima" },
+        { "keys": ["Ctrl+Shift+T"], "action": "Reopen previously closed tabs in the order they were closed", "actionRu": "Восстановить закрытые вкладки", "actionDe": "Zuvor geschlossene Tabs in der Reihenfolge öffnen, in der sie geschlossen wurden", "actionFr": "Rouvrir les onglets précédemment fermés dans l'ordre où ils ont été fermés", "actionEs": "Volver a abrir las pestañas cerradas anteriormente en el orden en que se cerraron", "actionPt": "Reabrir separadores fechados anteriormente pela ordem em que foram fechados" },
+        { "keys": ["Ctrl+Tab", "Ctrl+PageDown"], "action": "Jump to the next open tab", "actionRu": "Следующая вкладка", "actionDe": "Zum nächsten geöffneten Tab wechseln", "actionFr": "Accéder à l'onglet ouvert suivant", "actionEs": "Ir a la siguiente pestaña abierta", "actionPt": "Ir para o separador aberto seguinte" },
+        { "keys": ["Ctrl+Shift+Tab", "Ctrl+PageUp"], "action": "Jump to the previous open tab", "actionRu": "Предыдущая вкладка", "actionDe": "Zum vorherigen geöffneten Tab wechseln", "actionFr": "Accéder à l'onglet ouvert précédent", "actionEs": "Ir a la pestaña abierta anterior", "actionPt": "Ir para o separador aberto anterior" },
+        { "keys": ["Ctrl+1 … Ctrl+8"], "action": "Jump to a specific tab", "actionRu": "Перейти на вкладку 1–8", "actionDe": "Zu einem bestimmten Tab wechseln", "actionFr": "Accéder à un onglet spécifique", "actionEs": "Ir a una pestaña concreta", "actionPt": "Ir para um separador específico" },
+        { "keys": ["Ctrl+9"], "action": "Jump to the rightmost tab", "actionRu": "Перейти на последнюю вкладку", "actionDe": "Zum letzten Tab wechseln", "actionFr": "Accéder à l'onglet le plus à droite", "actionEs": "Ir a la pestaña más a la derecha", "actionPt": "Ir para o separador mais à direita" },
+        { "keys": ["Ctrl+W", "Ctrl+F4"], "action": "Close the current tab", "actionRu": "Закрыть текущую вкладку", "actionDe": "Aktuellen Tab schließen", "actionFr": "Fermer l'onglet actif", "actionEs": "Cerrar la pestaña actual", "actionPt": "Fechar o separador atual" },
+        { "keys": ["Ctrl+Shift+W", "Alt+F4"], "action": "Close the current window", "actionRu": "Закрыть текущее окно", "actionDe": "Aktuelles Fenster schließen", "actionFr": "Fermer la fenêtre active", "actionEs": "Cerrar la ventana actual", "actionPt": "Fechar a janela atual" },
+        { "keys": ["Ctrl+Shift+PageUp", "Ctrl+Shift+PageDown"], "action": "Move tabs right or left", "actionRu": "Переместить вкладку влево / вправо", "actionDe": "Tabs nach rechts oder links verschieben", "actionFr": "Déplacer les onglets vers la droite ou vers la gauche", "actionEs": "Mover pestañas a la derecha o a la izquierda", "actionPt": "Mover separadores para a direita ou esquerda" },
+        { "keys": ["F11"], "action": "Turn on full-screen mode", "actionRu": "Полноэкранный режим", "actionDe": "Vollbildmodus aktivieren", "actionFr": "Activer le mode plein écran", "actionEs": "Activar el modo de pantalla completa", "actionPt": "Ativar o modo de ecrã inteiro" }
       ]
     },
     {
       "title": "Navigation",
       "titleRu": "Навигация",
       "items": [
-        { "keys": ["Alt+Left", "Alt+Right"], "action": "Open the previous / next page from your browsing history in the current tab", "actionRu": "Назад / вперёд по истории" },
-        { "keys": ["Alt+Home"], "action": "Open your home page in the current tab", "actionRu": "Открыть домашнюю страницу" },
-        { "keys": ["Ctrl+L", "Alt+D", "F6"], "action": "Jump to the address bar", "actionRu": "Перейти в адресную строку" },
-        { "keys": ["Ctrl+K", "Ctrl+E"], "action": "Search from anywhere on page", "actionRu": "Поиск с любого места страницы" }
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Open the previous / next page from your browsing history in the current tab", "actionRu": "Назад / вперёд по истории", "actionDe": "Vorherige Seite aus dem Browserverlauf im aktuellen Tab öffnen / Nächste Seite aus dem Browserverlauf im aktuellen Tab öffnen", "actionFr": "Ouvrir la page précédente de l'historique de navigation dans l'onglet actif / Ouvrir la page suivante de l'historique de navigation dans l'onglet actif", "actionEs": "Abrir la página anterior del historial de navegación en la pestaña actual / Abrir la siguiente página del historial de navegación en la pestaña actual", "actionPt": "Abrir a página anterior do histórico de navegação no separador atual / Abrir a página seguinte do histórico de navegação no separador atual" },
+        { "keys": ["Alt+Home"], "action": "Open your home page in the current tab", "actionRu": "Открыть домашнюю страницу", "actionDe": "Startseite im aktuellen Tab öffnen", "actionFr": "Ouvrir la page d'accueil dans l'onglet actif", "actionEs": "Abrir tu página principal en la pestaña actual", "actionPt": "Abrir a página inicial no separador atual" },
+        { "keys": ["Ctrl+L", "Alt+D", "F6"], "action": "Jump to the address bar", "actionRu": "Перейти в адресную строку", "actionDe": "Zur Adressleiste wechseln", "actionFr": "Accéder à la barre d'adresse", "actionEs": "Ir a la barra de direcciones", "actionPt": "Ir para a barra de endereço" },
+        { "keys": ["Ctrl+K", "Ctrl+E"], "action": "Search from anywhere on page", "actionRu": "Поиск с любого места страницы", "actionDe": "Zur Adressleiste wechseln, um eine Suche durchzuführen", "actionFr": "Lancer une recherche dans la page", "actionEs": "Buscar desde cualquier parte de la página", "actionPt": "Pesquisar a partir de qualquer lugar da página" }
       ]
     },
     {
       "title": "Browser features",
       "titleRu": "Функции браузера",
       "items": [
-        { "keys": ["Ctrl+H"], "action": "Open the History page in a new tab", "actionRu": "История в новой вкладке" },
-        { "keys": ["Ctrl+J"], "action": "Open the Downloads page in a new tab", "actionRu": "Загрузки в новой вкладке" },
-        { "keys": ["Ctrl+Shift+B"], "action": "Show or hide the Bookmarks bar", "actionRu": "Показать / скрыть панель закладок" },
-        { "keys": ["Ctrl+Shift+O"], "action": "Open the Bookmarks Manager", "actionRu": "Диспетчер закладок" },
-        { "keys": ["Ctrl+D"], "action": "Save your current webpage as a bookmark", "actionRu": "Добавить страницу в закладки" },
-        { "keys": ["Ctrl+Shift+D"], "action": "Save all open tabs as bookmarks in a new folder", "actionRu": "Добавить все вкладки в закладки" },
-        { "keys": ["Ctrl+F", "F3"], "action": "Open the Find Bar to search the current page", "actionRu": "Найти на странице" },
-        { "keys": ["Ctrl+G"], "action": "Jump to the next match to your Find Bar search", "actionRu": "Следующее совпадение" },
-        { "keys": ["Ctrl+Shift+G"], "action": "Jump to the previous match to your Find Bar search", "actionRu": "Предыдущее совпадение" },
-        { "keys": ["Ctrl+Shift+Delete"], "action": "Open the Delete Browsing Data options", "actionRu": "Очистить данные просмотров" },
-        { "keys": ["Ctrl+Shift+J", "F12"], "action": "Open Developer Tools", "actionRu": "Инструменты разработчика" },
-        { "keys": ["F7"], "action": "Turn on caret browsing", "actionRu": "Каретный просмотр" }
+        { "keys": ["Ctrl+H"], "action": "Open the History page in a new tab", "actionRu": "История в новой вкладке", "actionDe": "Seite „Verlauf“ in einem neuen Tab öffnen", "actionFr": "Ouvrir la page \"Historique\" dans un nouvel onglet", "actionEs": "Abrir la página Historial en una pestaña nueva", "actionPt": "Abrir a página Histórico num novo separador" },
+        { "keys": ["Ctrl+J"], "action": "Open the Downloads page in a new tab", "actionRu": "Загрузки в новой вкладке", "actionDe": "Seite „Downloads“ in einem neuen Tab öffnen", "actionFr": "Ouvrir la page \"Téléchargements\" dans un nouvel onglet", "actionEs": "Abrir la página Descargas en una pestaña nueva", "actionPt": "Abrir a página Transferências num novo separador" },
+        { "keys": ["Ctrl+Shift+B"], "action": "Show or hide the Bookmarks bar", "actionRu": "Показать / скрыть панель закладок", "actionDe": "Lesezeichenleiste ein- oder ausblenden", "actionFr": "Afficher ou masquer la barre de favoris", "actionEs": "Mostrar u ocultar la barra de marcadores", "actionPt": "Mostrar ou ocultar a barra de marcadores" },
+        { "keys": ["Ctrl+Shift+O"], "action": "Open the Bookmarks Manager", "actionRu": "Диспетчер закладок", "actionDe": "Lesezeichenmanager öffnen", "actionFr": "Ouvrir le gestionnaire de favoris", "actionEs": "Abrir el administrador de marcadores", "actionPt": "Abrir o Gestor de marcadores" },
+        { "keys": ["Ctrl+D"], "action": "Save your current webpage as a bookmark", "actionRu": "Добавить страницу в закладки", "actionDe": "Aktuelle Webseite als Lesezeichen speichern", "actionFr": "Enregistrer la page active dans les favoris", "actionEs": "Guardar la página web actual como un marcador", "actionPt": "Guardar a página Web atual como marcador" },
+        { "keys": ["Ctrl+Shift+D"], "action": "Save all open tabs as bookmarks in a new folder", "actionRu": "Добавить все вкладки в закладки", "actionDe": "Alle geöffneten Tabs in einem neuen Ordner als Lesezeichen speichern", "actionFr": "Enregistrer tous les onglets ouverts dans un nouveau dossier de favoris", "actionEs": "Guardar todas las pestañas abiertas como marcadores en una carpeta nueva", "actionPt": "Guardar todos os separadores abertos como marcadores numa nova pasta" },
+        { "keys": ["Ctrl+F", "F3"], "action": "Open the Find Bar to search the current page", "actionRu": "Найти на странице", "actionDe": "Suchleiste öffnen, um die aktuelle Seite zu durchsuchen", "actionFr": "Ouvrir la barre de recherche pour lancer une recherche sur la page active", "actionEs": "Abrir la barra de búsqueda para buscar en la página actual", "actionPt": "Abrir a barra Localizar para pesquisar na página atual" },
+        { "keys": ["Ctrl+G"], "action": "Jump to the next match to your Find Bar search", "actionRu": "Следующее совпадение", "actionDe": "Zum nächsten Treffer der Suchleisten-Suchanfrage wechseln", "actionFr": "Accéder à la correspondance suivante du terme saisi dans la barre de recherche", "actionEs": "Ir al siguiente resultado de la consulta introducida en la barra de búsqueda", "actionPt": "Ir para a correspondência seguinte da pesquisa da barra Localizar" },
+        { "keys": ["Ctrl+Shift+G"], "action": "Jump to the previous match to your Find Bar search", "actionRu": "Предыдущее совпадение", "actionDe": "Zum vorherigen Treffer der Suchleisten-Suchanfrage wechseln", "actionFr": "Accéder à la correspondance précédente du terme saisi dans la barre de recherche", "actionEs": "Ir al resultado anterior de la consulta introducida en la barra de búsqueda", "actionPt": "Ir para a correspondência anterior da pesquisa da barra Localizar" },
+        { "keys": ["Ctrl+Shift+Delete"], "action": "Open the Delete Browsing Data options", "actionRu": "Очистить данные просмотров", "actionDe": "Optionen zum Löschen von Browserdaten öffnen", "actionFr": "Ouvrir les options \"Supprimer les données de navigation\"", "actionEs": "Abrir las opciones para eliminar los datos de navegación", "actionPt": "Abrir as opções de Eliminar dados de navegação" },
+        { "keys": ["Ctrl+Shift+J", "F12"], "action": "Open Developer Tools", "actionRu": "Инструменты разработчика", "actionDe": "Entwicklertools öffnen", "actionFr": "Ouvrir les outils pour les développeurs", "actionEs": "Abrir las herramientas para desarrolladores", "actionPt": "Abrir as Ferramentas para programadores" },
+        { "keys": ["F7"], "action": "Turn on caret browsing", "actionRu": "Каретный просмотр", "actionDe": "Tastaturnavigation aktivieren", "actionFr": "Activer la navigation au clavier", "actionEs": "Activar Navegación por cursor de texto", "actionPt": "Ativar a Navegação por cursor" }
       ]
     },
     {
       "title": "Page",
       "titleRu": "Страница",
+      "titleDe": "Webseiten",
+      "titleFr": "Pages Web",
+      "titleEs": "Páginas web",
+      "titlePt": "Página Web",
       "items": [
-        { "keys": ["Ctrl+R", "F5"], "action": "Reload the current page", "actionRu": "Обновить страницу" },
-        { "keys": ["Ctrl+Shift+R", "Shift+F5"], "action": "Reload the current page, ignoring cached content", "actionRu": "Обновить без кеша" },
-        { "keys": ["Esc"], "action": "Stop the page loading", "actionRu": "Остановить загрузку" },
-        { "keys": ["Ctrl+P"], "action": "Open options to print the current page", "actionRu": "Печать" },
-        { "keys": ["Ctrl+S"], "action": "Open options to save the current page", "actionRu": "Сохранить страницу" },
-        { "keys": ["Ctrl+U"], "action": "Display non-editable HTML source code for the current page", "actionRu": "Исходный код страницы" },
-        { "keys": ["Ctrl+O"], "action": "Open a file from your computer in Chromium", "actionRu": "Открыть файл с компьютера" },
-        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Make everything on the page bigger / Make everything on the page smaller / Return everything on the page to default size", "actionRu": "Масштаб: больше / меньше / сброс" },
-        { "keys": ["Space", "PageDown"], "action": "Scroll down a webpage, a screen at a time", "actionRu": "Прокрутка вниз на экран" },
-        { "keys": ["Shift+Space", "PageUp"], "action": "Scroll up a webpage, a screen at a time", "actionRu": "Прокрутка вверх на экран" },
-        { "keys": ["Home", "End"], "action": "Go to the top of the page / Go to the bottom of the page", "actionRu": "В начало / в конец страницы" }
+        { "keys": ["Ctrl+R", "F5"], "action": "Reload the current page", "actionRu": "Обновить страницу", "actionDe": "Aktuelle Seite neu laden", "actionFr": "Actualiser la page active", "actionEs": "Volver a cargar la página actual", "actionPt": "Atualizar a página atual" },
+        { "keys": ["Ctrl+Shift+R", "Shift+F5"], "action": "Reload the current page, ignoring cached content", "actionRu": "Обновить без кеша", "actionDe": "Aktuelle Seite neu laden und dabei die im Cache gespeicherten Inhalte ignorieren", "actionFr": "Actualiser la page active sans tenir compte du contenu mis en cache", "actionEs": "Volver a cargar la página actual, ignorando el contenido almacenado en caché", "actionPt": "Atualizar a página atual ignorando o conteúdo em cache" },
+        { "keys": ["Esc"], "action": "Stop the page loading", "actionRu": "Остановить загрузку", "actionDe": "Laden der Seite beenden", "actionFr": "Arrêter le chargement de la page", "actionEs": "Detener una página que se está cargando", "actionPt": "Interromper o carregamento de página" },
+        { "keys": ["Ctrl+P"], "action": "Open options to print the current page", "actionRu": "Печать", "actionDe": "Optionen zum Drucken der aktuellen Seite öffnen", "actionFr": "Ouvrir la boîte de dialogue \"Imprimer\" pour la page active", "actionEs": "Abrir las opciones para imprimir la página actual", "actionPt": "Abrir opções para imprimir a página atual" },
+        { "keys": ["Ctrl+S"], "action": "Open options to save the current page", "actionRu": "Сохранить страницу", "actionDe": "Optionen zum Speichern der aktuellen Seite öffnen", "actionFr": "Ouvrir la boîte de dialogue \"Enregistrer\" pour la page active", "actionEs": "Abrir las opciones para guardar la página actual", "actionPt": "Abrir opções para guardar a página atual" },
+        { "keys": ["Ctrl+U"], "action": "Display non-editable HTML source code for the current page", "actionRu": "Исходный код страницы", "actionDe": "Nicht bearbeitbaren HTML-Quellcode für die aktuelle Seite anzeigen", "actionFr": "Afficher le code source HTML non modifiable de la page active", "actionEs": "Mostrar el código fuente HTML no editable de la página actual", "actionPt": "Apresentar o código-fonte HTML não editável da página atual" },
+        { "keys": ["Ctrl+O"], "action": "Open a file from your computer in Chromium", "actionRu": "Открыть файл с компьютера", "actionDe": "Auf dem Computer gespeicherte Datei in Chromium öffnen", "actionFr": "Ouvrir un fichier de votre ordinateur dans Chromium", "actionEs": "Abrir un archivo del ordenador en Chromium", "actionPt": "Abrir um ficheiro do computador no Chromium" },
+        { "keys": ["Ctrl++", "Ctrl+-", "Ctrl+0"], "action": "Make everything on the page bigger / Make everything on the page smaller / Return everything on the page to default size", "actionRu": "Масштаб: больше / меньше / сброс", "actionDe": "Gesamten Seiteninhalt vergrößern / Gesamten Seiteninhalt verkleinern / Gesamten Seiteninhalt auf Standardgröße zurücksetzen", "actionFr": "Agrandir tous les éléments de la page / Réduire tous les éléments de la page / Rétablir tous les éléments de la page à leur taille par défaut", "actionEs": "Ampliar todo el contenido de la página / Reducir todo el contenido de la página / Restaurar el tamaño predeterminado de todo el contenido de la página", "actionPt": "Aumentar o tamanho de todos os itens na página / Reduzir o tamanho de todos os itens na página / Repor o tamanho predefinido de todos os itens na página" },
+        { "keys": ["Space", "PageDown"], "action": "Scroll down a webpage, a screen at a time", "actionRu": "Прокрутка вниз на экран", "actionDe": "Auf einer Webseite Bildschirm für Bildschirm nach unten scrollen", "actionFr": "Faire défiler une page Web vers le bas, écran par écran", "actionEs": "Desplazarse hacia abajo por una página web (de pantalla en pantalla)", "actionPt": "Deslocar-se para baixo numa página Web, um ecrã de cada vez" },
+        { "keys": ["Shift+Space", "PageUp"], "action": "Scroll up a webpage, a screen at a time", "actionRu": "Прокрутка вверх на экран", "actionDe": "Auf einer Webseite Bildschirm für Bildschirm nach oben scrollen", "actionFr": "Faire défiler une page Web vers le haut, écran par écran", "actionEs": "Desplazarse hacia arriba por una página web (de pantalla en pantalla)", "actionPt": "Deslocar-se para cima numa página Web, um ecrã de cada vez" },
+        { "keys": ["Home", "End"], "action": "Go to the top of the page / Go to the bottom of the page", "actionRu": "В начало / в конец страницы", "actionDe": "An den Anfang der Seite springen / An das Ende der Seite springen", "actionFr": "Accéder au haut de la page / Accéder au bas de la page", "actionEs": "Ir al principio de la página / Ir al final de la página", "actionPt": "Ir para a parte superior da página / Ir para a parte inferior da página" }
       ]
     }
   ]

@@ -9,21 +9,33 @@
           "actionRu": "Играть / пауза",
           "keys": [
             "Space"
-          ]
+          ],
+          "actionDe": "Play/Pause",
+          "actionFr": "Lire/Pause",
+          "actionEs": "Reproducir o pausar",
+          "actionPt": "Reproduzir/pausar"
         },
         {
           "action": "Go to Next",
           "actionRu": "Следующий трек",
           "keys": [
             "Down"
-          ]
+          ],
+          "actionDe": "Weiter",
+          "actionFr": "Passer au titre suivant",
+          "actionEs": "Siguiente",
+          "actionPt": "Ir para seguinte"
         },
         {
           "action": "Go to Previous",
           "actionRu": "Предыдущий трек",
           "keys": [
             "Up"
-          ]
+          ],
+          "actionDe": "Zurück",
+          "actionFr": "Revenir au titre précédent",
+          "actionEs": "Anterior",
+          "actionPt": "Ir para anterior"
         },
         {
           "action": "Shuffle",
@@ -31,7 +43,11 @@
           "keys": [
             "Ctrl+S",
             "Alt+S"
-          ]
+          ],
+          "actionDe": "Shuffle",
+          "actionFr": "Aléatoire",
+          "actionEs": "Aleatorio",
+          "actionPt": "Modo aleatório"
         },
         {
           "action": "Repeat",
@@ -39,28 +55,44 @@
           "keys": [
             "Ctrl+R",
             "Alt+R"
-          ]
+          ],
+          "actionDe": "Wiederholen",
+          "actionFr": "Répéter",
+          "actionEs": "Repetir",
+          "actionPt": "Repetir"
         },
         {
           "action": "Mute/Unmute",
           "actionRu": "Без звука",
           "keys": [
             "M"
-          ]
+          ],
+          "actionDe": "Ton aus / Ton an",
+          "actionFr": "Désactiver/Activer le son",
+          "actionEs": "Silenciar/reactivar sonido",
+          "actionPt": "Silenciar/ativar som"
         },
         {
           "action": "Add to Queue",
           "actionRu": "В очередь",
           "keys": [
             "Right"
-          ]
+          ],
+          "actionDe": "In die Warteschlange",
+          "actionFr": "Ajouter à la file d'attente",
+          "actionEs": "Añadir a la cola",
+          "actionPt": "Adicionar à fila"
         },
         {
           "action": "Add to Library",
           "actionRu": "В медиатеку",
           "keys": [
             "Left"
-          ]
+          ],
+          "actionDe": "Zur Bibliothek hinzufügen",
+          "actionFr": "Ajouter à la Bibliothèque",
+          "actionEs": "Añadir a la biblioteca",
+          "actionPt": "Adicionar à Biblioteca"
         }
       ],
       "title": "Playback",
@@ -73,28 +105,44 @@
           "actionRu": "Поиск",
           "keys": [
             "Ctrl+K"
-          ]
+          ],
+          "actionDe": "Suche öffnen",
+          "actionFr": "Ouvrir la recherche",
+          "actionEs": "Abrir búsqueda",
+          "actionPt": "Abrir procura"
         },
         {
           "action": "Filter",
           "actionRu": "Фильтр",
           "keys": [
             "Ctrl+F"
-          ]
+          ],
+          "actionDe": "Filter",
+          "actionFr": "Filtre",
+          "actionEs": "Filtrar",
+          "actionPt": "Filtrar"
         },
         {
           "action": "Select All",
           "actionRu": "Выделить всё",
           "keys": [
             "Ctrl+A"
-          ]
+          ],
+          "actionDe": "Alles Auswählen",
+          "actionFr": "Tout sélectionner",
+          "actionEs": "Seleccionar todo",
+          "actionPt": "Selecionar tudo"
         },
         {
           "action": "Go to Preferences",
           "actionRu": "Настройки",
           "keys": [
             "Ctrl+,"
-          ]
+          ],
+          "actionDe": "Zu den Einstellungen",
+          "actionFr": "Accédez aux Préférences",
+          "actionEs": "Ir a Preferencias",
+          "actionPt": "Ir para Preferências"
         },
         {
           "action": "Open Help",
@@ -102,14 +150,22 @@
           "keys": [
             "Ctrl+/",
             "Ctrl+?"
-          ]
+          ],
+          "actionDe": "Hilfe öffnen",
+          "actionFr": "Ouvrir l'aide",
+          "actionEs": "Abrir la ayuda",
+          "actionPt": "Abrir Ajuda"
         },
         {
           "action": "Like/Dislike Song",
           "actionRu": "Нравится / не нравится",
           "keys": [
             "Alt+Shift+B"
-          ]
+          ],
+          "actionDe": "Song gefällt mir / gefällt mir nicht",
+          "actionFr": "Liker/Ne plus liker ce titre",
+          "actionEs": "Indicar que te gusta o no te gusta una canción",
+          "actionPt": "Gostar/não gostar de músicas"
         }
       ],
       "title": "General",
@@ -122,7 +178,11 @@
           "actionRu": "Домой",
           "keys": [
             "Alt+Shift+H"
-          ]
+          ],
+          "actionDe": "Zur Startseite",
+          "actionFr": "Accéder à l'accueil",
+          "actionEs": "Ir a Inicio",
+          "actionPt": "Ir para Início"
         },
         {
           "action": "Go to Library",
@@ -130,42 +190,66 @@
           "keys": [
             "Alt+Shift+0",
             "Alt+Shift+L"
-          ]
+          ],
+          "actionDe": "Zur Bibliothek",
+          "actionFr": "Accéder à la Bibliothèque",
+          "actionEs": "Ir a la Biblioteca",
+          "actionPt": "Ir para a Biblioteca"
         },
         {
           "action": "Go to Playlists",
           "actionRu": "Плейлисты",
           "keys": [
             "Alt+Shift+1"
-          ]
+          ],
+          "actionDe": "Zu Playlists",
+          "actionFr": "Accéder aux playlists",
+          "actionEs": "Ir a Listas de reproducción",
+          "actionPt": "Ir para Playlists"
         },
         {
           "action": "Go to Artists",
           "actionRu": "Исполнители",
           "keys": [
             "Alt+Shift+3"
-          ]
+          ],
+          "actionDe": "Zu Künstler*innen",
+          "actionFr": "Accéder aux artistes",
+          "actionEs": "Ir a Artistas",
+          "actionPt": "Ir para Artistas"
         },
         {
           "action": "Go to Albums",
           "actionRu": "Альбомы",
           "keys": [
             "Alt+Shift+4"
-          ]
+          ],
+          "actionDe": "Zu Alben",
+          "actionFr": "Accéder aux albums",
+          "actionEs": "Ir a Álbumes",
+          "actionPt": "Ir para Álbuns"
         },
         {
           "action": "Go to Now Playing",
           "actionRu": "Сейчас играет",
           "keys": [
             "Alt+Shift+J"
-          ]
+          ],
+          "actionDe": "Zu „Aktueller Titel“",
+          "actionFr": "Accéder à la vue En cours de lecture",
+          "actionEs": "Ir a Sonando",
+          "actionPt": "Ir para Em reprodução"
         },
         {
           "action": "Go to Queue",
           "actionRu": "Очередь",
           "keys": [
             "Alt+Shift+Q"
-          ]
+          ],
+          "actionDe": "Zur Warteschlange",
+          "actionFr": "Accéder à la file d'attente",
+          "actionEs": "Ir a la cola",
+          "actionPt": "Ir para a fila"
         }
       ],
       "title": "Navigation",

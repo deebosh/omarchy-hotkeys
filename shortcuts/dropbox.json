@@ -9,10 +9,10 @@
       "title": "Dropbox Paper: formatting",
       "titleRu": "Dropbox Paper: форматирование",
       "items": [
-        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный" },
-        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
-        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый" },
-        { "keys": ["Ctrl+K"], "action": "Link", "actionRu": "Ссылка" },
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный", "actionDe": "Fett", "actionFr": "Gras", "actionEs": "Aplicar negrita", "actionPt": "Negrito" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив", "actionDe": "Kursiv", "actionFr": "Italique", "actionEs": "Cursiva", "actionPt": "Itálico" },
+        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый", "actionDe": "Unterstreichen", "actionFr": "Souligner", "actionEs": "Subrayado", "actionPt": "Sublinhado" },
+        { "keys": ["Ctrl+K"], "action": "Link", "actionRu": "Ссылка", "actionDe": "Link erstellen", "actionFr": "Créer un lien", "actionEs": "Crear un vínculo", "actionPt": "Criar link" },
         { "keys": ["Ctrl+Alt+1", "Ctrl+Alt+2", "Ctrl+Alt+3"], "action": "Heading H1 / H2 / H3", "actionRu": "Заголовок H1 / H2 / H3" }
       ]
     },
@@ -20,9 +20,9 @@
       "title": "Dropbox Paper: lists and blocks",
       "titleRu": "Dropbox Paper: списки и блоки",
       "items": [
-        { "keys": ["Ctrl+Shift+8"], "action": "Bulleted list", "actionRu": "Маркированный список" },
-        { "keys": ["Ctrl+Shift+7"], "action": "Numbered list", "actionRu": "Нумерованный список" },
-        { "keys": ["Ctrl+Shift+9"], "action": "Task checklist", "actionRu": "Чеклист задач" }
+        { "keys": ["Ctrl+Shift+8"], "action": "Bulleted list", "actionRu": "Маркированный список", "actionDe": "Aufzählung erstellen", "actionFr": "Créer une liste à puces", "actionEs": "Crear una lista con viñetas", "actionPt": "Criar lista com marcadores" },
+        { "keys": ["Ctrl+Shift+7"], "action": "Numbered list", "actionRu": "Нумерованный список", "actionDe": "Nummerierte Liste", "actionFr": "Liste numérotée", "actionEs": "Lista con números", "actionPt": "Lista numerada" },
+        { "keys": ["Ctrl+Shift+9"], "action": "Task checklist", "actionRu": "Чеклист задач", "actionDe": "Aufgabe erstellen", "actionFr": "Créer une liste de tâches", "actionEs": "Crear una tarea", "actionPt": "Criar tarefas" }
       ]
     }
   ]

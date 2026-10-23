@@ -15,7 +15,11 @@
             "Ctrl+Shift+K"
           ],
           "action": "Compose a new message",
-          "actionRu": "Новое сообщение"
+          "actionRu": "Новое сообщение",
+          "actionDe": "Eine neue Nachricht erstellen",
+          "actionFr": "Composer un nouveau message",
+          "actionEs": "Crear un nuevo mensaje",
+          "actionPt": "Escrever uma nova mensagem"
         },
         {
           "keys": [
@@ -29,14 +33,22 @@
             "Ctrl+G"
           ],
           "action": "Start a search",
-          "actionRu": "Поиск"
+          "actionRu": "Поиск",
+          "actionDe": "Suche starten",
+          "actionFr": "Lancer une recherche",
+          "actionEs": "Comenzar una búsqueda",
+          "actionPt": "Iniciar uma pesquisa"
         },
         {
           "keys": [
             "Ctrl+F"
           ],
           "action": "Search in the current conversation",
-          "actionRu": "Поиск в текущем диалоге"
+          "actionRu": "Поиск в текущем диалоге",
+          "actionDe": "In der aktuellen Unterhaltung suchen",
+          "actionFr": "Rechercher dans la conversation actuelle",
+          "actionEs": "Buscar en la conversación actual",
+          "actionPt": "Pesquisar na conversa atual"
         },
         {
           "keys": [
@@ -44,56 +56,88 @@
             "Ctrl+T"
           ],
           "action": "Jump to a conversation",
-          "actionRu": "Перейти к диалогу (быстрый переключатель)"
+          "actionRu": "Перейти к диалогу (быстрый переключатель)",
+          "actionDe": "Gehe zu ...",
+          "actionFr": "Accéder à",
+          "actionEs": "Ir a...",
+          "actionPt": "Pule para uma conversa"
         },
         {
           "keys": [
             "Ctrl+,"
           ],
           "action": "Open your preferences",
-          "actionRu": "Открыть настройки"
+          "actionRu": "Открыть настройки",
+          "actionDe": "Deine persönlichen Einstellungen öffnen",
+          "actionFr": "Ouvrir vos préférences",
+          "actionEs": "Abrir tus preferencias",
+          "actionPt": "Abrir suas preferências"
         },
         {
           "keys": [
             "Ctrl+O"
           ],
           "action": "Upload a file",
-          "actionRu": "Загрузить файл"
+          "actionRu": "Загрузить файл",
+          "actionDe": "Datei hochladen",
+          "actionFr": "Charger un fichier",
+          "actionEs": "Subir un archivo",
+          "actionPt": "Fazer upload de arquivo"
         },
         {
           "keys": [
             "Ctrl+Shift+E"
           ],
           "action": "Open the People view",
-          "actionRu": "Открыть вид «Люди»"
+          "actionRu": "Открыть вид «Люди»",
+          "actionDe": "Öffne die Ansicht Personen",
+          "actionFr": "Ouvrir la vue Personnes",
+          "actionEs": "Abre la vista Personas",
+          "actionPt": "Abrir a visualização Pessoas"
         },
         {
           "keys": [
             "F11"
           ],
           "action": "Toggle full screen view",
-          "actionRu": "Полноэкранный режим"
+          "actionRu": "Полноэкранный режим",
+          "actionDe": "Zu Vollbildansicht wechseln",
+          "actionFr": "Activer ou désactiver le plein écran",
+          "actionEs": "Alternar la vista de pantalla completa",
+          "actionPt": "Alternar para visualização de tela inteira"
         },
         {
           "keys": [
             "Ctrl+W"
           ],
           "action": "Close window",
-          "actionRu": "Закрыть окно"
+          "actionRu": "Закрыть окно",
+          "actionDe": "Fenster schließen",
+          "actionFr": "Fermer la fenêtre",
+          "actionEs": "Cerrar ventana",
+          "actionPt": "Fechar janela"
         },
         {
           "keys": [
             "Ctrl+Shift+W"
           ],
           "action": "Reopen last closed window",
-          "actionRu": "Открыть последнее закрытое окно"
+          "actionRu": "Открыть последнее закрытое окно",
+          "actionDe": "Zuletzt geschlossenes Fenster erneut öffnen",
+          "actionFr": "Rouvrir la dernière fenêtre fermée",
+          "actionEs": "Volver a abrir la última ventana cerrada",
+          "actionPt": "Reabrir janela fechada por último"
         },
         {
           "keys": [
             "Ctrl+Q"
           ],
           "action": "Quit Slack",
-          "actionRu": "Выйти из Slack"
+          "actionRu": "Выйти из Slack",
+          "actionDe": "Schließe Slack",
+          "actionFr": "Quitter Slack",
+          "actionEs": "Cierra Slack",
+          "actionPt": "Sair do Slack"
         }
       ]
     },
@@ -122,7 +166,11 @@
             "Ctrl+J"
           ],
           "action": "Jump to most recent unread message",
-          "actionRu": "К последнему непрочитанному сообщению"
+          "actionRu": "К последнему непрочитанному сообщению",
+          "actionDe": "Zur letzten ungelesenen Nachricht in einer Unterhaltung springen",
+          "actionFr": "Accéder au message non lu le plus récent d'une conversation",
+          "actionEs": "Saltar al mensaje sin leer más reciente en una conversación",
+          "actionPt": "Ir para as mais recentes mensagens não lidas de uma conversa"
         },
         {
           "keys": [
@@ -137,49 +185,77 @@
             "Ctrl+Shift+1"
           ],
           "action": "Open the Home view",
-          "actionRu": "Открыть вид «Главная»"
+          "actionRu": "Открыть вид «Главная»",
+          "actionDe": "Home-Ansicht öffnen",
+          "actionFr": "Ouvrir la vue Accueil",
+          "actionEs": "Abrir la vista Inicio",
+          "actionPt": "Abrir a visualização Início"
         },
         {
           "keys": [
             "Ctrl+Shift+2"
           ],
           "action": "Browse DMs",
-          "actionRu": "Личные сообщения"
+          "actionRu": "Личные сообщения",
+          "actionDe": "Direktnachrichten durchsuchen",
+          "actionFr": "Parcourir les messages directs",
+          "actionEs": "Explorar mensajes directos",
+          "actionPt": "Procurar MDs"
         },
         {
           "keys": [
             "Ctrl+Shift+T"
           ],
           "action": "Open the Threads view",
-          "actionRu": "Открыть вид «Треды»"
+          "actionRu": "Открыть вид «Треды»",
+          "actionDe": "Threads-Ansicht öffnen",
+          "actionFr": "Afficher les fils de discussion",
+          "actionEs": "Abrir la vista de los hilos de conversaciones",
+          "actionPt": "Abrir visualização de Conversas"
         },
         {
           "keys": [
             "Ctrl+Shift+L"
           ],
           "action": "Browse channels",
-          "actionRu": "Обзор каналов"
+          "actionRu": "Обзор каналов",
+          "actionDe": "Channels durchsuchen",
+          "actionFr": "Parcourir les canaux",
+          "actionEs": "Explorar canales",
+          "actionPt": "Procurar canais"
         },
         {
           "keys": [
             "Ctrl+Shift+M"
           ],
           "action": "Open the Activity view",
-          "actionRu": "Открыть вид «Активность»"
+          "actionRu": "Открыть вид «Активность»",
+          "actionDe": "Ansicht Aktivität öffnen",
+          "actionFr": "Ouvrir la vue Activité",
+          "actionEs": "Abrir la vista Actividad",
+          "actionPt": "Abrir a visualização Atividade"
         },
         {
           "keys": [
             "Ctrl+Shift+A"
           ],
           "action": "Open the All unreads view",
-          "actionRu": "Открыть вид «Все непрочитанные»"
+          "actionRu": "Открыть вид «Все непрочитанные»",
+          "actionDe": "Ansicht Ungelesenes öffnen",
+          "actionFr": "Ouvrir la vue Messages non lus",
+          "actionEs": "Abrir la vista Mensajes sin leer",
+          "actionPt": "Abrir a visualização Todas as não lidas"
         },
         {
           "keys": [
             "Ctrl+Shift+I"
           ],
           "action": "Open conversation details",
-          "actionRu": "Детали диалога"
+          "actionRu": "Детали диалога",
+          "actionDe": "Unterhaltungsdetails öffnen",
+          "actionFr": "Ouvrir les détails de la conversation",
+          "actionEs": "Abrir los detalles de la conversación",
+          "actionPt": "Abrir detalhes da conversa"
         },
         {
           "keys": [
@@ -200,14 +276,22 @@
             "Esc"
           ],
           "action": "Mark all messages in conversation as read",
-          "actionRu": "Отметить все сообщения диалога прочитанными"
+          "actionRu": "Отметить все сообщения диалога прочитанными",
+          "actionDe": "Alle Nachrichten in der aktuellen Unterhaltung als gelesen markieren",
+          "actionFr": "Marquer tous les messages de la conversation actuelle comme lus",
+          "actionEs": "Marcar como leídos los mensajes en la conversación actual",
+          "actionPt": "Marcar todas as mensagens da conversa atual como lidas"
         },
         {
           "keys": [
             "Shift+Esc"
           ],
           "action": "Mark all messages as read",
-          "actionRu": "Отметить все сообщения прочитанными"
+          "actionRu": "Отметить все сообщения прочитанными",
+          "actionDe": "Alle Nachrichten als gelesen markieren",
+          "actionFr": "Marquer tous les messages comme lus",
+          "actionEs": "Marcar todos los mensajes como leídos",
+          "actionPt": "Marcar todas as mensagens como lidas"
         }
       ]
     },
@@ -228,7 +312,11 @@
             "Ctrl+Shift+S"
           ],
           "action": "Expand / collapse workspace switcher",
-          "actionRu": "Показать переключатель рабочих областей"
+          "actionRu": "Показать переключатель рабочих областей",
+          "actionDe": "Workspace-Switcher erweitern oder ausblenden",
+          "actionFr": "Développer ou réduire le sélecteur d'espace de travail",
+          "actionEs": "Ampliar o contraer el seleccionador de espacios de trabajo",
+          "actionPt": "Expandir ou recolher o seletor de workspace"
         }
       ]
     },
@@ -241,56 +329,88 @@
             "E"
           ],
           "action": "Edit a message you sent",
-          "actionRu": "Редактировать своё сообщение"
+          "actionRu": "Редактировать своё сообщение",
+          "actionDe": "Gesendete Nachricht bearbeiten",
+          "actionFr": "Modifier un message que vous avez envoyé",
+          "actionEs": "Editar un mensaje que has enviado",
+          "actionPt": "Editar uma mensagem enviada"
         },
         {
           "keys": [
             "Delete"
           ],
           "action": "Delete a message you sent",
-          "actionRu": "Удалить своё сообщение"
+          "actionRu": "Удалить своё сообщение",
+          "actionDe": "Gesendete Nachricht löschen",
+          "actionFr": "Supprimer un message que vous avez envoyé",
+          "actionEs": "Eliminar un mensaje que has enviado",
+          "actionPt": "Excluir uma mensagem enviada"
         },
         {
           "keys": [
             "T"
           ],
           "action": "Open or reply to a thread",
-          "actionRu": "Открыть тред / ответить в треде"
+          "actionRu": "Открыть тред / ответить в треде",
+          "actionDe": "Thread starten oder beantworten",
+          "actionFr": "Ouvrir un fil de discussion ou répondre à un fil existant",
+          "actionEs": "Abrir o responder un hilo de una conversación",
+          "actionPt": "Abrir ou responder a uma conversa"
         },
         {
           "keys": [
             "A"
           ],
           "action": "Save a message (or remove a message from Saved)",
-          "actionRu": "Сохранить сообщение (или убрать из сохранённых)"
+          "actionRu": "Сохранить сообщение (или убрать из сохранённых)",
+          "actionDe": "Eine Nachricht speichern (oder aus Gespeichert entfernen)",
+          "actionFr": "Enregistrer un message (ou le retirer de l'onglet Enregistrés)",
+          "actionEs": "Guardar un mensaje (o eliminarlo de Guardados)",
+          "actionPt": "Salvar uma mensagem (ou remover uma mensagem de Salvos)"
         },
         {
           "keys": [
             "P"
           ],
           "action": "Pin or unpin a message",
-          "actionRu": "Закрепить / открепить сообщение"
+          "actionRu": "Закрепить / открепить сообщение",
+          "actionDe": "Nachricht pinnen oder Pin einer Nachricht entfernen",
+          "actionFr": "Épingler ou désépingler un message",
+          "actionEs": "Poner una chincheta o quitársela a un mensaje",
+          "actionPt": "Fixar ou desafixar uma mensagem"
         },
         {
           "keys": [
             "R"
           ],
           "action": "Add an emoji reaction to a message",
-          "actionRu": "Добавить реакцию эмодзи"
+          "actionRu": "Добавить реакцию эмодзи",
+          "actionDe": "Emoji-Reaktion zu einer Nachricht hinzufügen",
+          "actionFr": "Ajouter une réaction émoji à un message",
+          "actionEs": "Añadir una reacción emoji a un mensaje",
+          "actionPt": "Adicionar uma reação de emoji à mensagem"
         },
         {
           "keys": [
             "M"
           ],
           "action": "Create a reminder about a message",
-          "actionRu": "Создать напоминание о сообщении"
+          "actionRu": "Создать напоминание о сообщении",
+          "actionDe": "Erinnerung zu einer Nachricht erstellen",
+          "actionFr": "Créer un rappel à propos d'un message",
+          "actionEs": "Cómo crear un recordatorio de un mensaje",
+          "actionPt": "Criar um lembrete sobre uma mensagem"
         },
         {
           "keys": [
             "U"
           ],
           "action": "Mark all messages above the one in focus as unread",
-          "actionRu": "Отметить все сообщения выше непрочитанными"
+          "actionRu": "Отметить все сообщения выше непрочитанными",
+          "actionDe": "Alle Nachrichten über der hervorgehobenen als ungelesen markieren",
+          "actionFr": "Marquer tous les messages au-dessus du message sélectionné comme non lus",
+          "actionEs": "Marcar como no leídos todos los mensajes que hay por encima del que tiene el enfoque",
+          "actionPt": "Marcar todas as mensagens acima da que está em foco como não lidas"
         },
         {
           "keys": [
@@ -310,77 +430,121 @@
             "Shift+Enter"
           ],
           "action": "Create a new line",
-          "actionRu": "Новая строка"
+          "actionRu": "Новая строка",
+          "actionDe": "Neue Zeile erstellen",
+          "actionFr": "Créer une nouvelle ligne",
+          "actionEs": "Crear una nueva línea",
+          "actionPt": "Criar uma nova linha"
         },
         {
           "keys": [
             "Ctrl+B"
           ],
           "action": "Bold selected text",
-          "actionRu": "Жирный"
+          "actionRu": "Жирный",
+          "actionDe": "Ausgewählten Text fett formatieren",
+          "actionFr": "Afficher le texte sélectionné en gras",
+          "actionEs": "Poner en negrita el texto seleccionado",
+          "actionPt": "Texto selecionado em negrito"
         },
         {
           "keys": [
             "Ctrl+I"
           ],
           "action": "Italicize selected text",
-          "actionRu": "Курсив"
+          "actionRu": "Курсив",
+          "actionDe": "Ausgewählten Text kursiv formatieren",
+          "actionFr": "Afficher le texte sélectionné en italique",
+          "actionEs": "Poner en cursiva el texto seleccionado",
+          "actionPt": "Texto selecionado em itálico"
         },
         {
           "keys": [
             "Ctrl+Shift+X"
           ],
           "action": "Strikethrough selected text",
-          "actionRu": "Зачёркнутый"
+          "actionRu": "Зачёркнутый",
+          "actionDe": "Ausgewählten Text durchstreichen",
+          "actionFr": "Barrer le texte sélectionné",
+          "actionEs": "Tachar el texto seleccionado",
+          "actionPt": "Texto selecionado tachado"
         },
         {
           "keys": [
             "Ctrl+Shift+U"
           ],
           "action": "Hyperlink selected text",
-          "actionRu": "Ссылка на выделенный текст"
+          "actionRu": "Ссылка на выделенный текст",
+          "actionDe": "Ausgewählten Text mit einem Hyperlink versehen",
+          "actionFr": "Ajouter un lien hypertexte au texte sélectionné",
+          "actionEs": "Insertar un hipervínculo en el texto seleccionado",
+          "actionPt": "Texto selecionado do hiperlink"
         },
         {
           "keys": [
             "Ctrl+Shift+9"
           ],
           "action": "Quote selected text",
-          "actionRu": "Цитата"
+          "actionRu": "Цитата",
+          "actionDe": "Ausgewählten Text zitieren",
+          "actionFr": "Citer le texte sélectionné",
+          "actionEs": "Citar el texto seleccionado",
+          "actionPt": "Texto selecionado entre aspas"
         },
         {
           "keys": [
             "Ctrl+Shift+C"
           ],
           "action": "Code selected text",
-          "actionRu": "Код"
+          "actionRu": "Код",
+          "actionDe": "Ausgewählten Text im Code-Stil anzeigen",
+          "actionFr": "Code du texte sélectionné",
+          "actionEs": "Dar formato de código al texto seleccionado",
+          "actionPt": "Texto de código selecionado"
         },
         {
           "keys": [
             "Ctrl+Alt+Shift+C"
           ],
           "action": "Codeblock selected text",
-          "actionRu": "Блок кода"
+          "actionRu": "Блок кода",
+          "actionDe": "Ausgewählten Text als Code-Block formatieren",
+          "actionFr": "Afficher le texte sélectionné en bloc de code",
+          "actionEs": "Poner texto seleccionado en bloque de código",
+          "actionPt": "Texto selecionado em bloco de código"
         },
         {
           "keys": [
             "Ctrl+Shift+8"
           ],
           "action": "Format selected text as a bulleted list",
-          "actionRu": "Маркированный список"
+          "actionRu": "Маркированный список",
+          "actionDe": "Ausgewählten Text als Stichpunktliste formatieren",
+          "actionFr": "Mettre le texte sélectionné sous forme de liste à puces",
+          "actionEs": "Dar formato de lista con viñetas al texto seleccionado",
+          "actionPt": "Formatar texto selecionado como lista com marcadores"
         },
         {
           "keys": [
             "Ctrl+Shift+7"
           ],
           "action": "Format selected text as a numbered list",
-          "actionRu": "Нумерованный список"
+          "actionRu": "Нумерованный список",
+          "actionDe": "Ausgewählten Text als nummerierte Liste formatieren",
+          "actionFr": "Mettre le texte sélectionné sous forme de liste numérotée",
+          "actionEs": "Dar formato de lista con números al texto seleccionado",
+          "actionPt": "Formatar texto selecionado como lista numerada"
         },
         {
           "keys": [
             "Ctrl+Z"
           ],
           "action": "Undo formatting",
-          "actionRu": "Отменить форматирование"
+          "actionRu": "Отменить форматирование",
+          "actionDe": "Formatierung rückgängig machen",
+          "actionFr": "Annuler la mise en forme",
+          "actionEs": "Deshacer el formato",
+          "actionPt": "Desfazer formatação"
         }
       ]
     },
@@ -393,14 +557,22 @@
             "Ctrl+Shift+H"
           ],
           "action": "Start, join, leave, or end a huddle",
-          "actionRu": "Начать / войти / выйти из huddle"
+          "actionRu": "Начать / войти / выйти из huddle",
+          "actionDe": "Huddle beginnen, beitreten, verlassen oder beenden",
+          "actionFr": "Démarrer, rejoindre, quitter ou terminer un appel d'équipe",
+          "actionEs": "Iniciar, abandonar o finalizar una junta, o unirse a ella",
+          "actionPt": "Iniciar, entrar, sair ou encerrar um círculo"
         },
         {
           "keys": [
             "Ctrl+Shift+Space"
           ],
           "action": "Toggle mute on a huddle",
-          "actionRu": "Вкл/выкл микрофон в huddle"
+          "actionRu": "Вкл/выкл микрофон в huddle",
+          "actionDe": "Stummschaltung bei einem Huddle ein- und ausschalten",
+          "actionFr": "Activer et désactiver le son lors d'un appel d'équipe",
+          "actionEs": "Activar o desactivar el botón de silencio en una junta",
+          "actionPt": "Silenciar/ligar microfone em um círculo"
         }
       ]
     }

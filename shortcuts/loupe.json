@@ -1,30 +1,116 @@
 {
   "appId": "loupe",
-  "displayName": "Loupe", "displayNameRu": "Лупа (просмотр)",
+  "displayName": "Loupe",
+  "displayNameRu": "Лупа (просмотр)",
   "source": "https://apps.gnome.org/Loupe",
   "groups": [
     {
-      "title": "Viewing", "titleRu": "Просмотр",
+      "title": "Viewing",
+      "titleRu": "Просмотр",
       "items": [
-        { "keys": ["Left", "Right"], "action": "Previous / next image", "actionRu": "Предыдущее / следующее изображение" },
-        { "keys": ["+"], "action": "Zoom in", "actionRu": "Приблизить" },
-        { "keys": ["-"], "action": "Zoom out", "actionRu": "Отдалить" },
-        { "keys": ["Ctrl+0"], "action": "Fit to window", "actionRu": "По размеру окна" },
-        { "keys": ["1"], "action": "100% zoom", "actionRu": "Масштаб 100%" },
-        { "keys": ["F11", "F"], "action": "Fullscreen", "actionRu": "Полный экран" },
-        { "keys": ["Ctrl+B"], "action": "Properties sidebar", "actionRu": "Боковая панель свойств" }
+        {
+          "keys": [
+            "Left",
+            "Right"
+          ],
+          "action": "Previous / next image",
+          "actionRu": "Предыдущее / следующее изображение"
+        },
+        {
+          "keys": [
+            "+"
+          ],
+          "action": "Zoom in",
+          "actionRu": "Приблизить"
+        },
+        {
+          "keys": [
+            "-"
+          ],
+          "action": "Zoom out",
+          "actionRu": "Отдалить"
+        },
+        {
+          "keys": [
+            "Ctrl+0"
+          ],
+          "action": "Fit to window",
+          "actionRu": "По размеру окна"
+        },
+        {
+          "keys": [
+            "1"
+          ],
+          "action": "100% zoom",
+          "actionRu": "Масштаб 100%"
+        },
+        {
+          "keys": [
+            "F11",
+            "F"
+          ],
+          "action": "Fullscreen",
+          "actionRu": "Полный экран"
+        },
+        {
+          "keys": [
+            "Ctrl+B"
+          ],
+          "action": "Properties sidebar",
+          "actionRu": "Боковая панель свойств"
+        }
       ]
     },
     {
-      "title": "Actions", "titleRu": "Действия",
+      "title": "Actions",
+      "titleRu": "Действия",
       "items": [
-        { "keys": ["Ctrl+C"], "action": "Copy image", "actionRu": "Копировать изображение" },
-        { "keys": ["Ctrl+P"], "action": "Print", "actionRu": "Печать" },
-        { "keys": ["Delete"], "action": "Move to trash", "actionRu": "В корзину" },
-        { "keys": ["Ctrl+O"], "action": "Open file", "actionRu": "Открыть файл" },
-        { "keys": ["Esc"], "action": "Exit fullscreen / close", "actionRu": "Выйти из полноэкранного / закрыть" },
-        { "keys": ["Ctrl+Q"], "action": "Quit", "actionRu": "Выйти" }
+        {
+          "keys": [
+            "Ctrl+C"
+          ],
+          "action": "Copy image",
+          "actionRu": "Копировать изображение"
+        },
+        {
+          "keys": [
+            "Ctrl+P"
+          ],
+          "action": "Print",
+          "actionRu": "Печать"
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Move to trash",
+          "actionRu": "В корзину"
+        },
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open file",
+          "actionRu": "Открыть файл"
+        },
+        {
+          "keys": [
+            "Esc"
+          ],
+          "action": "Exit fullscreen / close",
+          "actionRu": "Выйти из полноэкранного / закрыть"
+        },
+        {
+          "keys": [
+            "Ctrl+Q"
+          ],
+          "action": "Quit",
+          "actionRu": "Выйти"
+        }
       ]
     }
-  ]
+  ],
+  "displayNameDe": "Bildbetrachter (Loupe)",
+  "displayNameFr": "Visionneur d’images (Loupe)",
+  "displayNamePt": "Visualizador de Imagens (Loupe)"
 }

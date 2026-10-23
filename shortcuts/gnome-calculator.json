@@ -1,6 +1,10 @@
 {
   "appId": "gnome-calculator",
   "displayName": "Calculator",
+  "displayNameDe": "Taschenrechner",
+  "displayNameFr": "Calculatrice",
+  "displayNameEs": "Calculadora",
+  "displayNamePt": "Calculadora",
   "displayNameRu": "Калькулятор",
   "source": "https://help.gnome.org/calculator",
   "groups": [

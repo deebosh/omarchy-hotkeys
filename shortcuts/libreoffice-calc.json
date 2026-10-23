@@ -4,53 +4,295 @@
   "source": "https://help.libreoffice.org/latest/en-US/text/scalc/04/01010000.html (Shortcut Keys for Spreadsheets)",
   "groups": [
     {
-      "title": "File and edit", "titleRu": "Файл и правка",
+      "title": "File and edit",
+      "titleRu": "Файл и правка",
       "items": [
-        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
-        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
-        { "keys": ["Ctrl+Y"], "action": "Redo", "actionRu": "Вернуть" },
-        { "keys": ["Ctrl+X", "Ctrl+C", "Ctrl+V"], "action": "Cut / copy / paste", "actionRu": "Вырезать / копировать / вставить" },
-        { "keys": ["Ctrl+D"], "action": "Fill down", "actionRu": "Заполнить вниз" },
-        { "keys": ["Ctrl+R"], "action": "Fill right", "actionRu": "Заполнить вправо" },
-        { "keys": ["Ctrl+F"], "action": "Find and replace", "actionRu": "Найти и заменить" }
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Save",
+          "actionRu": "Сохранить",
+          "actionDe": "Speichert das aktuelle Dokument.",
+          "actionFr": "Enregistre le document actif.",
+          "actionEs": "Guarda el documento actual.",
+          "actionPt": "Salva o documento atual."
+        },
+        {
+          "keys": [
+            "Ctrl+Z"
+          ],
+          "action": "Undo",
+          "actionRu": "Отменить",
+          "actionDe": "Macht die letzte Aktion rückgängig.",
+          "actionFr": "Annule la dernière action.",
+          "actionEs": "Deshace la última acción.",
+          "actionPt": "Desfaz a última ação."
+        },
+        {
+          "keys": [
+            "Ctrl+Y"
+          ],
+          "action": "Redo",
+          "actionRu": "Вернуть",
+          "actionDe": "Stellt die letzte Aktion wieder her.",
+          "actionFr": "Répète la dernière action.",
+          "actionEs": "Rehace la última acción.",
+          "actionPt": "Refaz a última ação."
+        },
+        {
+          "keys": [
+            "Ctrl+X",
+            "Ctrl+C",
+            "Ctrl+V"
+          ],
+          "action": "Cut / copy / paste",
+          "actionRu": "Вырезать / копировать / вставить",
+          "actionDe": "Schneidet die ausgewählten Elemente aus. / Kopiert die ausgewählten Elemente. / Fügt aus der Zwischenablage ein.",
+          "actionFr": "Coupe les éléments sélectionnés. / Copie les éléments sélectionnés. / Colle depuis le presse-papiers.",
+          "actionEs": "Corta los elementos seleccionados. / Copia los elementos seleccionados. / Pega desde el portapapeles.",
+          "actionPt": "Corta os elementos selecionados. / Copia os itens selecionados. / Cola o conteúdo da área de transferência."
+        },
+        {
+          "keys": [
+            "Ctrl+D"
+          ],
+          "action": "Fill down",
+          "actionRu": "Заполнить вниз"
+        },
+        {
+          "keys": [
+            "Ctrl+R"
+          ],
+          "action": "Fill right",
+          "actionRu": "Заполнить вправо"
+        },
+        {
+          "keys": [
+            "Ctrl+F"
+          ],
+          "action": "Find and replace",
+          "actionRu": "Найти и заменить",
+          "actionDe": "Aufrufen des Dialogs Suchen und ersetzen.",
+          "actionFr": "Appelle la boîte de dialogue Rechercher & Remplacer.",
+          "actionEs": "Activa el diálogo Buscar y reemplazar.",
+          "actionPt": "Chama a caixa de diálogo Localizar e substituir."
+        }
       ]
     },
     {
-      "title": "Cells", "titleRu": "Ячейки",
+      "title": "Cells",
+      "titleRu": "Ячейки",
       "items": [
-        { "keys": ["F2"], "action": "Edit cell contents", "actionRu": "Редактировать ячейку" },
-        { "keys": ["Ctrl+;"], "action": "Insert current date", "actionRu": "Вставить текущую дату" },
-        { "keys": ["Ctrl+Shift+;"], "action": "Insert current time", "actionRu": "Вставить текущее время" },
-        { "keys": ["Ctrl+`"], "action": "Show formulas instead of values", "actionRu": "Показать формулы вместо значений" },
-        { "keys": ["Ctrl+F2"], "action": "Open Function Wizard", "actionRu": "Мастер функций" },
-        { "keys": ["Delete"], "action": "Delete cell contents", "actionRu": "Очистить содержимое ячеек" }
+        {
+          "keys": [
+            "F2"
+          ],
+          "action": "Edit cell contents",
+          "actionRu": "Редактировать ячейку",
+          "actionDe": "Drücken Sie bei ausgewählter Zelle [F2], um den Zellinhalt zur Bearbeitung zu öffnen. Wenn die Zelle eine Formel enthält, navigieren Sie mithilfe von [Pfeiltaste] durch die Tabelle, um Bereichsadressen einfach in die Formel einzugeben. Drücken Sie erneut [F2], um die Verwendung von [Pfeiltaste] zum Bewegen des Cursors im Formeltext zu aktivieren. Jede weitere Verwendung der Taste [F2] wechselt zwischen den beiden zuvor beschriebenen Zuständen. Einige Dialoge verfügen über Eingabefelder mit einer Schaltfläche Verkleinern. Wenn Sie [F2] drücken, während sich der Cursor in einem solchen Eingabefeld befindet, wird der Befehl Verkleinern ausgeführt.",
+          "actionFr": "Avec une cellule sélectionnée, appuyez sur F2 pour ouvrir le contenu de la cellule à modifier. Si la cellule contient une formule, utilisez les touches fléchées pour parcourir la feuille afin d'entrer facilement des adresses de plage dans la formule. Appuyez à nouveau sur F2 pour activer l'utilisation des touches fléchées pour déplacer le curseur dans le texte de la formule. Chaque utilisation supplémentaire du raccourci F2 bascule entre les deux états précédemment décrits. Certaines boîtes de dialogue ont des champs de saisie avec un bouton Réduire. Appuyer sur F2 avec le curseur à l'intérieur de ce champ provoque l'exécution de la commande Réduire.",
+          "actionEs": "Con una celda seleccionada, presione F2 para abrir el contenido de la celda para su edición. Si la celda contiene una fórmula, use las teclas de flecha para navegar por la hoja e ingresar fácilmente direcciones del intervalo en la fórmula. Presione F2 nuevamente para activar el uso de las teclas de flecha para mover el cursor en el texto de la fórmula. Cada uso adicional del atajo F2 cambia entre los dos estados descritos anteriormente. Algunos diálogos tienen campos de entrada con un botón Reducir. Al presionar F2 con el cursor dentro de dicho campo, se ejecuta la orden Reducir.",
+          "actionPt": "Com uma célula selecionada, pressione F2 para abrir o conteúdo da célula para edição. Se a célula contiver uma fórmula, use as teclas de seta para navegar pela planilha e inserir facilmente os endereços de intervalo na fórmula. Pressione F2 novamente para habilitar o uso das teclas de seta para mover o cursor no texto da fórmula. Cada uso adicional do atalho F2 alterna entre os dois estados descritos anteriormente. Algumas caixas de diálogo têm campos de entrada com um botão Encolher. Pressionar F2 com o cursor dentro desse campo faz com que o comando Encolher seja executado."
+        },
+        {
+          "keys": [
+            "Ctrl+;"
+          ],
+          "action": "Insert current date",
+          "actionRu": "Вставить текущую дату"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+;"
+          ],
+          "action": "Insert current time",
+          "actionRu": "Вставить текущее время"
+        },
+        {
+          "keys": [
+            "Ctrl+`"
+          ],
+          "action": "Show formulas instead of values",
+          "actionRu": "Показать формулы вместо значений",
+          "actionDe": "Zeigt oder verbirgt die Formeln anstatt der Werte in allen Zellen.",
+          "actionFr": "Affiche ou masque les formules à la place des valeurs dans toutes les cellules.",
+          "actionEs": "Muestra o esconde la formula en vez del valor en todas las celdas.",
+          "actionPt": "Exibe ou oculta as fórmulas em vez dos valores em todas as células."
+        },
+        {
+          "keys": [
+            "Ctrl+F2"
+          ],
+          "action": "Open Function Wizard",
+          "actionRu": "Мастер функций",
+          "actionDe": "Öffnet den Funktionsassistenten.",
+          "actionFr": "Ouvre l'assistant Fonction.",
+          "actionEs": "Abre el Asistente para funciones.",
+          "actionPt": "Abre o Assistente de funções."
+        },
+        {
+          "keys": [
+            "Delete"
+          ],
+          "action": "Delete cell contents",
+          "actionRu": "Очистить содержимое ячеек",
+          "actionDe": "Um den Inhalt ausgewählter Zellen ohne Dialog zu löschen, Entf drücken.",
+          "actionFr": "Pour supprimer le contenu des cellules sélectionnées sans boîte de dialogue, appuyez sur la touche Suppr.",
+          "actionEs": "Para eliminar el contenido de las celdas seleccionadas sin un de diálogo de opciones, pulse la tecla Supr.",
+          "actionPt": "Para excluir o conteúdo sem a caixa de diálogo, pressione Del."
+        }
       ]
     },
     {
-      "title": "Selection", "titleRu": "Выделение",
+      "title": "Selection",
+      "titleRu": "Выделение",
       "items": [
-        { "keys": ["Ctrl+Space"], "action": "Select current column", "actionRu": "Выделить столбец" },
-        { "keys": ["Shift+Space"], "action": "Select current row", "actionRu": "Выделить строку" },
-        { "keys": ["Ctrl+A"], "action": "Select all", "actionRu": "Выделить всё" },
-        { "keys": ["Ctrl+Home"], "action": "First cell in sheet (A1)", "actionRu": "К началу листа (A1)" },
-        { "keys": ["Ctrl+End"], "action": "Last cell with data", "actionRu": "К последней заполненной ячейке" }
+        {
+          "keys": [
+            "Ctrl+Space"
+          ],
+          "action": "Select current column",
+          "actionRu": "Выделить столбец",
+          "actionDe": "Wählt die aktuelle Spalte aus oder erweitert die vorhandene Auswahl auf alle entsprechenden Spalten.",
+          "actionFr": "Sélectionne la colonne active ou étend la sélection existante à toutes les colonnes correspondantes.",
+          "actionEs": "Selecciona la columna actual o amplía la selección existente a todas las columnas respectivas.",
+          "actionPt": "Seleciona a coluna atual ou estende a seleção existente para todas as respectivas colunas"
+        },
+        {
+          "keys": [
+            "Shift+Space"
+          ],
+          "action": "Select current row",
+          "actionRu": "Выделить строку",
+          "actionDe": "Wählt die aktuelle Zeile aus oder erweitert die vorhandene Auswahl auf alle entsprechenden Zeilen.",
+          "actionFr": "Sélectionne la ligne active ou étend la sélection existante à toutes les lignes correspondantes.",
+          "actionEs": "Selecciona la fila actual o amplía la selección existente a todas las filas respectivas.",
+          "actionPt": "Seleciona a linha atual ou estende a seleção existente para todas as respectivas linhas."
+        },
+        {
+          "keys": [
+            "Ctrl+A"
+          ],
+          "action": "Select all",
+          "actionRu": "Выделить всё",
+          "actionDe": "Wählt den Datenblock aus, in dem sich der Cursor befindet. Ein Block ist ein zusammenhängender Zellbereich, der Daten enthält und durch leere Zeilen und Spalten begrenzt wird.",
+          "actionFr": "Sélectionne le bloc de données contenant le curseur. On désigne par bloc une série de cellules contiguës contenant des données et délimitée par des lignes et des colonnes vides.",
+          "actionEs": "Selecciona el bloque de datos que contiene el cursor. Un bloque es un intervalo de celdas contiguas con datos y delimitado por filas y columnas vacías.",
+          "actionPt": "Seleciona o bloco de dados que contém o cursor. Um bloco é um intervalo de células contíguas que contém dados e é cercado por linhas e colunas vazias."
+        },
+        {
+          "keys": [
+            "Ctrl+Home"
+          ],
+          "action": "First cell in sheet (A1)",
+          "actionRu": "К началу листа (A1)",
+          "actionDe": "Bewegt den Cursor zur ersten Zelle in der Tabelle (A1).",
+          "actionFr": "Place le curseur dans la première cellule de la feuille (A1).",
+          "actionEs": "Desplaza el cursor a la primera celda de la hoja (A1).",
+          "actionPt": "Move o cursor para a primeira célula na planilha (A1)."
+        },
+        {
+          "keys": [
+            "Ctrl+End"
+          ],
+          "action": "Last cell with data",
+          "actionRu": "К последней заполненной ячейке",
+          "actionDe": "Bewegt den Cursor zur letzten Zelle in der Tabelle, die Inhalt aufweist.",
+          "actionFr": "Place le curseur dans la dernière cellule contenant des données de la feuille.",
+          "actionEs": "Desplaza el cursor a la última celda que contiene datos.",
+          "actionPt": "Move o cursor para a última célula que contém dados na planilha."
+        }
+      ],
+      "titleDe": "Auswahl",
+      "titleFr": "Sélection",
+      "titleEs": "Selección",
+      "titlePt": "Seleção"
+    },
+    {
+      "title": "Sheets",
+      "titleRu": "Листы",
+      "items": [
+        {
+          "keys": [
+            "Shift+F11"
+          ],
+          "action": "New sheet",
+          "actionRu": "Новый лист"
+        },
+        {
+          "keys": [
+            "Ctrl+PageDown",
+            "Ctrl+PageUp"
+          ],
+          "action": "Next / previous sheet",
+          "actionRu": "Следующий / предыдущий лист",
+          "actionDe": "Bewegt den Cursor ein Tabellenblatt nach rechts zu der zuletzt gemerkten Zelle. / Bewegt den Cursor ein Tabellenblatt nach links zu der zuletzt gemerkten Zelle.",
+          "actionFr": "Déplace le curseur d'une feuille vers la droite, jusqu'à la dernière cellule active mémorisée. / Déplace le curseur d'une feuille vers la gauche, jusqu'à la dernière cellule active mémorisée.",
+          "actionEs": "Mueve el cursor una hoja a la derecha hasta la última celda activa recordada. / Mueve el cursor una hoja a la izquierda hasta la última celda activa recordada.",
+          "actionPt": "Move o cursor uma planilha para a direita até a última célula ativa registrada. / Move o cursor uma planilha para a esquerda até a última célula ativa registrada."
+        }
       ]
     },
     {
-      "title": "Sheets", "titleRu": "Листы",
+      "title": "Data and view",
+      "titleRu": "Данные и вид",
       "items": [
-        { "keys": ["Shift+F11"], "action": "New sheet", "actionRu": "Новый лист" },
-        { "keys": ["Ctrl+PageDown", "Ctrl+PageUp"], "action": "Next / previous sheet", "actionRu": "Следующий / предыдущий лист" }
-      ]
-    },
-    {
-      "title": "Data and view", "titleRu": "Данные и вид",
-      "items": [
-        { "keys": ["F12"], "action": "Group selected data range", "actionRu": "Группировать диапазон" },
-        { "keys": ["Ctrl+F12"], "action": "Ungroup selected data range", "actionRu": "Разгруппировать диапазон" },
-        { "keys": ["F5"], "action": "Show / hide Navigator", "actionRu": "Навигатор" },
-        { "keys": ["Ctrl+Shift+F5"], "action": "Go to Name Box", "actionRu": "Перейти на страницу / к диапазону" },
-        { "keys": ["F7"], "action": "Check spelling in current sheet", "actionRu": "Проверка орфографии" }
+        {
+          "keys": [
+            "F12"
+          ],
+          "action": "Group selected data range",
+          "actionRu": "Группировать диапазон",
+          "actionDe": "Gruppiert den ausgewählten Datenbereich.",
+          "actionFr": "Groupe la plage de données sélectionnée.",
+          "actionEs": "Agrupa el intervalo de datos seleccionado.",
+          "actionPt": "Agrupa o intervalo de dados selecionado."
+        },
+        {
+          "keys": [
+            "Ctrl+F12"
+          ],
+          "action": "Ungroup selected data range",
+          "actionRu": "Разгруппировать диапазон",
+          "actionDe": "Hebt die Gruppierung des ausgewählten Datenbereichs auf.",
+          "actionFr": "Dissocie la plage de données sélectionnée.",
+          "actionEs": "Desagrupa el área de datos seleccionada.",
+          "actionPt": "Desagrupa o intervalo de dados selecionado."
+        },
+        {
+          "keys": [
+            "F5"
+          ],
+          "action": "Show / hide Navigator",
+          "actionRu": "Навигатор",
+          "actionDe": "Blendet den Navigator ein oder aus.",
+          "actionFr": "Affiche ou masque le Navigateur.",
+          "actionEs": "Muestra u oculta el Navegador.",
+          "actionPt": "Mostra ou oculta o Navegador."
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+F5"
+          ],
+          "action": "Go to Name Box",
+          "actionRu": "Перейти на страницу / к диапазону",
+          "actionDe": "Bewegt den Cursor von der Eingabezeile zum Namensfeld. Sie können auch [Umschalt+BefehlStrg+T] verwenden.",
+          "actionFr": "Déplace le curseur de la Ligne de saisie vers la Zone de nom. Vous pouvez également utiliser Maj+CommandeCtrl+T.",
+          "actionEs": "Mueve el cursor desde la Línea de entrada al Cuadro de nombre. También puede utilizar Mayús+⌘Ctrl+T.",
+          "actionPt": "Move o cursor da Linha de entrada para a Caixa de nome. Você pode também utilizar Shift+CommandCtrl+T."
+        },
+        {
+          "keys": [
+            "F7"
+          ],
+          "action": "Check spelling in current sheet",
+          "actionRu": "Проверка орфографии",
+          "actionDe": "Führt eine Rechtschreibkontrolle in der aktuellen Tabelle durch.",
+          "actionFr": "Vérifie l'orthographe dans la feuille active.",
+          "actionEs": "Revisa la ortografía de la hoja actual.",
+          "actionPt": "Verifica a ortografia na planilha atual."
+        }
       ]
     }
   ]
