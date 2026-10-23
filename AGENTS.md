@@ -23,8 +23,9 @@ Git-источник плагина `deebosh.hotkeys`. Корень репо = �
 ## Проверка и установка
 
 ```bash
-omarchy plugin validate .                                     # 0 = ок
-node -e "const M=require('./Model.js'); ... "                 # юнит-проверка Model.js
+./scripts/test.sh                                      # всё разом: данные + Model + validate + qmllint
+node scripts/check-data.js                            # только схема данных
+node scripts/test-model.js                            # только юнит Model.js
 rm -rf ~/.config/omarchy/plugins/deebosh.hotkeys && cp -r . ~/.config/omarchy/plugins/deebosh.hotkeys && rm -rf ~/.config/omarchy/plugins/deebosh.hotkeys/.git
 # (копия, НЕ симлинк: валидатор запрещает симлинки внутри плагина)
 omarchy-shell shell rescanPlugins   # хот-релоад; либо правится сам при сохранении

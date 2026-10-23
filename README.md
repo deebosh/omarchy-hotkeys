@@ -4,6 +4,16 @@ Hotkeys of the focused app in the [Omarchy](https://omarchy.org) bar: an icon in
 
 The panel follows focus: switch windows and the icon plus the list update. The language follows the system locale: English by default, plus Russian (`ru`), German (`de`), French (`fr`), Spanish (`es`) and Portuguese (`pt`). Unknown apps fall back to the global Hyprland bindings.
 
+## Features
+
+- **Per-app icon in the bar center** — a Nerd Font glyph that changes with the focused app (terminal, browser, editor, music…).
+- **Instant popup** — click the icon or press `SUPER + SHIFT + K` (optional binding, see below).
+- **Live focus tracking** — the open panel follows window focus; apps running inside foot (tmux, Neovim, Lazygit…) are detected via the process tree.
+- **Search** — filters keys and descriptions in any of the 6 languages.
+- **102 apps, 2600+ entries** from official sources, 6 languages with English fallback.
+
+![Hotkeys panel](preview.png)
+
 ## Installation
 
 ```bash
@@ -78,8 +88,23 @@ preview.png      # marketplace preview
 ## Verification
 
 ```bash
+./scripts/test.sh   # data schema + Model unit tests + plugin validate + qmllint
+```
+
+Or step by step:
+
+```bash
+node scripts/check-data.js
+node scripts/test-model.js
 omarchy plugin validate .
 qmllint -I "$OMARCHY_PATH/shell" BarWidget.qml Panel.qml
 ```
+
+## FAQ
+
+- **Panel opens but is empty** — restart the shell: `omarchy restart shell`. (Live reload doesn't rebuild bar widget instances; a restart is required after QML changes.)
+- **Hotkey does nothing** — the `SUPER + SHIFT + K` binding is optional and manual (see Installation). The icon click always works. Check `hyprctl configerrors` after editing bindings.
+- **Wrong app shown inside a terminal** — inner detection needs `ps`/`tmux` output; nested ssh sessions aren't resolved. The widget falls back to the terminal itself.
+- **My language shows English** — only `en/ru/de/fr/es/pt` locales have data; anything else falls back to English. Per-entry coverage varies: fields without an official localized source stay English.
 
 MIT license.

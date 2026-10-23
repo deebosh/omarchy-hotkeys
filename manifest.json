@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "deebosh",
   "license": "MIT",
-  "description": "Hotkeys of the focused app: bar-center icon, popup list on click or SUPER+SHIFT+K",
+  "description": "Hotkeys of the focused app: bar-center icon, searchable popup on click or SUPER+SHIFT+K. 102 apps, 6 languages.",
   "homepage": "https://github.com/deebosh/omarchy-hotkeys",
   "kinds": [
     "bar-widget"
@@ -15,7 +15,7 @@
   },
   "barWidget": {
     "displayName": "Hotkeys",
-    "description": "Показывает хоткеи текущего активного приложения",
+    "description": "Shows hotkeys of the currently focused application",
     "category": "Info",
     "allowMultiple": false,
     "defaultSection": "center",
@@ -28,34 +28,34 @@
       {
         "key": "showGlobals",
         "type": "enum",
-        "label": "Показывать глобальные бинды",
+        "label": "Show global bindings",
         "options": [
           "On",
           "Off"
         ],
         "defaultValue": "Off",
-        "description": "Когда On, внизу панели дописываются глобальные бинды Hyprland."
+        "description": "When On, global Hyprland bindings are appended at the bottom of the panel."
       },
       {
         "key": "compact",
         "type": "enum",
-        "label": "Компактный вид",
+        "label": "Compact view",
         "options": [
           "On",
           "Off"
         ],
         "defaultValue": "Off",
-        "description": "Когда On, панель скрывает описания групп и уменьшает отступы."
+        "description": "When On, the panel hides group headers and tightens spacing."
       },
       {
         "key": "maxItems",
         "type": "integer",
-        "label": "Лимит записей",
+        "label": "Entry limit",
         "min": 0,
         "max": 500,
         "step": 10,
         "defaultValue": 0,
-        "description": "Максимум записей в панели. 0 — без лимита."
+        "description": "Maximum panel entries. 0 means unlimited."
       }
     ]
   }
