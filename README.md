@@ -7,7 +7,7 @@ The panel follows focus: switch windows and the icon plus the list update. The l
 ## Installation
 
 ```bash
-omarchy plugin add https://github.com/<you>/omarchy-hotkeys.git --enable
+omarchy plugin add https://github.com/deebosh/omarchy-hotkeys.git --enable
 # the widget lands in the bar center (manifest: barWidget.defaultSection)
 ```
 

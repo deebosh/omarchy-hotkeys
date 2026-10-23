@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "author": "deebosh",
   "license": "MIT",
-  "description": "Хоткеи активного приложения: значок в центре бара, попап со списком по клику или SUPER+SHIFT+K",
-  "homepage": "",
+  "description": "Hotkeys of the focused app: bar-center icon, popup list on click or SUPER+SHIFT+K",
+  "homepage": "https://github.com/deebosh/omarchy-hotkeys",
   "kinds": [
     "bar-widget"
   ],
