@@ -1,0 +1,130 @@
+{
+  "appId": "cliamp",
+  "displayName": "cliamp",
+  "source": "https://github.com/bjarneo/cliamp/blob/main/docs/keybindings.md",
+  "note": "Press Ctrl+K in any mode, or ? in the player, to view keybindings.",
+  "groups": [
+    {
+      "title": "Playback",
+      "items": [
+        { "keys": ["Space"], "action": "Play / Pause" },
+        { "keys": ["s"], "action": "Stop" },
+        { "keys": [">", "."], "action": "Next track" },
+        { "keys": ["<", ","], "action": "Previous track" },
+        { "keys": ["Left", "Right"], "action": "Seek -/+5s" },
+        { "keys": ["Shift+Left", "Shift+Right"], "action": "Seek -/+30s (configurable)" },
+        { "keys": ["N", "j"], "action": "Seek to N * 10% of the track (7j jumps to 70%)" },
+        { "keys": ["+", "-"], "action": "Volume up/down" },
+        { "keys": ["]", "["], "action": "Change speed by 0.25x" },
+        { "keys": ["m"], "action": "Toggle mono" },
+        { "keys": ["Ctrl+J"], "action": "Jump to time" }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "items": [
+        { "keys": ["Tab"], "action": "Cycle visible controls" },
+        { "keys": ["Shift+Tab"], "action": "Cycle the same controls in reverse" },
+        { "keys": ["j", "k", "Up", "Down"], "action": "Move playlist cursor (wraps)" },
+        { "keys": ["PageUp", "PageDown", "Ctrl+U", "Ctrl+D"], "action": "Scroll playlist/file browser by page" },
+        { "keys": ["Home", "End", "g", "G"], "action": "Go to top/end of playlist/file browser" },
+        { "keys": ["Shift+Up", "Shift+Down"], "action": "Move track up/down in playlist/queue" },
+        { "keys": ["Ctrl+O"], "action": "Reverse the playlist order" },
+        { "keys": ["h", "l"], "action": "Adjust the focused setting (EQ: select band)" },
+        { "keys": ["Enter"], "action": "Play selected track" },
+        { "keys": ["/"], "action": "Filter the playlist" },
+        { "keys": ["Ctrl+X"], "action": "Expand/collapse playlist" },
+        { "keys": ["Ctrl+Z"], "action": "Undo the last playlist or queue change" },
+        { "keys": ["o"], "action": "Open file browser" },
+        { "keys": ["b", "Esc"], "action": "Back to provider" }
+      ]
+    },
+    {
+      "title": "EQ and appearance",
+      "items": [
+        { "keys": ["e"], "action": "Cycle EQ preset, including the saved Custom curve" },
+        { "keys": ["Alt+E"], "action": "Cycle to the previous EQ preset" },
+        { "keys": ["t"], "action": "Choose theme" },
+        { "keys": ["v"], "action": "Cycle visualizer and save the choice" },
+        { "keys": ["Ctrl+V"], "action": "Pick visualizer from a list" },
+        { "keys": ["V"], "action": "Full screen visualizer" },
+        { "keys": ["Ctrl+H"], "action": "Toggle album headers" },
+        { "keys": ["Ctrl+G"], "action": "Toggle the key-binding hint bar" },
+        { "keys": ["Ctrl+B"], "action": "Open/close the settings pane" }
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        { "keys": ["f"], "action": "Toggle the favorite on the selected track" },
+        { "keys": ["*", "0-5"], "action": "Set the selected Navidrome track's rating" },
+        { "keys": ["Ctrl+F"], "action": "Search with the active provider" },
+        { "keys": ["u"], "action": "Load URL (stream/playlist)" },
+        { "keys": ["d"], "action": "Open the audio device picker" },
+        { "keys": ["y"], "action": "Show or close lyrics" },
+        { "keys": ["r"], "action": "Retry lyrics lookup while lyrics are open" },
+        { "keys": ["i"], "action": "Open full info for the highlighted item" },
+        { "keys": ["Ctrl+S"], "action": "Save track to the downloads directory" },
+        { "keys": ["w"], "action": "Write the highlighted track to a local playlist" },
+        { "keys": ["N"], "action": "Open the active provider browser" },
+        { "keys": ["L"], "action": "Open Local provider" },
+        { "keys": ["R"], "action": "Open radio provider" },
+        { "keys": ["O"], "action": "Open Podcasts provider" },
+        { "keys": ["S"], "action": "Open Spotify provider" },
+        { "keys": ["P"], "action": "Open Plex provider" },
+        { "keys": ["J"], "action": "Open Jellyfin provider" },
+        { "keys": ["E"], "action": "Open Emby provider" },
+        { "keys": ["Y"], "action": "Open YouTube (press again for YouTube Music)" },
+        { "keys": ["C"], "action": "Open SoundCloud provider" },
+        { "keys": ["X"], "action": "Open Mixcloud provider" },
+        { "keys": ["M"], "action": "Open NetEase provider" },
+        { "keys": ["Q"], "action": "Open Qobuz provider" },
+        { "keys": ["T"], "action": "Open Tidal provider" },
+        { "keys": ["K"], "action": "Open Bandcamp provider" },
+        { "keys": ["U"], "action": "Open Telegram provider" },
+        { "keys": ["B"], "action": "Open Audiobookshelf provider" }
+      ]
+    },
+    {
+      "title": "Playlist and queue",
+      "items": [
+        { "keys": ["a"], "action": "Toggle the queue (play next)" },
+        { "keys": ["A"], "action": "Queue manager" },
+        { "keys": ["F"], "action": "Subscribed shows overlay" },
+        { "keys": ["x"], "action": "Remove the highlighted track from the current playlist" },
+        { "keys": ["p"], "action": "Playlist" },
+        { "keys": ["r"], "action": "Cycle repeat mode (Off / All / One)" },
+        { "keys": ["z"], "action": "Toggle shuffle" }
+      ]
+    },
+    {
+      "title": "File browser",
+      "items": [
+        { "keys": ["Left", "Right", "h", "l", "Enter"], "action": "Go back; open a directory or file" },
+        { "keys": ["/"], "action": "Filter files" },
+        { "keys": ["Space"], "action": "Select or unselect file/directory" },
+        { "keys": ["a"], "action": "Select/unselect all visible audio files" },
+        { "keys": ["R"], "action": "Replace the current queue with selected files" },
+        { "keys": ["w"], "action": "Write selected files to a local playlist" },
+        { "keys": ["~", "."], "action": "Jump to home / current working directory" },
+        { "keys": ["Esc", "q", "o"], "action": "Close file browser" }
+      ]
+    },
+    {
+      "title": "Text input",
+      "items": [
+        { "keys": ["Left", "Right", "Home", "End"], "action": "Move cursor" },
+        { "keys": ["Backspace", "Delete"], "action": "Delete before/at cursor" },
+        { "keys": ["Ctrl+W"], "action": "Delete previous word" },
+        { "keys": ["Ctrl+U"], "action": "Clear text before cursor" }
+      ]
+    },
+    {
+      "title": "General",
+      "items": [
+        { "keys": ["?", "Ctrl+K"], "action": "Show keymap" },
+        { "keys": ["q", "Ctrl+C"], "action": "Quit" }
+      ]
+    }
+  ]
+}

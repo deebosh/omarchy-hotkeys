@@ -1,0 +1,25 @@
+{
+  "appId": "omacalc",
+  "displayName": "Omacalc",
+  "source": "https://github.com/omacom/omacalc (README, Usage)",
+  "groups": [
+    {
+      "title": "Entry",
+      "items": [
+        { "keys": ["0-9", ".", "+", "-", "*", "/", "^", "%"], "action": "Enter digits and operators" },
+        { "keys": ["x"], "action": "Multiplication" },
+        { "keys": ["Enter", "="], "action": "Calculate" },
+        { "keys": ["Backspace"], "action": "Delete the last digit" },
+        { "keys": ["C", "Escape"], "action": "Clear" },
+        { "keys": ["S"], "action": "Toggle the sign" }
+      ]
+    },
+    {
+      "title": "Clipboard",
+      "items": [
+        { "keys": ["Ctrl+C", "Super+C"], "action": "Copy the result, without separators" },
+        { "keys": ["Ctrl+V", "Super+V"], "action": "Paste a number, with or without separators" }
+      ]
+    }
+  ]
+}

@@ -134,6 +134,11 @@ normalize() {
     signed) echo "signed"; return;;
     omasnap) echo "omasnap"; return;;
     omacut) echo "omacut"; return;;
+    cliamp) echo "cliamp"; return;;
+    gliff) echo "gliff"; return;;
+    omawrite) echo "omawrite"; return;;
+    omacalc) echo "omacalc"; return;;
+    monologue) echo "monologue"; return;;
     disktree) echo "disktree"; return;;
     libreoffice-draw) echo "libreoffice-draw"; return;;
     libreoffice-math) echo "libreoffice-math"; return;;
@@ -185,14 +190,15 @@ mapfile -t descs < <(ps -e -o pid=,ppid=,comm= 2>/dev/null | awk -v root="$pid" 
 tui_rank() {
   case "$1" in
     lazygit) echo 1;;
-    lazydocker) echo 2;;
-    yazi) echo 3;;
-    nvim|neovim) echo 4;;
-    hx|helix) echo 5;;
-    emacs) echo 6;;
-    micro) echo 7;;
-    htop|btop) echo 8;;
-    tig|ranger) echo 9;;
+    cliamp) echo 2;;
+    lazydocker) echo 3;;
+    yazi) echo 4;;
+    nvim|neovim) echo 5;;
+    hx|helix) echo 6;;
+    emacs) echo 7;;
+    micro) echo 8;;
+    htop|btop) echo 9;;
+    tig|ranger) echo 10;;
     *) echo 99;;
   esac
 }

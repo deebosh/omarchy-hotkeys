@@ -117,7 +117,12 @@ var GLYPHS = {
   disktree: "\uDB81\uDF94",
   "libreoffice-draw": "\uDB80\uDFD8",
   "libreoffice-math": "\uDB81\uDC3F",
-  "omacut": "\uDB80\uDD0A"};
+  "omacut": "\uDB80\uDD0A",
+  "cliamp": "\uDB81\uDF5A",
+  "gliff": "\uDB80\uDF49",
+  "omawrite": "\uDB80\uDE19",
+  "omacalc": "\uDB80\uDDB2",
+  "monologue": "\uDB81\uDD7E"};
 
 var DISPLAY_NAMES = {
   zen: "Zen Browser",
@@ -229,7 +234,15 @@ var DISPLAY_NAMES = {
   disktree: "disktree",
   "libreoffice-draw": "Draw",
   "libreoffice-math": "Math",
-  "omacut": "Omacut"};
+  "omacut": "Omacut",
+  "omawrite": "omawrite",
+  "omacalc": "omacalc",
+  "monologue": "monologue",
+  "cliamp": "cliamp",
+  "gliff": "Gliff",
+  "omawrite": "Omawrite",
+  "omacalc": "Omacalc",
+  "monologue": "Monologue"};
 
 // Russian overrides; English is the base above.
 var DISPLAY_NAMES_RU = {
@@ -552,6 +565,8 @@ var ALIASES = {
   "gnome-calendar": "gnome-calendar",
   "org.gnome.calculator": "gnome-calculator",
   "gnome-calculator": "gnome-calculator",
+  "cliamp": "cliamp",
+  "gliff": "gliff",
   "omacut": "omacut",
   "hype": "hype",
   "signed": "signed",

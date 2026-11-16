@@ -1,0 +1,58 @@
+{
+  "appId": "omawrite",
+  "displayName": "Omawrite",
+  "source": "https://github.com/omacom/omawrite (README, Shortcuts)",
+  "note": "Once a document is saved, edits auto-save a moment after you stop typing.",
+  "groups": [
+    {
+      "title": "File",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "Open a new Omawrite window" },
+        { "keys": ["Ctrl+O"], "action": "Open a Markdown file through the portal picker" },
+        { "keys": ["Ctrl+S"], "action": "Save" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Save as" },
+        { "keys": ["Ctrl+P"], "action": "Open the system print dialog" },
+        { "keys": ["Ctrl+Shift+C"], "action": "Copy the rendered document as HTML" }
+      ]
+    },
+    {
+      "title": "Editing",
+      "items": [
+        { "keys": ["Ctrl+Z"], "action": "Undo" },
+        { "keys": ["Ctrl+Shift+Z", "Ctrl+Y"], "action": "Redo" },
+        { "keys": ["Ctrl+B"], "action": "Toggle bold" },
+        { "keys": ["Ctrl+I"], "action": "Toggle italic" },
+        { "keys": ["Ctrl+Shift+X"], "action": "Toggle strikethrough" },
+        { "keys": ["Ctrl+K"], "action": "Insert a link" }
+      ]
+    },
+    {
+      "title": "Find and replace",
+      "items": [
+        { "keys": ["Ctrl+F"], "action": "Search the document" },
+        { "keys": ["Enter", "Ctrl+G"], "action": "Next match" },
+        { "keys": ["Shift+Enter"], "action": "Previous match" },
+        { "keys": ["Ctrl+H"], "action": "Open find and replace" }
+      ]
+    },
+    {
+      "title": "View",
+      "items": [
+        { "keys": ["Super+F"], "action": "Toggle fullscreen (Qt maps this key as Meta+F)" },
+        { "keys": ["Ctrl+=", "Ctrl+-"], "action": "Change the text size" },
+        { "keys": ["Ctrl+0"], "action": "Return to the default text size" },
+        { "keys": ["Ctrl+scroll"], "action": "Change the text size with the wheel" },
+        { "keys": ["Ctrl+?", "Ctrl+/", "F1"], "action": "Show the keyboard shortcut reference" }
+      ]
+    },
+    {
+      "title": "Unsaved-changes dialog",
+      "items": [
+        { "keys": ["C"], "action": "Cancel" },
+        { "keys": ["D"], "action": "Discard" },
+        { "keys": ["S"], "action": "Save" },
+        { "keys": ["Escape"], "action": "Cancel the dialog" }
+      ]
+    }
+  ]
+}

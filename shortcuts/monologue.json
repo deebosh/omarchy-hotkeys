@@ -1,0 +1,41 @@
+{
+  "appId": "monologue",
+  "displayName": "Monologue",
+  "source": "https://github.com/omacom/monologue (README, Shortcuts)",
+  "groups": [
+    {
+      "title": "Recording",
+      "items": [
+        { "keys": ["Space"], "action": "Record / pause / resume; play / pause while editing" },
+        { "keys": ["Enter", "Ctrl+Enter"], "action": "Stop the take and edit it" },
+        { "keys": ["Esc"], "action": "Confirm discarding the clip and start over" },
+        { "keys": ["M"], "action": "Mirror the preview, or stop (the recording is never mirrored)" },
+        { "keys": ["Q", "Ctrl+Q", "Ctrl+W"], "action": "Quit (asks first if the take is still recording or unsaved)" },
+        { "keys": ["?", "F1"], "action": "Keyboard help" }
+      ]
+    },
+    {
+      "title": "Editing",
+      "items": [
+        { "keys": ["Left", "Right"], "action": "Move the playhead 1 second (Shift: 5 s, Alt: 0.2 s)" },
+        { "keys": ["[", "]"], "action": "Jump to the previous / next pause or clip edge" },
+        { "keys": ["S"], "action": "Split the clip at the playhead" },
+        { "keys": ["X", "Delete"], "action": "Remove the clip under the playhead; in a gap, restore it" },
+        { "keys": ["Ctrl+Space"], "action": "Move the start of the clip under the playhead to the playhead" },
+        { "keys": ["Ctrl+Shift+Space"], "action": "Move the end of the clip under the playhead to the playhead" },
+        { "keys": ["Z"], "action": "Zoom to the clip under the playhead; again to zoom out" },
+        { "keys": ["Ctrl+Z"], "action": "Undo" },
+        { "keys": ["Ctrl+Shift+Z"], "action": "Redo" },
+        { "keys": ["Ctrl+S"], "action": "Save" }
+      ]
+    },
+    {
+      "title": "Dialogs",
+      "items": [
+        { "keys": ["Tab", "Arrows"], "action": "Move between the choices" },
+        { "keys": ["Enter"], "action": "Pick the highlighted choice" },
+        { "keys": ["Esc"], "action": "Cancel the dialog" }
+      ]
+    }
+  ]
+}

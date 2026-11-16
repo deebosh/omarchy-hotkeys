@@ -1,0 +1,22 @@
+{
+  "appId": "gliff",
+  "displayName": "Gliff",
+  "source": "https://github.com/omacom/gliff (README, Keyboard section)",
+  "note": "Gliff forwards all keys to the remote machine while the pointer is over the picture; these are the local escape hatches.",
+  "groups": [
+    {
+      "title": "Keyboard capture",
+      "items": [
+        { "keys": ["Shift+Esc"], "action": "Get your own shortcuts back without moving the pointer" },
+        { "keys": ["--release-hotkey"], "action": "Change the release key (ctrl+alt+q, double-escape, or none)" }
+      ]
+    },
+    {
+      "title": "Window",
+      "items": [
+        { "keys": ["Click tab"], "action": "Switch between connected machines" },
+        { "keys": ["+ "], "action": "Open the address bar and add a machine" }
+      ]
+    }
+  ]
+}
