@@ -1,0 +1,55 @@
+{
+  "appId": "disktree",
+  "displayName": "disktree",
+  "source": "https://github.com/tobi/disktree (packaged README, keys table)",
+  "groups": [
+    {
+      "title": "Selection",
+      "titleRu": "Выделение",
+      "titleDe": "Auswahl",
+      "titleFr": "Sélection",
+      "titleEs": "Selección",
+      "titlePt": "Seleção",
+      "items": [
+        { "keys": ["Space", "X"], "action": "Mark or unmark the tile you point at", "actionRu": "Отметить / снять отметку" },
+        { "keys": ["Ctrl+click"], "action": "Mark without moving the selection", "actionRu": "Отметить, не сдвигая выделение" },
+        { "keys": ["Arrows"], "action": "Move between tiles at this level", "actionRu": "Перемещение между плитками" },
+        { "keys": ["Tab"], "action": "Next largest sibling", "actionRu": "Следующий по размеру сосед" },
+        { "keys": ["Enter"], "action": "Open that directory, at any depth", "actionRu": "Открыть каталог" },
+        { "keys": ["Backspace", "Esc"], "action": "Go up one directory", "actionRu": "На уровень выше" },
+        { "keys": ["Alt+Left", "Alt+Right"], "action": "Back and forward through where you have been", "actionRu": "Назад / вперёд по истории" }
+      ]
+    },
+    {
+      "title": "View",
+      "titleRu": "Вид",
+      "items": [
+        { "keys": ["scroll"], "action": "Zoom toward a directory, then go into it", "actionRu": "Приблизить и войти в каталог" },
+        { "keys": ["Shift+scroll"], "action": "Pan the magnified view", "actionRu": "Панорама увеличенного вида" },
+        { "keys": ["[", "]"], "action": "Draw fewer or more levels at once", "actionRu": "Меньше / больше уровней" },
+        { "keys": ["-", "=", "0"], "action": "Magnify, shrink, reset the view", "actionRu": "Увеличить / уменьшить / сброс" },
+        { "keys": ["Ctrl+=", "Ctrl+-", "Ctrl+0"], "action": "Interface zoom", "actionRu": "Масштаб интерфейса" },
+        { "keys": ["P"], "action": "Show or hide the selection line", "actionRu": "Показать / скрыть линию выделения" }
+      ]
+    },
+    {
+      "title": "Data",
+      "titleRu": "Данные",
+      "items": [
+        { "keys": ["/"], "action": "Filter by name", "actionRu": "Фильтр по имени" },
+        { "keys": ["C"], "action": "Review the marked list", "actionRu": "Проверить отмеченное" },
+        { "keys": ["T"], "action": "Size, files or age: what areas and colours say", "actionRu": "Что показывают размеры и цвета" },
+        { "keys": ["D"], "action": "Disk usage or apparent size", "actionRu": "Занятое место или фактический размер" },
+        { "keys": ["I"], "action": "Include or skip hidden entries", "actionRu": "Скрытые файлы" },
+        { "keys": ["R"], "action": "Scan again", "actionRu": "Пересканировать" },
+        { "keys": ["Esc"], "action": "Stop the scan", "actionRu": "Остановить сканирование" },
+        { "keys": ["V"], "action": "Scan another mounted volume", "actionRu": "Другой том" },
+        { "keys": ["Ctrl+O"], "action": "Choose another directory to scan", "actionRu": "Выбрать другой каталог" },
+        { "keys": ["G"], "action": "The whole disk", "actionRu": "Весь диск" },
+        { "keys": ["O"], "action": "Show it in the file manager", "actionRu": "Показать в файловом менеджере" },
+        { "keys": ["?"], "action": "Every key", "actionRu": "Все клавиши" },
+        { "keys": ["Q"], "action": "Quit", "actionRu": "Выйти" }
+      ]
+    }
+  ]
+}

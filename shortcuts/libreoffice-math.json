@@ -1,0 +1,33 @@
+{
+  "appId": "libreoffice-math",
+  "displayName": "Math",
+  "source": "https://help.libreoffice.org/latest/en-US/text/smath/04/01020000.html",
+  "note": "The general LibreOffice shortcut keys also apply.",
+  "groups": [
+    {
+      "title": "Errors and markers",
+      "titleRu": "Ошибки и маркеры",
+      "titleDe": "Fehler und Platzhalter",
+      "titleFr": "Erreurs et repères",
+      "titleEs": "Errores y marcadores",
+      "titlePt": "Erros e marcadores",
+      "items": [
+        { "keys": ["F3"], "action": "Next Error", "actionRu": "Следующая ошибка" },
+        { "keys": ["Shift+F3"], "action": "Previous Error", "actionRu": "Предыдущая ошибка" },
+        { "keys": ["F4"], "action": "Next Marker (Placeholder)", "actionRu": "Следующий маркер" },
+        { "keys": ["Shift+F4"], "action": "Previous Marker (Placeholder)", "actionRu": "Предыдущий маркер" },
+        { "keys": ["F9"], "action": "Update", "actionRu": "Обновить" }
+      ]
+    },
+    {
+      "title": "Elements pane",
+      "titleRu": "Панель элементов",
+      "items": [
+        { "keys": ["Left", "Right"], "action": "Move left or right to the next category or function", "actionRu": "По категориям и функциям" },
+        { "keys": ["Enter"], "action": "Selects a category or inserts a function", "actionRu": "Выбрать категорию или вставить функцию" },
+        { "keys": ["Tab"], "action": "Jump from the first category item to the first function of the category", "actionRu": "К первой функции категории" },
+        { "keys": ["Shift+Tab"], "action": "Jump from the last category item to the last function of the category", "actionRu": "К последней функции категории" }
+      ]
+    }
+  ]
+}

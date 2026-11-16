@@ -1,0 +1,85 @@
+{
+  "appId": "omasnap",
+  "displayName": "Omasnap",
+  "source": "https://github.com/omacom/omasnap (packaged README, Controls)",
+  "note": "Keys are context-dependent: the capture picker, the annotation editor and previews each have their own set.",
+  "groups": [
+    {
+      "title": "Capture selection",
+      "titleRu": "Выбор области",
+      "titleDe": "Aufnahmeauswahl",
+      "titleFr": "Sélection de capture",
+      "titleEs": "Selección de captura",
+      "titlePt": "Seleção de captura",
+      "items": [
+        { "keys": ["Click"], "action": "Capture the window under the pointer, or the full monitor outside any window", "actionRu": "Захватить окно под курсором или весь монитор" },
+        { "keys": ["Drag"], "action": "Select a region, with its native pixel size shown at the pointer", "actionRu": "Выделить область (размер в пикселях у курсора)" },
+        { "keys": ["Tab", "Shift+Tab"], "action": "Cycle the region's shape: free, square, 3:4, 16:9", "actionRu": "Сменить форму области" },
+        { "keys": ["S"], "action": "Toggle scrolling-region mode", "actionRu": "Режим прокручиваемой области" },
+        { "keys": ["E", "A"], "action": "Toggle annotation after capture", "actionRu": "Открыть редактор после захвата" },
+        { "keys": ["R"], "action": "Restore the last drawn region", "actionRu": "Восстановить прошлую область" },
+        { "keys": ["SUPER+Arrow"], "action": "Move among windows in window mode", "actionRu": "Перебор окон" },
+        { "keys": ["Enter"], "action": "Capture the highlighted window", "actionRu": "Захватить выбранное окно" },
+        { "keys": ["Ctrl+A"], "action": "Select the full focused monitor", "actionRu": "Весь монитор" },
+        { "keys": ["Space"], "action": "Hide or show the recent captures", "actionRu": "Показать / скрыть недавние" },
+        { "keys": ["Esc"], "action": "Dismiss; cancel a selection drag if one is in progress", "actionRu": "Отменить" }
+      ]
+    },
+    {
+      "title": "Annotation tools",
+      "titleRu": "Инструменты",
+      "titleDe": "Werkzeuge",
+      "titleFr": "Outils",
+      "titleEs": "Herramientas",
+      "titlePt": "Ferramentas",
+      "items": [
+        { "keys": ["V"], "action": "Select / move / resize layers", "actionRu": "Выбор и перемещение слоёв" },
+        { "keys": ["A"], "action": "Arrow; press again to cycle styles", "actionRu": "Стрелка (повтор — стили)" },
+        { "keys": ["S"], "action": "Spotlight / loupe; press again to cycle shapes", "actionRu": "Прожектор / лупа" },
+        { "keys": ["L"], "action": "Straight line", "actionRu": "Линия" },
+        { "keys": ["F"], "action": "Freehand pen", "actionRu": "Перо" },
+        { "keys": ["H"], "action": "Highlighter", "actionRu": "Маркер" },
+        { "keys": ["I"], "action": "Eyedropper in the color popover", "actionRu": "Пипетка" },
+        { "keys": ["C"], "action": "Numbered marker", "actionRu": "Нумерованная метка" },
+        { "keys": ["R"], "action": "Rectangle", "actionRu": "Прямоугольник" },
+        { "keys": ["E"], "action": "Ellipse", "actionRu": "Эллипс" },
+        { "keys": ["D"], "action": "Redact; press again to toggle pixelation or solid", "actionRu": "Замазать (пиксели / сплошной)" },
+        { "keys": ["X"], "action": "Cut out a band (Ctrl to insert a band instead)", "actionRu": "Вырезать полосу (Ctrl — вставить)" },
+        { "keys": ["T"], "action": "Text", "actionRu": "Текст" },
+        { "keys": ["Shift+T"], "action": "Cycle the text font", "actionRu": "Сменить шрифт текста" },
+        { "keys": ["O"], "action": "Recognize and copy all text in the image", "actionRu": "Распознать и скопировать текст" },
+        { "keys": ["1–8"], "action": "Set annotation color (7 black, 8 white)", "actionRu": "Цвет аннотации" }
+      ]
+    },
+    {
+      "title": "Editor view",
+      "titleRu": "Вид редактора",
+      "items": [
+        { "keys": ["W"], "action": "Re-present the editor as a normal window or fullscreen overlay", "actionRu": "Окно или полноэкранный режим" },
+        { "keys": ["G", "Shift+G"], "action": "Cycle canvas boundaries forward / backward", "actionRu": "Границы холста вперёд / назад" },
+        { "keys": ["B"], "action": "Cycle shadowed colors, window gray, and Off", "actionRu": "Тень и цвет фона" },
+        { "keys": ["Shift+B"], "action": "Toggle the screenshot card's drop shadow", "actionRu": "Тень карточки снимка" },
+        { "keys": ["Ctrl+wheel"], "action": "Zoom about the cursor", "actionRu": "Масштаб у курсора" },
+        { "keys": ["middle-drag"], "action": "Pan", "actionRu": "Панорама" },
+        { "keys": ["+", "-", "0"], "action": "Zoom in / out / fit", "actionRu": "Масштаб: больше / меньше / по размеру" },
+        { "keys": ["Arrows"], "action": "Nudge the selected layer 1 px (Shift: 10 px)", "actionRu": "Сдвиг слоя на 1 px (Shift: 10)" },
+        { "keys": ["Delete"], "action": "Delete selected layer", "actionRu": "Удалить слой" },
+        { "keys": ["Alt+D"], "action": "Duplicate selected layer", "actionRu": "Дублировать слой" }
+      ]
+    },
+    {
+      "title": "Output",
+      "titleRu": "Вывод",
+      "items": [
+        { "keys": ["Ctrl+C"], "action": "Copy PNG only", "actionRu": "Только копировать PNG" },
+        { "keys": ["Ctrl+S"], "action": "Save PNG only", "actionRu": "Только сохранить PNG" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Save As", "actionRu": "Сохранить как" },
+        { "keys": ["Enter"], "action": "Copy and save", "actionRu": "Копировать и сохранить" },
+        { "keys": ["Ctrl+P", "P"], "action": "Keep the capture pinned on screen and close the editor", "actionRu": "Закрепить снимок на экране" },
+        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+Shift+Z", "Ctrl+Y"], "action": "Redo", "actionRu": "Повторить" },
+        { "keys": ["Esc", "Super+W"], "action": "Dismiss the annotator", "actionRu": "Закрыть редактор" }
+      ]
+    }
+  ]
+}

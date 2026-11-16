@@ -20,6 +20,13 @@ const normCases = [
   ["dev.zed.Zed", "zed"], ["code", "vscode"], ["org.telegram.desktop", "telegram"],
   ["Alacritty", "alacritty"], ["", "globals"], [null, "globals"],
   ["SomeUnknownApp-1.2", "globals"],
+  // Omarchy first-party apps
+  ["hype", "hype"], ["Signed", "signed"], ["omasnap", "omasnap"], ["disktree", "disktree"],
+  ["libreoffice-draw", "libreoffice-draw"], ["libreoffice-math", "libreoffice-math"],
+  // browser web apps inherit browser shortcuts
+  ["chrome-contacts.google.com__-Default", "chrome"],
+  ["chrome-discord.com__channels_@me-Default", "chrome"],
+  ["msedge-example", "edge"],
 ];
 for (const [input, want] of normCases)
   check(`normalize(${JSON.stringify(input)})=${want}`, M.normalizeAppId(input) === want);

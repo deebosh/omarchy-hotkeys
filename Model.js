@@ -110,7 +110,13 @@ var GLYPHS = {
   "gnome-extensions": "\uDB81\uDC93",
   "gnome-calendar": "\uDB80\uDF3D",
   "gnome-calculator": "\uDB80\uDDB2"
-};
+,
+  hype: "\uDB81\uDC28",
+  signed: "\uDB80\uDFE7",
+  omasnap: "\uDB80\uDD00",
+  disktree: "\uDB81\uDF94",
+  "libreoffice-draw": "\uDB80\uDFD8",
+  "libreoffice-math": "\uDB81\uDC3F"};
 
 var DISPLAY_NAMES = {
   zen: "Zen Browser",
@@ -215,7 +221,13 @@ var DISPLAY_NAMES = {
   "gnome-extensions": "Extensions",
   "gnome-calendar": "Calendar",
   "gnome-calculator": "Calculator"
-};
+,
+  hype: "Hype",
+  signed: "Signed",
+  omasnap: "Omasnap",
+  disktree: "disktree",
+  "libreoffice-draw": "Draw",
+  "libreoffice-math": "Math"};
 
 // Russian overrides; English is the base above.
 var DISPLAY_NAMES_RU = {
@@ -537,15 +549,26 @@ var ALIASES = {
   "org.gnome.calendar": "gnome-calendar",
   "gnome-calendar": "gnome-calendar",
   "org.gnome.calculator": "gnome-calculator",
-  "gnome-calculator": "gnome-calculator"
+  "gnome-calculator": "gnome-calculator",
+  "hype": "hype",
+  "signed": "signed",
+  "omasnap": "omasnap",
+  "disktree": "disktree",
+  "libreoffice-draw": "libreoffice-draw",
+  "libreoffice-math": "libreoffice-math",
+  "libreoffice-startcenter": "globals",
+  "libreoffice-base": "globals"
 };
-
 function normalizeAppId(raw) {
   var text = String(raw === undefined || raw === null ? "" : raw)
     .replace(/^\s+|\s+$/g, "").toLowerCase();
   if (text === "") return FALLBACK_APP;
   // "org.foo.Bar.desktop" -> "org.foo.bar"; strip a trailing ".desktop".
   text = text.replace(/\.desktop$/, "");
+  // Browser web apps: "chrome-<domain>__<path>-Default" / "msedge-...".
+  // They run inside the browser, so browser shortcuts apply.
+  if (text.indexOf("chrome-") === 0) return "chrome";
+  if (text.indexOf("msedge-") === 0) return "edge";
   if (ALIASES[text]) return ALIASES[text];
   // Last dotted segment: "org.gnome.Foo" -> "foo".
   var short = text.indexOf(".") !== -1 ? text.split(".").pop() : text;

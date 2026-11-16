@@ -1,0 +1,59 @@
+{
+  "appId": "signed",
+  "displayName": "Signed",
+  "source": "https://github.com/omacom/signed (packaged README, Hotkeys)",
+  "note": "Letter keys do nothing while you're typing.",
+  "groups": [
+    {
+      "title": "File",
+      "titleRu": "Файл",
+      "titleDe": "Datei",
+      "titleFr": "Fichier",
+      "titleEs": "Archivo",
+      "titlePt": "Arquivo",
+      "items": [
+        { "keys": ["Ctrl+O"], "action": "Open a PDF", "actionRu": "Открыть PDF" },
+        { "keys": ["Ctrl+S"], "action": "Save a signed copy", "actionRu": "Сохранить подписанную копию" },
+        { "keys": ["Q"], "action": "Quit (asks first if there's anything unsaved)", "actionRu": "Выйти (спросит, если есть несохранённое)" }
+      ]
+    },
+    {
+      "title": "Placing content",
+      "titleRu": "Размещение",
+      "items": [
+        { "keys": ["S"], "action": "Place the last-used signature", "actionRu": "Поставить последнюю подпись" },
+        { "keys": ["Shift+S"], "action": "Open the signature menu", "actionRu": "Меню подписей" },
+        { "keys": ["T"], "action": "Place text", "actionRu": "Добавить текст" },
+        { "keys": ["D"], "action": "Place today's date", "actionRu": "Поставить сегодняшнюю дату" },
+        { "keys": ["Enter"], "action": "Edit the selected text", "actionRu": "Редактировать выбранный текст" }
+      ]
+    },
+    {
+      "title": "Selection",
+      "titleRu": "Выделение",
+      "items": [
+        { "keys": ["Arrows"], "action": "Nudge the selection 1 pt", "actionRu": "Сдвинуть на 1 pt" },
+        { "keys": ["Shift+Arrows"], "action": "Nudge the selection 10 pt", "actionRu": "Сдвинуть на 10 pt" },
+        { "keys": ["["], "action": "Make the selection smaller", "actionRu": "Уменьшить выделение" },
+        { "keys": ["]"], "action": "Make the selection larger", "actionRu": "Увеличить выделение" },
+        { "keys": ["Ctrl+D"], "action": "Duplicate the selection", "actionRu": "Дублировать выделение" },
+        { "keys": ["Delete", "Backspace", "X"], "action": "Remove the selection", "actionRu": "Удалить выделение" },
+        { "keys": ["Esc"], "action": "Deselect / stop editing", "actionRu": "Снять выделение" }
+      ]
+    },
+    {
+      "title": "View",
+      "titleRu": "Вид",
+      "items": [
+        { "keys": ["Page Up", "Page Down"], "action": "Previous / next page", "actionRu": "Предыдущая / следующая страница" },
+        { "keys": ["Ctrl+="], "action": "Zoom in", "actionRu": "Увеличить масштаб" },
+        { "keys": ["Ctrl+-"], "action": "Zoom out", "actionRu": "Уменьшить масштаб" },
+        { "keys": ["Ctrl+0"], "action": "Fit page", "actionRu": "По размеру страницы" },
+        { "keys": ["Ctrl+scroll"], "action": "Zoom with the wheel", "actionRu": "Масштаб колесом" },
+        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+Shift+Z"], "action": "Redo", "actionRu": "Повторить" },
+        { "keys": ["?"], "action": "Show the hotkeys in the app", "actionRu": "Показать хоткеи" }
+      ]
+    }
+  ]
+}

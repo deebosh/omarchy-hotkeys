@@ -1,0 +1,56 @@
+{
+  "appId": "libreoffice-draw",
+  "displayName": "Draw",
+  "source": "https://help.libreoffice.org/latest/en-US/text/sdraw/04/01020000.html",
+  "note": "The general LibreOffice shortcut keys also apply.",
+  "groups": [
+    {
+      "title": "Function keys",
+      "titleRu": "Функциональные клавиши",
+      "titleDe": "Funktionstasten",
+      "titleFr": "Touches de fonction",
+      "titleEs": "Teclas de función",
+      "titlePt": "Teclas de função",
+      "items": [
+        { "keys": ["F2"], "action": "Add or edit text", "actionRu": "Добавить или изменить текст" },
+        { "keys": ["F3"], "action": "Opens group to edit individual objects", "actionRu": "Войти в группу для правки объектов" },
+        { "keys": ["Ctrl+F3"], "action": "Close group editor", "actionRu": "Закрыть редактор группы" },
+        { "keys": ["Shift+F3"], "action": "Opens the Duplicate dialog", "actionRu": "Диалог дублирования" },
+        { "keys": ["F4"], "action": "Opens the Position and Size dialog", "actionRu": "Диалог положения и размера" },
+        { "keys": ["F5"], "action": "Opens the Navigator", "actionRu": "Навигатор" },
+        { "keys": ["F7"], "action": "Checks spelling", "actionRu": "Проверка орфографии" },
+        { "keys": ["Ctrl+F7"], "action": "Opens the Thesaurus", "actionRu": "Тезаурус" },
+        { "keys": ["F8"], "action": "Edit points on/off", "actionRu": "Режим правки точек" }
+      ]
+    },
+    {
+      "title": "Zoom and arranging",
+      "titleRu": "Масштаб и порядок",
+      "items": [
+        { "keys": ["+"], "action": "Zooms in", "actionRu": "Увеличить" },
+        { "keys": ["-"], "action": "Zooms out", "actionRu": "Уменьшить" },
+        { "keys": ["Ctrl+Shift+G"], "action": "Groups selected objects", "actionRu": "Сгруппировать" },
+        { "keys": ["Shift+Ctrl+A"], "action": "Ungroups selected group", "actionRu": "Разгруппировать" },
+        { "keys": ["Ctrl+Shift+K"], "action": "Combines selected objects", "actionRu": "Объединить объекты" },
+        { "keys": ["Ctrl+Shift+K"], "action": "Uncombines selected objects", "actionRu": "Разъединить объекты" },
+        { "keys": ["Ctrl+Shift++"], "action": "Bring to front", "actionRu": "На передний план" },
+        { "keys": ["Ctrl++"], "action": "Bring forward", "actionRu": "Выше" },
+        { "keys": ["Ctrl+-"], "action": "Send backward", "actionRu": "Ниже" },
+        { "keys": ["Ctrl+Shift+-"], "action": "Send to back", "actionRu": "На задний план" }
+      ]
+    },
+    {
+      "title": "Pages and objects",
+      "titleRu": "Страницы и объекты",
+      "items": [
+        { "keys": ["Page Up", "Page Down"], "action": "Switch to previous / next page", "actionRu": "Предыдущая / следующая страница" },
+        { "keys": ["Ctrl+Page Up", "Ctrl+Page Down"], "action": "Switch to previous / next layer", "actionRu": "Предыдущий / следующий слой" },
+        { "keys": ["Arrows"], "action": "Moves the selected object", "actionRu": "Переместить объект" },
+        { "keys": ["Ctrl+Arrows"], "action": "Moves the page view", "actionRu": "Прокрутить страницу" },
+        { "keys": ["Tab", "Shift+Tab"], "action": "Cycles through objects in creation order", "actionRu": "Перебор объектов" },
+        { "keys": ["Esc"], "action": "Exits current mode", "actionRu": "Выйти из режима" },
+        { "keys": ["Shift+F10"], "action": "Opens the context menu for the selected object", "actionRu": "Контекстное меню объекта" }
+      ]
+    }
+  ]
+}

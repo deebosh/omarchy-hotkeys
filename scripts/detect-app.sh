@@ -130,6 +130,17 @@ normalize() {
     org.gnome.extensions|gnome-extensions) echo "gnome-extensions"; return;;
     org.gnome.calendar|gnome-calendar) echo "gnome-calendar"; return;;
     org.gnome.calculator|gnome-calculator) echo "gnome-calculator"; return;;
+    hype) echo "hype"; return;;
+    signed) echo "signed"; return;;
+    omasnap) echo "omasnap"; return;;
+    disktree) echo "disktree"; return;;
+    libreoffice-draw) echo "libreoffice-draw"; return;;
+    libreoffice-math) echo "libreoffice-math"; return;;
+  esac
+  # Browser web apps run inside the browser: chrome-*/msedge-* classes.
+  case "$t" in
+    chrome-*) echo "chrome"; return;;
+    msedge-*) echo "edge"; return;;
   esac
   local short="$t"
   [[ "$t" == *.* ]] && short="${t##*.}"

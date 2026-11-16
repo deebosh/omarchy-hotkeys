@@ -1,0 +1,77 @@
+{
+  "appId": "hype",
+  "displayName": "Hype",
+  "source": "https://github.com/omacom/hype (packaged README, Keyboard shortcuts)",
+  "note": "Slide navigation and selection shortcuts apply when the sidebar or preview has focus.",
+  "groups": [
+    {
+      "title": "File",
+      "titleRu": "Файл",
+      "titleDe": "Datei",
+      "titleFr": "Fichier",
+      "titleEs": "Archivo",
+      "titlePt": "Arquivo",
+      "items": [
+        { "keys": ["Ctrl+N"], "action": "New presentation", "actionRu": "Новая презентация" },
+        { "keys": ["Ctrl+O"], "action": "Open file", "actionRu": "Открыть файл" },
+        { "keys": ["Ctrl+S"], "action": "Save", "actionRu": "Сохранить" },
+        { "keys": ["Ctrl+Shift+S"], "action": "Save as", "actionRu": "Сохранить как" },
+        { "keys": ["Ctrl+E"], "action": "Export as PDF", "actionRu": "Экспорт в PDF" },
+        { "keys": ["Ctrl+Shift+E"], "action": "Export as PowerPoint", "actionRu": "Экспорт в PowerPoint" }
+      ]
+    },
+    {
+      "title": "Editing",
+      "titleRu": "Редактирование",
+      "items": [
+        { "keys": ["Ctrl+Z"], "action": "Undo", "actionRu": "Отменить" },
+        { "keys": ["Ctrl+Shift+Z"], "action": "Redo", "actionRu": "Повторить" },
+        { "keys": ["Ctrl+B"], "action": "Bold", "actionRu": "Жирный" },
+        { "keys": ["Ctrl+I"], "action": "Italic", "actionRu": "Курсив" },
+        { "keys": ["Ctrl+U"], "action": "Underline", "actionRu": "Подчёркнутый" },
+        { "keys": ["Ctrl+H"], "action": "Headline", "actionRu": "Заголовок" },
+        { "keys": ["Ctrl+K"], "action": "Code block", "actionRu": "Блок кода" },
+        { "keys": ["Ctrl+/"], "action": "Hidden comment", "actionRu": "Скрытый комментарий" },
+        { "keys": ["Ctrl+V"], "action": "Paste text or add and name media", "actionRu": "Вставить текст или добавить медиа" }
+      ]
+    },
+    {
+      "title": "Slides",
+      "titleRu": "Слайды",
+      "items": [
+        { "keys": ["Ctrl+Enter"], "action": "Add a slide", "actionRu": "Добавить слайд" },
+        { "keys": ["Ctrl+D"], "action": "Duplicate selected slides", "actionRu": "Дублировать выбранные слайды" },
+        { "keys": ["Delete"], "action": "Delete selected slides", "actionRu": "Удалить выбранные слайды" },
+        { "keys": ["Ctrl+Up", "Ctrl+Left"], "action": "Move selected slides earlier", "actionRu": "Переместить слайды раньше" },
+        { "keys": ["Ctrl+Down", "Ctrl+Right"], "action": "Move selected slides later", "actionRu": "Переместить слайды позже" },
+        { "keys": ["Ctrl+PageUp", "Ctrl+PageDown"], "action": "Move selected slides five places earlier / later", "actionRu": "Переместить слайды на пять позиций" },
+        { "keys": ["Ctrl+Home", "Ctrl+End"], "action": "Move selected slides to the beginning / end", "actionRu": "В начало / в конец" },
+        { "keys": ["Shift+arrows", "Shift+click"], "action": "Extend the slide selection", "actionRu": "Расширить выделение слайдов" }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "titleRu": "Навигация",
+      "items": [
+        { "keys": ["Arrow keys"], "action": "Previous / next slide; up and down move by a row in Overview", "actionRu": "Предыдущий / следующий слайд" },
+        { "keys": ["Page Up", "Page Down"], "action": "Jump five slides, or five rows in Overview", "actionRu": "На пять слайдов вперёд / назад" },
+        { "keys": ["Home", "End"], "action": "First / last slide, or start / end of line in a text box", "actionRu": "Первый / последний слайд" },
+        { "keys": ["Enter"], "action": "Open the selected slide from Overview", "actionRu": "Открыть выбранный слайд" },
+        { "keys": ["Tab", "Shift+Tab"], "action": "Switch between sidebar and Markdown input", "actionRu": "Переключить боковую панель и редактор" },
+        { "keys": ["Ctrl+M"], "action": "Overview on / off", "actionRu": "Обзор вкл / выкл" },
+        { "keys": ["Ctrl+."], "action": "Markdown source on / off", "actionRu": "Исходник Markdown вкл / выкл" }
+      ]
+    },
+    {
+      "title": "Presentation",
+      "titleRu": "Показ",
+      "items": [
+        { "keys": ["Ctrl+Space", "F5"], "action": "Toggle presentation", "actionRu": "Начать / завершить показ" },
+        { "keys": ["Shift+F5"], "action": "Start presentation from the first slide", "actionRu": "Показ с первого слайда" },
+        { "keys": ["Escape"], "action": "Leave presentation", "actionRu": "Выйти из показа" },
+        { "keys": ["Space"], "action": "Play / pause video while presenting", "actionRu": "Пауза / воспроизведение видео" },
+        { "keys": ["? ", "F1"], "action": "Show all shortcuts", "actionRu": "Показать все хоткеи" }
+      ]
+    }
+  ]
+}
