@@ -1,0 +1,152 @@
+{
+  "appId": "omacut",
+  "displayName": "Omacut",
+  "source": "https://github.com/omacom/omacut (in-app help, ? key)",
+  "groups": [
+    {
+      "title": "Playback",
+      "items": [
+        {
+          "keys": [
+            "Space"
+          ],
+          "action": "Play / pause"
+        },
+        {
+          "keys": [
+            "0–9"
+          ],
+          "action": "Jump to 0%–90% of the edit"
+        },
+        {
+          "keys": [
+            "Left",
+            "Right"
+          ],
+          "action": "Move playhead 1s"
+        },
+        {
+          "keys": [
+            "Shift+Left",
+            "Shift+Right"
+          ],
+          "action": "Move playhead 5s"
+        },
+        {
+          "keys": [
+            "Alt+Left",
+            "Alt+Right"
+          ],
+          "action": "Move playhead 0.2s"
+        }
+      ]
+    },
+    {
+      "title": "Clips",
+      "items": [
+        {
+          "keys": [
+            "[",
+            "]"
+          ],
+          "action": "Previous / next clip edge"
+        },
+        {
+          "keys": [
+            "S"
+          ],
+          "action": "Split the clip at the playhead"
+        },
+        {
+          "keys": [
+            "X"
+          ],
+          "action": "Remove the clip"
+        },
+        {
+          "keys": [
+            "Alt+[",
+            "Alt+]"
+          ],
+          "action": "Move the clip earlier / later"
+        },
+        {
+          "keys": [
+            "Ctrl+Space"
+          ],
+          "action": "Clip start to playhead"
+        },
+        {
+          "keys": [
+            "Alt+Space"
+          ],
+          "action": "Clip end to playhead"
+        },
+        {
+          "keys": [
+            "Z"
+          ],
+          "action": "Zoom to the clip"
+        }
+      ]
+    },
+    {
+      "title": "Files",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+O"
+          ],
+          "action": "Open a video"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+O"
+          ],
+          "action": "Add a video after this clip"
+        },
+        {
+          "keys": [
+            "Ctrl+S"
+          ],
+          "action": "Export"
+        },
+        {
+          "keys": [
+            "F"
+          ],
+          "action": "Save the playhead frame as a PNG"
+        },
+        {
+          "keys": [
+            "Q"
+          ],
+          "action": "Quit"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "items": [
+        {
+          "keys": [
+            "Ctrl+Z"
+          ],
+          "action": "Undo"
+        },
+        {
+          "keys": [
+            "Ctrl+Shift+Z"
+          ],
+          "action": "Redo"
+        },
+        {
+          "keys": [
+            "?"
+          ],
+          "action": "Show these shortcuts"
+        }
+      ]
+    }
+  ]
+}

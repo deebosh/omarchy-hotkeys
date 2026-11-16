@@ -21,7 +21,7 @@ const normCases = [
   ["Alacritty", "alacritty"], ["", "globals"], [null, "globals"],
   ["SomeUnknownApp-1.2", "globals"],
   // Omarchy first-party apps
-  ["hype", "hype"], ["Signed", "signed"], ["omasnap", "omasnap"], ["disktree", "disktree"],
+  ["hype", "hype"], ["omacut", "omacut"], ["Signed", "signed"], ["omasnap", "omasnap"], ["disktree", "disktree"],
   ["libreoffice-draw", "libreoffice-draw"], ["libreoffice-math", "libreoffice-math"],
   // browser web apps inherit browser shortcuts
   ["chrome-contacts.google.com__-Default", "chrome"],

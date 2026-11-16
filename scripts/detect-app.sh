@@ -133,6 +133,7 @@ normalize() {
     hype) echo "hype"; return;;
     signed) echo "signed"; return;;
     omasnap) echo "omasnap"; return;;
+    omacut) echo "omacut"; return;;
     disktree) echo "disktree"; return;;
     libreoffice-draw) echo "libreoffice-draw"; return;;
     libreoffice-math) echo "libreoffice-math"; return;;
