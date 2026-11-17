@@ -223,23 +223,66 @@ Panel {
           }
 
           // ---- Search.
-          TextField {
-            id: searchField
+          // Plain TextInput on purpose: qs.Ui TextField (Qt Quick Controls)
+          // evaluates canPaste, which fetches clipboard text automatically on
+          // every update. A hostile clipboard owner could then stall the shared
+          // shell. TextInput only touches the clipboard on an explicit paste,
+          // and paste keys are ignored here, so search stays local-only.
+          Item {
+            id: searchBox
             width: parent.width
-            placeholderText: Model.tr("searchPlaceholder", root.localeName)
-            foreground: root.contentForeground
-            font.family: root.contentFontFamily
-            verticalPadding: Style.space(6)
+            height: Style.space(30)
 
-            onTextChanged: root.query = text
+            readonly property bool focused: searchField.activeFocus
 
-            Keys.onPressed: function(event) {
-              if (event.key === Qt.Key_Escape) {
-                root.close()
-                event.accepted = true
-              } else if (event.key === Qt.Key_Tab || event.key === Qt.Key_Backtab) {
-                root.switchPanel((event.modifiers & Qt.ShiftModifier) || event.key === Qt.Key_Backtab ? -1 : 1)
-                event.accepted = true
+            BorderSurface {
+              anchors.fill: parent
+              color: Style.controlFill(searchBox.focused, false, root.contentForeground, Commons.Color.accent)
+              borderSpec: Border.controlSpec(searchBox.focused ? "focus" : "normal", root.contentForeground, Commons.Color.accent)
+              radius: Style.cornerRadius
+            }
+
+            Text {
+              anchors.fill: parent
+              anchors.leftMargin: Style.spacing.controlPaddingX + Style.space(2)
+              verticalAlignment: Text.AlignVCenter
+              visible: searchField.text === ""
+              text: Model.tr("searchPlaceholder", root.localeName)
+              color: Qt.darker(root.contentForeground, 1.6)
+              font.family: root.contentFontFamily
+              font.pixelSize: Style.font.body
+              elide: Text.ElideRight
+            }
+
+            TextInput {
+              id: searchField
+              anchors.fill: parent
+              anchors.leftMargin: Style.spacing.controlPaddingX + Style.space(2)
+              anchors.rightMargin: Style.spacing.controlPaddingX
+              verticalAlignment: TextInput.AlignVCenter
+              color: root.contentForeground
+              font.family: root.contentFontFamily
+              font.pixelSize: Style.font.body
+              selectionColor: Style.selectionFillFor(root.contentForeground, Commons.Color.accent)
+              selectedTextColor: root.contentForeground
+              clip: true
+              // Bounded input: the field is a filter, not an editor.
+              maximumLength: 120
+
+              onTextChanged: root.query = text
+
+              Keys.onPressed: function(event) {
+                if (event.key === Qt.Key_Escape) {
+                  root.close()
+                  event.accepted = true
+                } else if (event.key === Qt.Key_Tab || event.key === Qt.Key_Backtab) {
+                  root.switchPanel((event.modifiers & Qt.ShiftModifier) || event.key === Qt.Key_Backtab ? -1 : 1)
+                  event.accepted = true
+                } else if ((event.modifiers & Qt.ControlModifier) && (event.key === Qt.Key_V || event.key === Qt.Key_Y)
+                           || (event.modifiers & Qt.ShiftModifier) && event.key === Qt.Key_Insert) {
+                  // Never read the clipboard from this field.
+                  event.accepted = true
+                }
               }
             }
           }
